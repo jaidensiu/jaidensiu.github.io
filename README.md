@@ -1,4 +1,24 @@
 # Jaiden Siu
+Hi, my name is Jaiden and I am an engineering student at The University of British Columbia.
+
+I am concerned with improving the health and wellbeing of others.
+
+Here is a list of all the classes I have taken at UBC:
+- APSC 100
+- APSC 101
+- APSC 160
+- CHEM 121
+- CHEM 154
+- ECON 101
+- MATH 100
+- MATH 101
+- MATH 152
+- MATH 253
+- PHYS 157
+- PHYS 158
+- PHYS 159
+- PHYS 170
+- WRDS 150B
 
 ## Welcome to GitHub Pages
 
