@@ -4,6 +4,7 @@ Hi, my name is Jaiden and I am an engineering student at The University of Briti
 I am concerned with improving the health and wellbeing of others.
 
 Here is a list of all the classes I have taken at UBC:
+```markdown
 - APSC 100
 - APSC 101
 - APSC 160
@@ -19,6 +20,7 @@ Here is a list of all the classes I have taken at UBC:
 - PHYS 159
 - PHYS 170
 - WRDS 150B
+```
 
 ## Welcome to GitHub Pages
 
