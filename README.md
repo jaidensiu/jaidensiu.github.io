@@ -1,6 +1,7 @@
+# About me:
 Hi, my name is Jaiden and I am an engineering student at The University of British Columbia (or UBC for short). I am concerned with improving the health and wellbeing of others.
 
-**Here is a list of courses I have taken at UBC:**
+# Here is a list of courses I have taken at UBC:
 - APSC 100: Introduction to Engineering I
 - APSC 101: Introduction to Engineering II
 - APSC 160: Introduction to Computation in Engineering Design
