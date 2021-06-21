@@ -1,7 +1,7 @@
 # Jaiden Siu
 
 ## About me:
-Hi, my name is Jaiden and I am an engineering student at the University of British Columbia (or UBC for short). I am concerned with improving the health and wellbeing of others. I believe that striving to make an impact, focusing on our possibilites and making the most of our opportunities is important to mature as a university student.
+Hi, my name is Jaiden and I am an engineering student at the University of British Columbia (UBC). I am concerned with improving the health and wellbeing of others. I believe that striving to make an impact, focusing on our possibilites and making the most of our opportunities is important to mature as a university student.
 
 ## Education:
 
