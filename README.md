@@ -6,8 +6,7 @@ Hi, my name is Jaiden and I am an engineering student at the University of Briti
 ## Education:
 
 **University of British Columbia**
-
-> Bachelor of Applied Science (BASc) - Major in Undeclared Engineering
+*Bachelor of Applied Science (BASc) - Major in Undeclared Engineering*
 
 ## Here is a list of courses I have completed at UBC:
 - APSC 100: Introduction to Engineering I
