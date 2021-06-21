@@ -1,9 +1,16 @@
 # Jaiden Siu
 
 ## About me:
-Hi, my name is Jaiden and I am an engineering student at The University of British Columbia (or UBC for short). I am concerned with improving the health and wellbeing of others.
+Hi, my name is Jaiden and I am an engineering student at the University of British Columbia (or UBC for short). I am concerned with improving the health and wellbeing of others. I believe that striving to make an impact, focusing on our possibilites and making the most of our opportunities is important to mature as a university student.
 
-## Here is a list of courses I have taken at UBC:
+## Education:
+```markdown
+
+### University of British Columbia
+Bachelor of Applied Science (BASc) - {insert type of engineering here} Engineering
+
+```
+## Here is a list of courses I have completed at UBC:
 - APSC 100: Introduction to Engineering I
 - APSC 101: Introduction to Engineering II
 - APSC 160: Introduction to Computation in Engineering Design
@@ -17,3 +24,7 @@ Hi, my name is Jaiden and I am an engineering student at The University of Briti
 - PHYS 159: Introductory Physics Laboratory for Engineers
 - PHYS 170: Mechanics I
 - WRDS 150B: Writing and Research in the Disciplines
+
+## Here is a list of courses I am currently studying:
+ - CHEM 121: Structure and Bonding in Chemistry
+ - MATH 253: Multivariable Calculus
