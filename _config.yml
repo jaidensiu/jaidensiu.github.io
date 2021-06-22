@@ -2,4 +2,5 @@ theme: jekyll-theme-cayman
 
 title: Jaiden Siu
 description: Engineering Undergraduate
-menu: About me:
+menu: About me
+menu: My projects
