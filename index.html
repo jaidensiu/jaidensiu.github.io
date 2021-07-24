@@ -3,7 +3,8 @@
         
 <head>
         
-        <title>Jaiden Siu</title>        
+        <title>Jaiden Siu</title>
+                
         <link rel="shortcut icon" 
               href="//cdn.ubc.ca/clf/7.0.5/img/favicon.ico">
         <link rel="apple-touch-icon" 
@@ -15,6 +16,47 @@
         <link rel="apple-touch-icon" sizes="167x167" 
               href="//cdn.ubc.ca/clf/7.0.5/img/touch-icon-ipad-retina.png">
         
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 16px;
+          font-family: Times New Roman;
+          transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+          background-color: #ccc;
+        }
+
+        .accordion:after {
+          content: '\002B';
+          color: #777;
+          font-weight: bold;
+          float: right;
+          margin-left: 5px;
+        }
+
+        .active:after {
+          content: "\2212";
+        }
+
+        .panel {
+          padding: 0 18px;
+          background-color: white;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
+        </style>
+        
 </head>
         
 <body style="max-width:1000px;margin:auto;padding-top:0px;padding-bottom:20px;padding-right:20px;padding-left:20px;">
@@ -24,6 +66,7 @@
              alt="UBC School of Biomedical Engineering Logo"
              style="width:470px;height:193px">
         </p>
+
         <p>
         <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHwuaKfcGsRhA/profile-displayphoto-shrink_100_100/0/1617597127327?e=1628121600&v=beta&t=FCCyDj0qRoiquTiNCoo27GYAiIL0sIjafbAinIe8w5I"
              alt="Me"
@@ -31,52 +74,105 @@
         </p>  
         
         <h2>About me:</h2>
-        <p style="padding:10px;"> Welcome to my GitHub Pages site! My name is Jaiden and I am a Biomedical Engineering undergraduate student at the University of British Columbia (UBC). This site is intended to document my coursework and projects throughout my studies and to share useful resources. I am concerned with improving the health and wellbeing of others and believe that striving to make an impact, focusing on our possibilities and making the most of our opportunities is important to mature as a university student and as a person.</p> 
-        
-        <h2>Education:</h2>
-        <p style="padding:10px;">Bachelor of Applied Science (BASc): Major in Biomedical Engineering</p>
-        
+
+        <p style="padding:10px;"> Welcome to my GitHub Pages site! My name is Jaiden and I am a second year Biomedical Engineering major at the University of British Columbia (UBC). This site is intended to document my coursework and projects throughout my studies and to share useful resources. I am concerned with improving the health and wellbeing of others and believe that striving to make an impact, focusing on our possibilities and making the most of our opportunities is important to mature as a university student and as a person.</p> 
+
         <p>
         <img src="https://engineering.ubc.ca/sites/default/files/inline-images/engineering-avatar.png"
              alt="UBC Engineering Logo"
              style="float:right;width:120px;height:120px;padding:10px">
-        </p>         
-    
-        <h2>Here is a list of courses I have completed at UBC:</h2>
-        <ul style="list-style-type:disc;padding:10px">
-                <li>APSC 100: Introduction to Engineering I</li>
-                <li>APSC 101: Introduction to Engineering II</li>
-                <li>APSC 160: Introduction to Computation in Engineering Design</li>
-                <li>CHEM 121: Structure and Bonding in Chemistry</li>                
-                <li>CHEM 154: Chemistry for Engineering</li>
-                <li>ECON 101: Principles of Microeconomics</li>
-                <li>MATH 100: Differential Calculus with Applications to Physical Sciences and Engineering</li>
-                <li>MATH 101: Integral Calculus with Applications to Physical Sciences and Engineering</li>
-                <li>MATH 152: Linear Systems</li>
-                <li>MATH 253: Multivariable Calculus</li>                
-                <li>PHYS 157: Introductory Physics for Engineers I</li>
-                <li>PHYS 158: Introductory Physics for Engineers II</li>
-                <li>PHYS 159: Introductory Physics Laboratory for Engineers</li>
-                <li>PHYS 170: Mechanics I</li>
-                <li>WRDS 150B: Writing and Research in the Disciplines</li>
-        </ul>
+        </p>
         
-        <h2>Here is a list of UBC courses I am currently taking:</h2>
-        <ul style="list-style-type:disc;padding:10px">
-                <li>BMEG 200: Biomedical Engineering Bridge Module</li>
-                <li>CHEM 130: Thermodynamics, Kinetics and Organic Chemistry (Lecture)</li>    
-                <li>ECON 102: Principles of Macroeconomics</li>                
-        </ul>
+        <h2>Education:</h2>
+
+        <p style="padding:10px;">Bachelor of Applied Science (BASc): Major in Biomedical Engineering</p>
         
-        <h2>Some useful resources and websites:</h2>        
-        <p style="padding:10px;">
+        <h2>My UBC course curriculum:</h2>
+
+        <button class="accordion">Current Term</button>
+
+        <div class="panel">
+        <ul style="list-style-type:disc;padding:10px">
+                <li>BMEG 200 Biomedical Engineering Bridge Module</li>
+                <li>CHEM 130 Thermodynamics, Kinetics and Organic Chemistry (Lecture)</li>    
+                <li>ECON 102 Principles of Macroeconomics</li>                
+        </ul>
+        </div>
+
+        <button class="accordion">First Year</button>
+
+        <div class="panel">
+        <ul style="list-style-type:disc;padding:10px">
+                <li>APSC 100 Introduction to Engineering I</li>
+                <li>APSC 101 Introduction to Engineering II</li>
+                <li>APSC 160 Introduction to Computation in Engineering Design</li>
+                <li>BMEG 200 Biomedical Engineering Bridge Module</li>
+                <li>CHEM 121 Structure and Bonding in Chemistry</li>
+                <li>CHEM 130 Thermodynamics, Kinetics and Organic Chemistry (Lecture)</li>
+                <li>CHEM 154 Chemistry for Engineering</li>
+                <li>ECON 101 Principles of Microeconomics</li>
+                <li>ECON 102 Principles of Macroeconomics</li>
+                <li>MATH 100 Differential Calculus with Applications to Physical Sciences and Engineering</li>
+                <li>MATH 101 Integral Calculus with Applications to Physical Sciences and Engineering</li>
+                <li>MATH 152 Linear Systems</li>
+                <li>MATH 253 Multivariable Calculus</li>                
+                <li>PHYS 157 Introductory Physics for Engineers I</li>
+                <li>PHYS 158 Introductory Physics for Engineers II</li>
+                <li>PHYS 159 Introductory Physics Laboratory for Engineers</li>
+                <li>PHYS 170 Mechanics I</li>
+                <li>WRDS 150B Writing and Research in the Disciplines</li>
+        </ul>
+        </div>
+
+        <button class="accordion">Second Year</button>
+
+        <div class="panel">
+        <ul style="list-style-type:disc;padding:10px">
+                <li>BMEG 201 Technical Communication for Biomedical Engineers</li>
+                <li>BMEG 210 Thermodynamics in Biomedical Engineering</li>
+                <li>BMEG 220 Circuits and Electromagnetics with Application to Biomedical Engineering</li>
+                <li>BMEG 230 Biomechanics I</li>
+                <li>BMEG 245 The Fundamental Units of Life: From Cells To Systems</li>
+                <li>BMEG 250 Cellular Physiology and Biophysics</li>
+                <li>BMEG 257 Biomedical Engineering Design I</li>
+                <li>CHBE 251 Transport Phenomena I</li>
+                <li>CHEM 135 Introductory Chemical Laboratory II</li>
+                <li>COMM 280 Entrepreneurship</li>
+                <li>CPEN 221 Software Construction I</li>
+                <li>MATH 256 Differntial Equations</li>
+                <li>MATH 264 Vector Calculus for Electrical Engineering</li>
+        </ul>
+        </div>
+        
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        
+                        if (panel.style.maxHeight) {
+                                panel.style.maxHeight = null;
+                        } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                        } 
+                });
+        }
+        </script>
+        
+        <h2>Useful Resources:</h2>
+
+        <p style="padding: 10px 0px 0px 10px;">
                 Interactive Math and Science Simulations:
                 
                 <a href="https://phet.colorado.edu/"
                    target="_blank"
                    >PhET</a>
         </p>
-        <p style="padding:10px;">
+
+        <p style="padding: 0px 0px 0px 10px;">
                 Math Resources:
                 
                 <a href="https://activecalculus.org/"
@@ -91,21 +187,24 @@
                    target="_blank"
                    >UBC CLP Calculus Textbooks</a>       
         </p>
-        <p style="padding:10px;">
+
+        <p style="padding: 0px 0px 0px 10px;">
                 Online LaTex Editor:
                 
                 <a href="https://www.overleaf.com/"
                    target="_blank"
                    >Overleaf</a>
         </p>
-        <p style="padding:10px;">
+
+        <p style="padding: 0px 0px 0px 10px;">
                 Physics Resources:
                 
                 <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/index.html"
                    target="_blank"
                    >HyperPhysics</a>
         </p>
-        <p style="padding:10px;">
+
+        <p style="padding: 0px 0px 0px 10px;">
                 Programming Resources:
                 
                 <a href="https://www.freecodecamp.org/"
@@ -124,7 +223,8 @@
                    target="_blank"
                    >W3Schools</a>
         </p>
-        <p style="padding:10px;">
+
+        <p style="padding: 0px 0px 10px 10px;">
                 UBC Resources:
                 
                 <a href="https://www.bme.ubc.ca/"
