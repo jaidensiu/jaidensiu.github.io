@@ -7,7 +7,7 @@ const header = {
 }
 
 const about = {
-  photo:aboutpic,
+  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Jaiden Siu',
   role: 'Engineering Student',
