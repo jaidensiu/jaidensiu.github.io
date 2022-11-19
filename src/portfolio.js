@@ -43,7 +43,15 @@ const projects = [
     name: 'Cell Simulation and Automata',
     description:
       'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine and research. This project is a great exhibition of the power that software systems can be utilized in medicine.',
-    stack: ['Java', 'Java AWT'],
+    stack: ['Java', 'Java AWT', 'IntelliJ'],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'Microfluidic Characterization Device',
+    description:
+      'A UBC BMEG 257 design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also learned to produce design history files according to FDA guidelines that are used for medical device development. We modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed software for the Arduino to control the electromechanical actuatuation of physical components such as servo motors.',
+    stack: ['Arduino', 'SolidWorks', 'C++'],
     sourceCode: '',
     livePreview: '',
   },
