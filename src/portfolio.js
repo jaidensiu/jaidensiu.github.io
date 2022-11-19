@@ -9,8 +9,8 @@ const header = {
 const about = {
   // photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'Jaiden Siu',
-  role: 'aspiring engineer',
+  name: 'Jaiden',
+  role: 'Aspiring Engineer',
   description:
     'UBC Biomedical Engineering Co-op Student who loves mathematics, computer science, and the intersection of business and technology.',
   resume: 'https://drive.google.com/file/d/1cn70AwxVaB66qTCee8dvBSdD1yMSZZ67/view?usp=sharing',
@@ -60,12 +60,22 @@ const skills = [
   'Git',
   'Java',
   'C',
-  'C++'
+  'C++',
+  'MATLAB',
+  'Python',
+  'Flask',
+  'Linux',
+  'NumPy',
+  'React',
+  'Vim',
+  'JavaScript',
+  'Matplotlib',
+  'Tkinter'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'jaidensiu@gmail.com',
+  email: 'siujaiden@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
