@@ -2,21 +2,21 @@ import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
+  homepage: 'https://jaidensiu.github.io/',
   title: 'JS.',
 }
 
 const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
-  role: 'Full stack developer',
+  name: 'Jaiden Siu',
+  role: 'Engineering Student',
   description:
-    'UW and SMU bootcamp student living in Seattle,Washington. highly interested in cutting edge technology, web development and Java back end development.',
+    'UBC Biomedical Engineering Co-op Student who loves mathematics, computer science, and the intersection of medical technology.',
   resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/jaidensiu/',
+    github: 'https://github.com/jaidensiu',
   },
 }
 
@@ -24,7 +24,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Movie Tracker',
+    name: 'Project 1',
     description:
       'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
     stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
@@ -32,7 +32,7 @@ const projects = [
     livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
   },
   {
-    name: 'Event Planner',
+    name: 'Project 2',
     description:
       'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
     stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
