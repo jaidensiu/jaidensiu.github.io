@@ -10,7 +10,7 @@ const about = {
   // photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Jaiden',
-  role: 'Aspiring Engineer',
+  role: '',
   description:
     'UBC Biomedical Engineering Co-op Student who loves mathematics, computer science, and the intersection of business and technology.',
   resume: 'https://drive.google.com/file/d/1cn70AwxVaB66qTCee8dvBSdD1yMSZZ67/view?usp=sharing',
@@ -26,7 +26,7 @@ const projects = [
   {
     name: 'Graphs, Games, and Interplanetary Travel',
     description:
-      'A  UBC CPEN 221 all about graphs and its algorithms. From designing adjacency matrix and list representations to leveraging novel graph traversal algorithms, this project certainly taught me a lot about graphs. This project was done in Java with development tools such as Gradle, IntelliJ and JaCoCo.',
+      'A  UBC CPEN 221 project all about graphs and its algorithms. From designing adjacency matrix and list representations to leveraging novel graph traversal algorithms, this project certainly taught me a lot about graphs. This project was done in Java with development tools such as Gradle, IntelliJ and JaCoCo.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit'],
     sourceCode: '',
     livePreview: '',
@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'n-grams, Autocompletion, and Gender Bias',
     description:
-      'A UBC CPEN 221 all about basic notions of natural language processing (and good software engineering practices, of course). I was involved with implementing parsing algorithms using regular expressions to construct n-grams obtained from large data sets containing texts.',
+      'A UBC CPEN 221 project all about basic notions of natural language processing (and good software engineering practices, of course). I was involved with implementing parsing algorithms using regular expressions to construct n-grams obtained from large data sets containing texts.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JUnit'],
     sourceCode: '',
     livePreview: '',
