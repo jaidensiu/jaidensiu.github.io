@@ -51,7 +51,7 @@ const projects = [
     name: 'Microfluidic Characterization Device',
     description:
       'A UBC BMEG 257 design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also learned to produce design history files according to FDA guidelines that are used for medical device development. We modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed software for the Arduino to control the electromechanical actuatuation of physical components such as servo motors.',
-    stack: ['Arduino', 'SolidWorks', 'C++'],
+    stack: ['Arduino', 'SolidWorks', 'C++', 'MultiSim'],
     sourceCode: '',
     livePreview: '',
   },
