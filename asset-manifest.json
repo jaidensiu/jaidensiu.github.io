@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d377973d.css",
-    "main.js": "/static/js/main.add08e3b.js",
-    "static/media/mePhoto.jpg": "/static/media/mePhoto.1da017ab04dd5caa6118.jpg",
-    "index.html": "/index.html",
-    "main.d377973d.css.map": "/static/css/main.d377973d.css.map",
-    "main.add08e3b.js.map": "/static/js/main.add08e3b.js.map"
+    "main.css": "/jaidensiu.github.io/static/css/main.d377973d.css",
+    "main.js": "/jaidensiu.github.io/static/js/main.add08e3b.js",
+    "static/media/mePhoto.jpg": "/jaidensiu.github.io/static/media/mePhoto.1da017ab04dd5caa6118.jpg",
+    "index.html": "/jaidensiu.github.io/index.html",
+    "main.d377973d.css.map": "/jaidensiu.github.io/static/css/main.d377973d.css.map",
+    "main.add08e3b.js.map": "/jaidensiu.github.io/static/js/main.add08e3b.js.map"
   },
   "entrypoints": [
     "static/css/main.d377973d.css",
