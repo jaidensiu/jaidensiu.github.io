@@ -1,4 +1,6 @@
-## This repository contains the code for my portfolio webpage!
+## Jaiden's Portfolio Webpage Information.
+
+This repository contains the code for my portfolio webpage!
 
 Reference:
 https://create-react-app.dev/docs/deployment/#github-pages
