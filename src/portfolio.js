@@ -13,7 +13,7 @@ const about = {
   role: '',
   description:
     'UBC Biomedical Engineering Co-op Student who loves mathematics, computer science, and the intersection of business and technology.',
-  resume: 'https://drive.google.com/file/d/1cn70AwxVaB66qTCee8dvBSdD1yMSZZ67/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/19azWSCzzhBw15kNODEO5mqRXKzf_df9Q/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
     github: 'https://github.com/jaidensiu',
@@ -26,7 +26,7 @@ const projects = [
   {
     name: 'Graphs, Games, and Interplanetary Travel',
     description:
-      'A  UBC CPEN 221 project all about graphs and its algorithms. From designing adjacency matrix and list representations to leveraging novel graph traversal algorithms, this project certainly taught me a lot about graphs. This project was done in Java with development tools such as Gradle, IntelliJ and JaCoCo.',
+      'A  UBC CPEN 221 project all about graphs and traversal algorithms. From implementing adjacency matrix and adjacency list representations of graphs to leveraging novel graph traversal algorithms (DFS, BFS, Dijkstra`s, Kruskal`s), this project certainly taught me a lot about graphs. This project was done in Java with development tools such as Gradle, IntelliJ and JaCoCo.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit'],
     sourceCode: '',
     livePreview: '',
@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'n-grams, Autocompletion, and Gender Bias',
     description:
-      'A UBC CPEN 221 project all about basic notions of natural language processing (and good software engineering practices, of course). I was involved with implementing parsing algorithms using regular expressions to construct n-grams obtained from large data sets containing texts.',
+      'A UBC CPEN 221 project all about the basic notions of natural language processing (and good software engineering practices, of course). I was heavily involved with implementing parsing algorithms using regular expressions and string manipulations to construct n-grams obtained from large data sets containing texts.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JUnit'],
     sourceCode: '',
     livePreview: '',
@@ -42,8 +42,8 @@ const projects = [
   {
     name: 'Cell Simulation and Automata',
     description:
-      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine and research. This project is a great exhibition of the power that software systems can be utilized in medicine.',
-    stack: ['Java', 'Java AWT', 'IntelliJ'],
+      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine and research. This project is a great example how relevant software systems are in medicine, and was fascinating to see the digitized cells interact on a GUI.',
+    stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ'],
     sourceCode: '',
     livePreview: '',
   },
@@ -78,7 +78,7 @@ const skills = [
   'Vim',
   'JavaScript',
   'Matplotlib',
-  'Tkinter'
+  'Tkinter',
 ]
 
 const contact = {
