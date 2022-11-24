@@ -1,6 +1,6 @@
-## Jaiden's [Portfolio Webpage](jaidensiu.github.io) Information.
+## Jaiden's [Portfolio Webpage](https://jaidensiu.github.io/) Information.
 
-This repository contains the code for my [portfolio webpage](jaidensiu.github.io)!
+This repository contains the code for my [portfolio webpage](https://jaidensiu.github.io/)!
 
 Notes:
 - Make sure to run: ```npm run deploy``` and ```serve -s build``` to update GitHub Pages to deploy static React 
