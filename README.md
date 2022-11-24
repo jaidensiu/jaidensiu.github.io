@@ -3,7 +3,7 @@
 This repository contains the code for my [portfolio webpage](https://jaidensiu.github.io/)!
 
 Notes:
-- Make sure to run: ```npm run deploy``` and ```serve -s build``` to update GitHub Pages to deploy static React 
+- Make sure to run: ```npm run deploy``` and ```serve -s build``` to update GitHub Pages to deploy static React modules
 
 References:
 
