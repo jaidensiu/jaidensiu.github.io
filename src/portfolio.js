@@ -14,7 +14,7 @@ const about = {
   role: '',
   description:
     'UBC Biomedical Engineering Co-op Student who loves mathematics, computer science, and the intersection of business and technology.',
-  resume: 'https://drive.google.com/file/d/19azWSCzzhBw15kNODEO5mqRXKzf_df9Q/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1UFj3vidKyJUOdRvIeK83f2IHrfKvlN3I/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
     github: 'https://github.com/jaidensiu',
