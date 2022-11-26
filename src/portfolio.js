@@ -72,12 +72,11 @@ const skills = [
   'C++',
   'MATLAB',
   'Python',
+  'R',
   'Flask',
   'Linux',
   'NumPy',
   'React',
-  'Vim',
-  'JavaScript',
   'Matplotlib',
   'Tkinter',
 ]
