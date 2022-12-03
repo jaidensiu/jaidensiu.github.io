@@ -4,6 +4,7 @@ This repository contains the code for my [portfolio webpage](https://jaidensiu.g
 
 Notes:
 - Make sure to run: ```npm run deploy``` and ```serve -s build``` to update GitHub Pages to deploy static React modules
+    - ```npm run deploy``` is what commits changes to the gh-pages branch to be rendered by GitHub Pages
 
 References:
 
