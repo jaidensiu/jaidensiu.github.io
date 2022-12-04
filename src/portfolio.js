@@ -70,7 +70,7 @@ const courses = [
   {
     name: 'BMEG 371 Transport Phenomena',
     description:
-      'Super interesting course that is meant to equip one with many mathematical tools to model biological systems (and other cool things). Some of the topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course took my mathematical abilities a notch up and introduced me to some advanced concepts in mathematics that I was once intimidated of.',
+      'Super interesting course that is meant to equip one with many mathematical tools to model biological systems (and other cool things). Some of the topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course matured my mathematical abilities and introduced me to some advanced concepts in mathematics that I was once would have been intimidated of.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
