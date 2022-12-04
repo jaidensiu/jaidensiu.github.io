@@ -62,7 +62,7 @@ const courses = [
   {
     name: 'BMEG 220 Circuits and Electromagnetics',
     description:
-      'Description to be added,',
+      'BMEG 220 is a course that is combined with MATH 264 Vector Calculus to deepen the knowledge of electromagnetics with vector calculus and introduces mathematical abstraction of electrical circuits. This is a very fast-paced two-in-one course that serves to lay the theoretical foundation for students to start conceptualizing medical instrumentation. Simulation software and MATLAB used to model circuits and electromagnetics are also introduced. Overall a great course that covers so many interesting concepts.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -70,7 +70,7 @@ const courses = [
   {
     name: 'BMEG 371 Transport Phenomena',
     description:
-      'Description to be added,',
+      'Super interesting course that is meant to equip one with many mathematical tools to model biological systems (and other cool things). Some of the topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course took my mathematical abilities a notch up and introduced me to some advanced concepts in mathematics that I was once intimidated of.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -78,7 +78,7 @@ const courses = [
   {
     name: 'COMR 473 Business Finance',
     description:
-      'Description to be added,',
+      'Description to be added.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -86,7 +86,7 @@ const courses = [
   {
     name: 'CPEN 221 Software Construction',
     description:
-      'This course covers a lot of principles when it comes to constructing software, both from a theoretical and practical perspective. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, and other topics such design patterns, cryptography, and formal verification. CPEN 221 was definitely a course I struggled in due to the constant demand of work needed to be put in and the highly abstract constructs that are delivered from a very fundamental level. All in all, this course has really changed the way I view software and I am beyond grateful to have had the opportunity to enroll in such a fantastic course filled with passionate individuals in the teaching team.',
+      'This is a super challenging course that covers a lot of principles when it comes to constructing software from a theoretical and practical perspective. The course introduces lots of topics in computer science and software engineering, and really pushes one to their very limits to learn and absorb the depth and breadth of the concepts. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, and other topics such design patterns, cryptography, and formal verification. CPEN 221 was definitely a course I struggled in due to the constant demand of work needed to be put in and the highly abstract constructs that are delivered from a very fundamental level. All in all, this course has really changed the way I view software and I am beyond grateful to have had the opportunity to enroll in such a fantastic course filled with passionate individuals in the teaching team.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -94,7 +94,7 @@ const courses = [
   {
     name: 'ELEC 221 Signals and Systems',
     description:
-      'Description to be added.',
+      'Interesting course that introduces the processing and analysis of signals and systems, a vast topic that has many applications across the engineering sciences. Topics include convolution, Fourier series, filtering, Fourier transforms, sampling, communication systems, modulation, Laplace transforms, Z-transforms, and feedback systems. Computational tools such as Python and NumPy are also introduced to reinforce mathematical concepts algorithmically. Overall, this course challenged and equipped me with the set of tools in the modeling of systems and the processing of signals that abstract audio and images.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -102,7 +102,7 @@ const courses = [
   {
     name: 'MATH 220 Mathematical Proof',
     description:
-      'Description to be added,',
+      'A course that rigorously challenges one to think of all mathematics at a very constructive level. MATH 220 taught me to be very patient and dissect mathematical definitions to their core, which has allowed me to carry such way of thinking to other courses such as CPEN 221 and BMEG 371. This is definitely a course that has developed me intellectually.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
