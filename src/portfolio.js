@@ -78,7 +78,7 @@ const courses = [
   {
     name: 'COMR 473 Business Finance',
     description:
-      'Description to be added.',
+      'An introductory course in finance that overviews the corporate financial system. This course introduces concepts of time value of money, long-term securities like bonds, risky securities like stocks, and processes in which returns and values of assets relate to eachother. Very interesting to see the theory of this course apply to capital allocation decisions and in determining capital structure of a firm. Overall was an interesting course in applying simple mathematical and statistical idea to model complex financial phenomena.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
