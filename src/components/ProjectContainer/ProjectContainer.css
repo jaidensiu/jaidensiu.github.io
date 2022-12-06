@@ -1,7 +1,7 @@
 .project {
   padding: 2em;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 }

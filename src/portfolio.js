@@ -62,7 +62,7 @@ const courses = [
   {
     name: 'BMEG 220 Circuits and Electromagnetics',
     description:
-      'BMEG 220 is a course that is combined with MATH 264 Vector Calculus to deepen the knowledge of electromagnetics with vector calculus and introduces mathematical abstraction of electrical circuits. This is a very fast-paced two-in-one course that serves to lay the theoretical foundation for students to start conceptualizing medical instrumentation. Simulation software like MultiSim and MATLAB used to model circuits and electromagnetics, respectively, are also introduced. Overall a great course that covers so many interesting concepts.',
+      'BMEG 220 is a course that is combined with MATH 264 Vector Calculus to illuminate electromagnetic concepts and also introduces mathematical abstraction of electrical circuits via circuit analysis. This is a very fast-paced two-in-one course that serves to lay the theoretical foundation for students to start conceptualizing medical instrumentation. Simulation software like MultiSim and MATLAB used to model circuits and electromagnetics, respectively, are also introduced. Overall a great course that covers so many interesting concepts.',
     stack: [''],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=220',
