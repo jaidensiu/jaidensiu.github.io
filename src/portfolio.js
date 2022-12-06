@@ -62,7 +62,7 @@ const courses = [
   {
     name: 'BMEG 220 Circuits and Electromagnetics',
     description:
-      'BMEG 220 is a course that is combined with MATH 264 Vector Calculus to deepen the knowledge of electromagnetics with vector calculus and introduces mathematical abstraction of electrical circuits. This is a very fast-paced two-in-one course that serves to lay the theoretical foundation for students to start conceptualizing medical instrumentation. Simulation software and MATLAB used to model circuits and electromagnetics are also introduced. Overall a great course that covers so many interesting concepts.',
+      'BMEG 220 is a course that is combined with MATH 264 Vector Calculus to deepen the knowledge of electromagnetics with vector calculus and introduces mathematical abstraction of electrical circuits. This is a very fast-paced two-in-one course that serves to lay the theoretical foundation for students to start conceptualizing medical instrumentation. Simulation software like MultiSim and MATLAB used to model circuits and electromagnetics, respectively, are also introduced. Overall a great course that covers so many interesting concepts.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -70,7 +70,7 @@ const courses = [
   {
     name: 'BMEG 371 Transport Phenomena',
     description:
-      'Super interesting course that is meant to equip one with many mathematical tools to model biological systems (and other cool things). Some of the topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course matured my mathematical abilities and introduced me to some advanced concepts in mathematics that I was once would have been intimidated of.',
+      'Super interesting course that is meant to equip one with many mathematical tools to model biological systems (and many other cool things in the engineering sciences). Some of the topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course matured my mathematical abilities and introduced me to some advanced concepts in mathematics I once would have been intimidated of.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -86,7 +86,7 @@ const courses = [
   {
     name: 'CPEN 221 Software Construction',
     description:
-      'This is a super challenging course that covers a lot of principles when it comes to constructing software from a theoretical and practical perspective. The course introduces lots of topics in computer science and software engineering, and really pushes one to their very limits to learn and absorb the depth and breadth of the concepts. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, and other topics such design patterns, cryptography, and formal verification. CPEN 221 was definitely a course I struggled in due to the constant demand of work needed to be put in and the highly abstract constructs that are delivered from a very fundamental level. All in all, this course has really changed the way I view software and I am beyond grateful to have had the opportunity to enroll in such a fantastic course filled with passionate individuals in the teaching team.',
+      'This is a super challenging course that covers many of the first principles when it comes to constructing software from a theoretical and practical perspective. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, design patterns, random testing, formal verification, and dynamic programming. This course has really changed the way I view software and I am beyond grateful to have had the opportunity to enroll in such a fantastic course filled with passionate individuals in the teaching team.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
@@ -102,7 +102,7 @@ const courses = [
   {
     name: 'MATH 220 Mathematical Proof',
     description:
-      'A course that rigorously challenges one to think of all mathematics at a very constructive level. MATH 220 taught me to be very patient and dissect mathematical definitions to their core, which has allowed me to carry such way of thinking to other courses such as CPEN 221 and BMEG 371. This is definitely a course that has developed me intellectually.',
+      'A course that rigorously challenges one to think of all mathematics at a very constructive level. MATH 220 taught me to be very patient and dissect mathematical definitions to their core, which has allowed me to carry such way of thinking to other courses such as CPEN 221 and BMEG 371. This is definitely a course that has developed me intellectually and truly challenged first principles thinking.',
     stack: [''],
     sourceCode: '',
     livePreview: '',
