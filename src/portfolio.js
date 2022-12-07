@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'I am a biomedical engineering student at UBC interested in mathematics, computer science, and the integration of business and technology.',
+    'I am a biomedical engineering student at the University of British Columbia interested in software engineering and data science.',
   resume: 'https://drive.google.com/file/d/1UFj3vidKyJUOdRvIeK83f2IHrfKvlN3I/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
