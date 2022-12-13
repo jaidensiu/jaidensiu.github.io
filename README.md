@@ -12,5 +12,6 @@ Notes:
 - ```npm start``` is what starts our application on the local host and allows us to see local changes
 
 References:
-
 - https://create-react-app.dev/docs/deployment/#github-pages
+
+- https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
