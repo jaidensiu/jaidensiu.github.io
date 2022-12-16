@@ -14,7 +14,7 @@ const about = {
   role: '',
   description:
     'I am a biomedical engineering student at the University of British Columbia interested in software engineering and data science.',
-  resume: '',
+  resume: 'https://drive.google.com/file/d/12zIyGRt8tMxB3VrBCoF0_StlVr7Tuhxf/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
     github: 'https://github.com/jaidensiu',
