@@ -11,6 +11,7 @@ const About = () => {
       {photo && (
        <img height="200px" alt="Avatar placeholder" src={photo} />
       )}
+      
       {name && (
         <h1>
           Hi, my name is <span className='about__name'>{name}.</span>
@@ -18,6 +19,7 @@ const About = () => {
       )}
 
       {role && <h2 className='about__role'>{role}.</h2>}
+
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>

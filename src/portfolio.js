@@ -7,9 +7,9 @@ const header = {
 }
 
 const about = {
-  // photo is for photo at the top of webpage with me
-  // photo: aboutpic
   // all the properties are optional - can be left empty or deleted
+  // photo is for photo at the top of webpage with me
+  // photo: aboutpic,
   name: 'Jaiden',
   role: '',
   description:
@@ -25,9 +25,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Tic Tac Toe AI',
+    description:
+      'A fun Pygame project where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a classic game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose hence leaving it to win or tie at best against a player. This was one of my first real projects implementing an intelligent system that interacts with a user.',
+    stack: ['Python', 'Pygame', 'VS Code'],
+    sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
+    livePreview: '',
+  },
+  {
     name: 'Graphs, Games, and Interplanetary Travel',
     description:
-      'A CPEN 221 project all about graphs and traversal algorithms. From implementing adjacency matrix and adjacency list representations of graphs to leveraging novel graph traversal algorithms (DFS, BFS, Dijkstra\'s, Kruskal\'s), this project certainly taught me a lot about graphs. This project was done in Java with development tools such as Gradle, IntelliJ and JaCoCo.',
+      'A CPEN 221 project all about graphs and traversal algorithms. I implemented a graph interface to manipulate and calculate graph properties. From implementing adjacency matrix and adjacency list representations of graphs to leveraging novel graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm and Kruskal\'s algorithm, I certainly learned a lot about graphs.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit'],
     sourceCode: '',
     livePreview: '',
@@ -35,15 +43,15 @@ const projects = [
   {
     name: 'n-grams, Autocompletion, and Gender Bias',
     description:
-      'A CPEN 221 project all about the basic notions of natural language processing (and good software engineering practices, of course). I was heavily involved with implementing parsing algorithms using regular expressions and string manipulations to construct n-grams obtained from large data sets containing texts.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JUnit'],
+      'A CPEN 221 project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias and mapped to weighted recommendations for text autocompletion.',
+    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit'],
     sourceCode: '',
     livePreview: '',
   },
   {
     name: 'Cell Simulation and Automata',
     description:
-      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine and research. This project is a great example how relevant software systems are in medicine, and was fascinating to see the digitized cells interact on a GUI.',
+      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine. I designed various classes that encapsulated high-level features of common biological cells to derive a set of unique operations for a particular cell type. This project is a great example how relevant computer science is in medicine, and illuminated many object-oriented programming concepts.',
     stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ'],
     sourceCode: '',
     livePreview: '',
@@ -51,7 +59,7 @@ const projects = [
   {
     name: 'Microfluidic Characterization Device',
     description:
-      'A BMEG 257 design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also learned to produce design history files according to FDA guidelines that are used for medical device development. We modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed sketch software for the Arduino to control the actuation of physical components such as servo motors.',
+      'A BMEG 257 design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
     stack: ['Arduino', 'SolidWorks', 'C++', 'MultiSim'],
     sourceCode: '',
     livePreview: '',
@@ -111,28 +119,37 @@ const courses = [
 
 const skills = [
   // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'SQL',
-  'React',
-  'Git',
-  'Java',
+  // if there are no skills, the skills section won't show up
+  'Java', // languages
+  'Python',
   'C',
   'C++',
   'MATLAB',
-  'Python',
-  'Flask',
-  'Linux',
-  'NumPy',
-  'React',
-  'Matplotlib',
+  'JavaScript',
+  'HTML',
+  'CSS',
+  'SQL',
+  'LaTeX',
+  'React', // frameworks and libraries
+  'JUnit',
   'Tkinter',
+  'NumPy',
+  'Matplotlib',
+  'Flask',
+  'SQLite',
+  'Pygame',
+  'Git', // tools
+  'Gradle',
+  'npm',
+  'VS Code',
+  'IntelliJ',
+  'JaCoCo',
+  'Linux',
+  'Figma',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
+  // email is optional - if left empty, contact section won't show up
   email: 'siujaiden@gmail.com',
 }
 
