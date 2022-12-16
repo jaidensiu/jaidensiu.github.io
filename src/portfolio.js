@@ -27,7 +27,7 @@ const projects = [
   {
     name: 'Tic Tac Toe AI',
     description:
-      'A fun Pygame project where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a classic game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose hence leaving it to win or tie at best against a player. This was one of my first real projects implementing an intelligent system that interacts with a user.',
+      'A Pygame project where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a classic game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose hence it always wins or ties at worst against a player. This is one of my first real projects implementing an intelligent system that interacts with a user.',
     stack: ['Python', 'Pygame', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
     livePreview: '',
