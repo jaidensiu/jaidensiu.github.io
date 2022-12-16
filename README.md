@@ -3,7 +3,11 @@
 This repository contains the code for my [portfolio website](https://jaidensiu.github.io/).
 
 What I learned and what I can further learn:
-- TODO
+- How to create a website using React and host GitHub Pages
+- How to document software, experiences, work, courses, and projects
+- How to design well thought-out UI/UX modules that are aesthetic
+- How to version control really well and use package managers
+- Could use React Router to allow for multiple page routing (maybe even have a blog section for course reviews)
 
 Notes:
 - ```npm run deploy``` is what commits changes to the gh-pages branch to be rendered by GitHub Pages

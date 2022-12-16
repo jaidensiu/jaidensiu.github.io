@@ -14,7 +14,7 @@ const about = {
   role: '',
   description:
     'I am a biomedical engineering student at the University of British Columbia interested in software engineering and data science.',
-  resume: 'https://drive.google.com/file/d/1UFj3vidKyJUOdRvIeK83f2IHrfKvlN3I/view?usp=sharing',
+  resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
     github: 'https://github.com/jaidensiu',
@@ -24,6 +24,14 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Personal Website',
+    description:
+      'A personal website that I design and deploy onto GitHub Pages to document courses, experiences and skills. On the other hand, this website is a medium for me to showcase my work and allow for people on the internet to know about me. Through this long-term project, I have learned (and still learning) about many software engineering topics such as version control systems, package managers and UI/UX design.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'React', 'GitHub Pages', 'npm', 'VS Code'],
+    sourceCode: 'https://github.com/jaidensiu/jaidensiu.github.io',
+    livePreview: 'https://jaidensiu.github.io/',
+  },
   {
     name: 'Tic Tac Toe AI',
     description:
@@ -64,6 +72,37 @@ const projects = [
     sourceCode: '',
     livePreview: '',
   },
+]
+
+const skills = [
+  // skills can be added or removed
+  // if there are no skills, the skills section won't show up
+  'Java', // languages
+  'Python',
+  'C',
+  'C++',
+  'MATLAB',
+  'JavaScript',
+  'HTML',
+  'CSS',
+  'SQL',
+  'LaTeX',
+  'React', // frameworks and libraries
+  'JUnit',
+  'Tkinter',
+  'NumPy',
+  'Matplotlib',
+  'Flask',
+  'SQLite',
+  'Pygame',
+  'Git', // tools
+  'Gradle',
+  'npm',
+  'VS Code',
+  'IntelliJ',
+  'JaCoCo',
+  'Linux',
+  'Figma',
 ]
 
 const courses = [
@@ -117,40 +156,9 @@ const courses = [
   },
 ]
 
-const skills = [
-  // skills can be added or removed
-  // if there are no skills, the skills section won't show up
-  'Java', // languages
-  'Python',
-  'C',
-  'C++',
-  'MATLAB',
-  'JavaScript',
-  'HTML',
-  'CSS',
-  'SQL',
-  'LaTeX',
-  'React', // frameworks and libraries
-  'JUnit',
-  'Tkinter',
-  'NumPy',
-  'Matplotlib',
-  'Flask',
-  'SQLite',
-  'Pygame',
-  'Git', // tools
-  'Gradle',
-  'npm',
-  'VS Code',
-  'IntelliJ',
-  'JaCoCo',
-  'Linux',
-  'Figma',
-]
-
 const contact = {
   // email is optional - if left empty, contact section won't show up
   email: 'siujaiden@gmail.com',
 }
 
-export { header, about, projects, courses, skills, contact }
+export { header, about, projects, skills, courses, contact }
