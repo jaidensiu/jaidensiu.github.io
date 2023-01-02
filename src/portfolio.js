@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'I am a biomedical engineering student at the University of British Columbia interested in software engineering and data science.',
+    'I\'m currently a third year biomedical engineering student at the University of British Columbia interested in software engineering and data science. My technical experience include: object-oriented design, functional programming, web development, concurrent programing, network programming, and shared memory programming, UI/UX design, and automated testing.',
   resume: 'https://drive.google.com/file/d/1z-e3fzSyV7RpB6BG6Q7Yh_aJRMDw8pB-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
