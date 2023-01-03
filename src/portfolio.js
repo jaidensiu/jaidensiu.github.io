@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'I\'m currently a third year biomedical engineering student at the University of British Columbia interested in software engineering and data science. My technical experience include: object-oriented design, functional programming, web development, concurrent programing, network programming, and shared memory programming, UI/UX design, and automated testing.',
+    'I\'m currently a third year biomedical engineering student at the University of British Columbia interested in software engineering and data science. My technical experience include: object-oriented design, intelligent system design, web development, concurrent programing, UI/UX design, and unit testing. Interested in programming and mathematics, I am passionate about applying my knowledge and skills to build novel models and systems. I am currently looking for 4 to 16 months of co-op/internship opportunities starting May 2023.',
   resume: 'https://drive.google.com/file/d/1z-e3fzSyV7RpB6BG6Q7Yh_aJRMDw8pB-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -35,7 +35,7 @@ const projects = [
   {
     name: 'Tic Tac Toe AI',
     description:
-      'A Pygame project where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a classic game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose hence it always wins or ties at worst against a player. This is one of my first real projects implementing an intelligent system that interacts with a user.',
+      'An intelligent system project where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a classic game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose hence it always wins or ties at worst against a player. This is one of my first real projects implementing an intelligent system that interacts with a user.',
     stack: ['Python', 'Pygame', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
     livePreview: '',
@@ -68,8 +68,16 @@ const projects = [
     name: 'Microfluidic Characterization Device',
     description:
       'A BMEG 257 design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
-    stack: ['Arduino', 'SolidWorks', 'C++', 'MultiSim'],
+    stack: ['Arduino', 'SolidWorks', 'MultiSim'],
     sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'Autonomous Robotic Claw',
+    description:
+      'An APSC 101 design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering and taught me a lot about design strategies.',
+    stack: ['Arduino', 'SolidWorks'],
+    sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
     livePreview: '',
   },
 ]
@@ -149,7 +157,7 @@ const courses = [
   {
     name: 'MATH 220 Mathematical Proof',
     description:
-      'MATH 220 introduces lots of formal mathematical ideas and constructs that are inherent in domains that leverage advanced mathematics. Topics that are introduced challenges one to think very pedantically hence taught me to be very detailed-oriented and formalize constructs in a pendantic fashion. This has allowed me to carry such way of thinking to other courses such as BMEG 371 and CPEN 221. One is exposed to mathematical thinking, logic, and rigorously proving mathematical statements. This course challenged my first principles thinking and really shifted my perspective on mathematics.',
+      'MATH 220 introduces lots of formal mathematical ideas and constructs that are inherent in domains that leverage advanced mathematics. Topics that are introduced challenges one to think very pedantically hence taught me to be very detail-oriented and formalize constructs with clarity. This has allowed me to carry such way of thinking to other courses such as BMEG 371 and CPEN 221. One is exposed to mathematical thinking, logic, and rigorously proving mathematical statements. This course challenged my first principles thinking and really shifted my perspective on mathematics.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MATH&course=220',
