@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'I\'m currently a third year biomedical engineering student at the University of British Columbia interested in software engineering and data science. My technical experience include: object-oriented design, intelligent system design, web development, concurrent programing, UI/UX design, and unit testing. Interested in programming and mathematics, I am passionate about applying my knowledge and skills to build novel models and systems. I am currently looking for 4 to 16 months of co-op/internship opportunities starting May 2023.',
+    'I\'m currently a third year biomedical engineering student at the University of British Columbia interested in software engineering and data science. My technical experience include: object-oriented design, intelligent system design, web development, concurrent programing, UI/UX design, and unit testing. I am currently looking for 4 to 16 months of co-op/internship opportunities starting May 2023.',
   resume: 'https://drive.google.com/file/d/1z-e3fzSyV7RpB6BG6Q7Yh_aJRMDw8pB-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
