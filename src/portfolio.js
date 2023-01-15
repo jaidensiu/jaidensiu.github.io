@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'I\'m currently a third year biomedical engineering student at the University of British Columbia interested in software engineering and data science. My technical experience include: object-oriented design, intelligent system design, web development, concurrent programing, UI/UX design, and unit testing. I am currently looking for 4 to 16 months of co-op/internship opportunities starting May 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year biomedical engineering student at the University of British Columbia (UBC) interested in software engineering and data science. Outside of school and work, you will find me going to the gym, swimming, programming, and playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
   resume: 'https://drive.google.com/file/d/1z-e3fzSyV7RpB6BG6Q7Yh_aJRMDw8pB-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -27,7 +27,7 @@ const projects = [
   {
     name: 'Personal Website',
     description:
-      'A personal website that I design and deploy onto GitHub Pages to document courses, experiences and skills. On the other hand, this website is a medium for me to showcase my work and allow for people on the internet to know about me. Through this long-term project, I have learned (and still learning) about many software engineering topics such as version control systems, package managers and UI/UX design.',
+      'My personal website portfolio (this website) that I design and deploy onto GitHub Pages to document projects, learning experiences, and skills. This website is a medium for me to showcase my skills and allow for people on the internet to learn more about me. Through this long-term project, I have learned about many software engineering topics such as version control systems, package managers, software architectural patterns, and UI/UX design.',
     stack: ['HTML', 'CSS', 'JavaScript', 'React', 'GitHub Pages', 'npm', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/jaidensiu.github.io',
     livePreview: 'https://jaidensiu.github.io/',
@@ -35,7 +35,7 @@ const projects = [
   {
     name: 'Tic Tac Toe AI',
     description:
-      'An intelligent system project where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a classic game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose hence it always wins or ties at worst against a player. This is one of my first real projects implementing an intelligent system that interacts with a user.',
+      'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
     stack: ['Python', 'Pygame', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
     livePreview: '',
@@ -43,7 +43,7 @@ const projects = [
   {
     name: 'Graphs, Games, and Interplanetary Travel',
     description:
-      'A CPEN 221 project all about graphs and traversal algorithms. I implemented a graph interface to manipulate and calculate graph properties. From implementing adjacency matrix and adjacency list representations of graphs to leveraging novel graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm and Kruskal\'s algorithm, I certainly learned a lot about graphs.',
+      'A CPEN 221 project all about graphs and traversal algorithms where I implement a graph interface to mutate and compute graph properties. I used adjacency matrix and adjacency list representations to abstract a graph and implemented graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm, and Kruskal\'s algorithm. This project ramped up my ability to work with graphs.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit'],
     sourceCode: '',
     livePreview: '',
@@ -59,7 +59,7 @@ const projects = [
   {
     name: 'Cell Simulation and Automata',
     description:
-      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine. I designed various classes that encapsulated high-level features of common biological cells to derive a set of unique operations for a particular cell type. This project is a great example how relevant computer science is in medicine, and illuminated many object-oriented programming concepts.',
+      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine. I designed various classes that encapsulated high-level features of common biological cells to derive a set of unique operations for a particular cell type. This project is a great example how relevant computer science is in medicine and illuminated many object-oriented programming concepts.',
     stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ'],
     sourceCode: '',
     livePreview: '',
@@ -75,7 +75,7 @@ const projects = [
   {
     name: 'Autonomous Robotic Claw',
     description:
-      'An APSC 101 design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering and taught me a lot about design strategies.',
+      'An APSC 101 design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
     stack: ['Arduino', 'SolidWorks'],
     sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
     livePreview: '',
@@ -123,6 +123,22 @@ const courses = [
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=220',
   },
   {
+    name: 'BMEG 320 Systems and Control',
+    description:
+      'Current course; more info to be added.',
+    stack: [],
+    sourceCode: '',
+    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=320',
+  },
+  {
+    name: 'BMEG 321 Biomedical Instrumentation',
+    description:
+      'Current course; more info to be added.',
+    stack: [],
+    sourceCode: '',
+    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=321',
+  },
+  {
     name: 'BMEG 371 Transport Phenomena',
     description:
       'BMEG 371 is a fun and interesting course that is meant to equip one with many mathematical tools to model biological systems (and other cool things). Topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course matured my mathematical abilities and introduced me to some advanced concepts in mathematics I once would have been intimidated of.',
@@ -141,10 +157,18 @@ const courses = [
   {
     name: 'CPEN 221 Software Construction',
     description:
-      'CPEN 221 is a demanding course that covers many of the first principles when it comes to constructing software. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, design patterns, random testing, formal verification, and dynamic programming. This course has really changed the way I view software and taught me so much about designing resilient systems.',
+      'CPEN 221 is a fabled course at UBC that covers many of the first principles when it comes to designing software systems. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, design patterns, random testing, formal verification, and dynamic programming. This course has really changed the way I view software and taught me so much about designing resilient systems.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPEN&course=221',
+  },
+  {
+    name: 'CPSC 221 Data Structures and Algorithms',
+    description:
+      'Current course; more info to be added.',
+    stack: [],
+    sourceCode: '',
+    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221',
   },
   {
     name: 'ELEC 221 Signals and Systems',
