@@ -1,4 +1,4 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
+// import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -24,6 +24,14 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Xplore',
+    description:
+      'Description to be added.',
+    stack: ['Express', 'Node', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
+    sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
+    livePreview: 'https://devpost.com/software/xplore-g1thmo',
+  },
   {
     name: 'Personal Website',
     description:
@@ -93,9 +101,11 @@ const skills = [
   'JavaScript',
   'HTML',
   'CSS',
+  'XML',
   'SQL',
-  'LaTeX',
   'React', // frameworks and libraries
+  'Express',
+  'Node',
   'JUnit',
   'Tkinter',
   'NumPy',
@@ -107,6 +117,9 @@ const skills = [
   'Gradle',
   'npm',
   'VS Code',
+  'Android Studio',
+  'MySQL Workbench',
+  'Postman',
   'IntelliJ',
   'JaCoCo',
   'Linux',
@@ -125,7 +138,7 @@ const courses = [
   {
     name: 'BMEG 320 Systems and Control',
     description:
-      'Current course; more info to be added.',
+      'Current course.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=320',
@@ -133,7 +146,7 @@ const courses = [
   {
     name: 'BMEG 321 Biomedical Instrumentation',
     description:
-      'Current course; more info to be added.',
+      'Current course.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=321',
@@ -165,7 +178,7 @@ const courses = [
   {
     name: 'CPSC 221 Data Structures and Algorithms',
     description:
-      'Current course; more info to be added.',
+      'Current course.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221',
