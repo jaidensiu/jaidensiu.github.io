@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year biomedical engineering student at the University of British Columbia (UBC) interested in software engineering and data science. Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Computer Science at the University of British Columbia (UBC) interested in Software Engineering and Data Science. Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
   resume: 'https://drive.google.com/file/d/1XGPMNBmxCoQTMqLFa2birsHK9xzrHEFu/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -25,7 +25,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Xplore',
+    name: 'Travel Planner Mobile App',
     description:
       'Description to be added.',
     stack: ['Express', 'Node', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
@@ -41,7 +41,7 @@ const projects = [
     livePreview: 'https://jaidensiu.github.io/',
   },
   {
-    name: 'Tic Tac Toe AI',
+    name: 'Tic Tac Toe Console Game',
     description:
       'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
     stack: ['Python', 'Pygame', 'VS Code'],
@@ -49,7 +49,7 @@ const projects = [
     livePreview: '',
   },
   {
-    name: 'Graphs, Games, and Interplanetary Travel',
+    name: 'Java Graph Interface',
     description:
       'A CPEN 221 project all about graphs and traversal algorithms where I implement a graph interface to mutate and compute graph properties. I used adjacency matrix and adjacency list representations to abstract a graph and implemented graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm, and Kruskal\'s algorithm. This project ramped up my ability to work with graphs.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit'],
@@ -57,7 +57,7 @@ const projects = [
     livePreview: '',
   },
   {
-    name: 'n-grams, Autocompletion, and Gender Bias',
+    name: 'Search Term Recommendation System',
     description:
       'A CPEN 221 project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias and mapped to weighted recommendations for text autocompletion.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit'],
