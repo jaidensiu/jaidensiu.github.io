@@ -41,11 +41,19 @@ const projects = [
     livePreview: 'https://jaidensiu.github.io/',
   },
   {
-    name: 'Tic Tac Toe Console Game',
+    name: 'Unbeatable Tic Tac Toe AI Console Game',
     description:
       'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
     stack: ['Python', 'Pygame', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
+    livePreview: '',
+  },
+  {
+    name: 'Client-Server Twitter Interactions Bot',
+    description:
+      'Description to be added.',
+    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Twitter API'],
+    sourceCode: '',
     livePreview: '',
   },
   {
