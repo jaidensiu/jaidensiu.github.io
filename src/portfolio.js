@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Computer Science at the University of British Columbia (UBC) interested in Software Engineering and Data Science. Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Computer Science and Informatics at the University of British Columbia (UBC). Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
   resume: 'https://drive.google.com/file/d/1-utzOY96iUlQY_M7WJLD08_ns5DZWXjZ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -25,50 +25,50 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Travel Planner Mobile App',
-    description:
-      'Description to be added.',
-    stack: ['Express', 'Node', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
-    sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
-    livePreview: 'https://devpost.com/software/xplore-g1thmo',
-  },
-  {
     name: 'Personal Website',
     description:
       'My personal website portfolio (this website) that I design and deploy onto GitHub Pages to document projects, learning experiences, and skills. This website is a medium for me to showcase my skills and allow for people on the internet to learn more about me. Through this long-term project, I have learned about many software engineering topics such as version control systems, package managers, software architectural patterns, and UI/UX design.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'React', 'GitHub Pages', 'npm', 'VS Code'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'React.js', 'GitHub Pages', 'npm', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/jaidensiu.github.io',
     livePreview: 'https://jaidensiu.github.io/',
+  },
+  {
+    name: 'Travel Planner Mobile App',
+    description:
+      'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components was designed and emulated in Android Studio which was written in Java and XML.',
+    stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman', 'Git'],
+    sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
+    livePreview: 'https://devpost.com/software/xplore-g1thmo',
   },
   {
     name: 'Unbeatable Tic Tac Toe AI Console Game',
     description:
       'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
-    stack: ['Python', 'Pygame', 'VS Code'],
+    stack: ['Python', 'Pygame', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
     livePreview: '',
   },
   {
     name: 'Client-Server Twitter Interactions Bot',
     description:
-      'Description to be added.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Twitter API'],
+      'This project involved building a messaging and content curation mechanism in Java through the Twitter API for user content interaction. The implementation supported a multithreaded client-server architecture based on a publish-subscribe model for data sharing between the users and the API. I created automated JUnit test suites that achieved 90% line coverage and 85% branch coverage visualized on JaCoCo.',
+    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Twitter API', 'Git'],
     sourceCode: '',
     livePreview: '',
   },
   {
     name: 'Java Graph Interface',
     description:
-      'A CPEN 221 project all about graphs and traversal algorithms where I implement a graph interface to mutate and compute graph properties. I used adjacency matrix and adjacency list representations to abstract a graph and implemented graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm, and Kruskal\'s algorithm. This project ramped up my ability to work with graphs.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit'],
+      'A project all about graphs and traversal algorithms where I implement a graph interface to mutate and compute graph properties. I used adjacency matrix and adjacency list representations to abstract a graph and implemented graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm, and Kruskal\'s algorithm. This project ramped up my ability to work with graphs.',
+    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Git'],
     sourceCode: '',
     livePreview: '',
   },
   {
     name: 'Search Term Recommendation System',
     description:
-      'A CPEN 221 project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias and mapped to weighted recommendations for text autocompletion.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit'],
+      'A project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias and mapped to weighted recommendations for text autocompletion.',
+    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit', 'Git'],
     sourceCode: '',
     livePreview: '',
   },
@@ -76,14 +76,14 @@ const projects = [
     name: 'Cell Simulation and Automata',
     description:
       'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine. I designed various classes that encapsulated high-level features of common biological cells to derive a set of unique operations for a particular cell type. This project is a great example how relevant computer science is in medicine and illuminated many object-oriented programming concepts.',
-    stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ'],
+    stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ', 'Git'],
     sourceCode: '',
     livePreview: '',
   },
   {
     name: 'Microfluidic Characterization Device',
     description:
-      'A BMEG 257 design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
+      'A design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
     stack: ['Arduino', 'SolidWorks', 'MultiSim'],
     sourceCode: '',
     livePreview: '',
@@ -91,7 +91,7 @@ const projects = [
   {
     name: 'Autonomous Robotic Claw',
     description:
-      'An APSC 101 design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
+      'A design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
     stack: ['Arduino', 'SolidWorks'],
     sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
     livePreview: '',
@@ -115,13 +115,17 @@ const skills = [
   'Express',
   'Node',
   'JUnit',
+  'JEST',
   'Tkinter',
   'NumPy',
   'Matplotlib',
   'Flask',
   'SQLite',
+  'MySQL',
+  'MongoDB',
   'Pygame',
   'Git', // tools
+  'GitHub Pages',
   'Gradle',
   'npm',
   'VS Code',
@@ -146,7 +150,7 @@ const courses = [
   {
     name: 'BMEG 320 Systems and Control',
     description:
-      'Current course.',
+      'Current course covering the design of control systems and modern control theory.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=320',
@@ -154,7 +158,7 @@ const courses = [
   {
     name: 'BMEG 321 Biomedical Instrumentation',
     description:
-      'Current course.',
+      'Current course covering the design of medical instrumentation encapsulating signal processing and system modelling.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=321',
@@ -186,7 +190,7 @@ const courses = [
   {
     name: 'CPSC 221 Data Structures and Algorithms',
     description:
-      'Current course.',
+      'Current course about fundamental techniques to design elegant programs from a systems and mathematical abstraction.',
     stack: [],
     sourceCode: '',
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221',
