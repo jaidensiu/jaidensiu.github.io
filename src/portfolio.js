@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Computer Science and Informatics at the University of British Columbia (UBC). Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Software Engineering and Informatics at the University of British Columbia (UBC). Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
   resume: 'https://drive.google.com/file/d/1-utzOY96iUlQY_M7WJLD08_ns5DZWXjZ/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
