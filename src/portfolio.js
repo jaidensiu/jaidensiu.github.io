@@ -13,13 +13,40 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Software Engineering and Informatics at the University of British Columbia (UBC). Outside of school and work, you will often find me working out, swimming, programming, or playing the piano. I\'m currently looking for 4 to 16 months of co-op (or internship) opportunities starting May 2023.',
-  resume: 'https://drive.google.com/file/d/1-utzOY96iUlQY_M7WJLD08_ns5DZWXjZ/view?usp=sharing',
+    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Software Engineering and Informatics at the University of British Columbia (UBC). Outside of school and work, you will often find me working out, swimming, building projects, or playing the piano. I\'m currently looking for software co-op/internship opportunities starting the fall 2023.',
+  resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
     github: 'https://github.com/jaidensiu',
   },
 }
+
+const experiences = [
+  {
+    name: 'Global Relay Communications Inc.',
+    description:
+      'Software Development Engineer in Test (SDET) Co-op (starting in May 2023).',
+    stack: [],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'UBC Biomedical Engineering Student Team',
+    description:
+      'Software Engineer on the neurotechnology student team.',
+    stack: [],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
+    name: 'UBC Biomedical Engineering Undergraduate Student Association',
+    description:
+      'Third Year Representative on the BME student council.',
+    stack: [],
+    sourceCode: '',
+    livePreview: '',
+  },
+]
 
 const projects = [
   // projects can be added an removed
@@ -218,4 +245,4 @@ const contact = {
   email: 'siujaiden@gmail.com',
 }
 
-export { header, about, projects, skills, courses, contact }
+export { header, about, experiences, projects, skills, courses, contact }
