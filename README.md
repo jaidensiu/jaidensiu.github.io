@@ -3,6 +3,7 @@
 This repository contains the code for my [portfolio website](https://jaidensiu.github.io/).
 
 What I learned and what I can further learn:
+- Incorporate Google Search Console for SEO of my website
 - How to create a website using React and host GitHub Pages
 - How to document software, experiences, work, courses, and projects
 - How to design well thought-out UI/UX modules that are aesthetic
