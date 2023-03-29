@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student specializing in Software Engineering and Informatics at the University of British Columbia (UBC). Outside of school and work, you will often find me working out, swimming, building projects, or playing the piano. I\'m currently looking for software co-op/internship opportunities starting the fall 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student at the University of British Columbia (UBC) specializing in Software Engineering and Biomedical Informatics, and minoring in Commerce - yes, it\'s quite a mouthful! Outside of school and work, I enjoy working out, swimming, and playing the piano. I\'m currently looking for software co-op/internship opportunities starting in the fall 2023.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -25,7 +25,7 @@ const experiences = [
   {
     name: 'Global Relay Communications Inc.',
     description:
-      'Software Development Engineer in Test (SDET) Co-op (starting in May 2023).',
+      'Incoming Software Development Engineer in Test (SDET) Co-op (starting in May 2023).',
     stack: [],
     sourceCode: '',
     livePreview: '',
@@ -84,14 +84,6 @@ const projects = [
     livePreview: '',
   },
   {
-    name: 'Java Graph Interface',
-    description:
-      'A project all about graphs and traversal algorithms where I implement a graph interface to mutate and compute graph properties. I used adjacency matrix and adjacency list representations to abstract a graph and implemented graph traversal algorithms such as depth-first search, breadth-first search, Dijkstra\'s algorithm, and Kruskal\'s algorithm. This project ramped up my ability to work with graphs.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Git'],
-    sourceCode: '',
-    livePreview: '',
-  },
-  {
     name: 'Search Term Recommendation System',
     description:
       'A project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias and mapped to weighted recommendations for text autocompletion.',
@@ -111,7 +103,7 @@ const projects = [
     name: 'Microfluidic Characterization Device',
     description:
       'A design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
-    stack: ['Arduino', 'SolidWorks', 'MultiSim'],
+    stack: ['C++', 'Arduino', 'SolidWorks', 'MultiSim'],
     sourceCode: '',
     livePreview: '',
   },
@@ -119,7 +111,7 @@ const projects = [
     name: 'Autonomous Robotic Claw',
     description:
       'A design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
-    stack: ['Arduino', 'SolidWorks'],
+    stack: ['C++', 'Arduino', 'SolidWorks'],
     sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
     livePreview: '',
   },
@@ -138,9 +130,9 @@ const skills = [
   'CSS',
   'XML',
   'SQL',
-  'React', // frameworks and libraries
-  'Express',
-  'Node',
+  'React.js', // frameworks and libraries
+  'Express.js',
+  'Node.js',
   'JUnit',
   'JEST',
   'Tkinter',
@@ -165,6 +157,25 @@ const skills = [
   'Figma',
 ]
 
+const courses = [
+  'Data Structures and Algorithms', // Computer Science
+  'Algorithm Design and Analysis',
+  'Software Construction',
+  'Artificial Intelligence',
+  'Machine Learning',
+  'Web Development',
+  'Statistics and Probability', // Statistics
+  'Control Systems', // Electrical Engineering
+  'Circuit Analysis',
+  'Signals and Systems',
+  'Electromagnetism',
+  'Biomedical Instrumentation',
+  'Business Finance', // Commerce
+  'Financial Accounting',
+  'Marketing Management',
+]
+
+/*
 const courses = [
   {
     name: 'BMEG 220 Circuits and Electromagnetics',
@@ -239,6 +250,7 @@ const courses = [
     livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MATH&course=220',
   },
 ]
+*/
 
 const contact = {
   // email is optional - if left empty, contact section won't show up
