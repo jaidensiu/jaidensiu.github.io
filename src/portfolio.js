@@ -25,23 +25,23 @@ const experiences = [
   {
     name: 'Global Relay Communications Inc.',
     description:
-      'Incoming Software Development Engineer in Test (SDET) Co-op (starting in May 2023).',
+      'Incoming Software Development Engineer in Test (SDET) Co-op on the Unified Communications team starting in May 2023.',
     stack: [],
     sourceCode: '',
     livePreview: '',
   },
   {
-    name: 'UBC Biomedical Engineering Student Team',
+    name: 'UBC BEST (Biomedical Engineering Student Team)',
     description:
-      'Software Engineer on the neurotechnology student team.',
+      'Currently a Software Engineer on the MINT (Multifaceted Innovation in NeuroTechnology) team. Previously a Software Engineer on the Sports Medicine team.',
     stack: [],
     sourceCode: '',
     livePreview: '',
   },
   {
-    name: 'UBC Biomedical Engineering Undergraduate Student Association',
+    name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
     description:
-      'Third Year Representative on the BME student council.',
+      'Currently the Third Year Representative on the BME undergraduate student council.',
     stack: [],
     sourceCode: '',
     livePreview: '',
