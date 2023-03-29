@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student at the University of British Columbia (UBC) specializing in Software Engineering and Biomedical Informatics, and minoring in Commerce - yes, it\'s quite a mouthful! Outside of school and work, I enjoy working out, swimming, and playing the piano. I\'m currently looking for software co-op/internship opportunities starting in the fall 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year Biomedical Engineering student at the University of British Columbia (UBC) specializing in Software and Informatics Engineering, and minoring in Commerce — it\'s quite a mouthful! Outside of school and work, I enjoy working out, swimming, and playing the piano. I\'m currently looking for software co-op/internship opportunities starting in the fall 2023.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -164,7 +164,7 @@ const courses = [
   'Artificial Intelligence',
   'Machine Learning',
   'Web Development',
-  'Statistics and Probability', // Statistics
+  'Statistics and Probability', // Statistics and Probability
   'Control Systems', // Electrical Engineering
   'Circuit Analysis',
   'Signals and Systems',
