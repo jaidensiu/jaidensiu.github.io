@@ -10,9 +10,11 @@
   color: var(--clr-fg);
 }
 
+/*
 @media (max-width: 600px) {
   .footer {
     padding: 2em;
     margin-top: 3em;
   }
 }
+*/
