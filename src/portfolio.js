@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year Engineering student at the University of British Columbia (UBC) specializing in Software Engineering. Outside of school and work, I enjoy working out, swimming, and playing the piano. I\'m currently looking for software co-op/internship opportunities starting in the fall 2023.',
+    'Welcome to my personal website portfolio! I\'m currently a third year engineering student at the University of British Columbia (UBC) specializing in Software Engineering. Outside of school and work, I enjoy working out, swimming, and playing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -33,7 +33,7 @@ const experiences = [
   {
     name: 'UBC BEST (Biomedical Engineering Student Team)',
     description:
-      'Currently a Software Engineer on the MINT (Multifaceted Innovation in NeuroTechnology) team. Previously a Software Engineer on the Sports Medicine team.',
+      'Currently a Software Engineer on the Neurotechnology subteam. Previously a Software Engineer on the Sports Medicine subteam.',
     stack: [],
     sourceCode: '',
     livePreview: '',
@@ -159,7 +159,6 @@ const skills = [
 
 const courses = [
   'Data Structures and Algorithms', // Computer Science
-  'Algorithm Design and Analysis',
   'Software Construction',
   'Artificial Intelligence',
   'Machine Learning',
