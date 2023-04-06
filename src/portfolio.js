@@ -34,7 +34,7 @@ const experiences = [
     name: 'UBC BEST (Biomedical Engineering Student Team)',
     description:
       'Currently a Software Engineer on the Neurotechnology subteam. Previously a Software Engineer on the Sports Medicine subteam.',
-    stack: [],
+    stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
     sourceCode: '',
     livePreview: '',
   },

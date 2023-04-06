@@ -2,6 +2,9 @@
 
 This repository contains the code for my [portfolio website](https://jaidensiu.github.io/).
 
+Current tasks:
+- Implement a proper experience container component to have correct tags in portofolio.js and in resume format
+
 What I learned and what I can further learn:
 - Incorporate Google Search Console for SEO of my website
 - How to create a website using React and host GitHub Pages
