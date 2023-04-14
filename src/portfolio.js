@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently a third year engineering student at the University of British Columbia (UBC) specializing in Software Engineering. Outside of school and work, I enjoy working out, swimming, and playing the piano.',
+    'Welcome to my personal website portfolio! I\'m currently an engineering student at the University of British Columbia (UBC) specializing in Software Engineering. Outside of school and work, I enjoy working out, swimming, and playing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
