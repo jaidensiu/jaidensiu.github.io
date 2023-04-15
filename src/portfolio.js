@@ -41,7 +41,7 @@ const experiences = [
   {
     name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
     description:
-      'Currently the Third Year Representative on the BME undergraduate student council.',
+      'Incoming VP Academic Coordinator. Currently the Third Year Representative on the BME undergraduate student council.',
     stack: [],
     sourceCode: '',
     livePreview: '',
