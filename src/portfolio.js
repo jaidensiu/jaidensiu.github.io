@@ -33,7 +33,7 @@ const experiences = [
   {
     name: 'UBC BEST (Biomedical Engineering Student Team)',
     description:
-      'Currently a Software Engineer on the Neurotechnology subteam. Previously a Software Engineer on the Sports Medicine subteam.',
+      'Currently a Software Engineer on the neurotechnology subteam. Previously a Software Engineer on the Sports Medicine subteam.',
     stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
     sourceCode: '',
     livePreview: '',
@@ -41,7 +41,7 @@ const experiences = [
   {
     name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
     description:
-      'Incoming VP Academic Coordinator. Currently the Third Year Representative on the BME undergraduate student council.',
+      'Currently the VP Academic Coordinator on the BME undergraduate student council. Previously the Third Year Representative.',
     stack: [],
     sourceCode: '',
     livePreview: '',
@@ -51,13 +51,37 @@ const experiences = [
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  // {
+  //   name: 'Personal Website',
+  //   description:
+  //     'My personal website portfolio (this website) that I design and deploy onto GitHub Pages to document projects, learning experiences, and skills. This website is a medium for me to showcase my skills and allow for people on the internet to learn more about me. Through this long-term project, I have learned about many software engineering topics such as version control systems, package managers, software architectural patterns, and UI/UX design.',
+  //   stack: ['HTML', 'CSS', 'JavaScript', 'React.js', 'GitHub Pages', 'npm', 'VS Code', 'Git'],
+  //   sourceCode: 'https://github.com/jaidensiu/jaidensiu.github.io',
+  //   livePreview: 'https://jaidensiu.github.io/',
+  // },
   {
-    name: 'Personal Website',
+    name: 'Handwritten Digit Recognition System',
     description:
-      'My personal website portfolio (this website) that I design and deploy onto GitHub Pages to document projects, learning experiences, and skills. This website is a medium for me to showcase my skills and allow for people on the internet to learn more about me. Through this long-term project, I have learned about many software engineering topics such as version control systems, package managers, software architectural patterns, and UI/UX design.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'React.js', 'GitHub Pages', 'npm', 'VS Code', 'Git'],
-    sourceCode: 'https://github.com/jaidensiu/jaidensiu.github.io',
-    livePreview: 'https://jaidensiu.github.io/',
+      'This project was inspired by a Nintendo DS game called Brain Age that I used to play as a child. In this game, one of the particular minigames is a timed challenge where you write out answers to 20 randomized arithmetic questions onto the DS console\'s touchscreen in sequence. To mimic the digit recognition system in the DS console, I decided to create a convolutional neural network using max pooling that would be trained with the MNIST dataset. To test the digit recognition system, I developed a Pygame module that would allow a user to write a digit for the system to recognize the digit.',
+    stack: ['Python', 'TensorFlow', 'Pygame', 'VS Code', 'Git'],
+    sourceCode: 'https://github.com/jaidensiu/Digit-Recognition-System',
+    livePreview: '',
+  },
+  {
+    name: 'Question-Answering System',
+    description:
+      'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots (such as ChatGPT) and question-answering (QA) systems (such as IBM Watson). This project focuses on developing a QA system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant document(s) using tf-idf ranking then extracts the most relevant sentence(s) using idf and a query term density measure to provide an answer to a question.',
+    stack: ['Python', 'NLTK', 'VS Code', 'Git'],
+    sourceCode: 'https://github.com/jaidensiu/Question-Answering-System',
+    livePreview: '',
+  },
+  {
+    name: 'Traffic Sign Classifier',
+    description:
+      'This project focuses on developing a convolutional neural network (CNN) using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
+    stack: ['Python', 'TensorFlow', 'VS Code', 'Git'],
+    sourceCode: 'https://github.com/jaidensiu/Traffic-Sign-Classifier',
+    livePreview: '',
   },
   {
     name: 'Travel Planner Mobile App',
@@ -71,7 +95,7 @@ const projects = [
     name: 'Unbeatable Tic Tac Toe AI Console Game',
     description:
       'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
-    stack: ['Python', 'Pygame', 'VS Code', 'Git'],
+    stack: ['Python', 'Pygame', 'PyCharm', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
     livePreview: '',
   },
@@ -91,14 +115,14 @@ const projects = [
     sourceCode: '',
     livePreview: '',
   },
-  {
-    name: 'Cell Simulation and Automata',
-    description:
-      'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine. I designed various classes that encapsulated high-level features of common biological cells to derive a set of unique operations for a particular cell type. This project is a great example how relevant computer science is in medicine and illuminated many object-oriented programming concepts.',
-    stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ', 'Git'],
-    sourceCode: '',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Cell Simulation and Automata',
+  //   description:
+  //     'A cellular automata all about visualizing cell interactions on a GUI which is commonly used for guiding therapeutics and deriving diagnostic insights when practicing medicine. I designed various classes that encapsulated high-level features of common biological cells to derive a set of unique operations for a particular cell type. This project is a great example how relevant computer science is in medicine and illuminated many object-oriented programming concepts.',
+  //   stack: ['Java', 'Abstract Window Toolkit (AWT)', 'IntelliJ', 'Git'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  // },
   {
     name: 'Microfluidic Characterization Device',
     description:
@@ -125,32 +149,39 @@ const skills = [
   'C',
   'C++',
   'MATLAB',
+  'Simulink',
   'JavaScript',
+  'R',
   'HTML',
   'CSS',
   'XML',
   'SQL',
-  'React.js', // frameworks and libraries
-  'Express.js',
-  'Node.js',
+  'React', // frameworks and libraries
+  'Express',
+  'Node',
   'JUnit',
   'JEST',
-  'Tkinter',
   'NumPy',
   'Matplotlib',
+  'TensorFlow',
+  'NLTK',
   'Flask',
   'SQLite',
   'MySQL',
   'MongoDB',
+  'Tkinter',
   'Pygame',
   'Git', // tools
   'GitHub Pages',
   'Gradle',
   'npm',
+  'Yarn',
   'VS Code',
   'Android Studio',
   'MySQL Workbench',
   'Postman',
+  'RStudio',
+  'PyCharm',
   'IntelliJ',
   'JaCoCo',
   'Linux',
@@ -160,10 +191,12 @@ const skills = [
 const courses = [
   'Data Structures and Algorithms', // Computer Science
   'Software Construction',
-  'Artificial Intelligence',
   'Machine Learning',
   'Web Development',
-  'Statistics and Probability', // Statistics and Probability
+  'Probability and Statistics', // Statistics
+  'Multivariable Calculus', // Mathematics
+  'Linear Algebra',
+  'Differential Equations',
   'Control Systems', // Electrical Engineering
   'Circuit Analysis',
   'Signals and Systems',
