@@ -63,7 +63,7 @@ const projects = [
     name: 'Handwritten Digit Recognition System',
     description:
       'This project was inspired by a Nintendo DS game called Brain Age that I used to play as a child. In this game, one of the particular minigames is a timed challenge where you write out answers to 20 randomized arithmetic questions onto the DS console\'s touchscreen in sequence. To mimic the digit recognition system in the DS console, I decided to create a convolutional neural network using max pooling that would be trained with the MNIST dataset. To test the digit recognition system, I developed a Pygame module that would allow a user to write a digit for the system to recognize the digit.',
-    stack: ['Python', 'TensorFlow', 'Pygame', 'VS Code', 'Git'],
+    stack: ['Python', 'TensorFlow', 'Keras', 'Pygame', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Digit-Recognition-System',
     livePreview: '',
   },
@@ -79,7 +79,7 @@ const projects = [
     name: 'Traffic Sign Classifier',
     description:
       'This project focuses on developing a convolutional neural network (CNN) using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
-    stack: ['Python', 'TensorFlow', 'VS Code', 'Git'],
+    stack: ['Python', 'TensorFlow', 'Keras', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Traffic-Sign-Classifier',
     livePreview: '',
   },
