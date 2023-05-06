@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently an engineering student at the University of British Columbia (UBC) specializing in Software Engineering. Outside of school and work, I enjoy working out, swimming, and playing the piano.',
+    'Welcome to my personal website portfolio! I\'m currently an engineering student at the University of British Columbia (UBC) specializing in Biomedical Software Engineering. I am fascinated with technology pertaining to mathematics, computer science, and medicine. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -42,7 +42,7 @@ const experiences = [
     name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
     description:
       'Currently the VP Academic Coordinator on the BME undergraduate student council. Previously the Third Year Representative.',
-    stack: [],
+    stack: ['Fundraising', 'Outreach', 'Professional Development'],
     sourceCode: '',
     livePreview: '',
   },
@@ -70,7 +70,7 @@ const projects = [
   {
     name: 'Question-Answering System',
     description:
-      'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots (such as ChatGPT) and question-answering (QA) systems (such as IBM Watson). This project focuses on developing a QA system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant document(s) using tf-idf ranking then extracts the most relevant sentence(s) using idf and a query term density measure to provide an answer to a question.',
+      'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots (such as ChatGPT) and question-answering (QA) systems (such as IBM Watson). This project focuses on developing a QA system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant document(s) using tf-idf ranking. Then the system extracts the most relevant sentence(s) using idf and a query term density (keyword) measure to provide an answer to a question.',
     stack: ['Python', 'NLTK', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Question-Answering-System',
     livePreview: '',
@@ -87,12 +87,12 @@ const projects = [
     name: 'Travel Planner Mobile App',
     description:
       'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components was designed and emulated in Android Studio which was written in Java and XML.',
-    stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman', 'Git'],
+    stack: ['Express', 'Node', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
     livePreview: 'https://devpost.com/software/xplore-g1thmo',
   },
   {
-    name: 'Unbeatable Tic Tac Toe AI Console Game',
+    name: 'Tic Tac Toe AI',
     description:
       'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
     stack: ['Python', 'Pygame', 'PyCharm', 'VS Code', 'Git'],
@@ -110,7 +110,7 @@ const projects = [
   {
     name: 'Search Term Recommendation System',
     description:
-      'A project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias and mapped to weighted recommendations for text autocompletion.',
+      'A project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias in reviews and mapped weighted recommendations for text autocompletion. For sentiment analysis of the reveiws, a bag-of-words model, Naive Bayes classifier, and Laplacian smoothing was used.',
     stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit', 'Git'],
     sourceCode: '',
     livePreview: '',
@@ -144,7 +144,7 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, the skills section won't show up
-  'Java', // languages
+  'Java', // Languages
   'Python',
   'C',
   'C++',
@@ -156,7 +156,7 @@ const skills = [
   'CSS',
   'XML',
   'SQL',
-  'React', // frameworks and libraries
+  'React', // Frameworks and Libraries
   'Express',
   'Node',
   'JUnit',
@@ -171,7 +171,7 @@ const skills = [
   'MongoDB',
   'Tkinter',
   'Pygame',
-  'Git', // tools
+  'Git', // Tools
   'GitHub Pages',
   'Gradle',
   'npm',
