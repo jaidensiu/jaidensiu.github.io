@@ -11,7 +11,7 @@ const about = {
   // photo is for photo at the top of webpage with me
   // photo: aboutpic,
   name: 'Jaiden',
-  role: '',
+  role: 'SDET Co-op @ Global Relay',
   description:
     'Welcome to my personal website portfolio! I\'m currently an engineering student at the University of British Columbia (UBC) specializing in Biomedical Software Engineering. I am fascinated with technology pertaining to mathematics, computer science, and medicine. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
   resume: '',
@@ -25,7 +25,7 @@ const experiences = [
   {
     name: 'Global Relay Communications Inc.',
     description:
-      'Incoming Software Development Engineer in Test (SDET) Co-op on the Unified Communications team starting in May 2023.',
+      'Currently a Software Development Engineer in Test (SDET) Co-op on the Unified Communications team.',
     stack: [],
     sourceCode: '',
     livePreview: '',
@@ -33,7 +33,7 @@ const experiences = [
   {
     name: 'UBC BEST (Biomedical Engineering Student Team)',
     description:
-      'Currently a Software Engineer on the neurotechnology subteam. Previously a Software Engineer on the Sports Medicine subteam.',
+      'Currently a Software Developer on the neurotechnology subteam. Previously a Software Developer on the Sports Medicine subteam.',
     stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
     sourceCode: '',
     livePreview: '',
@@ -160,6 +160,7 @@ const skills = [
   'Express',
   'Node',
   'JUnit',
+  'Espresso',
   'JEST',
   'NumPy',
   'Matplotlib',
@@ -180,12 +181,15 @@ const skills = [
   'Android Studio',
   'MySQL Workbench',
   'Postman',
+  'Docker',
+  'Jenkins',
   'RStudio',
   'PyCharm',
   'IntelliJ',
   'JaCoCo',
   'Linux',
   'Figma',
+  'Jira',
 ]
 
 const courses = [
