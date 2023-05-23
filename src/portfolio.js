@@ -42,7 +42,7 @@ const experiences = [
     name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
     description:
       'Currently the VP Academic Coordinator on the BME undergraduate student council. Previously the Third Year Representative.',
-    stack: ['Fundraising', 'Outreach', 'Professional Development'],
+    stack: [],
     sourceCode: '',
     livePreview: '',
   },
@@ -99,22 +99,22 @@ const projects = [
     sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
     livePreview: '',
   },
-  {
-    name: 'Client-Server Twitter Interactions Bot',
-    description:
-      'This project involved building a messaging and content curation mechanism in Java through the Twitter API for user content interaction. The implementation supported a multithreaded client-server architecture based on a publish-subscribe model for data sharing between the users and the API. I created automated JUnit test suites that achieved 90% line coverage and 85% branch coverage visualized on JaCoCo.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Twitter API', 'Git'],
-    sourceCode: '',
-    livePreview: '',
-  },
-  {
-    name: 'Search Term Recommendation System',
-    description:
-      'A project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias in reviews and mapped weighted recommendations for text autocompletion. For sentiment analysis of the reveiws, a bag-of-words model, Naive Bayes classifier, and Laplacian smoothing was used.',
-    stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit', 'Git'],
-    sourceCode: '',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Client-Server Twitter Interactions Bot',
+  //   description:
+  //     'This project involved building a messaging and content curation mechanism in Java through the Twitter API for user content interaction. The implementation supported a multithreaded client-server architecture based on a publish-subscribe model for data sharing between the users and the API. I created automated JUnit test suites that achieved 90% line coverage and 85% branch coverage visualized on JaCoCo.',
+  //   stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo','JUnit', 'Twitter API', 'Git'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  // },
+  // {
+  //   name: 'Search Term Recommendation System',
+  //   description:
+  //     'A project all about the basic notions of natural language processing. I implemented a parsing algorithm that uses regular expressions and string manipulations to store n-grams obtained from text files of reviews. The n-grams helped determine biological gender bias in reviews and mapped weighted recommendations for text autocompletion. For sentiment analysis of the reviews, a bag-of-words model, Naive Bayes classifier, and Laplacian smoothing was used.',
+  //   stack: ['Java', 'Gradle', 'IntelliJ', 'JaCoCo', 'JUnit', 'Git'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  // },
   // {
   //   name: 'Cell Simulation and Automata',
   //   description:
@@ -123,14 +123,14 @@ const projects = [
   //   sourceCode: '',
   //   livePreview: '',
   // },
-  {
-    name: 'Microfluidic Characterization Device',
-    description:
-      'A design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
-    stack: ['C++', 'Arduino', 'SolidWorks', 'MultiSim'],
-    sourceCode: '',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Microfluidic Characterization Device',
+  //   description:
+  //     'A design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
+  //   stack: ['C++', 'Arduino', 'SolidWorks', 'MultiSim'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  // },
   {
     name: 'Autonomous Robotic Claw',
     description:
@@ -173,6 +173,7 @@ const skills = [
   'Tkinter',
   'Pygame',
   'Git', // Tools
+  'Bash',
   'GitHub Pages',
   'Gradle',
   'npm',
@@ -195,6 +196,7 @@ const skills = [
 const courses = [
   'Data Structures and Algorithms', // Computer Science
   'Software Construction',
+  'Artificial Intelligence',
   'Machine Learning',
   'Web Development',
   'Probability and Statistics', // Statistics
