@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website on the corner of the internet! I\'m currently a UBC biomedical engineering student in the informatics specialization. I am fascinated with technology pertaining to software development, machine learning, and health informatics. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
+    'Welcome to my personal website on the corner of the internet! I\'m currently a biomedical engineering student at UBC in the informatics specialization. I am fascinated with technology pertaining to software development, machine learning, and health informatics. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
