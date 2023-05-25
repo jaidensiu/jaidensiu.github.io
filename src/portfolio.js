@@ -11,9 +11,9 @@ const about = {
   // photo is for photo at the top of webpage with me
   // photo: aboutpic,
   name: 'Jaiden',
-  role: 'SDET Co-op @ Global Relay',
+  role: '',
   description:
-    'Welcome to my personal website portfolio! I\'m currently an engineering student at the University of British Columbia (UBC) specializing in Biomedical Software Engineering. I am fascinated with technology pertaining to mathematics, computer science, and medicine. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
+    'Welcome to my personal website on the corner of the internet! I\'m currently a UBC biomedical engineering student in the informatics specialization. I am fascinated with technology pertaining to software development, machine learning, and health informatics. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
