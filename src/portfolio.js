@@ -70,7 +70,7 @@ const projects = [
   {
     name: 'Question-Answering System',
     description:
-      'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots (such as ChatGPT) and question-answering (QA) systems (such as IBM Watson). This project focuses on developing a QA system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant document(s) using tf-idf ranking. Then the system extracts the most relevant sentence(s) using idf and a query term density (keyword) measure to provide an answer to a question.',
+      'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots and question-answering systems such as ChatGPT and IBM Watson, respectively. This project focuses on developing a question-answering system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant documents using tf-idf ranking. Then the system extracts the most relevant sentences using idf and a query term density (keyword) measure to provide an answer to a question.',
     stack: ['Python', 'NLTK', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Question-Answering-System',
     livePreview: '',
@@ -78,7 +78,7 @@ const projects = [
   {
     name: 'Traffic Sign Classifier',
     description:
-      'This project focuses on developing a convolutional neural network (CNN) using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
+      'This project focuses on developing a convolutional neural network using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
     stack: ['Python', 'TensorFlow', 'Keras', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Traffic-Sign-Classifier',
     livePreview: '',
