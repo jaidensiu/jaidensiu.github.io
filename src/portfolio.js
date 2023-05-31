@@ -26,7 +26,7 @@ const experiences = [
     name: 'Global Relay Communications Inc.',
     description:
       'Currently a Software Development Engineer in Test (SDET) Co-op on the Unified Communications team.',
-    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux'],
+    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma'],
     sourceCode: '',
     livePreview: '',
   },
