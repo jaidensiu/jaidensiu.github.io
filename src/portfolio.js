@@ -200,14 +200,11 @@ const courses = [
   'Machine Learning',
   'Web Development',
   'Probability and Statistics', // Statistics
-  'Multivariable Calculus', // Mathematics
-  'Linear Algebra',
-  'Differential Equations',
   'Control Systems', // Electrical Engineering
   'Circuit Analysis',
   'Signals and Systems',
   'Electromagnetism',
-  'Biomedical Instrumentation',
+  'Medical Instrumentation',
   'Business Finance', // Commerce
   'Financial Accounting',
   'Marketing Management',
