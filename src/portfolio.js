@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website on the corner of the internet! I\'m currently a biomedical engineering student at UBC in the informatics specialization. I have an avid interest with technology pertaining to software engineering, machine learning, and bioinformatics. Some of my hobbies include training calisthenics, swimming, and practicing the piano.',
+    'Welcome to my personal website on the corner of the internet! I\'m currently a biomedical engineering student at UBC in the informatics specialization. I have an avid interest in entrepreneurship and technology pertaining to bioinformatics, artificial intelligence, machine learning, and medical imaging. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, swimming, and playing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
