@@ -145,11 +145,11 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, the skills section won't show up
   'Java', // Languages
+  'Kotlin',
   'Python',
   'C',
   'C++',
   'MATLAB',
-  'Simulink',
   'JavaScript',
   'R',
   'HTML',
@@ -175,35 +175,34 @@ const skills = [
   'Git', // Tools
   'Bash',
   'GitHub Pages',
+  'Github Actions',
   'Gradle',
-  'npm',
-  'Yarn',
-  'VS Code',
-  'Android Studio',
-  'MySQL Workbench',
   'Postman',
   'Docker',
   'Jenkins',
+  'JaCoCo',
+  'Figma',
+  'Jira',
+  'npm',
+  'Yarn',
+  'VS Code', // IDEs
+  'Android Studio',
   'RStudio',
   'PyCharm',
   'IntelliJ',
-  'JaCoCo',
-  'Linux',
-  'Figma',
-  'Jira',
 ]
 
 const courses = [
-  'Data Structures and Algorithms', // Computer Science
+  'Data Structures and Algorithms', // Computing
   'Software Construction',
   'Artificial Intelligence',
   'Machine Learning',
   'Web Development',
   'Probability and Statistics', // Statistics
-  'Control Systems', // Electrical Engineering
+  'Control Systems', // Engineering
   'Circuit Analysis',
   'Signals and Systems',
-  'Electromagnetism',
+  'Biomechanics',
   'Medical Instrumentation',
   'Business Finance', // Commerce
   'Financial Accounting',
