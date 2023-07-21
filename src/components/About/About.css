@@ -36,3 +36,14 @@
     margin-top: 2em;
   }
 }
+
+img {
+  width: 12vw;
+  height: 12vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.extra__padding {
+  margin-bottom: 0.5em;
+}

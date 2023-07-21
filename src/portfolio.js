@@ -1,4 +1,4 @@
-// import aboutpic from "./components/Access/mePhoto.jpg"
+import aboutpic from "./components/Access/me_with_background.jpg"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -9,11 +9,11 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   // photo is for photo at the top of webpage with me
-  // photo: aboutpic,
+  photo: aboutpic,
   name: 'Jaiden',
   role: '',
   description:
-    'Welcome to my personal website on the corner of the internet! I\'m currently a biomedical engineering student at UBC specializing in computer science. I have an avid interest in entrepreneurship and technology pertaining to bioinformatics, artificial intelligence, machine learning, and medical imaging. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, swimming, and playing the piano.',
+    'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -26,14 +26,14 @@ const experiences = [
     name: 'Global Relay Communications Inc.',
     description:
       'Currently a Software Development Engineer in Test (SDET) Co-op on the Unified Communications team.',
-    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma'],
+    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma', 'Postman'],
     sourceCode: '',
     livePreview: '',
   },
   {
     name: 'UBC BEST (Biomedical Engineering Student Team)',
     description:
-      'Currently a Software Developer on the neurotechnology subteam. Previously a Software Developer on the Sports Medicine subteam.',
+      'Currently a Software Developer on the neurotechnology team. Previously a Software Developer on the sports medicine team.',
     stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
     sourceCode: '',
     livePreview: '',
@@ -49,16 +49,6 @@ const experiences = [
 ]
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
-  // {
-  //   name: 'Personal Website',
-  //   description:
-  //     'My personal website portfolio (this website) that I design and deploy onto GitHub Pages to document projects, learning experiences, and skills. This website is a medium for me to showcase my skills and allow for people on the internet to learn more about me. Through this long-term project, I have learned about many software engineering topics such as version control systems, package managers, software architectural patterns, and UI/UX design.',
-  //   stack: ['HTML', 'CSS', 'JavaScript', 'React.js', 'GitHub Pages', 'npm', 'VS Code', 'Git'],
-  //   sourceCode: 'https://github.com/jaidensiu/jaidensiu.github.io',
-  //   livePreview: 'https://jaidensiu.github.io/',
-  // },
   {
     name: 'Handwritten Digit Recognition System',
     description:
@@ -208,83 +198,6 @@ const courses = [
   'Financial Accounting',
   'Marketing Management',
 ]
-
-/*
-const courses = [
-  {
-    name: 'BMEG 220 Circuits and Electromagnetics',
-    description:
-      'BMEG 220 is combined with MATH 264 Vector Calculus to illuminate electromagnetic concepts and also introduces mathematical abstraction of electrical circuits via circuit analysis. Simulation software such as MultiSim and MATLAB are also introduced. This is a fast-paced two-in-one course that serves to lay the theoretical foundation for one to start conceptualizing medical instrumentation. Overall, a challenging course that evolved my ability to analyze circuits and apply mathematics to electromagnetics.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=220',
-  },
-  {
-    name: 'BMEG 320 Systems and Control',
-    description:
-      'Current course covering the design of control systems and modern control theory.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=320',
-  },
-  {
-    name: 'BMEG 321 Biomedical Instrumentation',
-    description:
-      'Current course covering the design of medical instrumentation encapsulating signal processing and system modelling.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=321',
-  },
-  {
-    name: 'BMEG 371 Transport Phenomena',
-    description:
-      'BMEG 371 is a fun and interesting course that is meant to equip one with many mathematical tools to model biological systems (and other cool things). Topics discussed include transport of molecules, Brownian motion, diffusion-limited chemical rates, optimal transport, entropic regularization, Navier-Stokes equations, mass transport, and developmental stochastic processes. This course matured my mathematical abilities and introduced me to some advanced concepts in mathematics I once would have been intimidated of.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=371',
-  },
-  {
-    name: 'COMR 473 Business Finance',
-    description:
-      'COMR 473 is an introductory course in finance that overviews the corporate financial system. This course introduces concepts such as time value of money, long-term securities like bonds, risky securities like stocks, and processes in which returns and values of assets relate to eachother. It was interesting to see the theory of this course apply to capital allocation decisions and in determining the capital structure of a firm. Overall, an eye-opening course that applies simple mathematical and statistical ideas to model concepts in the world of finance.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=COMR&course=473',
-  },
-  {
-    name: 'CPEN 221 Software Construction',
-    description:
-      'CPEN 221 is a fabled course at UBC that covers many of the first principles when it comes to designing software systems. The course covers core topics such as static checking, data abstractions, procedural specifications, testing, exceptions, mutability, abstract data types, subtypes, recursive types, streams, grammars, regular expressions, concurrency, and parallelism. Beyond the core topics, one is exposed to fundamental data structures and algorithms, a taste of algorithmic analysis, design patterns, random testing, formal verification, and dynamic programming. This course has really changed the way I view software and taught me so much about designing resilient systems.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPEN&course=221',
-  },
-  {
-    name: 'CPSC 221 Data Structures and Algorithms',
-    description:
-      'Current course about fundamental techniques to design elegant programs from a systems and mathematical abstraction.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221',
-  },
-  {
-    name: 'ELEC 221 Signals and Systems',
-    description:
-      'ELEC 221 introduces many abstract concepts relating to the processing and analysis of signals and systems, a vast topic that has many applications across the engineering sciences. Topics include convolution, Fourier series, filtering, Fourier transforms, sampling, communication systems, modulation, Laplace transforms, Z-transforms, and feedback systems. Computational tools such as Python and NumPy are also introduced. Altogether, this course challenged and equipped me with the set of tools in the modeling of systems and the processing of signals that encapsulate audio and images.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ELEC&course=221',
-  },
-  {
-    name: 'MATH 220 Mathematical Proof',
-    description:
-      'MATH 220 introduces lots of formal mathematical ideas and constructs that are inherent in domains that leverage advanced mathematics. Topics that are introduced challenges one to think very pedantically hence taught me to be very detail-oriented and formalize constructs with clarity. This has allowed me to carry such way of thinking to other courses such as BMEG 371 and CPEN 221. One is exposed to mathematical thinking, logic, and rigorously proving mathematical statements. This course challenged my first principles thinking and really shifted my perspective on mathematics.',
-    stack: [],
-    sourceCode: '',
-    livePreview: 'https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MATH&course=220',
-  },
-]
-*/
 
 const contact = {
   // email is optional - if left empty, contact section won't show up
