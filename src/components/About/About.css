@@ -37,11 +37,20 @@
   }
 }
 
-img {
-  width: 12vw;
-  height: 12vw;
-  object-fit: cover;
+.image__cropper {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
   border-radius: 50%;
+}
+
+.profile__pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; 
+  height: 100%;
+  width: auto;
 }
 
 .extra__padding {
