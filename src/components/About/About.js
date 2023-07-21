@@ -16,7 +16,7 @@ const About = () => {
 
       {photo && (
         <div className='image__cropper'>
-          <img height="200px" alt="Avatar placeholder" className="profile__pic" src={photo} />
+          <img alt="Avatar placeholder" className="profile__pic" src={photo} />
         </div>
       )}
 
