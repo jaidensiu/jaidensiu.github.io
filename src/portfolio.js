@@ -11,7 +11,7 @@ const about = {
   // photo is for photo at the top of webpage with me
   photo: aboutpic,
   name: 'Jaiden',
-  role: 'SDET @ Global Relay | BME @ UBC',
+  role: 'SDET Co-op @ Global Relay / Incoming Software Dev Co-op @ Avanti / BME @ UBC',
   description:
     'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
   resume: '',
@@ -23,9 +23,17 @@ const about = {
 
 const experiences = [
   {
+    name: 'Avanti Software Inc.',
+    description:
+      'Incoming Software Developer Co-op working on native mobile development.',
+    stack: [],
+    sourceCode: '',
+    livePreview: '',
+  },
+  {
     name: 'Global Relay Communications Inc.',
     description:
-      'Currently a Software Development Engineer in Test (SDET) Co-op on the Unified Communications team.',
+      'Currently a Software Development Engineer in Test (SDET) Co-op on the Unified Communications team working on software test automation.',
     stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma', 'Postman'],
     sourceCode: '',
     livePreview: '',
@@ -42,7 +50,7 @@ const experiences = [
     name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
     description:
       'Currently the VP Academic Coordinator on the BME undergraduate student council. Previously the Third Year Representative.',
-    stack: [],
+    stack: [''],
     sourceCode: '',
     livePreview: '',
   },
