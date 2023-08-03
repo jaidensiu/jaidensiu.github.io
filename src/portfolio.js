@@ -11,7 +11,7 @@ const about = {
   // photo is for photo at the top of webpage with me
   photo: aboutpic,
   name: 'Jaiden',
-  role: 'SDET Co-op @ Global Relay / Incoming Software Dev Co-op @ Avanti / BME @ UBC',
+  role: 'SDET Co-op @ Global Relay | Incoming Software Dev Co-op @ Avanti | BME @ UBC',
   description:
     'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
   resume: '',
@@ -39,15 +39,15 @@ const experiences = [
     livePreview: '',
   },
   {
-    name: 'UBC BEST (Biomedical Engineering Student Team)',
+    name: 'UBC Biomedical Engineering Student Team',
     description:
-      'Currently a Software Developer on the neurotechnology team. Previously a Software Developer on the sports medicine team.',
+      'Previously a Software Engineer on the Neurotechnology team and the Sports Medicine team.',
     stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
     sourceCode: '',
     livePreview: '',
   },
   {
-    name: 'UBC BMEUSA (Biomedical Engineering Undergraduate Student Association)',
+    name: 'UBC Biomedical Engineering Undergraduate Student Association',
     description:
       'Currently the VP Academic Coordinator on the BME undergraduate student council. Previously the Third Year Representative.',
     stack: [''],
