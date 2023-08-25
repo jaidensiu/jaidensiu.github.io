@@ -25,7 +25,7 @@ const experiences = [
   {
     name: 'Avanti Software Inc.',
     description:
-      'Incoming Software Developer Co-op working on native mobile development.',
+      'Incoming Software Developer Co-op working on Mobile Development team building HCM software for mobile applications.',
     stack: [],
     sourceCode: '',
     livePreview: '',
@@ -33,7 +33,7 @@ const experiences = [
   {
     name: 'Global Relay Communications Inc.',
     description:
-      'Currently a Software Development Engineer in Test (SDET) Co-op on the Unified Communications team working on software test automation.',
+      'Currently a Software Development Engineer in Test (SDET) Co-op on the Android Development team working on software test automation.',
     stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma', 'Postman'],
     sourceCode: '',
     livePreview: '',
@@ -57,6 +57,14 @@ const experiences = [
 ]
 
 const projects = [
+  {
+    name: 'Rental Bike Usage Prediction',
+    description:
+      'This project involved applying machine learning and statistical models to forecast bike rental demand using weather, hourly rentals, and date data for bike rental supply stability. I conducted exploratory data analysis (EDA) by visualizing the dataset via scatter plots to summarize the data and relation between different features. To apply models to the dataset, I employed a linear and mutiple linear regression model to best fit a line for the number of bikes dependent on temperature. I also used a vanilla neural network to fit a curve against the data. To evaluate the models, I used metrics such a mean squared error (MSE) to quantify prediction accuracy. The findings of this project allows for ensuring a stable supply of rental bikes.',
+    stack: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'Keras', 'Google Colab'],
+    sourceCode: '',
+    livePreview: '',
+  },
   {
     name: 'Handwritten Digit Recognition System',
     description:
