@@ -11,7 +11,7 @@ const about = {
   // photo is for photo at the top of webpage with me
   photo: aboutpic,
   name: 'Jaiden',
-  role: 'SDET Co-op @ Global Relay | Incoming Software Dev Co-op @ Avanti | BME @ UBC',
+  role: 'SWE @ Avanti | BME @ UBC',
   description:
     'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
   resume: '',
@@ -25,7 +25,7 @@ const experiences = [
   {
     name: 'Avanti Software Inc.',
     description:
-      'Incoming Software Developer Co-op working on Mobile Development team building HCM software for mobile applications.',
+      'Currently a Software Developer Co-op working on Mobile Development team building HCM software for mobile applications.',
     stack: [],
     sourceCode: '',
     livePreview: '',
@@ -33,7 +33,7 @@ const experiences = [
   {
     name: 'Global Relay Communications Inc.',
     description:
-      'Currently a Software Development Engineer in Test (SDET) Co-op on the Android Development team working on software test automation.',
+      'Previously a Software Development Engineer in Test Co-op on the Android Development team working on software test automation.',
     stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma', 'Postman'],
     sourceCode: '',
     livePreview: '',
