@@ -11,9 +11,9 @@ const about = {
   // photo is for photo at the top of webpage with me
   photo: aboutpic,
   name: 'Jaiden',
-  role: 'SWE @ Avanti | BME @ UBC',
+  role: 'Software Developer Co-op @ Avanti • BME + CS @ UBC',
   description:
-    'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Global Relay as a Software Development Engineer in Test Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
+    'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Avanti as a Software Developer Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -26,7 +26,7 @@ const experiences = [
     name: 'Avanti Software Inc.',
     description:
       'Currently a Software Developer Co-op working on Mobile Development team building HCM software for mobile applications.',
-    stack: [],
+    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Android Stutdio', 'Xcode', 'Postman'],
     sourceCode: '',
     livePreview: '',
   },
@@ -34,7 +34,7 @@ const experiences = [
     name: 'Global Relay Communications Inc.',
     description:
       'Previously a Software Development Engineer in Test Co-op on the Android Development team working on software test automation.',
-    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Bash', 'Linux', 'Figma', 'Postman'],
+    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Postman', 'Android Studio'],
     sourceCode: '',
     livePreview: '',
   },
@@ -158,44 +158,44 @@ const skills = [
   'MATLAB',
   'JavaScript',
   'R',
+  'Swift',
   'HTML',
   'CSS',
-  'XML',
   'SQL',
   'React', // Frameworks and Libraries
   'Express',
   'Node',
   'JUnit',
   'Espresso',
+  'Jetpack Compose',
+  'Mockito',
   'JEST',
   'NumPy',
   'Matplotlib',
+  'Seaborn',
+  'ggplot2',
+  'NumPy',
+  'Scikit-learn',
   'TensorFlow',
-  'NLTK',
+  'Keras',
   'Flask',
   'SQLite',
   'MySQL',
   'MongoDB',
-  'Tkinter',
-  'Pygame',
   'Git', // Tools
   'Bash',
-  'GitHub Pages',
-  'Github Actions',
-  'Gradle',
   'Postman',
   'Docker',
   'Jenkins',
-  'JaCoCo',
   'Figma',
   'Jira',
-  'npm',
-  'Yarn',
   'VS Code', // IDEs
   'Android Studio',
+  'Xcode',
   'RStudio',
   'PyCharm',
   'IntelliJ',
+  'JupyterLab'
 ]
 
 const courses = [
@@ -203,11 +203,12 @@ const courses = [
   'Software Construction',
   'Artificial Intelligence',
   'Machine Learning',
+  'Bioinformatics',
   'Web Development',
   'Probability and Statistics', // Statistics
   'Control Systems', // Engineering
   'Circuit Analysis',
-  'Signals and Systems',
+  'Signals Processing',
   'Biomechanics',
   'Medical Instrumentation',
   'Business Finance', // Commerce
