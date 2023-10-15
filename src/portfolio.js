@@ -11,9 +11,9 @@ const about = {
   // photo is for photo at the top of webpage with me
   photo: aboutpic,
   name: 'Jaiden',
-  role: 'Software Developer Co-op @ Avanti • BME @ UBC',
+  role: 'Software Developer Co-op @ Avanti • Biomedical Engineering @ UBC',
   description:
-    'I\'m a Biomedical Engineering student at UBC with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. Currently, I am building upon my software engineering skills by working at Avanti as a Software Developer Co-op. Outside of my professional endeavours, I enjoy working out at the gym, training calisthenics, swimming, and playing the piano.',
+    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience in mobile develpoment, web development, and data science',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -25,7 +25,7 @@ const experiences = [
   {
     name: 'Avanti Software Inc.',
     description:
-      'Currently a Software Developer Co-op working on Mobile Development team building HCM software for mobile applications.',
+      'Currently a Software Developer Co-op working on the Mobile Development team building an iOS and Android mobile application for HR management.',
     stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Android Stutdio', 'Xcode', 'Postman'],
     sourceCode: '',
     livePreview: '',
@@ -150,70 +150,70 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, the skills section won't show up
-  'Java', // Languages
-  'Kotlin',
-  'Python',
-  'C',
-  'C++',
-  'MATLAB',
-  'JavaScript',
-  'R',
-  'Swift',
-  'HTML',
-  'CSS',
-  'SQL',
-  'React', // Frameworks and Libraries
-  'Express',
-  'Node',
-  'JUnit',
-  'Espresso',
-  'Jetpack Compose',
-  'Mockito',
-  'JEST',
-  'NumPy',
-  'Matplotlib',
-  'Seaborn',
-  'ggplot2',
-  'NumPy',
-  'Scikit-learn',
-  'TensorFlow',
-  'Keras',
-  'Flask',
-  'SQLite',
-  'MySQL',
-  'MongoDB',
-  'Git', // Tools
-  'Bash',
-  'Postman',
-  'Docker',
-  'Jenkins',
-  'Figma',
-  'Jira',
-  'VS Code', // IDEs
-  'Android Studio',
-  'Xcode',
-  'RStudio',
-  'PyCharm',
-  'IntelliJ',
-  'JupyterLab'
+  // 'Java', // Languages
+  // 'Kotlin',
+  // 'Python',
+  // 'C',
+  // 'C++',
+  // 'MATLAB',
+  // 'JavaScript',
+  // 'R',
+  // 'Swift',
+  // 'HTML',
+  // 'CSS',
+  // 'SQL',
+  // 'React', // Frameworks and Libraries
+  // 'Express',
+  // 'Node',
+  // 'JUnit',
+  // 'Espresso',
+  // 'Jetpack Compose',
+  // 'Mockito',
+  // 'JEST',
+  // 'NumPy',
+  // 'Matplotlib',
+  // 'Seaborn',
+  // 'ggplot2',
+  // 'NumPy',
+  // 'Scikit-learn',
+  // 'TensorFlow',
+  // 'Keras',
+  // 'Flask',
+  // 'SQLite',
+  // 'MySQL',
+  // 'MongoDB',
+  // 'Git', // Tools
+  // 'Bash',
+  // 'Postman',
+  // 'Docker',
+  // 'Jenkins',
+  // 'Figma',
+  // 'Jira',
+  // 'VS Code', // IDEs
+  // 'Android Studio',
+  // 'Xcode',
+  // 'RStudio',
+  // 'PyCharm',
+  // 'IntelliJ',
+  // 'JupyterLab'
 ]
 
 const courses = [
-  'Data Structures and Algorithms', // Computing
-  'Software Construction',
-  'Artificial Intelligence',
-  'Machine Learning',
-  'Bioinformatics',
-  'Web Development',
-  'Probability and Statistics', // Statistics
-  'Control Systems', // Engineering
-  'Circuit Analysis',
-  'Signals Processing',
-  'Biomechanics',
-  'Medical Instrumentation',
-  'Business Finance', // Commerce
-  'Financial Accounting',
-  'Marketing Management',
+  // 'Data Structures and Algorithms', // Computing
+  // 'Software Construction',
+  // 'Artificial Intelligence',
+  // 'Machine Learning',
+  // 'Bioinformatics',
+  // 'Web Development',
+  // 'Probability and Statistics', // Statistics
+  // 'Control Systems', // Engineering
+  // 'Circuit Analysis',
+  // 'Signals Processing',
+  // 'Biomechanics',
+  // 'Medical Instrumentation',
+  // 'Business Finance', // Commerce
+  // 'Financial Accounting',
+  // 'Marketing Management',
 ]
 
 const contact = {
