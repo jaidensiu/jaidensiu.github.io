@@ -9,6 +9,14 @@
   .experience:hover {
     transform: translateY(-7px);
   }
+
+  .experience__role {
+    margin-top: 0.5em;
+  }
+
+  .experience__date {
+    font-style: italic;
+  }
   
   .experience__description {
     margin-top: 1em;

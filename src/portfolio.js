@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: 'Software Developer Co-op @ Avanti • Biomedical Engineering @ UBC',
   description:
-    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience in mobile develpoment, web development, and data science',
+    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience in mobile development, web development, and data science.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -23,72 +23,66 @@ const about = {
 
 const experiences = [
   {
-    name: 'Avanti Software Inc.',
+    company: 'Avanti Software Inc.',
+    role: 'Software Developer Co-op',
+    date: 'Sep 2023 - Present',
     description:
-      'Currently a Software Developer Co-op working on the Mobile Development team building an iOS and Android mobile application for HR management.',
-    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Android Stutdio', 'Xcode', 'Postman'],
-    sourceCode: '',
-    livePreview: '',
+      'Working on the Mobile Development team building an iOS and Android mobile application for HR management.',
+    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Postman', 'Android Stutdio', 'Xcode'],
+    livePreview: 'https://www.avanti.ca/',
   },
   {
-    name: 'Global Relay Communications Inc.',
+    company: 'Global Relay Communications Inc.',
+    role: 'Software Development Engineer in Test Co-op',
+    date: 'May 2023 - Sep 2023',
     description:
-      'Previously a Software Development Engineer in Test Co-op on the Android Development team working on software test automation.',
-    stack: ['Espresso', 'JUnit', 'Jira', 'Confluence', 'Jenkins', 'Docker', 'Java', 'Kotlin', 'BitBucket', 'Firebase Crashlytics', 'Postman', 'Android Studio'],
-    sourceCode: '',
-    livePreview: '',
+      'Worked on the Android Development team building test automation software.',
+    stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker', 'Postman', 'Android Studio'],
+    livePreview: 'https://www.globalrelay.com/',
   },
-  {
-    name: 'UBC Biomedical Engineering Student Team',
-    description:
-      'Previously a Software Engineer on the Neurotechnology team and the Sports Medicine team.',
-    stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
-    sourceCode: '',
-    livePreview: '',
-  },
-  {
-    name: 'UBC Biomedical Engineering Undergraduate Student Association',
-    description:
-      'Currently the VP Academic Coordinator on the BME undergraduate student council. Previously the Third Year Representative.',
-    stack: [''],
-    sourceCode: '',
-    livePreview: '',
-  },
+  // {
+  //   company: 'UBC Biomedical Engineering Student Team',
+  //   role: 'Software Engineer',
+  //   date: 'Mar 2022 - Sep 2023',
+  //   description:
+  //     'Previously a Software Engineer on the Neurotechnology team and the Sports Medicine team.',
+  //   stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
+  // },
 ]
 
 const projects = [
+  // {
+  //   name: 'Rental Bike Usage Prediction',
+  //   description:
+  //     'This project involved applying machine learning and statistical models to forecast bike rental demand using weather, hourly rentals, and date data for bike rental supply stability. I conducted exploratory data analysis (EDA) by visualizing the dataset via scatter plots to summarize the data and relation between different features. To apply models to the dataset, I employed a linear and mutiple linear regression model to best fit a line for the number of bikes dependent on temperature. I also used a vanilla neural network to fit a curve against the data. To evaluate the models, I used metrics such a mean squared error (MSE) to quantify prediction accuracy. The findings of this project allows for ensuring a stable supply of rental bikes.',
+  //   stack: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'Keras', 'Google Colab'],
+  //   sourceCode: '',
+  //   livePreview: '',
+  // },
   {
-    name: 'Rental Bike Usage Prediction',
-    description:
-      'This project involved applying machine learning and statistical models to forecast bike rental demand using weather, hourly rentals, and date data for bike rental supply stability. I conducted exploratory data analysis (EDA) by visualizing the dataset via scatter plots to summarize the data and relation between different features. To apply models to the dataset, I employed a linear and mutiple linear regression model to best fit a line for the number of bikes dependent on temperature. I also used a vanilla neural network to fit a curve against the data. To evaluate the models, I used metrics such a mean squared error (MSE) to quantify prediction accuracy. The findings of this project allows for ensuring a stable supply of rental bikes.',
-    stack: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'Keras', 'Google Colab'],
-    sourceCode: '',
-    livePreview: '',
-  },
-  {
-    name: 'Handwritten Digit Recognition System',
+    name: 'Handwritten Digit Classfier GUI',
     description:
       'This project was inspired by a Nintendo DS game called Brain Age that I used to play as a child. In this game, one of the particular minigames is a timed challenge where you write out answers to 20 randomized arithmetic questions onto the DS console\'s touchscreen in sequence. To mimic the digit recognition system in the DS console, I decided to create a convolutional neural network using max pooling that would be trained with the MNIST dataset. To test the digit recognition system, I developed a Pygame module that would allow a user to write a digit for the system to recognize the digit.',
     stack: ['Python', 'TensorFlow', 'Keras', 'Pygame', 'VS Code', 'Git'],
     sourceCode: 'https://github.com/jaidensiu/Digit-Recognition-System',
     livePreview: '',
   },
-  {
-    name: 'Question-Answering System',
-    description:
-      'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots and question-answering systems such as ChatGPT and IBM Watson, respectively. This project focuses on developing a question-answering system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant documents using tf-idf ranking. Then the system extracts the most relevant sentences using idf and a query term density (keyword) measure to provide an answer to a question.',
-    stack: ['Python', 'NLTK', 'VS Code', 'Git'],
-    sourceCode: 'https://github.com/jaidensiu/Question-Answering-System',
-    livePreview: '',
-  },
-  {
-    name: 'Traffic Sign Classifier',
-    description:
-      'This project focuses on developing a convolutional neural network using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
-    stack: ['Python', 'TensorFlow', 'Keras', 'VS Code', 'Git'],
-    sourceCode: 'https://github.com/jaidensiu/Traffic-Sign-Classifier',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Question-Answering System',
+  //   description:
+  //     'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots and question-answering systems such as ChatGPT and IBM Watson, respectively. This project focuses on developing a question-answering system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant documents using tf-idf ranking. Then the system extracts the most relevant sentences using idf and a query term density (keyword) measure to provide an answer to a question.',
+  //   stack: ['Python', 'NLTK', 'VS Code', 'Git'],
+  //   sourceCode: 'https://github.com/jaidensiu/Question-Answering-System',
+  //   livePreview: '',
+  // },
+  // {
+  //   name: 'Traffic Sign Classifier',
+  //   description:
+  //     'This project focuses on developing a convolutional neural network using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
+  //   stack: ['Python', 'TensorFlow', 'Keras', 'VS Code', 'Git'],
+  //   sourceCode: 'https://github.com/jaidensiu/Traffic-Sign-Classifier',
+  //   livePreview: '',
+  // },
   {
     name: 'Travel Planner Mobile App',
     description:
@@ -97,14 +91,14 @@ const projects = [
     sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
     livePreview: 'https://devpost.com/software/xplore-g1thmo',
   },
-  {
-    name: 'Tic Tac Toe AI',
-    description:
-      'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
-    stack: ['Python', 'Pygame', 'PyCharm', 'VS Code', 'Git'],
-    sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Tic Tac Toe AI',
+  //   description:
+  //     'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
+  //   stack: ['Python', 'Pygame', 'PyCharm', 'VS Code', 'Git'],
+  //   sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
+  //   livePreview: '',
+  // },
   // {
   //   name: 'Client-Server Twitter Interactions Bot',
   //   description:
@@ -140,7 +134,7 @@ const projects = [
   {
     name: 'Autonomous Robotic Claw',
     description:
-      'A design project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
+      'An engineering design course project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
     stack: ['C++', 'Arduino', 'SolidWorks'],
     sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
     livePreview: '',

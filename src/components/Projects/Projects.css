@@ -3,6 +3,5 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
-  /* grid-template-columns: repeat(auto-fit, minmax(18em, 1fr)); */
   grid-gap: 2em;
 }

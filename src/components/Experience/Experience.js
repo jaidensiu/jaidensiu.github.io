@@ -1,6 +1,6 @@
 import uniqid from 'uniqid'
 import { experiences } from '../../portfolio'
-import ProjectContainer from '../ProjectContainer/ProjectContainer'
+import ExperienceContainer from '../ExperienceContainer/ExperienceContainer'
 import './Experience.css'
 
 const Experience = () => {
@@ -10,9 +10,9 @@ const Experience = () => {
     <section id='experiences' className='section'>
       <h2 className='section__title'>Experience</h2>
 
-      <div className='projects__grid'>
+      <div className='experience__grid'>
         {experiences.map((experience) => (
-          <ProjectContainer key={uniqid()} project={experience} />
+          <ExperienceContainer key={uniqid()} experience={experience} />
         ))}
       </div>
     </section>
