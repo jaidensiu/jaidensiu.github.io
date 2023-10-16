@@ -21,6 +21,8 @@
   .experience__description {
     margin-top: 1em;
     text-align: left;
+    list-style-type: circle;
+    margin-left: 20px;
   }
   
   .experience__stack {

@@ -27,27 +27,38 @@ const experiences = [
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Present',
     description:
-      'Working on the Mobile Development team building an iOS and Android mobile application for HR management.',
+      'Working on the Mobile Development team building an iOS and Android mobile application for HR management \n Developing UI view models and fragments in Kotlin using Jetpack Compose, and Swift using SwiftUI \n Writing unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n Implementing unidirectional data flow architecture to manage UI elements and isolate view model logic',
     stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Postman', 'Android Stutdio', 'Xcode'],
     livePreview: 'https://www.avanti.ca/',
   },
   {
+    company: 'Freelance Software Development',
+    role: 'Freelance Software Engineer',
+    date: 'Sep 2023 - Present',
+    description:
+      'Working with local businesses to develop websites, define requirements, and establish project milestones \n Implementing website pages and features in JSX using Next.js with the aid of CSS modules \n Developing UI features using Swiper for sliding blocks, and Redux for global state management',
+    stack: ['HTML', 'CSS', 'JavaScript', 'JSX', 'Redux.js', 'React.js', 'Next.js'],
+    livePreview: '',
+  },
+  {
     company: 'Global Relay Communications Inc.',
     role: 'Software Development Engineer in Test Co-op',
-    date: 'May 2023 - Sep 2023',
+    date: 'May 2023 - Aug 2023',
     description:
-      'Worked on the Android Development team building test automation software.',
+      'Worked on the Android Development team to release app messaging features supporting 20,000+ users \n Collaborated in an agile environment using Jira, Bitbucket, TestRail, Docker, SonarQube, and Crashlytics \n Implemented automation tests in Kotlin and Java using Espresso and JUnit for automated UI testing \n Debugged existing automated test software for consistent build results in Jenkins \n Refactored test software to streamline user experience and log clarity in Logcat',
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker', 'Postman', 'Android Studio'],
     livePreview: 'https://www.globalrelay.com/',
   },
-  // {
-  //   company: 'UBC Biomedical Engineering Student Team',
-  //   role: 'Software Engineer',
-  //   date: 'Mar 2022 - Sep 2023',
-  //   description:
-  //     'Previously a Software Engineer on the Neurotechnology team and the Sports Medicine team.',
-  //   stack: ['Python', 'C#', 'Unity', 'JavaScript', 'MERN Stack', 'REST APIs', 'Git', 'Unity ML Agents', 'Tkinter', 'Postman'],
-  // },
+  {
+    company: 'UBC Neurotechnology Design Team',
+    role: 'Software Engineer',
+    date: 'Mar 2022 - Aug 2023',
+    description:
+      'Contributed to software development for open-source engineering design projects and rapid prototyping \n Implemented a simulation for an EEG-based attentiveness tracker using MERN stack technologies \n Designed a Tkinter GUI to actuate data transmission from an EEG headset through BLE \n Developed and tested a REST API to store EEG data using Mongoose, MongoDB, Express, Node, and Postman',
+    stack: ['Python', 'HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Unity', 'Tkinter', 'Postman'],
+    sourceCode: 'https://github.com/UBCMint',
+    livePreview: 'https://ubcmint.github.io/',
+  },
 ]
 
 const projects = [
@@ -60,10 +71,10 @@ const projects = [
   //   livePreview: '',
   // },
   {
-    name: 'Handwritten Digit Classfier GUI',
+    name: 'Handwritten Digit Classifier GUI',
     description:
       'This project was inspired by a Nintendo DS game called Brain Age that I used to play as a child. In this game, one of the particular minigames is a timed challenge where you write out answers to 20 randomized arithmetic questions onto the DS console\'s touchscreen in sequence. To mimic the digit recognition system in the DS console, I decided to create a convolutional neural network using max pooling that would be trained with the MNIST dataset. To test the digit recognition system, I developed a Pygame module that would allow a user to write a digit for the system to recognize the digit.',
-    stack: ['Python', 'TensorFlow', 'Keras', 'Pygame', 'VS Code', 'Git'],
+    stack: ['Python', 'TensorFlow', 'Keras', 'Pygame', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/Digit-Recognition-System',
     livePreview: '',
   },
@@ -87,7 +98,7 @@ const projects = [
     name: 'Travel Planner Mobile App',
     description:
       'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components was designed and emulated in Android Studio which was written in Java and XML.',
-    stack: ['Express', 'Node', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman', 'Git'],
+    stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
     sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
     livePreview: 'https://devpost.com/software/xplore-g1thmo',
   },

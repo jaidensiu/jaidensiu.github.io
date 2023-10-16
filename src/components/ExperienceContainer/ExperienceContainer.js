@@ -1,4 +1,5 @@
 import uniqid from 'uniqid'
+import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ExperienceContainer.css'
 
@@ -8,7 +9,12 @@ const ExperienceContainer = ({ experience }) => (
     <p className='experience__role'>{experience.role}</p>
     <p className='experience__date'>{experience.date}</p>
 
-    <p className='experience__description'>{experience.description}</p>
+    <ul className='experience__description'>
+      {experience.description.split('\n').map((item) => (
+        <li key={uniqid()}>{item}</li>
+      ))} 
+    </ul>
+
     {experience.stack && (
       <ul className='experience__stack'>
         {experience.stack.map((item) => (
@@ -17,6 +23,18 @@ const ExperienceContainer = ({ experience }) => (
           </li>
         ))}
       </ul>
+    )}
+
+    {experience.sourceCode && (
+      <a
+        href={experience.sourceCode}
+        aria-label='source code'
+        className='link link--icon'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <GitHubIcon />
+      </a>
     )}
 
     {experience.livePreview && (

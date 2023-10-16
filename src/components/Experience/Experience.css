@@ -1,8 +1,10 @@
 .experience__grid {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
-  grid-gap: 2em;
+  display: block;
+}
+
+.experience__grid > div {
+  margin-bottom: 2em;
 }
   
