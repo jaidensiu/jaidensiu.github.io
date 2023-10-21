@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: 'Software Developer Co-op @ Avanti • Biomedical Engineering @ UBC',
   description:
-    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience in mobile development, web development, and data science.',
+    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience with mobile development, web development, software testing, and data science.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -26,8 +26,12 @@ const experiences = [
     company: 'Avanti Software Inc.',
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Present',
-    description:
-      'Working on the Mobile Development team building an iOS and Android mobile application for HR management \n Developing UI view models and fragments in Kotlin using Jetpack Compose, and Swift using SwiftUI \n Writing unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n Implementing unidirectional data flow architecture to manage UI elements and isolate view model logic',
+    description: 
+      String().concat(
+        'Developing responsive UI in Kotlin (Jetpack Compose) and Swift (SwiftUI) for an HR management app \n',
+        'Writing unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n',
+        'Enhancing unidirectional data flow architecture to decouple UI states and isolate view model logic'
+      ),
     stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Postman', 'Android Stutdio', 'Xcode'],
     livePreview: 'https://www.avanti.ca/',
   },
@@ -36,8 +40,12 @@ const experiences = [
     role: 'Freelance Software Engineer',
     date: 'Sep 2023 - Present',
     description:
-      'Working with local businesses to develop websites, define requirements, and establish project milestones \n Implementing website pages and features in JSX using Next.js with the aid of CSS modules \n Developing UI features using Swiper for sliding blocks, and Redux for global state management',
-    stack: ['HTML', 'CSS', 'JavaScript', 'JSX', 'Redux.js', 'React.js', 'Next.js'],
+      String().concat(
+        'Working with local businesses to develop websites, define requirements, and establish project milestones \n',
+        'Implementing website pages and features in HTML and JavaScript (JSX) using Next.js with CSS modules \n',
+        'Developing dynamic UI features using Swiper for sliding blocks, and Redux for global state management'
+      ),
+    stack: ['HTML', 'CSS', 'JavaScript', 'Redux.js', 'React.js', 'Next.js'],
     livePreview: '',
   },
   {
@@ -45,7 +53,11 @@ const experiences = [
     role: 'Software Development Engineer in Test Co-op',
     date: 'May 2023 - Aug 2023',
     description:
-      'Worked on the Android Development team to release app messaging features supporting 20,000+ users \n Collaborated in an agile environment using Jira, Bitbucket, TestRail, Docker, SonarQube, and Crashlytics \n Implemented automation tests in Kotlin and Java using Espresso and JUnit for automated UI testing \n Debugged existing automated test software for consistent build results in Jenkins \n Refactored test software to streamline user experience and log clarity in Logcat',
+      String().concat(
+        'Developed automated test suites in Kotlin (Espresso) to reduce manual testing efforts of a messaging app \n',
+        'Resolved critical issues within the automated tests leading to consistent and reliable build results in Jenkins \n',
+        'Enhanced test software to achieve clearer log messages in Logcat streamlining development and fixes',
+      ),
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker', 'Postman', 'Android Studio'],
     livePreview: 'https://www.globalrelay.com/',
   },
@@ -54,7 +66,13 @@ const experiences = [
     role: 'Software Engineer',
     date: 'Mar 2022 - Aug 2023',
     description:
-      'Contributed to software development for open-source engineering design projects and rapid prototyping \n Implemented a simulation for an EEG-based attentiveness tracker using MERN stack technologies \n Designed a Tkinter GUI to actuate data transmission from an EEG headset through BLE \n Developed and tested a REST API to store EEG data using Mongoose, MongoDB, Express, Node, and Postman',
+      String().concat(
+        'Contributed to end-to-end software development for an award-winning engineering design team \n',
+        'Implemented RESTful APIs for EEG data to visualize and model brain activity using Express.js and Node.js \n',
+        'Tested API endpoints to ensure reliability and performance using Postman and MongoDB Compass \n',
+        'Designed MondoDB database schemas using Mongoose to model users and brain signal measurements \n',
+        'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
+      ),
     stack: ['Python', 'HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Unity', 'Tkinter', 'Postman'],
     sourceCode: 'https://github.com/UBCMint',
     livePreview: 'https://ubcmint.github.io/',
@@ -62,14 +80,14 @@ const experiences = [
 ]
 
 const projects = [
-  // {
-  //   name: 'Rental Bike Usage Prediction',
-  //   description:
-  //     'This project involved applying machine learning and statistical models to forecast bike rental demand using weather, hourly rentals, and date data for bike rental supply stability. I conducted exploratory data analysis (EDA) by visualizing the dataset via scatter plots to summarize the data and relation between different features. To apply models to the dataset, I employed a linear and mutiple linear regression model to best fit a line for the number of bikes dependent on temperature. I also used a vanilla neural network to fit a curve against the data. To evaluate the models, I used metrics such a mean squared error (MSE) to quantify prediction accuracy. The findings of this project allows for ensuring a stable supply of rental bikes.',
-  //   stack: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'Keras', 'Google Colab'],
-  //   sourceCode: '',
-  //   livePreview: '',
-  // },
+  {
+    name: 'Travel Planner Mobile App',
+    description:
+      'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components was designed and emulated in Android Studio which was written in Java and XML.',
+    stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
+    sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
+    livePreview: 'https://devpost.com/software/xplore-g1thmo',
+  },
   {
     name: 'Handwritten Digit Classifier GUI',
     description:
@@ -78,38 +96,14 @@ const projects = [
     sourceCode: 'https://github.com/jaidensiu/Digit-Recognition-System',
     livePreview: '',
   },
-  // {
-  //   name: 'Question-Answering System',
-  //   description:
-  //     'Current research and development within artificial intelligence and natural language processing is producing human-interactable systems including chatbots and question-answering systems such as ChatGPT and IBM Watson, respectively. This project focuses on developing a question-answering system that performs two tasks: document retrieval and passage retrieval. Overall, this intelligent system determines the most relevant documents using tf-idf ranking. Then the system extracts the most relevant sentences using idf and a query term density (keyword) measure to provide an answer to a question.',
-  //   stack: ['Python', 'NLTK', 'VS Code', 'Git'],
-  //   sourceCode: 'https://github.com/jaidensiu/Question-Answering-System',
-  //   livePreview: '',
-  // },
-  // {
-  //   name: 'Traffic Sign Classifier',
-  //   description:
-  //     'This project focuses on developing a convolutional neural network using TensorFlow to classify road signs correctly based on a dataset of road sign images. Such task is important in the development of autonomous vehicles with computer vision for the vehicle to gain an understanding of its environment. To do so, a labeled dataset of images catagorized by their type, the German Traffic Sign Recognition Benchmark (GTSRB) dataset, that contains thousand of images of 43 different kinds of road signs is used to train and validate the model.',
-  //   stack: ['Python', 'TensorFlow', 'Keras', 'VS Code', 'Git'],
-  //   sourceCode: 'https://github.com/jaidensiu/Traffic-Sign-Classifier',
-  //   livePreview: '',
-  // },
   {
-    name: 'Travel Planner Mobile App',
+    name: 'Rental Bike Usage Prediction',
     description:
-      'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components was designed and emulated in Android Studio which was written in Java and XML.',
-    stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Figma', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
-    sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
-    livePreview: 'https://devpost.com/software/xplore-g1thmo',
+      'This project involved applying machine learning and statistical models to forecast bike rental demand using weather, hourly rentals, and date data for bike rental supply stability. I conducted exploratory data analysis (EDA) by visualizing the dataset via scatter plots to summarize the data and relation between different features. To apply models to the dataset, I employed a linear and mutiple linear regression model to best fit a line for the number of bikes dependent on temperature. I also used a vanilla neural network to fit a curve against the data. To evaluate the models, I used metrics such a mean squared error (MSE) to quantify prediction accuracy. The findings of this project allows for ensuring a stable supply of rental bikes.',
+    stack: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'Keras', 'Google Colab'],
+    sourceCode: '',
+    livePreview: 'https://colab.research.google.com/drive/17NUwQiYhrxbHLSbDXd86RwJlmRIa-9wn?usp=sharing',
   },
-  // {
-  //   name: 'Tic Tac Toe AI',
-  //   description:
-  //     'A fun project that involves an intelligent system where I implement an undefeatable Tic Tac Toe AI using the Minimax algorithm, which is a type of adversial search algorithm commonly used in AI and game theory. In a game of Tic Tac Toe displayed on a Pygame window, the AI is optimized to never lose as it searches for the optimal move for itself via the Minimax algorithm, hence it will always wins or tie against another player.',
-  //   stack: ['Python', 'Pygame', 'PyCharm', 'VS Code', 'Git'],
-  //   sourceCode: 'https://github.com/jaidensiu/Tic-Tac-Toe-AI',
-  //   livePreview: '',
-  // },
   // {
   //   name: 'Client-Server Twitter Interactions Bot',
   //   description:
