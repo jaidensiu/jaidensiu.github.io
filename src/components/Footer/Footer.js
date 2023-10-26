@@ -6,7 +6,7 @@ const Footer = () => (
       href='https://github.com/jaidensiu/jaidensiu.github.io/'
       className='link footer__link'
     >
-      Created by Jaiden Siu
+      © Jaiden Siu 2023
     </a>
   </footer>
 )

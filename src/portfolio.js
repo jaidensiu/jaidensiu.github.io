@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: 'Software Developer Co-op @ Avanti • Biomedical Engineering @ UBC',
   description:
-    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience with mobile development, web development, software testing, and data science.',
+    'I\'m a Biomedical Engineering student at the University of British Columbia with an avid interest in entrepreneurship and technology pertaining to software engineering and data science. So far, I have experience with mobile development, web development, and software testing.',
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
@@ -28,11 +28,11 @@ const experiences = [
     date: 'Sep 2023 - Present',
     description: 
       String().concat(
-        'Developing responsive UI in Kotlin (Jetpack Compose) and Swift (SwiftUI) for an HR management app \n',
-        'Writing unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n',
+        'Developing HR management app features for Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI) \n',
+        'Writing comprehensive unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n',
         'Enhancing unidirectional data flow architecture to decouple UI states and isolate view model logic'
       ),
-    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Postman', 'Android Stutdio', 'Xcode'],
+    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Postman', 'Android Studio', 'Xcode'],
     livePreview: 'https://www.avanti.ca/',
   },
   {
@@ -54,7 +54,7 @@ const experiences = [
     date: 'May 2023 - Aug 2023',
     description:
       String().concat(
-        'Developed automated test suites in Kotlin (Espresso) to reduce manual testing efforts of a messaging app \n',
+        'Developed automated tests in Kotlin using Espresso to reduce manual testing efforts of a messaging app \n',
         'Resolved critical issues within the automated tests leading to consistent and reliable build results in Jenkins \n',
         'Enhanced test software to achieve clearer log messages in Logcat streamlining development and fixes',
       ),
@@ -68,8 +68,8 @@ const experiences = [
     description:
       String().concat(
         'Contributed to end-to-end software development for an award-winning engineering design team \n',
-        'Implemented RESTful APIs for EEG data to visualize and model brain activity using Express.js and Node.js \n',
-        'Tested API endpoints to ensure reliability and performance using Postman and MongoDB Compass \n',
+        'Implemented REST APIs for EEG data to visualize and model brain activity using Express.js and Node.js \n',
+        'Verified API endpoints to ensure reliability and performance using Postman and MongoDB Compass \n',
         'Designed MondoDB database schemas using Mongoose to model users and brain signal measurements \n',
         'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
       ),
@@ -161,14 +161,15 @@ const skills = [
   // 'HTML',
   // 'CSS',
   // 'SQL',
-  // 'React', // Frameworks and Libraries
-  // 'Express',
-  // 'Node',
+  // 'Bash',
+  // 'React.js', // Frameworks and Libraries
+  // 'Express.js',
+  // 'Node.js',
   // 'JUnit',
   // 'Espresso',
   // 'Jetpack Compose',
+  // 'SwiftUI',
   // 'Mockito',
-  // 'JEST',
   // 'NumPy',
   // 'Matplotlib',
   // 'Seaborn',
@@ -178,17 +179,16 @@ const skills = [
   // 'TensorFlow',
   // 'Keras',
   // 'Flask',
+  // 'Django',
   // 'SQLite',
   // 'MySQL',
   // 'MongoDB',
   // 'Git', // Tools
-  // 'Bash',
   // 'Postman',
   // 'Docker',
   // 'Jenkins',
-  // 'Figma',
   // 'Jira',
-  // 'VS Code', // IDEs
+  // 'VS Code',
   // 'Android Studio',
   // 'Xcode',
   // 'RStudio',
