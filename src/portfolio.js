@@ -32,7 +32,7 @@ const experiences = [
         'Writing comprehensive unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n',
         'Enhancing unidirectional data flow architecture to decouple UI states and isolate view model logic'
       ),
-    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Swift', 'SwiftUI', 'Postman', 'Android Studio', 'Xcode'],
+    stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Dagger', 'Git', 'Postman', 'Android Studio'],
     livePreview: 'https://www.avanti.ca/',
   },
   {
