@@ -28,9 +28,10 @@ const experiences = [
     date: 'Sep 2023 - Present',
     description: 
       String().concat(
-        'Developing HR management app features for Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI) \n',
-        'Writing comprehensive unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods \n',
-        'Enhancing unidirectional data flow architecture to decouple UI states and isolate view model logic'
+        'Developing HR management app features for Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI)\n',
+        'Writing comprehensive unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods\n',
+        'Enhancing unidirectional data flow architecture to decouple UI states and isolate view model logic\n',
+        'Implementing API calls within a repository pattern to enhance code modularity by isolating the data layer'
       ),
     stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Dagger', 'Git', 'Postman', 'Android Studio'],
     livePreview: 'https://www.avanti.ca/',
@@ -41,8 +42,8 @@ const experiences = [
     date: 'Sep 2023 - Present',
     description:
       String().concat(
-        'Working with local businesses to develop websites, define requirements, and establish project milestones \n',
-        'Implementing website pages and features in HTML and JavaScript (JSX) using Next.js with CSS modules \n',
+        'Working with local businesses to develop websites, define requirements, and establish project milestones\n',
+        'Implementing website pages and features in HTML and JavaScript (JSX) using Next.js with CSS modules\n',
         'Developing dynamic UI features using Swiper for sliding blocks, and Redux for global state management'
       ),
     stack: ['HTML', 'CSS', 'JavaScript', 'Redux.js', 'React.js', 'Next.js'],
@@ -54,8 +55,8 @@ const experiences = [
     date: 'May 2023 - Aug 2023',
     description:
       String().concat(
-        'Developed automated tests in Kotlin using Espresso to reduce manual testing efforts of a messaging app \n',
-        'Resolved critical issues within the automated tests leading to consistent and reliable build results in Jenkins \n',
+        'Developed Espresso automation tests in Kotlin to reduce manual testing efforts of a messaging app by %25\n',
+        'Resolved critical issues within the automated tests leading to consistent and reliable build results in Jenkins\n',
         'Enhanced test software to achieve clearer log messages in Logcat streamlining development and fixes',
       ),
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker', 'Postman', 'Android Studio'],
@@ -67,10 +68,10 @@ const experiences = [
     date: 'Mar 2022 - Aug 2023',
     description:
       String().concat(
-        'Contributed to end-to-end software development for an award-winning engineering design team \n',
-        'Implemented REST APIs for EEG data to visualize and model brain activity using Express.js and Node.js \n',
-        'Verified API endpoints to ensure reliability and performance using Postman and MongoDB Compass \n',
-        'Designed MondoDB database schemas using Mongoose to model users and brain signal measurements \n',
+        'Contributed to end-to-end software development for an award-winning engineering design team\n',
+        'Implemented REST APIs for EEG data to visualize and model brain activity using Express.js and Node.js\n',
+        'Verified API endpoints to ensure reliability and performance using Postman and MongoDB Compass\n',
+        'Designed MondoDB database schemas using Mongoose to model users and brain signal measurements\n',
         'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
       ),
     stack: ['Python', 'HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Unity', 'Tkinter', 'Postman'],
