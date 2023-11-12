@@ -6,40 +6,39 @@
     transition: transform 0.2s linear;
   }
   
-  .experience:hover {
-    transform: translateY(-7px);
-  }
+.experience:hover {
+   transform: translateY(-7px);
+}
 
-  .experience__role {
-    margin-top: 0.5em;
-  }
+.experience__role {
+  margin-top: 0.5em;
+}
 
-  .experience__date {
-    font-style: italic;
-  }
-  
-  .experience__description {
-    margin-top: 1em;
-    text-align: left;
-    list-style-type: circle;
-    margin-left: 20px;
-  }
-  
-  .experience__stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1.2em 0;
-  }
-  
-  .experience__stack-item {
-    margin: 0.5em;
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: var(--clr-fg-alt);
-  }
-  
-  .experience .link--icon {
-    margin-left: 0.5em;
-  }
-  
+.experience__date {
+  font-style: italic;
+}
+
+.experience__description {
+  margin-top: 1em;
+  text-align: left;
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.experience__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
+}
+
+.experience__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
+
+.experience .link--icon {
+  margin-left: 0.5em;
+} 

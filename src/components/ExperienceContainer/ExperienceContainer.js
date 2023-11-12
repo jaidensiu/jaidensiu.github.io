@@ -6,6 +6,7 @@ import './ExperienceContainer.css'
 const ExperienceContainer = ({ experience }) => (
   <div className='experience'>
     <h3>{experience.company}</h3>
+    
     <p className='experience__role'>{experience.role}</p>
     <p className='experience__date'>{experience.date}</p>
 
@@ -18,9 +19,7 @@ const ExperienceContainer = ({ experience }) => (
     {experience.stack && (
       <ul className='experience__stack'>
         {experience.stack.map((item) => (
-          <li key={uniqid()} className='experience__stack-item'>
-            {item}
-          </li>
+          <li key={uniqid()} className='experience__stack-item'>{item}</li>
         ))}
       </ul>
     )}

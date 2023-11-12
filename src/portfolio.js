@@ -29,9 +29,10 @@ const experiences = [
     description: 
       String().concat(
         'Developing HR management app features for Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI)\n',
-        'Writing comprehensive unit tests with JUnit and Mockito yielding 100% line coverage for relevant methods\n',
-        'Enhancing unidirectional data flow architecture to decouple UI states and isolate view model logic\n',
-        'Implementing API calls within a repository pattern to enhance code modularity by isolating the data layer'
+        'Building new features from scratch with modern design principles and tools (Google Maps, Dagger, Firebase)\n',
+        'Implementing API calls within a repository pattern to enhance code modularity by isolating the data layer\n',
+        'Writing unit tests with JUnit and Mockito for 100% line coverage to enhance code quality and performance\n',
+        'Refactoring codebase to enhance code scalability by decoupling UI states and separating view model logic'
       ),
     stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Dagger', 'Git', 'Postman', 'Android Studio'],
     livePreview: 'https://www.avanti.ca/',
@@ -43,8 +44,7 @@ const experiences = [
     description:
       String().concat(
         'Working with local businesses to develop websites, define requirements, and establish project milestones\n',
-        'Implementing website pages and features in HTML and JavaScript (JSX) using Next.js with CSS modules\n',
-        'Developing dynamic UI features using Swiper for sliding blocks, and Redux for global state management'
+        'Implementing websites in HTML, CSS, and JavaScript using Next.js and Redux for modern characteristics',
       ),
     stack: ['HTML', 'CSS', 'JavaScript', 'Redux.js', 'React.js', 'Next.js'],
     livePreview: '',
@@ -56,7 +56,7 @@ const experiences = [
     description:
       String().concat(
         'Developed Espresso automation tests in Kotlin to reduce manual testing efforts of a messaging app by %25\n',
-        'Resolved critical issues within the automated tests leading to consistent and reliable build results in Jenkins\n',
+        'Resolved issues within a Docker CI pipeline leading to consistent and reliable build results in Jenkins\n',
         'Enhanced test software to achieve clearer log messages in Logcat streamlining development and fixes',
       ),
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker', 'Postman', 'Android Studio'],
@@ -74,7 +74,7 @@ const experiences = [
         'Designed MondoDB database schemas using Mongoose to model users and brain signal measurements\n',
         'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
       ),
-    stack: ['Python', 'HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Unity', 'Tkinter', 'Postman'],
+    stack: ['Python', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Unity', 'Tkinter', 'Postman'],
     sourceCode: 'https://github.com/UBCMint',
     livePreview: 'https://ubcmint.github.io/',
   },
@@ -82,9 +82,32 @@ const experiences = [
 
 const projects = [
   {
+    name: 'Rideshare Mobile App',
+    description:
+      String().concat(
+        'Built a rideshare app using Kotlin, XML, and Jetpack Compose with chat messaging using Stream Chat SDK\n',
+        'Authorized Firebase with Google Cloud Platform for session management and passenger/driver creation',
+      ),
+    stack: ['Kotlin', 'Jetpack Compose', 'Stream SDK', 'Firebase', 'Google Cloud Platform (GCP)', 'Android Studio'],
+    sourceCode: 'https://github.com/jaidensiu/rideshare-app',
+    livePreview: '',
+  },
+  {
+    name: 'Email Client Web App',
+    description:
+      String().concat(
+        'Developed an email client with key functionalities (composing, sending, receiving, replying, and archiving)\n',
+        'Implemented a front-end with HTML, CSS, and JavaScript that makes API calls to send and receive emails\n',
+        'Integrated a Django back-end with Python to facilitate API calls for modifying a SQLite database schema',
+      ),
+    stack: ['Python', 'Django', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'VS Code'],
+    sourceCode: 'https://github.com/jaidensiu/email-client-app',
+    livePreview: '',
+  },
+  {
     name: 'Travel Planner Mobile App',
     description:
-      'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components was designed and emulated in Android Studio which was written in Java and XML.',
+      'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components were designed and emulated in Android Studio which was written in Java and XML.',
     stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
     sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
     livePreview: 'https://devpost.com/software/xplore-g1thmo',
@@ -137,14 +160,14 @@ const projects = [
   //   sourceCode: '',
   //   livePreview: '',
   // },
-  {
-    name: 'Autonomous Robotic Claw',
-    description:
-      'An engineering design course project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
-    stack: ['C++', 'Arduino', 'SolidWorks'],
-    sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
-    livePreview: '',
-  },
+  // {
+  //   name: 'Autonomous Robotic Claw',
+  //   description:
+  //     'An engineering design course project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
+  //   stack: ['C++', 'Arduino', 'SolidWorks'],
+  //   sourceCode: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw',
+  //   livePreview: '',
+  // },
 ]
 
 const skills = [
