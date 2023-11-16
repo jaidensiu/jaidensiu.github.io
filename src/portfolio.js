@@ -13,7 +13,7 @@ const about = {
   name: 'Jaiden',
   role: 'Software Developer Co-op @ Avanti • BME + CS @ UBC',
   description:
-    'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I have an avid interest in entrepreneurship and technology pertaining to software engineering, data science, and bioinformatics. So far, I have experience with mobile development, web development, and software testing.',
+    'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I have an avid interest in entrepreneurship and technology pertaining to software engineering, machine learning, and bioinformatics. So far, I have experience with mobile development, web development, and software testing.',
   resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
