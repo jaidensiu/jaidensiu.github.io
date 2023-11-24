@@ -17,6 +17,13 @@
   margin-left: 20px;
 }
 
+.project__photo {
+  position: flex;
+  height: 200px;
+  margin-top: 1.2em;
+  object-fit: cover;
+}
+
 .project__stack {
   display: flex;
   flex-wrap: wrap;

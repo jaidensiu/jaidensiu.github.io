@@ -7,17 +7,6 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
-    {/* <p className='project__description'>{project.description}</p>
-    {project.stack && (
-      <ul className='project__stack'>
-        {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
-            {item}
-          </li>
-        ))}
-      </ul>
-    )} */}
-
     {project.description.includes('\n') ? (
       <ul className='project__description'>
         {project.description.split('\n').map((item) => (
@@ -26,6 +15,14 @@ const ProjectContainer = ({ project }) => (
       </ul>
     ) : (
       <p className='project__description'>{project.description}</p>
+    )}
+
+    {project.photo && (
+      <img 
+        src={project.photo}
+        alt={project.name}
+        className='project__photo'
+      />
     )}
 
     {project.stack && (

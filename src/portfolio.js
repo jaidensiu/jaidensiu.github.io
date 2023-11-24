@@ -1,4 +1,6 @@
 import aboutpic from "./components/Access/pic_of_me.jpg"
+import emailClient from "./components/Access/email_client.png"
+import travelPlanner from "./components/Access/travel_planner.png"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -29,9 +31,9 @@ const experiences = [
     description: 
       String().concat(
         'Developing HR management app features for Android (Kotlin, Jetpack Compose) and iOS (Swift, SwiftUI)\n',
-        'Building new features from scratch with modern design principles and tools (Google Maps, Dagger, Firebase)\n',
-        'Implementing API calls within a repository pattern to enhance code modularity by isolating the data layer\n',
-        'Writing unit tests with JUnit and Mockito for 100% line coverage to enhance code quality and performance\n',
+        'Building new features with modern design principles and tools (Maps SDK, Hilt, Retrofit, OkHttp, Firebase)\n',
+        'Implementing a repository and service layer to optimize REST API integration using dependency injection\n',
+        'Writing unit tests with 100% line coverage using JUnit and Mockito, enhancing code quality and performance\n',
         'Refactoring codebase to enhance code scalability by decoupling UI states and separating view model logic'
       ),
     stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Dagger', 'Git', 'Postman', 'Android Studio'],
@@ -44,7 +46,7 @@ const experiences = [
     description:
       String().concat(
         'Working with local businesses to develop websites, define requirements, and establish project milestones\n',
-        'Implementing websites in HTML, CSS, and JavaScript using Next.js and Redux for modern characteristics',
+        ' Building websites with Next.js using HTML, CSS, and JavaScript, and deploying them on web hosting services',
       ),
     stack: ['HTML', 'CSS', 'JavaScript', 'Redux.js', 'React.js', 'Next.js'],
     livePreview: '',
@@ -55,9 +57,10 @@ const experiences = [
     date: 'May 2023 - Aug 2023',
     description:
       String().concat(
-        'Developed Espresso automation tests in Kotlin to reduce manual testing efforts of a messaging app by %25\n',
+        'Developed Espresso automation tests in Kotlin to reduce manual testing efforts of a messaging app by 25%\n',
         'Resolved issues within a Docker CI pipeline leading to consistent and reliable build results in Jenkins\n',
-        'Enhanced test software to achieve clearer log messages in Logcat streamlining development and fixes',
+        'Enhanced test software to achieve clearer log messages  improved triage and development efficiency\n',
+        'Executed regression testing to identify and document defects, ensuring stability across multiple releases'
       ),
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker', 'Postman', 'Android Studio'],
     livePreview: 'https://www.globalrelay.com/',
@@ -69,6 +72,7 @@ const experiences = [
     description:
       String().concat(
         'Contributed to end-to-end software development for an award-winning engineering design team\n',
+        'Spearheaded design and implementation of software systems, maximizing quality and velocity of projects\n',
         'Implemented REST APIs for EEG data to visualize and model brain activity using Express.js and Node.js\n',
         'Verified API endpoints to ensure reliability and performance using Postman and MongoDB Compass\n',
         'Designed MondoDB database schemas using Mongoose to model users and brain signal measurements\n',
@@ -82,17 +86,6 @@ const experiences = [
 
 const projects = [
   {
-    name: 'Rideshare Mobile App',
-    description:
-      String().concat(
-        'Built a rideshare app using Kotlin, XML, and Jetpack Compose with chat messaging using Stream Chat SDK\n',
-        'Authorized Firebase with Google Cloud Platform for session management and passenger/driver creation',
-      ),
-    stack: ['Kotlin', 'Jetpack Compose', 'Stream SDK', 'Firebase', 'Google Cloud Platform (GCP)', 'Android Studio'],
-    sourceCode: 'https://github.com/jaidensiu/rideshare-app',
-    livePreview: '',
-  },
-  {
     name: 'Email Client Web App',
     description:
       String().concat(
@@ -100,6 +93,7 @@ const projects = [
         'Implemented a front-end with HTML, CSS, and JavaScript that makes API calls to send and receive emails\n',
         'Integrated a Django back-end with Python to facilitate API calls for modifying a SQLite database schema',
       ),
+    photo: null,
     stack: ['Python', 'Django', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'VS Code'],
     sourceCode: 'https://github.com/jaidensiu/email-client-app',
     livePreview: '',
@@ -108,6 +102,7 @@ const projects = [
     name: 'Travel Planner Mobile App',
     description:
       'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved in implementing a REST API to save user profile data using Sequelize, MySQL, Express.js, and Node.js. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components were designed and emulated in Android Studio which was written in Java and XML.',
+    photo: null,
     stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'XML', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
     sourceCode: 'https://github.com/jaidensiu/nwHacks-2023',
     livePreview: 'https://devpost.com/software/xplore-g1thmo',
