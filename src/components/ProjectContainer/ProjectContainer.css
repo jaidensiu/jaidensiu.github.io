@@ -1,43 +1,55 @@
 .project {
-  padding: 2em;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
+    padding: 1.6em;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
 }
 
 .project:hover {
-  transform: translateY(-7px);
+    transform: translateY(-5px);
+}
+
+.project__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--clr-primary);
 }
 
 .project__description {
-  margin-top: 1em;
-  text-align: left;
-  list-style-type: circle;
-  margin-left: 20px;
+    margin-top: 0.5em;
+    text-align: left;
+    list-style-type: circle;
+    margin-left: 25px;
+    margin-right: 25px
 }
 
 .project__photo {
-  position: flex;
-  height: 200px;
-  margin-top: 1.2em;
-  object-fit: cover;
+    position: flex;
+    height: 200px;
+    margin-top: 1.2em;
+    object-fit: cover;
 }
 
 .project__stack {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1.2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em 0em 0em 0em;
 }
 
 .project__stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+    margin: 0.5em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--clr-fg-alt);
 }
 
 .project .link--icon {
-  margin-left: 0.5em;
+    margin-left: 0.5em;
 }

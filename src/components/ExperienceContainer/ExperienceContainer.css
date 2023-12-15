@@ -1,44 +1,55 @@
 .experience {
-    padding: 2em;
+    padding: 1.6em;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     box-shadow: var(--shadow);
     transition: transform 0.2s linear;
-  }
+}
   
 .experience:hover {
-   transform: translateY(-7px);
+    transform: translateY(-5px);
+}
+
+.experience__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience__company {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .experience__role {
-  margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 
 .experience__date {
-  font-style: italic;
+    font-style: italic;
 }
 
 .experience__description {
-  margin-top: 1em;
-  text-align: left;
-  list-style-type: circle;
-  margin-left: 20px;
+    margin-top: 0.5em;
+    text-align: left;
+    list-style-type: circle;
+    margin-left: 0px;
+    color: #888888
 }
 
 .experience__stack {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1.2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em 0em 0em 0em;
 }
-
+  
 .experience__stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+    margin: 0.5em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--clr-fg-alt);
 }
 
 .experience .link--icon {
-  margin-left: 0.5em;
+    margin-left: 0.5em;
 } 

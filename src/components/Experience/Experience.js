@@ -4,19 +4,18 @@ import ExperienceContainer from '../ExperienceContainer/ExperienceContainer'
 import './Experience.css'
 
 const Experience = () => {
-  if (!experiences.length) return null
+    if (!experiences.length) return null
 
-  return (
-    <section id='experiences' className='section'>
-      <h2 className='section__title'>Experience</h2>
-
-      <div className='experience__grid'>
-        {experiences.map((experience) => (
-          <ExperienceContainer key={uniqid()} experience={experience} />
-        ))}
-      </div>
-    </section>
-  )
+    return (
+        <section id='experiences' className='section'>
+            <h2 className='section__title'>Experience</h2>
+            <div className='experience__grid'>
+                {experiences.map((experience) => (
+                    <ExperienceContainer key={uniqid()} experience={experience}/>
+                ))}
+            </div>
+        </section>
+    )
 }
 
 export default Experience

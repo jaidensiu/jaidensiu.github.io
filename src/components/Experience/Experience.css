@@ -1,9 +1,9 @@
 .experience__grid {
-  max-width: 1000px;
+  max-width: 975px;
   margin: 0 auto;
   display: block;
 }
 
 .experience__grid > div {
-  margin-bottom: 2em;
+  margin-bottom: 0.8em;
 }
