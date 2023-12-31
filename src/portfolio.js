@@ -53,12 +53,14 @@ const projects = [
         website: 'https://ubcmint.github.io/'
     },
     {
-        name: 'Freelance Web Development Project',
+        name: 'Accura Plastering Website',
         description: String().concat(
             'Freelancing for a local business to build a company website designed to attract customers by optimizing SEO\n',
-            'Building the website with React using HTML, CSS, and JavaScript, and deploying it on a web hosting service',
+            'Building the website with Next using TSX and CSS modules, and deploying the production build using Vercel',
         ),
-        stack: ['HTML', 'CSS', 'JavaScript', 'React']
+        stack: ['HTML', 'CSS', 'TypeScript', 'Next'],
+        github: 'https://github.com/jaidensiu/Accura-Website',
+        website: 'https://www.accuraplastering.com/'
     },
     {
         name: 'Movie Review Web App',
