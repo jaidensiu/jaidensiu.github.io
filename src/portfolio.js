@@ -28,6 +28,7 @@ const experiences = [
         companyLink: 'https://www.avanti.ca/',
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Present',
+        description: 'Description to be added...',
         stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Android Studio', 'Swift', 'SwiftUI', 'Xcode']
     },
     {
@@ -35,6 +36,7 @@ const experiences = [
         companyLink: 'https://www.globalrelay.com/',
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
+        description: 'Description to be added...',
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins']
     }
 ]
