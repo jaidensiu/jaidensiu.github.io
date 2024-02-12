@@ -2,8 +2,8 @@ import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <a href='https://github.com/jaidensiu/jaidensiu.github.io/' className='link footer__link'>
-      © Jaiden Siu 2023
+    <a href='https://jaidensiu.vercel.app' className='link footer__link'>
+      © Jaiden Siu 2024
     </a>
   </footer>
 )

@@ -1,7 +1,7 @@
 import aboutpic from "./components/Access/pic_of_me.jpg"
 
 const header = {
-    homepage: 'https://jaidensiu.github.io/',
+    homepage: 'https://jaidensiu.vercel.app',
     title: 'Jaiden Siu',
 }
 
