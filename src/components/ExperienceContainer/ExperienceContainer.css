@@ -22,14 +22,18 @@
 
 .experience__role {
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
 }
 
 .experience__date {
+    margin-top: 0.5em;
     font-style: italic;
 }
 
 .experience__description {
     margin-top: 0.5em;
+    margin-bottom: 1em;
     text-align: left;
     list-style-type: circle;
     margin-left: 0px;

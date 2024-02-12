@@ -50,6 +50,13 @@
     color: var(--clr-fg-alt);
 }
 
+.project__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5em 0em 0em 0em;
+}
+
 .project .link--icon {
     margin-left: 0.5em;
 }

@@ -5,16 +5,14 @@ import './ExperienceContainer.css'
 
 const ExperienceContainer = ({ experience }) => (
     <div className='experience'>
-        <div className='experience__header'>
-            <a href={experience.companyLink} className="experience__company link" target="_blank" rel="noopener noreferrer">{experience.company}</a>
-            <p className='experience__date'>{experience.date}</p>
-        </div>
+        <a href={experience.companyLink} className="experience__company link" target="_blank" rel="noopener noreferrer">{experience.company}</a>
         <p className='experience__role'>{experience.role}</p>
+        <p className='experience__date'>{experience.date}</p>
         <p className='experience__description'>{experience.description}</p>
         {experience.stack && (
             <ul className='experience__stack'>
                 {experience.stack.map((item) => (
-                <li key={uniqid()} className='experience__stack-item'>{item}</li>
+                    <li key={uniqid()} className='experience__stack-item'>{item}</li>
                 ))}
             </ul>
         )}
