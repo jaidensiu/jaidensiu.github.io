@@ -10,7 +10,7 @@ const about = {
     name: 'Jaiden',
     role: 'Software Developer Co-op @ Avanti • BME + CS @ UBC',
     description: 
-        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I\'m also currently working as a Software Developer Co-op at Avanti building HCM software. Fueled by a profound passion for entrepreneurship and technology, I\'m driven to develop software that directly impacts people. Outside of my professional endeavours, you\'ll find me breaking a sweat by working out or swimming, tickling the ivories on the piano, or strategizing my way to victory in a game of chess. To learn more about me or get in touch, you can visit the links provided below!',
+        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I\'m also currently working as a Software Developer Co-op at Avanti building HCM software. Driven by a profound passion for entrepreneurship and technology, I find a deep sense of meaning developing software that directly impacts people. Outside of my professional endeavours, I enjoy breaking a sweat at the gym, tickling the ivories on the piano, or conquering new heights through climbing adventures. To learn more about me or get in touch, you can visit my links below!',
     contact: {
         resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',

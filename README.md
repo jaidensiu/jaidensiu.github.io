@@ -1,22 +1,27 @@
-## Jaiden's [Portfolio Website](https://jaidensiu.github.io/)
+## My [Portfolio Website](https://jaidensiu.verecel.app)
 
-This repository contains the code for my [portfolio website](https://jaidensiu.github.io/).
+This repository contains the code for my [portfolio website](https://jaidensiu.vercel.app).
 
 Current tasks:
-- Implement a proper experience container component to have correct tags in portofolio.js and in resume format
+- Routing for a blogs page (course reviews, and other stuff)
+    - Could use React Router to allow for multiple page routing
 
-What I learned and what I can further learn:
-- Incorporate Google Search Console for SEO of my website
-- How to create a website using React and host GitHub Pages
-- How to document software, experiences, work, courses, and projects
-- How to design well thought-out UI/UX modules that are aesthetic
-- How to version control really well and use package managers
-- Could use React Router to allow for multiple page routing (maybe even have a blog section for course reviews)
+What I have worked on:
+- Developed a website with React.js, leveraging HTML, CSS, and JavaScript
+- Built a CI/CD pipeline using GitHub Actions for website deployment onto GitHub Pages
+- Leveraged Vercel for website deployment, and monitoring web analytics and vitals
+
+What have I learned:
+- How to use version control for my personal work
+- How to use package managers
+- How to optimize SEO for websites
+- How to design UI for good UX following best practices and principles
+- How to document my work and learning
+- How to build and deploy a website!
 
 Notes:
-- ```npm run deploy``` is what commits changes to the gh-pages branch to be rendered by GitHub Pages via GitHub Actions
-    - Make sure to run ```npm run deploy``` to update GitHub Pages to deploy static React modules
-- ```npm start``` is what starts our application on the local host and allows us to see local changes
+- To start development server ```npm start```
+- To deploy onto GitHub Pages ```npm run deploy```
 
 References:
 - https://create-react-app.dev/docs/deployment/#github-pages
@@ -24,3 +29,4 @@ References:
 - https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
 - https://www.flaticon.com/
 - https://realfavicongenerator.net/
+- https://v4.mui.com/components/material-icons/
