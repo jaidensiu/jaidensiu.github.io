@@ -1,5 +1,5 @@
 .project {
-    padding: 1.6em;
+    padding: 2em;
     margin: 0 auto;
     text-align: left;
     box-shadow: var(--shadow);
@@ -24,9 +24,9 @@
 .project__description {
     margin-top: 0.5em;
     text-align: left;
-    list-style-type: circle;
-    margin-left: 25px;
-    margin-right: 25px
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 .project__photo {

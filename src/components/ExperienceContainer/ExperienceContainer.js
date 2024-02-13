@@ -8,7 +8,16 @@ const ExperienceContainer = ({ experience }) => (
         <a href={experience.companyLink} className="experience__company link" target="_blank" rel="noopener noreferrer">{experience.company}</a>
         <p className='experience__role'>{experience.role}</p>
         <p className='experience__date'>{experience.date}</p>
-        <p className='experience__description'>{experience.description}</p>
+        {experience.description.includes('\n') ? (
+            <ul className='experience__description'>
+                {experience.description.split('\n').map((item) => (
+                    <li key={uniqid()}>{item}</li>
+                ))} 
+            </ul>
+        ) : (
+            <p className='experience__description'>{experience.description}</p>
+        )}
+        {/* <p className='experience__description'>{experience.description}</p> */}
         {experience.stack && (
             <ul className='experience__stack'>
                 {experience.stack.map((item) => (

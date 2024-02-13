@@ -1,9 +1,9 @@
 .projects__grid {
-  max-width: 975px;
+  max-width: 1000px;
   margin: 0 auto;
   display: block;
 }
 
 .projects__grid > div {
-  margin-bottom: 0.8em;
+  margin-bottom: 2em;
 }

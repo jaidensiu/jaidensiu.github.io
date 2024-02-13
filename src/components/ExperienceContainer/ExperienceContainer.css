@@ -1,5 +1,5 @@
 .experience {
-    padding: 1.6em;
+    padding: 2em;
     margin: 0 auto;
     text-align: left;
     box-shadow: var(--shadow);
@@ -29,14 +29,15 @@
 .experience__date {
     margin-top: 0.5em;
     font-style: italic;
+    font-size: 0.9em;
 }
 
 .experience__description {
     margin-top: 0.5em;
     text-align: left;
-    list-style-type: circle;
-    margin-left: 0px;
-    color: #888888
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 .experience__stack {

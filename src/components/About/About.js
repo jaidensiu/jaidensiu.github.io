@@ -1,7 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import EmailIcon from '@material-ui/icons/EmailOutlined'
-import ResumeIcon from '@material-ui/icons/DescriptionOutlined'
+import EmailIcon from '@material-ui/icons/Email'
+import ResumeIcon from '@material-ui/icons/Description'
 import { v4 as uuidv4 } from 'uuid'
 import { about } from '../../portfolio'
 import './About.css'
@@ -14,7 +14,7 @@ const About = () => {
         <div className='about center'>
             {name && (
                 <h1 className="extra__padding">
-                    Hi there, my name is <span className='about__name'>{name}.</span>
+                    Hi there, my name is <span className='about__name'>{name}</span>.
                 </h1>
             )}
             {photo && (

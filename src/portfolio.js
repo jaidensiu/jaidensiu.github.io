@@ -10,10 +10,7 @@ const about = {
     name: 'Jaiden',
     role: 'Software Developer Co-op @ Avanti • BME + CS @ UBC',
     description: 
-        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I have an avid interest in entrepreneurship and technology pertaining to software engineering and healthcare. So far, I have experience with mobile development, web development, and software testing.',
-        // 'Hey there! I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I\'m also currently working as a Software Developer Co-op at Avanti where my focus lies in mobile development. I have an avid interest in software engineering, whether it\'s fleshing out the design of database schemas or integrating novel machine learning algorithms into server side systems. Outside of work, you\'ll find me breaking a sweat with workouts and swimming, tickling the ivories on the piano, or strategizing my way through a game of mahjong. Learn more or contact me in the links below!',
-
-        // 'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I\'m also currently a Software Developer Co-op at Avanti working on mobile development for human capital management. I have an avid interest in entrepreneurship and technology pertaining to many facets of software engineering from databases to distributed systems. So far, I have experience with mobile development, web development, machine learning, and software testing. Outside of work, you\'ll often catch me working out, swimming, practicing the piano, or playing mahjong.',
+        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I\'m also currently working as a Software Developer Co-op at Avanti building HCM software. Fueled by a profound passion for entrepreneurship and technology, I\'m driven to develop software that directly impacts people. Outside of my professional endeavours, you\'ll find me breaking a sweat by working out or swimming, tickling the ivories on the piano, or strategizing my way to victory in a game of chess. To learn more about me or get in touch, you can visit the links provided below!',
     contact: {
         resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',
@@ -28,15 +25,28 @@ const experiences = [
         companyLink: 'https://www.avanti.ca/',
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Present',
-        description: 'Description to be added...',
-        stack: ['Kotlin', 'Jetpack Compose', 'JUnit', 'Mockito', 'Android Studio', 'Swift', 'SwiftUI', 'Xcode']
+        description: String().concat(
+            'Building a mobile app for HR management with 18000+ users to enhance user engagement and satisfaction\n',
+            'Working in an agile scrum team to develop, review, and deploy production-level code for Android and iOS\n',
+            'Implementing Figma designs and building business logic to present the UI in Kotlin using Jetpack Compose\n',
+            'Applying a MVVM pattern to modularize API calls and UI states with Dagger and Hilt for dependency injection\n',
+            'Developing a repository layer to consume a REST API using Retrofit and OkHttp, and cache data using Room\n',
+            'Writing unit tests to yield 95% line coverage using JUnit and Mockito to ensure code quality and correctness'
+        ),
+        stack: ['Kotlin', 'Jetpack Compose', 'XML', 'JUnit', 'Mockito', 'Android Studio', 'Swift', 'SwiftUI', 'Xcode', 'Postman']
     },
     {
         company: 'Global Relay Communications Inc.',
         companyLink: 'https://www.globalrelay.com/',
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
-        description: 'Description to be added...',
+        description: String().concat(
+            'Developed automation tests in Kotlin using Espresso to reduce manual testing of an Android app by 50%\n',
+            'Resolved test automation issues, yielding 95% accurate build results for Jenkins and Docker CI pipelines\n',
+            'Enhanced test software and migrated Java code to Kotlin for improved triage and development efficiency\n',
+            'Executed regression testing to identify and document defects to ensure stability across multiple releases\n',
+            'Designed test scenarios to validate UI flows and background activities with 100% path coverage on TestRail'
+        ),
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins']
     }
 ]
@@ -50,7 +60,7 @@ const projects = [
             'Developed a Flask server in Python hosted on a Raspberry Pi to expose an API endpoint to the iOS client\n',
             'Actuated 4 servo motors from a Flask server using pigpio to execute cooking sequence with 100% reliability'
         ),
-        stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
+        stack: ['Swift', 'SwiftUI', 'Alamofire', 'Xcode', 'Python', 'Flask', 'VS Code', 'Raspberry Pi', 'pigpio'],
         github: 'https://github.com/jaidensiu/Noodle-Doodle',
         livePreview: 'https://devpost.com/software/noodle-doodle'
     },
@@ -58,20 +68,22 @@ const projects = [
         name: 'UBC MINT (Multifaceted Innovations in NeuroTechnology)',
         description: String().concat(
             'Contributed to software development for an award-winning neurotechnology engineering design team\n',
-            'Designed the software architecture for a real-time data visualization web app using the Axios HTTP client\n',
-            'Implemented a REST API using Express with Node and Mongoose to handle livestream data in MongoDB\n',
-            'Verified API endpoints to ensure reliability and performance using Postman and MongoDB Compass\n',
-            'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
+            'Built a data-intensive web application that visualizes a user’s attentiveness state from an EEG headset\n',
+            'Developed a REST API using Express.js to manage routes, and Node.js and Mongoose ODM to define models\n',
+            'Reduced MongoDB query execution times by more than 50% through effective indexing strategies for caching\n',
+            'Verified API endpoints to ensure backend reliability and performance using Postman and MongoDB Compass',
+            // 'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
         ),
-        stack: ['Python', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Unity', 'Tkinter'],
+        stack: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Axios', 'Unity', 'Tkinter'],
         github: 'https://github.com/UBCMint',
         website: 'https://ubcmint.github.io/'
     },
     {
         name: 'Accura Plastering Website',
         description: String().concat(
-            'Freelancing for a local business to build a company website designed to attract customers by optimizing SEO\n',
-            'Building the website with Next using TSX and CSS modules, and deploying the production build using Vercel',
+            'Freelanced for a local business to build a website, focusing on SEO to improve site ranking using metadata\n',
+            'Built the website using Next.js with TypeScript and CSS, and deployed the website onto a domain with Vercel\n',
+            'Optimized web vitals by minimizing latency to 0.06s and responsiveness to 0.03s for the optimal user experience',
         ),
         stack: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'React.js'],
         github: 'https://github.com/jaidensiu/Accura-Website',
@@ -113,13 +125,13 @@ const projects = [
     {
         name: 'Microfluidic Characterization Device',
         description:
-            'A design project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and designed Arduino sketch software to control the actuation of physical components such as servo motors.',
+            'A design course project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and wrote Arduino sketch software to control the actuation of physical components such as servo motors.',
         stack: ['C++', 'Arduino', 'SolidWorks', 'MultiSim']
     },
     {
         name: 'Autonomous Robotic Claw',
         description:
-            'An engineering design course project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
+            'A design course project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
         stack: ['C++', 'Arduino', 'SolidWorks'],
         github: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw'
     }
