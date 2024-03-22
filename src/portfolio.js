@@ -1,7 +1,7 @@
 import aboutpic from "./components/Access/pic_of_me.jpg"
 
 const header = {
-    homepage: 'https://jaidensiu.vercel.app',
+    homepage: '/',
     title: 'Jaiden Siu',
 }
 
@@ -20,6 +20,14 @@ const about = {
 }
 
 const experiences = [
+    {
+        company: 'Form Athletica Inc.',
+        companyLink: 'https://ca.formswim.com/',
+        role: 'Android Developer Co-op',
+        date: 'Incoming May 2024',
+        description: String().concat(),
+        stack: []
+    },
     {
         company: 'Avanti Software Inc.',
         companyLink: 'https://www.avanti.ca/',

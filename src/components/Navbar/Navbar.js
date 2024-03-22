@@ -17,15 +17,22 @@ const Navbar = () => {
             <ul style={{ display: showNavList ? 'flex' : null }} className='nav__list'>
                 {experiences.length ? (
                     <li className='nav__list-item'>
-                        <a href='#experiences' onClick={toggleNavList} className='link link--nav'>
+                        <a href='/#experiences' onClick={toggleNavList} className='link link--nav'>
                             Experience
                         </a>
                     </li>
                 ) : null}
                 {projects.length ? (
                     <li className='nav__list-item'>
-                        <a href='#projects' onClick={toggleNavList} className='link link--nav'>
+                        <a href='/#projects' onClick={toggleNavList} className='link link--nav'>
                             Projects
+                        </a>
+                    </li>
+                ) : null}
+                {projects.length ? (
+                    <li className='nav__list-item'>
+                        <a href='/blogs' onClick={toggleNavList} className='link link--nav'>
+                            Blogs
                         </a>
                     </li>
                 ) : null}
