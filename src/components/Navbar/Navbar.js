@@ -15,6 +15,11 @@ const Navbar = () => {
     return (
         <nav className='center nav'>
             <ul style={{ display: showNavList ? 'flex' : null }} className='nav__list'>
+                <li className='nav__list-item'>
+                    <a href='/' onClick={toggleNavList} className='link link--nav'>
+                        About
+                    </a>
+                </li>
                 {experiences.length ? (
                     <li className='nav__list-item'>
                         <a href='/#experiences' onClick={toggleNavList} className='link link--nav'>
@@ -29,13 +34,11 @@ const Navbar = () => {
                         </a>
                     </li>
                 ) : null}
-                {projects.length ? (
-                    <li className='nav__list-item'>
-                        <a href='/blogs' onClick={toggleNavList} className='link link--nav'>
-                            Blogs
-                        </a>
-                    </li>
-                ) : null}
+                <li className='nav__list-item'>
+                    <a href='/blogs' onClick={toggleNavList} className='link link--nav'>
+                        Blogs
+                    </a>
+                </li>
             </ul>
             <button type='button' onClick={toggleTheme} className='btn btn--icon nav__theme' aria-label='toggle theme'>
                 {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}

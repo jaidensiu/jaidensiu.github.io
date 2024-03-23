@@ -1,9 +1,23 @@
 .blogs {
-    height: 100vh;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
 }
 
 .centered {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blogs__grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+  
+.blogs__grid > div {
+    margin-bottom: 2em;
 }

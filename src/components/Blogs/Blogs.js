@@ -1,12 +1,17 @@
-import React from 'react';
+import uniqid from 'uniqid'
+import { blogs } from '../../portfolio'
+import BlogContainer from '../BlogContainer/BlogContainer'
 import './Blogs.css'
 
 const Blogs = () => (
-    <div className='blogs'>
-        <div className='centered'>
-            <h3>Blog page in construction...</h3>
+    <section id='blogs' className='section'>
+        <h2 className='section__title'>Blogs</h2>
+        <div className='blogs__grid'>
+            {blogs.map((blog) => (
+                <BlogContainer key={uniqid()} blog={blog}/>
+            ))}
         </div>
-    </div>
+    </section>
 )
 
-export default Blogs;
+export default Blogs

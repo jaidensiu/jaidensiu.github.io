@@ -41,7 +41,7 @@ const experiences = [
             'Developing a repository layer to consume a REST API using Retrofit and OkHttp, and cache data using Room\n',
             'Writing unit tests to yield 95% line coverage using JUnit and Mockito to ensure code quality and correctness'
         ),
-        stack: ['Kotlin', 'Jetpack Compose', 'XML', 'JUnit', 'Mockito', 'Android Studio', 'Swift', 'SwiftUI', 'Xcode', 'Postman']
+        stack: ['Kotlin', 'Jetpack Compose', 'XML', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Android Studio', 'Postman']
     },
     {
         company: 'Global Relay Communications Inc.',
@@ -55,7 +55,7 @@ const experiences = [
             'Executed regression testing to identify and document defects to ensure stability across multiple releases\n',
             'Designed test scenarios to validate UI flows and background activities with 100% path coverage on TestRail'
         ),
-        stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins']
+        stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins', 'Docker']
     }
 ]
 
@@ -73,7 +73,7 @@ const projects = [
         livePreview: 'https://devpost.com/software/noodle-doodle'
     },
     {
-        name: 'UBC MINT (Multifaceted Innovations in NeuroTechnology)',
+        name: 'UBC Multifaceted Innovations in NeuroTechnology',
         description: String().concat(
             'Contributed to software development for an award-winning neurotechnology engineering design team\n',
             'Built a data-intensive web application that visualizes a user’s attentiveness state from an EEG headset\n',
@@ -145,4 +145,12 @@ const projects = [
     }
 ]
 
-export { header, about, experiences, projects }
+const blogs = [
+    {
+        name: "Name of Blog Post",
+        description: "One line description of blog.",
+        link: "/blogs/blog1"
+    }
+]
+
+export { header, about, experiences, projects, blogs }
