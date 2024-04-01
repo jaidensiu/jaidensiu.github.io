@@ -5,6 +5,7 @@ import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
+import BmegElectives from './components/Blogs/Blogposts/BmegElectives'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -22,6 +23,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/blogs" element={<main><Blogs /></main>} />
+                    <Route path="/blogs/bmegelectives" element={<main><BmegElectives /></main>} />
                 </Routes>
                 <ScrollToTop />
                 <Footer />

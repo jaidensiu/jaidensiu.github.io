@@ -6,6 +6,16 @@
     transition: transform 0.2s linear;
 }
 
+.blogs__section {
+    min-height: 100vh;
+}
+
+.blogs__section__title {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .centered {
     display: flex;
     justify-content: center;

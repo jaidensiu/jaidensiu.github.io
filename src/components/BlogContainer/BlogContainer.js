@@ -3,8 +3,7 @@ import './BlogContainer.css'
 
 const BlogContainer = ({ blog }) => (
     <div className='blog'>
-        <a href={blog.link} className="blog__company link" rel="noopener noreferrer">{blog.name}</a>
-        <p className='blog__role'>{blog.role}</p>
+        <a href={blog.link} className="blog__fonts link" rel="noopener noreferrer">{blog.name}</a>
         <p className='blog__date'>{blog.date}</p>
         {blog.description.includes('\n') ? (
             <ul className='experience__description'>

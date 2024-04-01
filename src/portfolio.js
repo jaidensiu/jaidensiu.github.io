@@ -147,10 +147,10 @@ const projects = [
 
 const blogs = [
     {
-        name: "Name of Blog Post",
-        description: "One line description of blog.",
-        link: "/blogs/blog1"
-    }
+        name: 'UBC BMEG Technical Electives Guide',
+        description: 'An in depth guide to choosing your technical electives in BMEG.',
+        link: '/blogs/bmegelectives'
+    },
 ]
 
 export { header, about, experiences, projects, blogs }

@@ -4,8 +4,8 @@ import BlogContainer from '../BlogContainer/BlogContainer'
 import './Blogs.css'
 
 const Blogs = () => (
-    <section id='blogs' className='section'>
-        <h2 className='section__title'>Blogs</h2>
+    <section id='blogs' className='blogs__section section'>
+        <h2 className='blogs__section__title'>Blogs</h2>
         <div className='blogs__grid'>
             {blogs.map((blog) => (
                 <BlogContainer key={uniqid()} blog={blog}/>
