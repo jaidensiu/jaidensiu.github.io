@@ -98,7 +98,7 @@ const BmegElectivesGuide = () => {
                 <h3 className='blogpost__section__title'>Prologue</h3>
                 <div className='blogpost__section__body'>
                     <p>
-                        UBC&apos;s Biomedical Engineering (BMEG) program offers a plethora of technical electives for students. I was someone who had too many interests and worried about fitting all the courses that interested me in my course schedule each year. As someone who is near the end of BMEG and currently in the streams curriculum (more on that in a bit), I hope to help you decide what electives you might want to take.
+                        UBC&apos;s Biomedical Engineering program (BMEG) offers a plethora of technical electives for students from many different departments. I was someone who had too many interests and worried about fitting all the courses that interested me in my course schedule each year. As someone who is near the end of BMEG and currently in the streams curriculum (more on that in a bit), I hope to help you decide what electives you might want to take.
                     </p>
                 </div>
             </section>
@@ -119,16 +119,16 @@ const BmegElectivesGuide = () => {
                 <h3 className='blogpost__section__title'>Too many electives and decision paralysis</h3>
                 <div className='blogpost__section__body'>
                     <p>
-                        If you are in the streams curriculum, choosing your technical electives isn&apos;t too hard to figure out as your selection of electives are bounded based on your stream. For me, I was interested in CPSC and ELEC courses so I decided to pursue the Informatics stream while and took some courses that overlapped with the Systems and Signals stream. You can see more of how I planned my courses in my degree planner spreadsheet which I&apos;ve linked in the last section of this blog.
+                        If you are in the streams curriculum, choosing your technical electives isn&apos;t too hard to figure out as your selection of electives are bounded based on your stream. For me, I was interested in CPSC and ELEC courses so I decided to pursue the Informatics stream and took some courses from the Systems and Signals stream. You can see more of how I planned my courses in my degree planner spreadsheet which I&apos;ve linked in the last section of this blog.
                         <br />
                         <br />
-                        If you are in the specializations curriculum, choosing your technical electives might be a bit harder to figure out since you are faced with a huge list of electives and you might not know how to satisfy the requirements. I would recommend to look at the streams to help guide what set of courses you might want to take. The following section will also provide you with a similar set of courses for each stream/specialization.
+                        If you are in the specializations curriculum, choosing your technical electives might be a bit harder to figure out since you are faced with a huge list of electives, and you might not know if you satisfy the requirements right away. I would recommend to look at the streams to help guide what set of courses you might want to take before you try to plan your courses to meet the requirements. The following section will also provide you with a similar set of courses for each stream/specialization.
                         <br />
                         <br />
                         In the case you find yourself wanting to take more electives than the required amount, it is possible to take extra courses even outside the list of technical electives to explore your interests. I would reach out to SBME Student Services if they can count certain electives outside of the list as part of your degree since some courses might be eligible for approval to count towards your technical electives requirements.
                         <br />
                         <br />
-                        If you are interested in taking CPSC electives, I would highly advise you to take CPEN 221 instead of CPEN 223 in 2nd year so you can take CPSC 221 since its pre-reqs are CPEN 221 with either MATH 220 or CPSC 121. Nearly all the upper level CPSC courses in the technical electives list need CPSC 221 as a pre-req.
+                        Don&apos;t bite more than you can chew when it comes to planning your courses each term, make sure you leave room in your schedule so you have time to do other things in your life. Narrow down the courses you want to take, practice making decisions quickly, and plan out the courses you want to take. Engineering is challenging, so make sure you are able to strike a balance between quality and quantity that works for you in regards to learning.
                     </p>
                 </div>
             </section>
@@ -138,6 +138,9 @@ const BmegElectivesGuide = () => {
                 <div className='blogpost__section__body'>
                     <p>
                         Based on the combined experience and knowledge of other BMEG students and myself, these are the following technical electives that we would recommend for each stream/specialization.
+                        <br />
+                        <br />
+                        If you are interested in taking CPSC electives, I would highly advise you to take CPEN 221 instead of CPEN 223 in 2nd year so you can take CPSC 221 since its pre-reqs are CPEN 221 with either MATH 220 or CPSC 121. Nearly all of the upper level CPSC courses in the technical electives list need CPSC 221 as a pre-req.
                     </p>
                     <section id='informatics'>
                         <h4 className='blogpost__section__title'>Biomedical Informatics</h4>
