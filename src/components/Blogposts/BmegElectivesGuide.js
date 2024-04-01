@@ -41,7 +41,7 @@ const BmegElectivesGuide = () => (
                 In the case you find yourself wanting to take more electives than the required amount, it is possible to take extra courses even outside the list of technical electives to explore your interests. I would reach out to SBME Student Services if they can count certain electives outside of the list as part of your degree since some courses might be eligible for approval to count towards your technical electives requirements.
                 <br />
                 <br />
-                If you are interested in taking CPSC/CPEN electives, I would highly advise you to take CPEN 221 instead of CPEN 223 in 2nd year so you can take CPSC 221 (pre-reqs are CPEN 221 with either MATH 220 or CPSC 121). CPSC 221 is generally one of the pre-reqs for the upper level CPSC/CPEN courses in the technical electives list.
+                If you are interested in taking CPSC/CPEN electives, I would highly advise you to take CPEN 221 instead of CPEN 223 in 2nd year so you can take CPSC 221 (pre-reqs are CPEN 221 with either MATH 220 or CPSC 121). CPSC 221 is generally a pre-req for upper level CPSC/CPEN courses in the technical electives list.
             </p>
         </div>
 
