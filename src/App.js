@@ -22,7 +22,7 @@ const App = () => {
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/blogs">
+                    <Route path="/blogs/*">
                         <Route index element={<main><Blogs /></main>}/>
                         <Route path="bmegelectives" element={<main><BmegElectives /></main>} />
                     </Route>
