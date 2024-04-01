@@ -1,7 +1,7 @@
 import './Blogposts.css'
 
 const BmegElectives = () => (
-    <div className='blogpost'>
+    <section className='blogpost'>
         <div className='blogpost__header'>
             <h2>UBC BMEG Technical Electives Guide</h2>
             <p>Last edited: March 31, 2024 (in progress)</p>
@@ -34,7 +34,7 @@ const BmegElectives = () => (
                 TODO
             </p>
         </div>
-    </div>
+    </section>
 )
 
 export default BmegElectives
