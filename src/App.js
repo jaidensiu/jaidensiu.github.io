@@ -1,11 +1,11 @@
-import { inject } from '@vercel/analytics';
+import { inject } from '@vercel/analytics'
 import { useContext } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
-import BmegElectivesGuide from './components/Blogposts/BmegElectivesGuide'
+import BmegElectivesGuide from './components/BlogPosts/BmegElectivesGuide'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'

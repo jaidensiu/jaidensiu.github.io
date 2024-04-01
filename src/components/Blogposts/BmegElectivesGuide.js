@@ -1,8 +1,8 @@
 import bme from "../Access/bme.jpeg"
-import './Blogposts.css'
+import './BlogPosts.css'
 
 const BmegElectivesGuide = () => (
-    <section id='bmegelectives' className='blogpost section'>
+    <section id='bmeg-electives-guide' className='blogpost section'>
         <div className='blogpost__header'>
             <h2>UBC BMEG Technical Electives Guide</h2>
             <p>April 1, 2024</p>
