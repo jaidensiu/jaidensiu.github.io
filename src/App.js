@@ -22,8 +22,10 @@ const App = () => {
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/blogs" element={<main><Blogs /></main>} />
-                    <Route path="/blogs/bmegelectives" element={<main><BmegElectives /></main>} />
+                    <Route path="/blogs">
+                        <Route index element={<main><Blogs /></main>}/>
+                        <Route path="bmegelectives" element={<main><BmegElectives /></main>} />
+                    </Route>
                 </Routes>
                 <ScrollToTop />
                 <Footer />
