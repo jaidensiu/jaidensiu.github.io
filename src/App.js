@@ -23,7 +23,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/blogs" element={<main><Blogs /></main>} />
-                    <Route path="/blogs/bmegelectives" element={<main><BmegElectives /></main>} />
+                    <Route path="/blogs/:bmegelectives" element={<main><BmegElectives /></main>} />
                 </Routes>
                 <ScrollToTop />
                 <Footer />
