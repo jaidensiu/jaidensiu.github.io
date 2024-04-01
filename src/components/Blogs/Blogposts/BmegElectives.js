@@ -1,7 +1,7 @@
 import './Blogposts.css'
 
 const BmegElectives = () => (
-    <section className='blogpost'>
+    <section id='bmegelectives' className='blogpost'>
         <div className='blogpost__header'>
             <h2>UBC BMEG Technical Electives Guide</h2>
             <p>Last edited: March 31, 2024 (in progress)</p>
