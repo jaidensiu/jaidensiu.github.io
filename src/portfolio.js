@@ -149,7 +149,8 @@ const blogs = [
     {
         name: 'UBC BMEG Technical Electives Guide',
         description: 'An in depth guide to choosing your technical electives in BMEG.',
-        link: '/blogs/bmegelectives'
+        date: 'Apr 1, 2024',
+        link: '/blogs/bmeg-electives-guide'
     },
 ]
 
