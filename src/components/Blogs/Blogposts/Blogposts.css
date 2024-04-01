@@ -1,9 +1,9 @@
 .blogpost {
-    margin-top: 2em;
     min-height: 100vh;
 }
 
 .blogpost__header {
+    margin-top: 2em;
     margin-bottom: 2em;
 }
 
