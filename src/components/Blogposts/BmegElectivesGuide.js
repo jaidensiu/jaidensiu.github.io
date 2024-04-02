@@ -98,7 +98,7 @@ const BmegElectivesGuide = () => {
                 <h3 className='blogpost__section__title'>Prologue</h3>
                 <div className='blogpost__section__body'>
                     <p>
-                        UBC&apos;s Biomedical Engineering program (BMEG) offers a plethora of technical electives for students from many different departments. I was someone who had too many interests and worried about fitting all the courses that interested me in my course schedule each year. As someone who is near the end of BMEG and currently in the streams curriculum (more on that in a bit), I hope to help you decide what electives you might want to take.
+                        The biomedical engineering program at UBC offers a plethora of technical electives. I was someone who had too many interests and worried about fitting all the courses that interested me in my course schedule each year. As someone who is near the end of BMEG and in the streams curriculum (more on that in a bit), I hope to help you decide what electives you might want to take.
                     </p>
                 </div>
             </section>
