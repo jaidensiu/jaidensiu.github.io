@@ -145,7 +145,7 @@ const BmegElectivesGuide = () => {
                     <section id='informatics'>
                         <h4 className='blogpost__section__title'>Biomedical Informatics</h4>
                         <p>
-                            This area is focused on computer science subjects related to algorithms, machine learning, and big data.
+                            This area is focused on computer science subjects such as algorithms, machine learning, and big data.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
@@ -157,38 +157,124 @@ const BmegElectivesGuide = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>MATH 220 or CPSC 121</td>
-                                    <td>Mathematical Proof or Models of Computation</td>
-                                    <td>3 or 4</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=121"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 121
+                                        </a> 
+                                        &nbsp;or&nbsp;
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MATH&course=220"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MATH 220
+                                        </a> 
+                                    </td>
+                                    <td>Models of Computation or Mathematical Proof</td>
+                                    <td>4 or 3</td>
                                 </tr>
                                 <tr>
-                                    <td>CPSC 221</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 221
+                                        </a> 
+                                    </td>
                                     <td>Basic Algorithms and Data Structures</td>
                                     <td>4</td>
                                 </tr>
                                 <tr>
-                                    <td>CPSC 304</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=304"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 304
+                                        </a> 
+                                    </td>
                                     <td>Introduction to Relational Databases</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>CPSC 320</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=320"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 320
+                                        </a> 
+                                    </td>
                                     <td>Intermediate Algorithm Design and Analysis</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>CPSC 330</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=330"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 330
+                                        </a> 
+                                    </td>
                                     <td>Applied Machine Learning</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>CPSC 340</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=340"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 340
+                                        </a> 
+                                    </td>
                                     <td>Machine Learning and Data Mining</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 424</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=424"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 424
+                                        </a> 
+                                    </td>
                                     <td>Genome Informatics</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=425"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPSC 425
+                                        </a> 
+                                    </td>
+                                    <td>Computer Vision</td>
                                     <td>3</td>
                                 </tr>
                             </tbody>
@@ -197,7 +283,7 @@ const BmegElectivesGuide = () => {
                     <section id='biomechanics'>
                         <h4 className='blogpost__section__title'>Biomechanics and Biomaterials</h4>
                         <p>
-                            This area is focused on mechanical and materials engineering subjects related to mechanics, materials, and medical devices.
+                            This area is focused on mechanical and materials engineering subjects such as mechanics, materials, and medical devices.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
@@ -209,37 +295,123 @@ const BmegElectivesGuide = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>APSC 278 + 279</td>
-                                    <td>Engineering Materials + Laboratory</td>
-                                    <td>3 + 1</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=278"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            APSC 278
+                                        </a>
+                                        &nbsp;and&nbsp;
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=APSC&course=279"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            APSC 279
+                                        </a>
+                                    </td>
+                                    <td>Engineering Materials and Engineering Materials Laboratory</td>
+                                    <td>3 and 1</td>
                                 </tr>
                                 <tr>
-                                    <td>MECH 260</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=260"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MECH 260
+                                        </a>
+                                    </td>
                                     <td>Introduction to Mechanics of Materials</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 330</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=330"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 330
+                                        </a>
+                                    </td>
                                     <td>Biomechanics II</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>MECH 360</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=360"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MECH 360
+                                        </a>
+                                    </td>
                                     <td>Mechanics of Materials</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>MECH 433</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=495"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 495
+                                        </a>
+                                    </td>
+                                    <td>Biomaterials</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=433"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MECH 433
+                                        </a>
+                                    </td>
                                     <td>Biofluids</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>MECH 436</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=436"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MECH 436
+                                        </a>
+                                    </td>
                                     <td>Fundamentals of Injury Biomechanics</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>MECH 462</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=462"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MECH 462
+                                        </a>
+                                    </td>
                                     <td>Finite Element Analysis</td>
                                     <td>3</td>
                                 </tr>
@@ -249,7 +421,7 @@ const BmegElectivesGuide = () => {
                     <section id='systems'>
                         <h4 className='blogpost__section__title'>Biomedical Systems and Signals</h4>
                         <p>
-                            This area is focused on electrical engineering subjects related to signals, medical imaging, and robotics.
+                            This area is focused on electrical engineering subjects such as signals, medical imaging, and robotics.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
@@ -261,38 +433,124 @@ const BmegElectivesGuide = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>ELEC 221</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ELEC&course=221"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            ELEC 221
+                                        </a>
+                                    </td>
                                     <td>Signals and Systems</td>
                                     <td>4</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 320</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=320"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 320
+                                        </a>
+                                    </td>
                                     <td>Bioengineering Feedback Systems and Controls</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 420</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=420"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 420
+                                        </a>
+                                    </td>
                                     <td>Medical Imaging</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 421</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=421"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 421
+                                        </a>
+                                    </td>
                                     <td>Linear Systems in Optics</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 422</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=422"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 422
+                                        </a>
+                                    </td>
                                     <td>Modern Biomedical Optical Imaging</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 425 / MECH 464</td>
-                                    <td>Biomedical Robotics / Industrial Robotics</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ELEC&course=421"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            ELEC 421
+                                        </a>
+                                        &nbsp;or&nbsp;
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ELEC&course=422"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            ELEC 422
+                                        </a>
+                                    </td>
+                                    <td>Digital Signal and Image Processing or Biosignals and Systems</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>ELEC 421 / 422</td>
-                                    <td>Digital Signal and Image Processing / Biosignals and Systems</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ELEC&course=462"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            ELEC 462
+                                        </a>
+                                    </td>
+                                    <td>Sensors and Actuators in Microsystems</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=464"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MECH 464
+                                        </a>
+                                    </td>
+                                    <td>Industrial Robotics</td>
                                     <td>3</td>
                                 </tr>
                             </tbody>
@@ -301,7 +559,7 @@ const BmegElectivesGuide = () => {
                     <section id='cellular'>
                         <h4 className='blogpost__section__title'>Cellular Bioengineering</h4>
                         <p>
-                            This area is focused on bioengineering subjects related to cells, bioprocesses, and biotechnology.
+                            This area is focused on bioengineering subjects such as molecular biology, bioprocessing, and biotechnology.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
@@ -313,37 +571,123 @@ const BmegElectivesGuide = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>MICB 202 / 212</td>
-                                    <td>Introductory Medical Microbiology and Immunology / Introductory Immunology and Virology</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MICB&course=202"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MICB 202
+                                        </a>
+                                        &nbsp;or&nbsp;
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MICB&course=212"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            MICB 212
+                                        </a>
+                                    </td>
+                                    <td>Introductory Medical Microbiology and Immunology or Introductory Immunology and Virology</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 373</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BIOC&course=302"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BIOC 302
+                                        </a>
+                                    </td>
+                                    <td>General Biochemistry</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=373"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 373
+                                        </a>
+                                    </td>
                                     <td>Microfluidics</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 374</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=374"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 374
+                                        </a>
+                                    </td>
                                     <td>Cellular Bioengineering: Laboratory and Design</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>CHBE 381</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CHBE&course=381"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CHBE 381
+                                        </a>
+                                    </td>
                                     <td>Biological Engineering and Bio-Manufacturing I</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>BMEG 470</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=470"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 470
+                                        </a>
+                                    </td>
                                     <td>Cellular Responses to Forces and Biomaterials</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>CAPS 421</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CAPS&course=421"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CAPS 421
+                                        </a>
+                                    </td>
                                     <td>Cell Biology and Human Disease</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
-                                    <td>CHBE 481</td>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CHBE&course=481"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CHBE 481
+                                        </a>
+                                    </td>
                                     <td>Biological Engineering and Bio-Manufacturing II</td>
                                     <td>4</td>
                                 </tr>
