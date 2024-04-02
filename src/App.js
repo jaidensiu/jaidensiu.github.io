@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
 import BmegElectivesGuide from './components/BlogPosts/BmegElectivesGuide'
+import BmegGuide from './components/BlogPosts/BmegGuide'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -24,6 +25,7 @@ const App = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/blogs" element={<main><Blogs /></main>} />
                     <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
+                    <Route path="/blogs/bmeg-guide" element={<main><BmegGuide /></main>} />
                 </Routes>
                 <ScrollToTop />
                 <Footer />

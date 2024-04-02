@@ -24,7 +24,7 @@ const experiences = [
         company: 'Form Athletica Inc.',
         companyLink: 'https://ca.formswim.com/',
         role: 'Android Developer Co-op',
-        date: 'Incoming May 2024',
+        date: 'Incoming Apr 2024',
         description: String().concat(),
         stack: []
     },
@@ -148,10 +148,16 @@ const projects = [
 const blogs = [
     {
         name: 'UBC BMEG Technical Electives Guide',
-        description: 'An in depth guide to choosing your technical electives in BMEG.',
-        date: 'Apr 1, 2024',
+        description: 'An in depth guide for choosing your technical electives in BMEG.',
+        date: 'Apr 2, 2024',
         link: '/blogs/bmeg-electives-guide'
     },
+    {
+        name: 'Guide to UBC BMEG',
+        description: 'An overview of the biomedical engineering program at UBC.',
+        date: 'Apr 2, 2024',
+        link: '/blogs/bmeg-guide'
+    }
 ]
 
 export { header, about, experiences, projects, blogs }

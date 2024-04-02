@@ -26,7 +26,7 @@ const BmegElectivesGuide = () => {
         <section id='bmeg-electives-guide' className='blogpost section'>
             <div className='blogpost__header'>
                 <h2>UBC BMEG Technical Electives Guide</h2>
-                <p>April 1, 2024</p>
+                <p>April 2, 2024</p>
                 <button type="button" className="link" onClick={copyLinkToClipboard}>
                     Copy link
                 </button>
