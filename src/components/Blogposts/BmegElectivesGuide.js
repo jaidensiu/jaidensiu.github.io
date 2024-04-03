@@ -252,6 +252,20 @@ const BmegElectivesGuide = () => {
                                 <tr>
                                     <td>
                                         <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=423"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 423
+                                        </a> 
+                                    </td>
+                                    <td>Clinical Informatics</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
                                             href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=424"
                                             className='link'
                                             target='_blank'
@@ -262,6 +276,20 @@ const BmegElectivesGuide = () => {
                                     </td>
                                     <td>Genome Informatics</td>
                                     <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPEN&course=441"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            CPEN 441
+                                        </a> 
+                                    </td>
+                                    <td>Human Computer Interfaces in Engineering Design</td>
+                                    <td>4</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -348,6 +376,20 @@ const BmegElectivesGuide = () => {
                                 <tr>
                                     <td>
                                         <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=373"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 373
+                                        </a>
+                                    </td>
+                                    <td>Microfluidics</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
                                             href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=MECH&course=360"
                                             className='link'
                                             target='_blank'
@@ -357,6 +399,20 @@ const BmegElectivesGuide = () => {
                                         </a>
                                     </td>
                                     <td>Mechanics of Materials</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=400L"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 400L
+                                        </a>
+                                    </td>
+                                    <td>Experimental Microfluidics for Bioanalytical Applications</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
@@ -505,6 +561,20 @@ const BmegElectivesGuide = () => {
                                 <tr>
                                     <td>
                                         <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=425"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 425
+                                        </a>
+                                    </td>
+                                    <td>Biomedical Robotics</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
                                             href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=ELEC&course=421"
                                             className='link'
                                             target='_blank'
@@ -610,20 +680,6 @@ const BmegElectivesGuide = () => {
                                 <tr>
                                     <td>
                                         <a
-                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=373"
-                                            className='link'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                        >
-                                            BMEG 373
-                                        </a>
-                                    </td>
-                                    <td>Microfluidics</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a
                                             href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=374"
                                             className='link'
                                             target='_blank'
@@ -652,6 +708,20 @@ const BmegElectivesGuide = () => {
                                 <tr>
                                     <td>
                                         <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=400J"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 400J
+                                        </a>
+                                    </td>
+                                    <td>Immunoengineering</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
                                             href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=470"
                                             className='link'
                                             target='_blank'
@@ -661,6 +731,20 @@ const BmegElectivesGuide = () => {
                                         </a>
                                     </td>
                                     <td>Cellular Responses to Forces and Biomaterials</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=474"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 474
+                                        </a>
+                                    </td>
+                                    <td>Stem Cells and Regenerative Medicine</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
