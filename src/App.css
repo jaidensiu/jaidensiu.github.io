@@ -167,8 +167,9 @@ main {
     transform: translateY(-5px);
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     .section {
-        margin-top: 4em;
+        margin-left: 1px;
+        margin-right: 1px;
     }
-} */
+}

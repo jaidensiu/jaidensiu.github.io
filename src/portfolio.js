@@ -12,7 +12,7 @@ const about = {
     description: 
         'I\'m currently a student at the University of British Columbia studying Biomedical Engineering and Computer Science. I\'m also currently working as a Software Developer Co-op at Avanti building HCM software. Driven by a profound passion for entrepreneurship and technology, I find a deep sense of meaning developing software that directly impacts people. Outside of my professional endeavours, I enjoy breaking a sweat at the gym, tickling the ivories on the piano, or conquering new heights through climbing adventures. To learn more about me or get in touch, you can visit my links below!',
     contact: {
-        resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
+        // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',
         linkedin: 'https://www.linkedin.com/in/jaidensiu/',
         email: 'siujaiden@gmail.com'

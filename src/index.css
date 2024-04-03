@@ -53,12 +53,15 @@ button {
 
 table {
   border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
 }
 
 th, td {
   border: 1px solid var(--clr-fg);
   padding: 8px;
   text-align: left;
+  overflow: auto;
 }
 
 @media (max-width: 900px) {

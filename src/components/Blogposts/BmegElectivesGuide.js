@@ -8,7 +8,7 @@ const BmegElectivesGuide = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
 
     const copyLinkToClipboard = () => {
-        const linkToCopy = "jaidensiu.vercel.app/blogs/bmeg-electives-guide";
+        const linkToCopy = "https://jaidensiu.vercel.app/blogs/bmeg-electives-guide";
         // Navigator clipboard API
         navigator.clipboard.writeText(linkToCopy)
             .then(() => {
@@ -31,7 +31,7 @@ const BmegElectivesGuide = () => {
                     Copy link
                 </button>
                 <Snackbar open={openSnackbar} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
-                    <MuiAlert severity="success" sx={{ width: '100%' }}>
+                    <MuiAlert severity="success" variant="filled" sx={{ width: '100%' }}>
                         Link copied to clipboard.
                     </MuiAlert>
                 </Snackbar>
@@ -137,7 +137,7 @@ const BmegElectivesGuide = () => {
                 <h3 className='blogpost__section__title'>Recommended technical electives</h3>
                 <div className='blogpost__section__body'>
                     <p>
-                        Based on the combined experience and knowledge of other BMEG students and myself, these are the following technical electives that we would recommend for each stream/specialization.
+                        With the combined experience and knowledge of other BMEG students and myself, the technical electives tables in the following section are what I would recommend for each stream/specialization. Note that these are just a rough guide of where I think each course falls with respect to each stream/specialization.
                         <br />
                         <br />
                         If you are interested in taking CPSC electives, I would highly advise you to take CPEN 221 instead of CPEN 223 in 2nd year so you can take CPSC 221 since its pre-reqs are CPEN 221 with either MATH 220 or CPSC 121. Nearly all of the upper level CPSC courses in the technical electives list need CPSC 221 as a pre-req.
@@ -785,7 +785,7 @@ const BmegElectivesGuide = () => {
                 <h3 className='blogpost__section__title'>Parting words</h3>
                 <div className='blogpost__section__body'>
                     <p>
-                        At the end of the day, the technical electives let you explore what you like and don&apos;t like. Don&apos;t be afraid of reaching out to professors and upper year students to ask about courses and their advice. I would check out the <a className='link' target='_blank' rel='noopener noreferrer' href='https://www.reddit.com/r/BMEG/'>BMEG Reddit</a> as past students leave course reviews, and this <a className='link' target='_blank' rel='noopener noreferrer' href='https://docs.google.com/spreadsheets/d/1mx7LyDsvWd91xz02KM4TONPdYCS35O-0akQ7jdQ6Xwk/edit?usp=sharing'>BMEG Degree Planner</a> spreadsheet I made to plan my courses.
+                        At the end of the day, the technical electives let you explore what you like and don&apos;t like. Don&apos;t be afraid of reaching out to professors and upper year students to ask about courses and their advice. I would check out the <a className='link' target='_blank' rel='noopener noreferrer' href='https://www.reddit.com/r/BMEG/'>BMEG Reddit</a> as past students leave course reviews, and this <a className='link' target='_blank' rel='noopener noreferrer' href='https://docs.google.com/spreadsheets/d/1mx7LyDsvWd91xz02KM4TONPdYCS35O-0akQ7jdQ6Xwk/edit?usp=sharing'>BMEG Degree Planner</a> spreadsheet I made to plan my courses. Special thanks to my friends who reviewed this blog post and offered me suggestions.
                     </p>
                 </div>
             </section>

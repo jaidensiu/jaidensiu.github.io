@@ -7,7 +7,7 @@ const BmegElectivesGuide = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
 
     const copyLinkToClipboard = () => {
-        const linkToCopy = "jaidensiu.vercel.app/blogs/bmeg-guide";
+        const linkToCopy = "https://jaidensiu.vercel.app/blogs/bmeg-guide";
         // Navigator clipboard API
         navigator.clipboard.writeText(linkToCopy)
             .then(() => {
@@ -30,7 +30,7 @@ const BmegElectivesGuide = () => {
                     Copy link
                 </button>
                 <Snackbar open={openSnackbar} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
-                    <MuiAlert severity="success" sx={{ width: '100%' }}>
+                    <MuiAlert severity="success" variant="filled" sx={{ width: '100%' }}>
                         Link copied to clipboard.
                     </MuiAlert>
                 </Snackbar>
