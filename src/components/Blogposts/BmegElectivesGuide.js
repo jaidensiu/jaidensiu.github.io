@@ -128,7 +128,7 @@ const BmegElectivesGuide = () => {
                         In the case you find yourself wanting to take more electives than the required amount, it is possible to take extra courses even outside the list of technical electives to explore your interests. I would reach out to SBME Student Services if they can count certain electives outside of the list as part of your degree since some courses might be eligible for approval to count towards your technical electives requirements.
                         <br />
                         <br />
-                        Don&apos;t bite more than you can chew when it comes to planning your courses each term, make sure you leave room in your schedule so you have time to do other things in your life. Narrow down the courses you want to take, practice making decisions quickly, and plan out the courses you want to take. Engineering is challenging, so make sure you are able to strike a balance between quality and quantity that works for you in regards to learning.
+                        Don&apos;t bite more than you can chew when it comes to planning your courses each term, make sure you leave room in your schedule so you have time to do other things in your life. Narrow down and plan out the courses you want to take so that you can schedule your courses accordingly. Engineering is challenging, so make sure you are able to strike a balance between quality and quantity that works for you in regards to learning.
                     </p>
                 </div>
             </section>
@@ -137,7 +137,7 @@ const BmegElectivesGuide = () => {
                 <h3 className='blogpost__section__title'>Recommended technical electives</h3>
                 <div className='blogpost__section__body'>
                     <p>
-                        With the combined experience and knowledge of other BMEG students and myself, the technical electives tables in the following section are what I would recommend for each stream/specialization. Note that these are just a rough guide of where I think each course falls with respect to each stream/specialization.
+                        With the combined experience and knowledge of other BMEG students and myself, the technical electives tables in the following section are what I would recommend for each stream/specialization. Note that these are just technical electives I recommend for each stream/specialization. You can find a full list of the technical electives on the SBME website or on the SBME Undergraduate Advising Canvas course.
                         <br />
                         <br />
                         If you are interested in taking CPSC electives, I would highly advise you to take CPEN 221 instead of CPEN 223 in 2nd year so you can take CPSC 221 since its pre-reqs are CPEN 221 with either MATH 220 or CPSC 121. Nearly all of the upper level CPSC courses in the technical electives list need CPSC 221 as a pre-req.
@@ -145,7 +145,7 @@ const BmegElectivesGuide = () => {
                     <section id='informatics'>
                         <h4 className='blogpost__section__title'>Biomedical Informatics</h4>
                         <p>
-                            This area is focused on computer science subjects such as algorithms, machine learning, and big data.
+                            This area is focused on computer science subjects such as algorithms, machine learning, and data analysis.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
@@ -311,7 +311,7 @@ const BmegElectivesGuide = () => {
                     <section id='biomechanics'>
                         <h4 className='blogpost__section__title'>Biomechanics and Biomaterials</h4>
                         <p>
-                            This area is focused on mechanical and materials engineering subjects such as mechanics, materials, and medical devices.
+                            This area is focused on mechanical and materials engineering subjects such as drug delivery systems, continuum mechanics, and medical devices.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
@@ -477,7 +477,7 @@ const BmegElectivesGuide = () => {
                     <section id='systems'>
                         <h4 className='blogpost__section__title'>Biomedical Systems and Signals</h4>
                         <p>
-                            This area is focused on electrical engineering subjects such as signals, medical imaging, and robotics.
+                            This area is focused on electrical engineering subjects such as signal processing, medical imaging, and robotics.
                         </p>
                         <table className="blogpost__table">
                             <thead className="blogpost__table__header">
