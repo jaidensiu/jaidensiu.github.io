@@ -376,6 +376,20 @@ const BmegElectivesGuide = () => {
                                 <tr>
                                     <td>
                                         <a
+                                            href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=372"
+                                            className='link'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            BMEG 372
+                                        </a>
+                                    </td>
+                                    <td>Biomedical Materials and Drug Delivery</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
                                             href="https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=BMEG&course=373"
                                             className='link'
                                             target='_blank'
