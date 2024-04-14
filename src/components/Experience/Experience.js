@@ -7,8 +7,8 @@ const Experience = () => {
     if (!experiences.length) return null
 
     return (
-        <section id='experiences' className='section'>
-            <h2 className='section__title'>Experience</h2>
+        <section id='experience' className='section'>
+            <h2 className='experience__section__title'>Experience</h2>
             <div className='experience__grid'>
                 {experiences.map((experience) => (
                     <ExperienceContainer key={uniqid()} experience={experience}/>

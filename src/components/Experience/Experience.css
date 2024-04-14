@@ -1,9 +1,15 @@
+.experience__section__title {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .experience__grid {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
 }
 
 .experience__grid > div {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }

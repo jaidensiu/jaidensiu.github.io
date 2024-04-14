@@ -151,12 +151,6 @@ const blogs = [
         description: 'An in depth guide for choosing your technical electives in BMEG.',
         date: 'Apr 2, 2024',
         link: '/blogs/bmeg-electives-guide'
-    },
-    {
-        name: 'Guide to UBC BMEG',
-        description: 'An overview of the biomedical engineering program at UBC.',
-        date: 'Apr 2, 2024',
-        link: '/blogs/bmeg-guide'
     }
 ]
 
