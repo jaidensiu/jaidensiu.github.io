@@ -19,25 +19,21 @@ const App = () => {
     return (
         <Router>
             <div id='top' className={`${themeName} app`}>
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/experience" element={<main><Experience /></main>} />
-                    <Route path="/projects" element={<main><Projects /></main>} />
-                    <Route path="/blogs" element={<main><Blogs /></main>} />
-                    <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
-                </Routes>
-                <ScrollToTop />
+                <div className='page'>
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<main><About /></main>} />
+                        <Route path="/experience" element={<main><Experience /></main>} />
+                        <Route path="/projects" element={<main><Projects /></main>} />
+                        <Route path="/blogs" element={<main><Blogs /></main>} />
+                        <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
+                    </Routes>
+                    <ScrollToTop />
+                </div>
                 <Footer />
             </div>
         </Router>
     )
 }
-
-const Home = () => (
-    <main>
-        <About />
-    </main>
-)
 
 export default App

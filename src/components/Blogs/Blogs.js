@@ -4,7 +4,7 @@ import BlogContainer from '../BlogContainer/BlogContainer'
 import './Blogs.css'
 
 const Blogs = () => (
-    <section id='blogs' className='blogs__section section'>
+    <section id='blogs' className='section'>
         <h2 className='blogs__section__title'>Blogs</h2>
         <div className='blogs__grid'>
             {blogs.map((blog) => (

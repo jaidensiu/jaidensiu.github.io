@@ -3,6 +3,13 @@
     line-height: 1.5;
     color: var(--clr-fg);
     background-color: var(--clr-bg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page {
+    flex-grow: 1;
 }
 
 /* Original
