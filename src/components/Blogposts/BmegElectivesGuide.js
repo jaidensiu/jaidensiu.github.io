@@ -6,7 +6,6 @@ import './BlogPosts.css'
 
 const BmegElectivesGuide = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
-
     const copyLinkToClipboard = () => {
         const linkToCopy = "https://jaidensiu.vercel.app/blogs/bmeg-electives-guide";
         // Navigator clipboard API
@@ -20,6 +19,14 @@ const BmegElectivesGuide = () => {
             .catch((error) => {
                 console.error('Unable to copy:', error)
             })
+    }
+    
+    function handleClick(event, sectionId) {
+        event.preventDefault();
+        const sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+            sectionElement.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 
     return (
@@ -45,49 +52,49 @@ const BmegElectivesGuide = () => {
             <div className='blogpost__section__body'>
                 <ul className='bulleted_list'>
                     <li>
-                        <a href='/blogs/bmeg-electives-guide/#prologue' className='link'>
+                        <a href='#prologue' className='link' onClick={(event) => handleClick(event, 'prologue')}>
                             Prologue
                         </a>
                     </li>
                     <li>
-                        <a href='/blogs/bmeg-electives-guide/#streams-and-specs' className='link'>
+                        <a href='#streams-and-specs' className='link' onClick={(event) => handleClick(event, 'streams-and-specs')}>
                             Current state of streams and specializations
                         </a>
                     </li>
                     <li>
-                        <a href='/blogs/bmeg-electives-guide/#too-many-electives' className='link'>
+                    <a href='#too-many-electives' className='link' onClick={(event) => handleClick(event, 'too-many-electives')}>
                             Too many electives and decision paralysis
                         </a>
                     </li>
                     <li>
-                        <a href='/blogs/bmeg-electives-guide/#recommended-electives' className='link'>
+                        <a href='#recommended-electives' className='link' onClick={(event) => handleClick(event, 'recommended-electives')}>
                             Recommended technical electives
                         </a>
                     </li>
                     <ul>
                         <li>
-                            <a href='/blogs/bmeg-electives-guide/#informatics' className='link'>
+                            <a href='#informatics' className='link' onClick={(event) => handleClick(event, 'informatics')}>
                                 Biomedical Informatics
                             </a>
                         </li>
                         <li>
-                            <a href='/blogs/bmeg-electives-guide/#biomechanics' className='link'>
+                            <a href='#biomechanics' className='link' onClick={(event) => handleClick(event, 'biomechanics')}>
                                 Biomechanics and Biomaterials
                             </a>
                         </li>
                         <li>
-                            <a href='/blogs/bmeg-electives-guide/#systems' className='link'>
+                            <a href='#systems' className='link' onClick={(event) => handleClick(event, 'systems')}>
                                 Biomedical Systems and Signals
                             </a>
                         </li>
                         <li>
-                            <a href='/blogs/bmeg-electives-guide/#cellular' className='link'>
+                            <a href='#cellular' className='link' onClick={(event) => handleClick(event, 'cellular')}>
                                 Cellular Bioengineering
                             </a>
                         </li>
                     </ul>
                     <li>
-                        <a href='/blogs/bmeg-electives-guide/#parting-words' className='link'>
+                        <a href='#parting-words' className='link' onClick={(event) => handleClick(event, 'parting-words')}>
                             Parting words
                         </a>
                     </li>
