@@ -18,7 +18,7 @@ const App = () => {
 
     return (
         <Router>
-            <div id='top' className={`${themeName} app`}>
+            <div className={`${themeName} app`}>
                 <div className='page'>
                     <Header />
                     <Routes>

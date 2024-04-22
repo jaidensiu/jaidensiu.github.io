@@ -24,11 +24,11 @@
 }
 
 .about .link--icon {
-    margin-right: 0.8em;
+    margin: 0 0.6em;
 }
 
 .about .btn--outline {
-    margin-right: 1em;
+    margin: 0 0.6em;
 }
 
 @media (max-width: 600px) {
