@@ -7,16 +7,19 @@ const ThemeProvider = ({ children }) => {
     const [themeName, setThemeName] = useState(localStorage.getItem('themeName') || 'dark')
 
     useEffect(() => {
-        const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-        const name = darkMediaQuery.matches ? 'dark' : 'light'
-        localStorage.setItem('themeName', name)
-        setThemeName(name)
-        darkMediaQuery.addEventListener('change', (e) => {
-            const theme = e.matches ? 'dark' : 'light'
-            localStorage.setItem('themeName', theme)
-            setThemeName(theme)
-        });
-    }, [])
+      const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const mediaQueryTheme = darkMediaQuery.matches ? 'dark' : 'light'
+      if (!localStorage.getItem('themeName')) {
+          localStorage.setItem('themeName', mediaQueryTheme)
+          setThemeName(mediaQueryTheme)
+      }
+      darkMediaQuery.addEventListener('change', (e) => {
+          const theme = e.matches ? 'dark' : 'light'
+          localStorage.setItem('themeName', theme)
+          setThemeName(theme)
+      });
+      return () => darkMediaQuery.removeEventListener('change');
+  }, [])
 
     const toggleTheme = () => {
         const name = themeName === 'dark' ? 'light' : 'dark'
