@@ -57,7 +57,7 @@ th, td {
     border: 1px solid var(--clr-fg);
     padding: 8px;
     text-align: left;
-    overflow: scroll;
+    overflow: auto;
 }
 
 @media (max-width: 900px) {

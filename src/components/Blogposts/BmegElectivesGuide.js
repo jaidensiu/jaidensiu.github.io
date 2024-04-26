@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Snackbar from '@mui/material/Snackbar'
 import MuiAlert from '@mui/material/Alert'
 import bme from "../Access/bme.jpeg"
-import './BlogPosts.css'
+import './Blogposts.css'
 
 const BmegElectivesGuide = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
