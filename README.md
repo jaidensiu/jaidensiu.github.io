@@ -21,7 +21,6 @@ What have I learned:
 Notes:
 - To start development server ```npm start```
 - To deploy onto GitHub Pages ```npm run deploy```
-- For builds on Windows and macOS, command for the build script uses ```copy``` and ```cp``` respectively
 
 References:
 - https://create-react-app.dev/docs/deployment/#github-pages
