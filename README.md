@@ -3,8 +3,7 @@
 This repository contains the code for my [portfolio website](https://jaidensiu.vercel.app).
 
 Current tasks:
-- Routing for a blogs page (course reviews, and other stuff)
-    - Could use React Router to allow for multiple page routing
+- Refactor to TypeScript?
 
 What I have worked on:
 - Developed a website with React.js, leveraging HTML, CSS, and JavaScript
@@ -22,6 +21,7 @@ What have I learned:
 Notes:
 - To start development server ```npm start```
 - To deploy onto GitHub Pages ```npm run deploy```
+- For builds on Windows and macOS, command for the build script uses ```copy``` and ```cp``` respectively
 
 References:
 - https://create-react-app.dev/docs/deployment/#github-pages
