@@ -26,10 +26,9 @@ const experiences = [
         role: 'Android Developer Co-op',
         date: 'Apr 2024 - Present',
         description: String().concat(
-            'Developing and testing the FORM Swim app for Android to provide a seamless user experience\n',
-            'Researching and architecting existing features to improve app performance and code maintainability'
+            'Building mobile experiences that pair with smart swim goggles to transform the way people swim'
         ),
-        stack: ['Kotlin', 'XML', 'RxAndroid/RxJava', 'Room', 'Protobuf', 'Android Studio', 'Jenkins', 'Bluetooth Low Energy (BLE)']
+        stack: ['Kotlin', 'Jetpack Compose', 'XML', 'RxJava', 'Room', 'Protocol Buffers', 'Jenkins', 'Bluetooth Low Energy (BLE)', 'Firebase', 'Android Studio']
     },
     {
         company: 'Avanti Software Inc.',
@@ -37,13 +36,9 @@ const experiences = [
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
         description: String().concat(
-            'Spearheaded the development of 10 new Android features for Avanti Go mobile app integrated with Firebase\n',
-            'Implemented Figma designs and building business logic to present the UI in Kotlin using Jetpack Compose\n',
-            'Applied a MVVM pattern to modularize API calls and UI states with Dagger and Hilt for dependency injection\n',
-            'Developed a repository layer to consume a REST API using Retrofit and OkHttp, and cache data using Room\n',
-            'Wrote unit tests to yield 95% line coverage using JUnit and Mockito to ensure code quality and correctness'
+            'Implemented a mobile solution to make viewing pay statements and managing vacation days effortless'
         ),
-        stack: ['Kotlin', 'Jetpack Compose', 'XML', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Android Studio', 'Postman']
+        stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Firebase', 'Android Studio', 'Postman']
     },
     {
         company: 'Global Relay Communications Inc.',
@@ -51,11 +46,7 @@ const experiences = [
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
         description: String().concat(
-            'Developed automation tests in Kotlin using Espresso to reduce manual testing of an Android app by 50%\n',
-            'Resolved test automation issues, yielding 95% accurate build results for Jenkins and Docker CI pipelines\n',
-            'Enhanced test software and migrated Java code to Kotlin for improved triage and development efficiency\n',
-            'Executed regression testing to identify and document defects to ensure stability across multiple releases\n',
-            'Designed test scenarios to validate UI flows and background activities with 100% path coverage on TestRail'
+            'Developed test automation to efficiently validate a mobile app for messaging and calling'
         ),
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins', 'Docker']
     }
@@ -71,6 +62,14 @@ const projects = [
         ),
         stack: ['Go', 'SQL', 'PostgreSQL', 'Docker', 'GoLand'],
         github: 'https://github.com/jaidensiu/gopher-banking-service'
+    },
+    {
+        name: 'World Countries App',
+        description: String().concat(
+            'Built an Android app to display country details from a GraphQL API, and view a selected country on a map'
+        ),
+        stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt'],
+        github: 'https://github.com/jaidensiu/world-countries-app'
     },
     {
         name: 'Noodle Doodle - 1st Place at nwHacks 2024',

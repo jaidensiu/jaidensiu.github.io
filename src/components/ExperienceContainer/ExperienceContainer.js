@@ -15,7 +15,9 @@ const ExperienceContainer = ({ experience }) => (
                 ))} 
             </ul>
         ) : (
-            <p className='experience__description'>{experience.description}</p>
+            <ul className='experience__description'>
+                <li>{experience.description}</li>
+            </ul>
         )}
         {/* <p className='experience__description'>{experience.description}</p> */}
         {experience.stack && (

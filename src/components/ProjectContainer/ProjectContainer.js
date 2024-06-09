@@ -15,7 +15,9 @@ const ProjectContainer = ({ project }) => (
                 ))} 
             </ul>
         ) : (
-            <p className='project__description'>{project.description}</p>
+            <ul className='project__description'>
+                <li>{project.description}</li>
+            </ul>
         )}
         {project.photo && (
             <img src={project.photo} alt={project.name} className='project__photo'/>
