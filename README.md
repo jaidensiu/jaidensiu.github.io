@@ -1,9 +1,6 @@
-## My [Portfolio Website](https://jaidensiu.verecel.app)
+## My [Portfolio Website and Blog Page](https://jaidensiu.verecel.app)
 
-This repository contains the code for my [portfolio website](https://jaidensiu.vercel.app).
-
-Current tasks:
-- Refactor to TypeScript?
+This repository contains the code for my [portfolio website and blog page](https://jaidensiu.vercel.app).
 
 What I have worked on:
 - Developed a website with React.js, leveraging HTML, CSS, and JavaScript

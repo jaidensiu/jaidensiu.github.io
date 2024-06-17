@@ -10,7 +10,7 @@ const about = {
     name: 'Jaiden',
     role: 'Android Developer Co-op @ FORM • BME + CS @ UBC',
     description: 
-        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering with a specialization in Computer Science. Passionate about architecting and developing software, my mission is to bring applications and services to fruition. In my free time, you\'ll find me breaking a sweat at the gym, refining my swimming technique at the pool, and bringing my engineering projects to life.',
+        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering with a specialization in Computer Science. I am currently an Android Developer Co-op at FORM building a scalable Android app for AR smart goggles to transform the way people swim. Passionate about architecting and developing software, my mission is to bring applications and services to fruition. In my free time, you\'ll find me breaking a sweat at the gym, refining my swimming technique at the pool, and bringing my engineering projects to life.',
     contact: {
         // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',
