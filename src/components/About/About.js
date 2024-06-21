@@ -31,7 +31,7 @@ const About = () => {
                         <p key={uuidv4()} className='about__desc'>{paragraph}</p>
                     ))}
                 </div>
-                <div className='about__contact center'>
+                <div className='about__contact'>
                     {contact && (
                         <>
                             {contact.resume && (

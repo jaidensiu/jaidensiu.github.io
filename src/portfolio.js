@@ -25,7 +25,6 @@ const about = {
 const experiences = [
     {
         company: 'Form Athletica Inc.',
-        companyLink: 'https://ca.formswim.com/',
         role: 'Android Developer Co-op',
         date: 'Apr 2024 - Present',
         description: String().concat(
@@ -35,7 +34,6 @@ const experiences = [
     },
     {
         company: 'Avanti Software Inc.',
-        companyLink: 'https://www.avanti.ca/',
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
         description: String().concat(
@@ -45,7 +43,6 @@ const experiences = [
     },
     {
         company: 'Global Relay Communications Inc.',
-        companyLink: 'https://www.globalrelay.com/',
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
         description: String().concat(
@@ -57,13 +54,18 @@ const experiences = [
 
 const projects = [
     {
+        name: 'UBC AeroDesign',
+        description: String().concat(
+            'Contributing to software development for an autonomous aircraft system competition at SAE Aero Design'
+        ),
+        stack: ['Kotlin', 'Kotlin Multiplatform (KMP)', 'Compose Multiplatform', 'JUnit', 'Mockito', 'Raspberry Pi']
+    },
+    {
         name: 'Gopher Banking Service',
         description: String().concat(
-            'Developing a backend web service in Go to manage accounts, record transfers, and perform transactions\n',
-            'Implementing database transactions from SQL for reliable and concurrent interactions with PostgreSQL\n',
-            'Building a frontend using Vue.js and Axios to enable account management and transfers via API endpoints',
+            'Developing a backend web service in Go to manage accounts, record transfers, and perform transactions'
         ),
-        stack: ['Go', 'SQL', 'PostgreSQL', 'Docker', 'GoLand'],
+        stack: ['Go', 'SQL', 'PostgreSQL', 'Docker'],
         github: 'https://github.com/jaidensiu/gopher-banking-service'
     },
     {
@@ -75,12 +77,13 @@ const projects = [
         github: 'https://github.com/jaidensiu/world-countries-app'
     },
     {
-        name: 'Noodle Doodle - 1st Place at nwHacks 2024',
+        name: 'Noodle Doodle - 1st Place at nwHacks',
         description: String().concat(
-            'Led the development of an IoT device that enables users to cook noodles automatically with an iPhone\n',
-            'Implemented an iOS app in Swift using SwiftUI for user interfaces and Alamofire to handle HTTP connections\n',
-            'Developed a Flask server in Python hosted on a Raspberry Pi to expose an API endpoint to the iOS client\n',
-            'Actuated 4 servo motors from a Flask server using pigpio to execute cooking sequence with 100% reliability'
+            'Placed 1st out of 300 teams at a hackathon by working in a team of 3 to build a noodle cooking IoT device'
+            // 'Led the development of an IoT device that enables users to cook noodles automatically with an iPhone\n',
+            // 'Implemented an iOS app in Swift using SwiftUI for user interfaces and Alamofire to handle HTTP connections\n',
+            // 'Developed a Flask server in Python hosted on a Raspberry Pi to expose an API endpoint to the iOS client\n',
+            // 'Actuated 4 servo motors from a Flask server using pigpio to execute cooking sequence with 100% reliability'
         ),
         stack: ['Swift', 'SwiftUI', 'Alamofire', 'Xcode', 'Python', 'Flask', 'VS Code', 'Raspberry Pi', 'pigpio'],
         github: 'https://github.com/jaidensiu/Noodle-Doodle',
@@ -89,23 +92,22 @@ const projects = [
     {
         name: 'UBC Multifaceted Innovations in NeuroTechnology',
         description: String().concat(
-            'Contributed to software development for an award-winning neurotechnology engineering design team\n',
-            'Built a data-intensive web application that visualizes a user’s attentiveness state from an EEG headset\n',
-            'Developed a REST API using Express.js to manage routes, and Node.js and Mongoose ODM to define models\n',
-            'Reduced MongoDB query execution times by more than 50% through effective indexing strategies for caching\n',
-            'Verified API endpoints to ensure backend reliability and performance using Postman and MongoDB Compass',
+            'Contributed to software development for an award-winning neurotechnology engineering design team',
+            // 'Built a data-intensive web application that visualizes a user’s attentiveness state from an EEG headset\n',
+            // 'Developed a REST API using Express.js to manage routes, and Node.js and Mongoose ODM to define models\n',
+            // 'Reduced MongoDB query execution times by more than 50% through effective indexing strategies for caching\n',
+            // 'Verified API endpoints to ensure backend reliability and performance using Postman and MongoDB Compass',
             // 'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
         ),
-        stack: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Axios', 'Unity', 'Tkinter'],
-        github: 'https://github.com/UBCMint',
-        website: 'https://ubcmint.github.io/'
+        stack: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Axios']
     },
     {
         name: 'Accura Plastering Website',
         description: String().concat(
-            'Freelanced for a local business to build a website, focusing on SEO to improve site ranking using metadata\n',
-            'Built the website using Next.js with TypeScript and CSS, and deployed the website onto a domain with Vercel\n',
-            'Optimized web vitals by minimizing latency to 0.06s and responsiveness to 0.03s for the optimal user experience',
+            'Increased web traffic from 10 to 50+ visitors by building a new website in TypeScript using Next.js and Vercel'
+            // 'Freelanced for a local business to build a website, focusing on SEO to improve site ranking using metadata\n',
+            // 'Built the website using Next.js with TypeScript and CSS, and deployed the website onto a domain with Vercel\n',
+            // 'Optimized web vitals by minimizing latency to 0.06s and responsiveness to 0.03s for the optimal user experience',
         ),
         stack: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'React.js'],
         github: 'https://github.com/jaidensiu/Accura-Website',
@@ -114,9 +116,9 @@ const projects = [
     {
         name: 'Movie Review Web App',
         description: String().concat(
-            'Developed a full-stack web app for users to read and write movie reviews, and watch trailers from TMDb API\n',
-            'Built a REST API using Spring Boot and Java to facilitate API calls for JSON movie data stored in MongoDB\n',
-            'Implemented the UI with React.js and Bootstrap that manages Axios HTTP requests to add and read reviews'
+            'Developed a full-stack web app for users to read and write movie reviews, and watch trailers from TMDb API',
+            // 'Built a REST API using Spring Boot and Java to facilitate API calls for JSON movie data stored in MongoDB\n',
+            // 'Implemented the UI with React.js and Bootstrap that manages Axios HTTP requests to add and read reviews'
         ),
         stack: ['Java', 'Spring Boot', 'MongoDB', 'React.js', 'Bootstrap', 'Axios', 'Postman', 'IntelliJ', 'VS Code'],
         github: 'https://github.com/jaidensiu/Movie-Review-App'

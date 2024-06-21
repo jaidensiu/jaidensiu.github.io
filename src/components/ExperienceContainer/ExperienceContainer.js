@@ -5,7 +5,8 @@ import './ExperienceContainer.css'
 
 const ExperienceContainer = ({ experience }) => (
     <div className='experience'>
-        <a href={experience.companyLink} className="experience__company link" target="_blank" rel="noopener noreferrer">{experience.company}</a>
+        {/* <a href={experience.companyLink} className="experience__company link" target="_blank" rel="noopener noreferrer">{experience.company}</a> */}
+        <p className="experience__company">{experience.company}</p>
         <p className='experience__role'>{experience.role}</p>
         <p className='experience__date'>{experience.date}</p>
         {experience.description.includes('\n') ? (
