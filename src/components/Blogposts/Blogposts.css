@@ -25,7 +25,7 @@
 }
 
 .blogpost__image {
-    width: 80%;
+    width: 75%;
     justify-content: center;
     border: 1px solid var(--clr-fg);
 }
@@ -47,4 +47,9 @@
 .bulleted_list ul {
     list-style-type: circle;
     padding-left: 2em;
+}
+
+.copyLinkSnackBar {
+    padding: 0.5em;
+    background-color: transparent;
 }

@@ -37,8 +37,8 @@ const BmegElectivesGuide = () => {
                 <button type="button" className="link" onClick={copyLinkToClipboard}>
                     Copy link
                 </button>
-                <Snackbar open={openSnackbar} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
-                    <MuiAlert severity="success" variant="filled" sx={{ width: '100%' }}>
+                <Snackbar className='copyLinkSnackBar' open={openSnackbar} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
+                    <MuiAlert severity="success" variant="filled">
                         Link copied to clipboard.
                     </MuiAlert>
                 </Snackbar>
