@@ -17,7 +17,7 @@ What have I learned:
 
 Notes:
 - To start development server ```npm start```
-- To deploy onto GitHub Pages ```npm run deploy```
+- To deploy onto GitHub Pages and Vercel ```npm run deploy```
 
 References:
 - https://create-react-app.dev/docs/deployment/#github-pages
