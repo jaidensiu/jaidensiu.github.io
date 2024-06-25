@@ -163,9 +163,15 @@ const projects = [
 
 const blogs = [
     {
+        name: 'A Tour of the Go Programming Language',
+        description: 'A crash course on the Go Programming Language.',
+        date: 'June 24, 2024 (In construction...)',
+        link: '/blogs/tour-of-go'
+    },
+    {
         name: 'UBC BMEG Technical Electives Guide',
         description: 'An in depth guide for choosing your technical electives in BMEG.',
-        date: 'Apr 2, 2024',
+        date: 'April 2, 2024',
         link: '/blogs/bmeg-electives-guide'
     }
 ]
