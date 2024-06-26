@@ -53,3 +53,21 @@
     padding: 0.5em;
     background-color: transparent;
 }
+
+.codeblock {
+    display: block;
+    padding: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--clr-code-bg);
+    border-radius: 8px;
+    margin: 2em 0em 2em 0em;
+}
+
+.inline_code {
+    display: inline;
+    padding: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--clr-code-bg);
+    border-radius: 4px;
+}

@@ -25,6 +25,7 @@
 
 .light {
     --clr-bg: #fcfcfc;
+    --clr-code-bg: #f5f5f5;
     --clr-bg-alt: #fff;
     --clr-fg: #555;
     --clr-fg-alt: #444;
@@ -45,7 +46,8 @@
 */
 
 .dark {
-    --clr-bg: #1e1e1e; 
+    --clr-bg: #1e1e1e;
+    --clr-code-bg: #333;
     --clr-bg-alt: #252526;
     --clr-fg: #dddddd;
     --clr-fg-alt: #eeeeee;

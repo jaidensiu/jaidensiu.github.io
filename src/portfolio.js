@@ -163,10 +163,10 @@ const projects = [
 
 const blogs = [
     {
-        name: 'A Tour of the Go Programming Language',
-        description: 'A crash course on the Go Programming Language.',
-        date: 'June 24, 2024 (In construction...)',
-        link: '/blogs/tour-of-go'
+        name: 'A Tour of the Go Programming Language - Part 1: Basics',
+        description: 'A tutorial on the Go Programming Language going over the basics like data types and user inputs.',
+        date: 'June 26, 2024',
+        link: '/blogs/tour-of-go-part-1'
     },
     {
         name: 'UBC BMEG Technical Electives Guide',
