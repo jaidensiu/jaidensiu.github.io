@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import Snackbar from '@mui/material/Snackbar'
 import MuiAlert from '@mui/material/Alert'
 import go from "../Access/go.gif"
-import './Blogposts.css'
+import './NotePages.css'
 
-const GoCrashCourse = () => {
+const GoProgramming = () => {
     const [openSnackbar, setOpenSnackbar] = useState(false);
     const copyLinkToClipboard = () => {
-        const linkToCopy = "https://jaidensiu.vercel.app/blogs/tour-of-go-part-1";
+        const linkToCopy = "https://jaidensiu.vercel.app/notes/go-programming";
         // Navigator clipboard API
         navigator.clipboard.writeText(linkToCopy)
             .then(() => {
@@ -29,10 +29,12 @@ const GoCrashCourse = () => {
         }
     }
 
+    const HorizontalLine = () => <hr className='horizontalLine' />
+
     return (
-        <section id='bmeg-electives-guide' className='blogpost section'>
-            <div className='blogpost__header'>
-                <h2>A Tour of the Go Programming Language - Part 1: Basics</h2>
+        <section id='go-programming' className='notepage section'>
+            <div className='notepage__header'>
+                <h2>Go Programming</h2>
                 <p>June 26, 2024</p>
                 <button type="button" className="link" onClick={copyLinkToClipboard}>
                     Copy link
@@ -44,79 +46,67 @@ const GoCrashCourse = () => {
                 </Snackbar>
             </div>
 
-            <div className="blogpost__image__container">
-                <img className='blogpost__image' src={go} alt='BME' />
+            <div className="notepage__image__container">
+                <img className='notepage__image' src={go} alt='Go Gopher' />
             </div>
 
-            <h3 className='blogpost__section__title'>Table of contents</h3>
-            <div className='blogpost__section__body'>
+            <h3 className='notepage__section__title'>Table of contents</h3>
+            <div className='notepage__section__body'>
                 <ul className='bulleted_list'>
                     <li>
-                        <a href='#introduction' className='link' onClick={(event) => handleClick(event, 'introduction')}>
-                            Introduction
+                        <a href='#basics' className='link' onClick={(event) => handleClick(event, 'basics')}>
+                            Basics
                         </a>
                     </li>
                     <li>
-                        <a href='#hello-world' className='link' onClick={(event) => handleClick(event, 'hello-world')}>
-                            Hello, World!
+                        <a href='#flow-control' className='link' onClick={(event) => handleClick(event, 'flow-control')}>
+                            Flow Control
                         </a>
                     </li>
                     <li>
-                        <a href='#variables' className='link' onClick={(event) => handleClick(event, 'variables')}>
-                            Variables
+                        <a href='#data-structures' className='link' onClick={(event) => handleClick(event, 'data-structures')}>
+                            Data Structures
                         </a>
                     </li>
                     <li>
-                        <a href='#data-types' className='link' onClick={(event) => handleClick(event, 'data-types')}>
-                            Data Types
+                        <a href='#functions' className='link' onClick={(event) => handleClick(event, 'functions')}>
+                            Functions
                         </a>
                     </li>
                     <li>
-                        <a href='#print-statements' className='link' onClick={(event) => handleClick(event, 'print-statements')}>
-                            Print Statements
+                        <a href='#pointers' className='link' onClick={(event) => handleClick(event, 'pointers')}>
+                            Pointers
                         </a>
                     </li>
                     <li>
-                        <a href='#user-inputs' className='link' onClick={(event) => handleClick(event, 'user-inputs')}>
-                            User Inputs
+                        <a href='#interfaces' className='link' onClick={(event) => handleClick(event, 'interfaces')}>
+                            Interfaces
                         </a>
                     </li>
                     <li>
-                        <a href='#comments' className='link' onClick={(event) => handleClick(event, 'comments')}>
-                            Comments
+                        <a href='#error-handling' className='link' onClick={(event) => handleClick(event, 'error-handling')}>
+                            Error Handling
                         </a>
                     </li>
                     <li>
-                        <a href='#operators' className='link' onClick={(event) => handleClick(event, 'operators')}>
-                            Operators
-                        </a>
-                    </li>
-                    <li>
-                        <a href='#conclusion' className='link' onClick={(event) => handleClick(event, 'conclusion')}>
-                            Conclusion
+                        <a href='#gouroutines' className='link' onClick={(event) => handleClick(event, 'goroutines')}>
+                            Goroutines
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <section id='introduction'>
-                <h3 className='blogpost__section__title'>Introduction</h3>
-                <div className='blogpost__section__body'>
-                    <p>
-                        In this series of tutorials, we will be going over the Go Programming Language. Basic proficiency with programming and the command line will be assumed. Go is an open source programming language developed at Google designed for building simple, efficient, and reliable production-level software at scale. Go developers are synonymously called Gophers as the mascot is characterized by a friendly-looking blue gopher. You can read more about Go&apos;s branding <a className='link' target='_blank' rel='noopener noreferrer' href='https://go.dev/blog/go-brand'>here</a>.
-                    </p>
-                    <br />
-                    <p>
-                        In this first tutorial, we will be going over the basics of programming in Go. To get started, I would suggest to download a text editor like <a className='link' target='_blank' rel='noopener noreferrer' href='https://code.visualstudio.com/download'>VS Code</a> and install <a className='link' target='_blank' rel='noopener noreferrer' href='https://go.dev/doc/install'>Go</a> to follow along. This way, you can learn and get familiar with the Go programming environment. You can find the source code for these series of tutorials <a className='link' target='_blank' rel='noopener noreferrer' href='https://github.com/jaidensiu/Tour-of-Go'>here</a>.
-                    </p>
-                </div>
+            <section id='basics'>
+                <h3 className='notepage__section__title'>Basics</h3>
             </section>
 
+            <HorizontalLine />
+            
             <section id='hello-world'>
-                <h3 className='blogpost__section__title'>Hello, World!</h3>
-                <div className='blogpost__section__body'>
+                <h4 className='notepage__section__title'>Hello, World!</h4>
+                <div className='notepage__section__body'>
                     <p>
-                        To start off, let&apos;s write and run a hello world program. First, initialize a Go module.
+                        To write and run a hello world program, first initialize a Go module.
                     </p>
                     <p className='codeblock'>
                         $ go mod init hello_world
@@ -131,8 +121,7 @@ const GoCrashCourse = () => {
                         Write the following code.
                     </p>
                     <pre className='codeblock'>
-                        <code>
-{
+                        <code>{
 `package main
 
 import "fmt"
@@ -140,8 +129,7 @@ import "fmt"
 func main() {
     fmt.Println("Hello, World!")
 }`
-}
-                        </code>
+                        }</code>
                     </pre>
                     <p>
                         Finally, compile and run the Go program. 
@@ -155,10 +143,10 @@ func main() {
             </section>
 
             <section id='variables'>
-                <h3 className='blogpost__section__title'>Variables</h3>
-                <div className='blogpost__section__body'>
+                <h4 className='notepage__section__title'>Variables</h4>
+                <div className='notepage__section__body'>
                     <p>
-                        Go is a statically-typed language, hence you must define or have the compiler detect the variable type by looking its value. In Go there are three ways to define a variable with value assignments.
+                        Go is a statically-typed language, hence you must define or have the compiler detect the variable type by looking its value. In Go, there are 3 ways to define a variable with value assignments.
                     </p>
                     <br />
                     <p>Method 1</p>
@@ -183,13 +171,10 @@ func main() {
             </section>
 
             <section id='data-types'>
-                <h3 className='blogpost__section__title'>Data Types</h3>
-                <div className='blogpost__section__body'>
-                    <p>
-                        Go&apos;s data types can be summarize in the table below.
-                    </p>
-                    <table className="blogpost__table">
-                        <thead className="blogpost__table__header">
+                <h4 className='notepage__section__title'>Data Types</h4>
+                <div className='notepage__section__body'>
+                    <table className="notepage__table">
+                        <thead className="notepage__table__header">
                             <tr>
                                 <th>Data Type</th>
                                 <th>Description</th>
@@ -238,8 +223,8 @@ func main() {
             </section>
 
             <section id='print-statements'>
-                <h3 className='blogpost__section__title'>Print Statements</h3>
-                <div className='blogpost__section__body'>
+                <h4 className='notepage__section__title'>Print Statements</h4>
+                <div className='notepage__section__body'>
                     <p>
                         There are 3 functions to print output messages defined under the <p className='inline_code'>fmt</p> package.
                     </p>
@@ -250,10 +235,10 @@ func main() {
                         <li><p className='inline_code'>fmt.Printf()</p></li>
                     </ul>
                     <p>
-                        The difference between <p className='inline_code'>fmt.Print()</p> and <p className='inline_code'>fmt.Println()</p> is that <p className='inline_code'>fmt.Println()</p> prints a new line at the end by default. The <p className='inline_code'>fmt.Printf()</p> function formats uses a unique format specifier based on its data type to format and output the formatted string.
+                        The difference between <p className='inline_code'>fmt.Print()</p> and <p className='inline_code'>fmt.Println()</p> is that <p className='inline_code'>fmt.Println()</p> appends newline character which is an escape sequence. The <p className='inline_code'>fmt.Printf()</p> function uses a unique format specifier based on its data type to format and outputs the formatted string.
                     </p>
-                    <table className="blogpost__table">
-                        <thead className="blogpost__table__header">
+                    <table className="notepage__table">
+                        <thead className="notepage__table__header">
                             <tr>
                                 <th>Data Type</th>
                                 <th>Format Specifier</th>
@@ -279,8 +264,7 @@ func main() {
                         </tbody>
                     </table>
                     <pre className='codeblock'>
-                        <code>
-{
+                        <code>{
 `package main
 
 import "fmt"
@@ -290,8 +274,7 @@ func main() {
     year := 2007
     fmt.Printf("%s was designed at Google in %d.\\n", language, year)
 }`
-}
-                        </code>
+                        }</code>
                     </pre>
                     <p>
                         Output
@@ -303,42 +286,84 @@ func main() {
             </section>
 
             <section id='user-inputs'>
-                <h3 className='blogpost__section__title'>User Inputs</h3>
-                <div className='blogpost__section__body'>
+                <h4 className='notepage__section__title'>User Inputs</h4>
+                <div className='notepage__section__body'>
                     <p>
-                        In construction...
+                        Under construction...
                     </p>
                 </div>
             </section>
 
             <section id='comments'>
-                <h3 className='blogpost__section__title'>Comments</h3>
-                <div className='blogpost__section__body'>
+                <h4 className='notepage__section__title'>Comments</h4>
+                <div className='notepage__section__body'>
                     <p>
-                        In construction...
+                        Under construction...
                     </p>
                 </div>
             </section>
 
             <section id='operators'>
-                <h3 className='blogpost__section__title'>Operators</h3>
-                <div className='blogpost__section__body'>
+                <h4 className='notepage__section__title'>Operators</h4>
+                <div className='notepage__section__body'>
                     <p>
-                        In construction...
+                        Under construction...
                     </p>
                 </div>
             </section>
 
-            <section id='conclusion'>
-                <h3 className='blogpost__section__title'>Conclusion</h3>
-                <div className='blogpost__section__body'>
+            <section id='flow-control'>
+                <h3 className='notepage__section__title'>Flow Control</h3>
+            </section>
+
+            <HorizontalLine />
+
+            <section id='variables'>
+                <h4 className='notepage__section__title'>Under construction...</h4>
+                <div className='notepage__section__body'>
                     <p>
-                        In construction...
+                        More under construction...
                     </p>
                 </div>
             </section>
+
+            <section id='data-structures'>
+                <h3 className='notepage__section__title'>Data Structures</h3>
+            </section>
+
+            <HorizontalLine />
+
+            <section id='functions'>
+                <h3 className='notepage__section__title'>Functions</h3>
+            </section>
+
+            <HorizontalLine />
+
+            <section id='pointers'>
+                <h3 className='notepage__section__title'>Pointers</h3>
+            </section>
+
+            <HorizontalLine />
+
+            <section id='interfaces'>
+                <h3 className='notepage__section__title'>Interfaces</h3>
+            </section>
+
+            <HorizontalLine />
+
+            <section id='error-handling'>
+                <h3 className='notepage__section__title'>Error Handling</h3>
+            </section>
+
+            <HorizontalLine />
+
+            <section id='goroutines'>
+                <h3 className='notepage__section__title'>Goroutines</h3>
+            </section>
+
+            <HorizontalLine />
         </section>
     )
 }
 
-export default GoCrashCourse
+export default GoProgramming

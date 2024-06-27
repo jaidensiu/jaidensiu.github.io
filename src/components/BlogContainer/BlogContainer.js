@@ -6,7 +6,7 @@ const BlogContainer = ({ blog }) => (
         <a href={blog.link} className="blog__fonts link" rel="noopener noreferrer">{blog.name}</a>
         <p className='blog__date'>{blog.date}</p>
         {blog.description.includes('\n') ? (
-            <ul className='experience__description'>
+            <ul>
                 {blog.description.split('\n').map((item) => (
                     <li key={uniqid()}>{item}</li>
                 ))} 
