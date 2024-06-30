@@ -63,10 +63,10 @@ const projects = [
     {
         name: 'Gopher Banking Service',
         description: String().concat(
-            'Developing a backend web service in Go to manage accounts, record transfers, and perform transactions'
+            'Developing bank web service in Go that manages accounts, records transfers, and performs transactions.'
         ),
-        stack: ['Go', 'SQL', 'PostgreSQL', 'Docker'],
-        github: 'https://github.com/jaidensiu/gopher-banking-service'
+        stack: ['Go', 'SQL', 'PostgreSQL', 'Docker', 'Gin', 'REST APIs', 'GitHub Actions', 'CI/CD'],
+        github: 'https://github.com/jaidensiu/Gopher-Bank'
     },
     {
         name: 'World Countries App',
@@ -74,7 +74,7 @@ const projects = [
             'Built an Android app to display country details from a GraphQL API, and view a selected country on a map'
         ),
         stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt'],
-        github: 'https://github.com/jaidensiu/world-countries-app'
+        github: 'https://github.com/jaidensiu/World-Countries-App'
     },
     {
         name: 'Noodle Doodle - 1st Place at nwHacks',
