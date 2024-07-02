@@ -61,7 +61,7 @@ const projects = [
         stack: ['Kotlin', 'Kotlin Multiplatform (KMP)', 'Compose Multiplatform', 'JUnit', 'Mockito', 'Raspberry Pi']
     },
     {
-        name: 'Gopher Banking Service',
+        name: 'Gopher Bank',
         description: String().concat(
             'Developing bank web service in Go that manages accounts, records transfers, and performs transactions.'
         ),
