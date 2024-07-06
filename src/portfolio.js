@@ -47,7 +47,7 @@ const experiences = [
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
         description: String().concat(
-            'Built test automation for a mobile app so that people can better separate their personal and work life'
+            'Built test automation for a mobile app so people can have 2 phone numbers without getting a second phone'
         ),
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins', 'Docker']
     }
