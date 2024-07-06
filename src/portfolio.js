@@ -10,9 +10,10 @@ const about = {
     name: 'Jaiden',
     role: 'Android Developer Co-op @ FORM • BME + CS @ UBC',
     description: String().concat(
-        'I\'m currently a student at the University of British Columbia studying Biomedical Engineering with a specialization in Computer Science. Currently, I am working as an Android Developer Co-op at FORM building a scalable mobile app for smart goggles to transform the way people swim.\n',
-        'On UBC campus, you will find me building software for autonomous aircraft systems on UBC AeroDesign. You will also find me deeply involved in the engineering community as a Co-President on the BMEUSA student council through community building, mentorship, and outreach.\n',
-        'Passionate about architecting and developing software, my mission is to bring applications and services to fruition. Recently, I have been learning backend development with Go, and cross-platform development with Kotlin/Compose Multiplatform. In my free time, you\'ll find me breaking a sweat at the gym, refining my swimming technique at the pool, and bringing my engineering projects to life.'
+        // 'I\'m currently a student at the University of British Columbia studying Biomedical Engineering with a specialization in Computer Science. Currently, I am working as an Android Developer Co-op at FORM building a scalable mobile app for smart goggles to transform the way people swim.\n',
+        // 'On UBC campus, you will find me building software for autonomous aircraft systems on UBC AeroDesign. You will also find me deeply involved in the engineering community as a Co-President on the BMEUSA student council through community building, mentorship, and outreach.\n',
+        // 'Passionate about architecting and developing software, my mission is to bring applications and services to fruition. Recently, I have been learning backend development with Go, and cross-platform development with Kotlin/Compose Multiplatform. In my free time, you\'ll find me breaking a sweat at the gym, refining my swimming technique at the pool, and bringing my engineering projects to life.'
+        'Interested in engineering and computer science.',
     ),
     contact: {
         // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
@@ -28,7 +29,7 @@ const experiences = [
         role: 'Android Developer Co-op',
         date: 'Apr 2024 - Present',
         description: String().concat(
-            'Building mobile experiences that pair with smart swim goggles to transform the way people swim'
+            'Building a mobile app that pairs with smart swim goggles to make people better swimmers'
         ),
         stack: ['Kotlin', 'Jetpack Compose', 'XML', 'RxJava', 'Room', 'Protocol Buffers', 'Jenkins', 'Bluetooth Low Energy (BLE)', 'Firebase', 'Android Studio']
     },
@@ -37,7 +38,7 @@ const experiences = [
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
         description: String().concat(
-            'Implemented a mobile solution to make viewing pay statements and managing vacation days effortless'
+            'Worked on a mobile app to make things like viewing pay statements and requesting vacation days effortless'
         ),
         stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Firebase', 'Android Studio', 'Postman']
     },
@@ -46,7 +47,7 @@ const experiences = [
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
         description: String().concat(
-            'Developed test automation to efficiently validate a mobile app for messaging and calling'
+            'Built test automation for a mobile app so that people can communicate using a second phone number'
         ),
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins', 'Docker']
     }
@@ -56,22 +57,25 @@ const projects = [
     {
         name: 'UBC AeroDesign',
         description: String().concat(
-            'Contributing to software development for an autonomous aircraft system competition at SAE Aero Design'
+            'Building avionics software'
+            // 'Contributing to software development for an autonomous aircraft system competition at SAE Aero Design'
         ),
         stack: ['Kotlin', 'Kotlin Multiplatform (KMP)', 'Compose Multiplatform', 'JUnit', 'Mockito', 'Raspberry Pi']
     },
     {
-        name: 'Gopher Bank',
+        name: 'Go-Transfer',
         description: String().concat(
-            'Developing bank web service in Go that manages accounts, records transfers, and performs transactions.'
+            'Building my own version of Interac e-Transfer or Zelle'
+            // 'Developing bank web service in Go that manages accounts, records transfers, and performs transactions.'
         ),
         stack: ['Go', 'SQL', 'PostgreSQL', 'Docker', 'Gin', 'REST APIs', 'GitHub Actions', 'CI/CD'],
-        github: 'https://github.com/jaidensiu/Gopher-Bank'
+        github: 'https://github.com/jaidensiu/Go-Transfer'
     },
     {
         name: 'World Countries App',
         description: String().concat(
-            'Built an Android app to display country details from a GraphQL API, and view a selected country on a map'
+            'Built an Android app so people can learn more about the world'
+            // 'Built an Android app to display country details from a GraphQL API, and view a selected country on a map'
         ),
         stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt'],
         github: 'https://github.com/jaidensiu/World-Countries-App'
@@ -92,7 +96,8 @@ const projects = [
     {
         name: 'UBC Multifaceted Innovations in NeuroTechnology',
         description: String().concat(
-            'Contributed to software development for an award-winning neurotechnology engineering design team',
+            'Worked on some cool engineering projects for neuroscience-based applications'
+            // 'Contributed to software development for an award-winning neurotechnology engineering design team',
             // 'Built a data-intensive web application that visualizes a user’s attentiveness state from an EEG headset\n',
             // 'Developed a REST API using Express.js to manage routes, and Node.js and Mongoose ODM to define models\n',
             // 'Reduced MongoDB query execution times by more than 50% through effective indexing strategies for caching\n',
@@ -104,19 +109,18 @@ const projects = [
     {
         name: 'Accura Plastering Website',
         description: String().concat(
-            'Increased web traffic from 10 to 50+ visitors by building a new website in TypeScript using Next.js and Vercel'
+            'Built a website as part of freelance work'
             // 'Freelanced for a local business to build a website, focusing on SEO to improve site ranking using metadata\n',
             // 'Built the website using Next.js with TypeScript and CSS, and deployed the website onto a domain with Vercel\n',
             // 'Optimized web vitals by minimizing latency to 0.06s and responsiveness to 0.03s for the optimal user experience',
         ),
         stack: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'React.js'],
-        github: 'https://github.com/jaidensiu/Accura-Website',
         website: 'https://www.accuraplastering.com/'
     },
     {
         name: 'Movie Review Web App',
         description: String().concat(
-            'Developed a full-stack web app for users to read and write movie reviews, and watch trailers from TMDb API',
+            'Developed a web app so users can give their opinions about a movie and watch trailers',
             // 'Built a REST API using Spring Boot and Java to facilitate API calls for JSON movie data stored in MongoDB\n',
             // 'Implemented the UI with React.js and Bootstrap that manages Axios HTTP requests to add and read reviews'
         ),
