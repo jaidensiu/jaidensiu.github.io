@@ -29,7 +29,7 @@ const experiences = [
         role: 'Android Developer Co-op',
         date: 'Apr 2024 - Present',
         description: String().concat(
-            'Building a mobile app that pairs with smart swim goggles to make people better swimmers'
+            'Building the FORM Swim Android app that pairs with smart swim goggles to transform the way people swim'
         ),
         stack: ['Kotlin', 'Jetpack Compose', 'XML', 'RxJava', 'Room', 'Protocol Buffers', 'Jenkins', 'Bluetooth Low Energy (BLE)', 'Firebase', 'Android Studio']
     },
@@ -38,7 +38,7 @@ const experiences = [
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
         description: String().concat(
-            'Worked on a mobile app to make things like viewing pay statements and requesting vacation days effortless'
+            'Worked on the Avanti Go Android app to make things like viewing pay statements and schedules effortless'
         ),
         stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Firebase', 'Android Studio', 'Postman']
     },
@@ -47,7 +47,7 @@ const experiences = [
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
         description: String().concat(
-            'Built test automation for a mobile app so people can have 2 phone numbers without getting a second phone'
+            'Built test automation to ensure compliance, privacy, and security for the Global Relay Android app'
         ),
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Android Studio', 'Jenkins', 'Docker']
     }
