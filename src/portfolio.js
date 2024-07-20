@@ -63,13 +63,13 @@ const projects = [
         stack: ['Kotlin', 'Kotlin Multiplatform (KMP)', 'Compose Multiplatform', 'JUnit', 'Mockito', 'Raspberry Pi']
     },
     {
-        name: 'Go-Transfer',
+        name: 'Gopher Bank',
         description: String().concat(
             'Building my own version of Interac e-Transfer or Zelle'
             // 'Developing bank web service in Go that manages accounts, records transfers, and performs transactions.'
         ),
         stack: ['Go', 'SQL', 'PostgreSQL', 'Docker', 'Gin', 'REST APIs', 'GitHub Actions', 'CI/CD'],
-        github: 'https://github.com/jaidensiu/Go-Transfer'
+        github: 'https://github.com/jaidensiu/Gopher-Bank'
     },
     {
         name: 'World Countries App',
@@ -126,43 +126,7 @@ const projects = [
         ),
         stack: ['Java', 'Spring Boot', 'MongoDB', 'React.js', 'Bootstrap', 'Axios', 'Postman', 'IntelliJ', 'VS Code'],
         github: 'https://github.com/jaidensiu/Movie-Review-App'
-    },
-    // {
-    //     name: 'Travel Planner Mobile App',
-    //     description:
-    //         'This is a nwHacks 2023 hackathon project where my team and I built an Android mobile application to reduce the information overload experienced on travel sites. I was involved with implementing a REST API to save user profile data using Sequelize, MySQL, Express, and Node. I tested the API endpoints using MySQL Workbench and Postman to verify SQL CRUD operations. The UI/UX components were designed and emulated in Android Studio which was written in Java and XML.',
-    //     photo: null,
-    //     stack: ['Express.js', 'Node.js', 'JavaScript', 'Java', 'Android Studio', 'VS Code', 'MySQL', 'Postman'],
-    //     github: 'https://github.com/jaidensiu/nwHacks-2023',
-    //     livePreview: 'https://devpost.com/software/xplore-g1thmo'
-    // },
-    // {
-    //     name: 'Handwritten Digit Classifier GUI',
-    //     description:
-    //         'This project was inspired by a Nintendo DS game called Brain Age that I used to play as a child. In this game, one of the particular minigames is a timed challenge where you write out answers to 20 randomized arithmetic questions onto the DS console\'s touchscreen in sequence. To mimic the digit recognition system in the DS console, I decided to create a convolutional neural network using max pooling that would be trained with the MNIST dataset. To test the digit recognition system, I developed a Pygame module that would allow a user to write a digit for the system to recognize the digit.',
-    //     stack: ['Python', 'TensorFlow', 'Keras', 'Pygame', 'VS Code'],
-    //     github: 'https://github.com/jaidensiu/Digit-Recognition-System'
-    // },
-    // {
-    //     name: 'Rental Bike Usage Prediction',
-    //     description:
-    //         'This project involved applying machine learning and statistical models to forecast bike rental demand using weather, hourly rentals, and date data for bike rental supply stability. I conducted exploratory data analysis by visualizing the dataset via scatter plots to summarize the data and relation between different features. To apply models to the dataset, I employed a linear and mutiple linear regression model to best fit a line for the number of bikes dependent on temperature. I also used a vanilla neural network to fit a curve against the data. To evaluate the models, I used metrics such a mean squared error to quantify prediction accuracy. The findings of this project allows for ensuring a stable supply of rental bikes.',
-    //     stack: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn', 'TensorFlow', 'Keras', 'Google Colab'],
-    //     sourceCode: 'https://colab.research.google.com/drive/17NUwQiYhrxbHLSbDXd86RwJlmRIa-9wn?usp=sharing'
-    // },
-    // {
-    //     name: 'Microfluidic Characterization Device',
-    //     description:
-    //         'A design course project inspired by cell sorting techniques in microfluidic devices. In a team, we designed an electromechanical device capable of sorting ping pong balls of two colours. We also produced design history files according to FDA guidelines that are used for medical device development. Overall, we modeled mechanical actuation using SolidWorks by finite element analysis, designed analog circuits to actuate device with photoresistor-integrated sensors, and wrote Arduino sketch software to control the actuation of physical components such as servo motors.',
-    //     stack: ['C++', 'Arduino', 'SolidWorks', 'MultiSim']
-    // },
-    // {
-    //     name: 'Autonomous Robotic Claw',
-    //     description:
-    //         'A design course project that introduces fundamental engineering design concepts from rapid-protyping to iterative design processes. I designed a pulley system that geometrically optimized the claw to open and close, wrote Arduino sketch software to automate the claw, pinned electronics such as a sonar sensor and servo motor, and modeled claw actuation in SolidWorks. My design of the cardboard robotic claw was able to sense and pick up items from almonds to soup cans over an obstacle. This project was a highlight of my first year of engineering at UBC.',
-    //     stack: ['C++', 'Arduino', 'SolidWorks'],
-    //     github: 'https://github.com/jaidensiu/Autonomous-Robotic-Claw'
-    // }
+    }
 ]
 
 const blogs = [
