@@ -8,7 +8,7 @@ const header = {
 const about = {
     photo: aboutpic,
     name: 'Jaiden',
-    role: 'Android Developer Co-op @ FORM • Incoming @ Intuit • BME + CS @ UBC',
+    role: 'Android Developer Co-op @ FORM • Incoming SWE Intern @ Intuit • BME + CS @ UBC',
     description: String().concat(
         // 'I\'m currently a student at the University of British Columbia studying Biomedical Engineering with a specialization in Computer Science. Currently, I am working as an Android Developer Co-op at FORM building a scalable mobile app for smart goggles to transform the way people swim.\n',
         // 'On UBC campus, you will find me building software for autonomous aircraft systems on UBC AeroDesign. You will also find me deeply involved in the engineering community as a Co-President on the BMEUSA student council through community building, mentorship, and outreach.\n',
@@ -26,7 +26,7 @@ const about = {
 const experiences = [
     {
         company: 'Intuit Inc.',
-        role: 'Software Developer Co-op',
+        role: 'Software Engineer Intern',
         date: 'Incoming Sep 2024',
         description: String().concat(
             'Joining a team working on a server driven UI framework and native UI libraries for Android, iOS, and Web'
