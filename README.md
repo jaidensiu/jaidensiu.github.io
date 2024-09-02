@@ -1,28 +1,27 @@
-## My [Website](https://jaidensiu.vercel.app)
+# [jaidensiu.vercel.app](https://jaidensiu.vercel.app)
 
-This repository contains the code for my [portfolio website and blog page](https://jaidensiu.vercel.app).
+To start development server
+```
+npm start
+```
 
-What I have worked on:
-- Developed a website with React.js, leveraging HTML, CSS, and JavaScript
-- Built a CI/CD pipeline using GitHub Actions for website deployment onto GitHub Pages
-- Leveraged Vercel for website deployment, and monitoring web analytics and vitals
+To deploy onto GitHub Pages and Vercel
+```
+npm run deploy
+```
 
-What have I learned:
-- How to use version control for my personal work
-- How to use package managers
-- How to optimize SEO for websites
-- How to design UI for good UX following best practices and principles
-- How to document my work and learning
-- How to build and deploy a website!
-
-Notes:
-- To start development server ```npm start```
-- To deploy onto GitHub Pages and Vercel ```npm run deploy```
+Tech stack:
+- HTML
+- CSS
+- JavaScript
+- React.js
+- GitHub Actions
+- Vercel
 
 References:
 - https://create-react-app.dev/docs/deployment/#github-pages
 - https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 - https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
-- https://www.flaticon.com/
-- https://realfavicongenerator.net/
-- https://v4.mui.com/components/material-icons/
+- [Flaticon](https://www.flaticon.com/)
+- [Favicon Generator](https://realfavicongenerator.net/)
+- [Material UI](https://v4.mui.com/components/material-icons/)

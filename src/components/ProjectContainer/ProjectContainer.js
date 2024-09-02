@@ -8,17 +8,20 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
     <div className='project'>
         <p className='project__title'>{project.name}</p>
-        {project.description.includes('\n') ? (
-            <ul className='project__description'>
-                {project.description.split('\n').map((item) => (
-                    <li key={uniqid()}>{item}</li>
-                ))} 
-            </ul>
-        ) : (
-            <ul className='project__description'>
-                <li>{project.description}</li>
-            </ul>
+        {project.description && (
+            project.description.includes('\n') ? (
+                <ul className='project__description'>
+                    {project.description.split('\n').map((item) => (
+                        <li key={uniqid()}>{item}</li>
+                    ))} 
+                </ul>
+            ) : (
+                <ul className='project__description'>
+                    <li>{project.description}</li>
+                </ul>
+            )
         )}
+
         {project.photo && (
             <img src={project.photo} alt={project.name} className='project__photo'/>
         )}

@@ -6,8 +6,8 @@ import Header from './components/Header/Header'
 import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
 import BmegElectivesGuide from './components/Blogposts/BmegElectivesGuide'
-import Notes from './components/Notes/Notes'
-import GoNotes from './components/NotePages/GoProgramming'
+// import Notes from './components/Notes/Notes'
+// import GoNotes from './components/NotePages/GoProgramming'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -29,8 +29,8 @@ const App = () => {
                         <Route path="/projects" element={<main><Projects /></main>} />
                         <Route path="/blogs" element={<main><Blogs /></main>} />
                         <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
-                        <Route path="/notes" element={<main><Notes /></main>} />
-                        <Route path="/notes/go-programming" element={<main><GoNotes /></main>} />
+                        {/* <Route path="/notes" element={<main><Notes /></main>} /> */}
+                        {/* <Route path="/notes/go-programming" element={<main><GoNotes /></main>} /> */}
                     </Routes>
                     <ScrollToTop />
                 </div>

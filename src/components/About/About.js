@@ -15,7 +15,7 @@ const About = () => {
             <div className='about center'>
                 {name && (
                     <h1 className="extra__padding">
-                        Hi there, my name is <span className='about__name'>{name}</span>.
+                        Hi, my name is <span className='about__name'>{name}</span>.
                     </h1>
                 )}
                 {photo && (
