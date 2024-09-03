@@ -73,7 +73,7 @@ const projects = [
         //     'Building avionics software'
         //     // 'Contributing to software development for an autonomous aircraft system competition at SAE Aero Design'
         // ),
-        stack: ['Kotlin', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Raspberry Pi']
+        stack: ['Kotlin', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker' 'Raspberry Pi']
     },
     {
         name: 'Bank Transaction Service',
