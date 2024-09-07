@@ -32,7 +32,7 @@ const experiences = [
         // description: String().concat(
         //     'Joining a team working on a server driven UI framework and native UI libraries for Android, iOS, and Web'
         // ),
-        // stack: ['Kotlin']
+        stack: ['Kotlin', 'Jetpack Compose', 'Kotlin Coroutines', 'JUnit', 'Applitools Eyes']
     },
     {
         companyLink: "https://ca.formswim.com/",
@@ -73,19 +73,11 @@ const projects = [
         //     'Building avionics software'
         //     // 'Contributing to software development for an autonomous aircraft system competition at SAE Aero Design'
         // ),
-        stack: ['Kotlin', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi']
+        stack: ['Kotlin', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
+        website: 'https://www.ubcaerodesign.com/'
     },
     {
-        name: 'Bank Transaction Service',
-        // description: String().concat(
-        //     // 'Building my own version of Interac e-Transfer or Zelle'
-        //     // 'Developing bank web service in Go that manages accounts, records transfers, and performs transactions.'
-        // ),
-        stack: ['Go', 'Gin', 'PostgreSQL', 'Docker', 'GitHub Actions', 'Kubernetes', 'AWS'],
-        github: 'https://github.com/jaidensiu/Gopher-Bank'
-    },
-    {
-        name: 'Real-time Messaging and AI Chatbot Service',
+        name: 'Gopher Chat',
         // description: String().concat(),
         stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla', 'Cohere', 'Docker'],
         github: 'https://github.com/jaidensiu/Gopher-Bank'
