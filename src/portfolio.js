@@ -32,7 +32,7 @@ const experiences = [
         // description: String().concat(
         //     'Joining a team working on a server driven UI framework and native UI libraries for Android, iOS, and Web'
         // ),
-        stack: ['Kotlin', 'Jetpack Compose', 'Kotlin Coroutines', 'JUnit', 'Applitools Eyes']
+        stack: ['Kotlin', 'TypeScript', 'Jetpack Compose', 'React.js', 'JUnit', 'Jest', 'Applitools Eyes']
     },
     {
         companyLink: "https://ca.formswim.com/",
