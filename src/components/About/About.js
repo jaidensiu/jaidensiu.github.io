@@ -35,23 +35,47 @@ const About = () => {
                     {contact && (
                         <>
                             {contact.resume && (
-                                <a href={contact.resume} aria-label='resume' className='link link--icon' target='_blank' rel='noopener noreferrer'>
+                                <a
+                                    href={contact.resume}
+                                    aria-label='resume'
+                                    className='link link--icon'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
                                     <ResumeIcon/>
                                 </a>
                             )}
                             {contact.github && (
-                                <a href={contact.github} aria-label='github' className='link link--icon' target='_blank' rel='noopener noreferrer'>
+                                <a
+                                    href={contact.github}
+                                    aria-label='github'
+                                    className='link link--icon'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
                                     <GitHubIcon/>
                                 </a>
                             )}
 
                             {contact.linkedin && (
-                                <a href={contact.linkedin} aria-label='linkedin' className='link link--icon' target='_blank' rel='noopener noreferrer'>
+                                <a
+                                    href={contact.linkedin}
+                                    aria-label='linkedin'
+                                    className='link link--icon'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
                                     <LinkedInIcon/>
                                 </a>
                             )}
                             {contact.email && (
-                                <a href={`mailto:${contact.email}`} aria-label='email' className='link link--icon' target='_blank' rel='noopener noreferrer'>
+                                <a
+                                    href={`mailto:${contact.email}`}
+                                    aria-label='email'
+                                    className='link link--icon'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
                                     <EmailIcon/>
                                 </a>
                             )}
