@@ -25,7 +25,7 @@
     padding-bottom: 0.4em;
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
     .about__image {
         width: 75%;
         justify-content: center;

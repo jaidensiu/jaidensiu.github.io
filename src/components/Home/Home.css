@@ -55,3 +55,23 @@
 .extra__padding {
     margin-bottom: 0.6em;
 }
+
+@media (max-width: 900px) {
+    .image__cropper {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .image__cropper {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+}
