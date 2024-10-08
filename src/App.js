@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
+import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
 import BmegElectivesGuide from './components/Blogposts/BmegElectivesGuide'
 // import Notes from './components/Notes/Notes'
@@ -25,6 +26,7 @@ const App = () => {
                     <Header />
                     <Routes>
                         <Route path="/" element={<main><Home /></main>} />
+                        <Route path="/about" element={<main><About /></main>} />
                         <Route path="/experience" element={<main><Experience /></main>} />
                         <Route path="/projects" element={<main><Projects /></main>} />
                         <Route path="/blogs" element={<main><Blogs /></main>} />

@@ -37,8 +37,8 @@
 }
 
 .image__cropper {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;

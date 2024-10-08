@@ -29,6 +29,13 @@ const Navbar = () => {
                 </li>
                 {experiences.length ? (
                     <li className='nav__list-item'>
+                        <a href='/about' onClick={toggleNavList} className='link link--nav'>
+                            About
+                        </a>
+                    </li>
+                ) : null}
+                {experiences.length ? (
+                    <li className='nav__list-item'>
                         <a href='/experience' onClick={toggleNavList} className='link link--nav'>
                             Experience
                         </a>

@@ -1,4 +1,5 @@
 import homepic from "./components/Access/pic_of_me.jpg"
+import aboutpic from "./components/Access/me_standing.jpg"
 
 const header = {
     homepage: '/',
@@ -16,6 +17,20 @@ const home = {
         linkedin: 'https://www.linkedin.com/in/jaidensiu/',
         email: 'siujaiden@gmail.com'
     }
+}
+
+const about = {
+    photo: aboutpic,
+    facts: [
+        'Currently learning Kotlin Multiplatform',
+        'Currently learning Mandarin Chinese',
+        'UBC BMEUSA Co-President',
+        'I enjoy nerding out about software and technology',
+        'I enjoy training calisthenics',
+        'I like to eat eggs',
+        'I have my ARCT in piano',
+        'I used to be a competitive swimmer (aka swammer)'
+    ]
 }
 
 const experiences = [
@@ -136,4 +151,4 @@ const blogs = [
 //     }
 // ]
 
-export { header, home, experiences, projects, blogs }
+export { header, home, about, experiences, projects, blogs }
