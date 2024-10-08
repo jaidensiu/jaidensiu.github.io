@@ -1,20 +1,15 @@
-import aboutpic from "./components/Access/pic_of_me.jpg"
+import homepic from "./components/Access/pic_of_me.jpg"
 
 const header = {
     homepage: '/',
     title: 'Jaiden Siu',
 }
 
-const about = {
-    photo: aboutpic,
+const home = {
+    photo: homepic,
     name: 'Jaiden',
     role: 'SWE Intern @ Intuit • BME + CS @ UBC',
-    description: String().concat(
-        // 'I\'m currently a student at the University of British Columbia studying Biomedical Engineering with a specialization in Computer Science. Currently, I am working as an Android Developer Co-op at FORM building a scalable mobile app for smart goggles to transform the way people swim.\n',
-        // 'On UBC campus, you will find me building software for autonomous aircraft systems on UBC AeroDesign. You will also find me deeply involved in the engineering community as a Co-President on the BMEUSA student council through community building, mentorship, and outreach.\n',
-        // 'Passionate about architecting and developing software, my mission is to bring applications and services to fruition. Recently, I have been learning backend development with Go, and cross-platform development with Kotlin/Compose Multiplatform. In my free time, you\'ll find me breaking a sweat at the gym, refining my swimming technique at the pool, and bringing my engineering projects to life.'
-        'Interested in engineering and computer science.',
-    ),
+    description: 'Interested in engineering and computer science.',
     contact: {
         // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',
@@ -42,7 +37,7 @@ const experiences = [
         // description: String().concat(
         //     'Building the FORM Swim Android app that pairs with smart swim goggles to transform the way people swim'
         // ),
-        stack: ['Kotlin', 'Jetpack Compose', 'XML', 'RxJava', 'Protocol Buffers', 'Jenkins', 'Bluetooth Low Energy (BLE)', 'Firebase']
+        stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
     },
     {
         companyLink: "https://www.avanti.ca/",
@@ -69,40 +64,34 @@ const experiences = [
 const projects = [
     {
         name: 'UBC AeroDesign',
-        // description: String().concat(
-        //     'Building avionics software'
-        //     // 'Contributing to software development for an autonomous aircraft system competition at SAE Aero Design'
-        // ),
-        stack: ['Kotlin', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
+        description: 'Building ground station software for a plane that features a data visualization dashboard with plane controls',
+        stack: ['Kotlin', 'Java', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
         website: 'https://www.ubcaerodesign.com/'
     },
     {
         name: 'Gopher Chat',
-        // description: String().concat(),
+        description: 'A real-time messaging and AI chatbot backend service',
         stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla', 'Cohere', 'Docker'],
         github: 'https://github.com/jaidensiu/Gopher-Bank'
     },
     {
         name: 'World Countries App',
-        // description: String().concat(
-        //     'Built an Android app so people can learn more about the world'
-        //     // 'Built an Android app to display country details from a GraphQL API, and view a selected country on a map'
-        // ),
+        description: 'An Android app that displays country details and shows a selected country on a map',
         stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt', 'GitHub Actions'],
         github: 'https://github.com/jaidensiu/World-Countries-App'
     },
     {
-        name: 'Noodle Doodle - 1st Place at nwHacks',
-        // description: String().concat(
-        //     'Placed 1st out of 300 teams at a hackathon by working in a team of 3 to build a noodle cooking IoT device'
-        //     // 'Led the development of an IoT device that enables users to cook noodles automatically with an iPhone\n',
-        //     // 'Implemented an iOS app in Swift using SwiftUI for user interfaces and Alamofire to handle HTTP connections\n',
-        //     // 'Developed a Flask server in Python hosted on a Raspberry Pi to expose an API endpoint to the iOS client\n',
-        //     // 'Actuated 4 servo motors from a Flask server using pigpio to execute cooking sequence with 100% reliability'
-        // ),
+        name: 'Noodle Doodle - 1st Place at nwHacks 2024',
+        description: 'An iOS app and IoT device that could autonomously cook a bowl of noodles',
         stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
         github: 'https://github.com/jaidensiu/Noodle-Doodle',
         livePreview: 'https://devpost.com/software/noodle-doodle'
+    },
+    {
+        name: 'Accura Plastering Website - Freelance Project',
+        description: 'Developed and deployed a website for a local business',
+        stack: ['TypeScript', 'Next.js', 'React.js', 'GitHub Actions', 'Vercel'],
+        website: 'https://www.accuraplastering.com/'
     },
     // {
     //     name: 'UBC Multifaceted Innovations in NeuroTechnology',
@@ -116,17 +105,6 @@ const projects = [
     //     //     // 'Developed a Tkinter-based GUI facilitating EEG headset data transmission via BLE for signal processing'
     //     // ),
     //     stack: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python', 'MongoDB', 'Express.js', 'React.js', 'Node.js', 'Axios']
-    // },
-    // {
-    //     name: 'Accura Plastering Website - Freelance Project',
-    //     // description: String().concat(
-    //     //     'Built a website as part of freelance work'
-    //     //     // 'Freelanced for a local business to build a website, focusing on SEO to improve site ranking using metadata\n',
-    //     //     // 'Built the website using Next.js with TypeScript and CSS, and deployed the website onto a domain with Vercel\n',
-    //     //     // 'Optimized web vitals by minimizing latency to 0.06s and responsiveness to 0.03s for the optimal user experience',
-    //     // ),
-    //     stack: ['HTML', 'CSS', 'TypeScript', 'Next.js', 'React.js'],
-    //     website: 'https://www.accuraplastering.com/'
     // },
     // {
     //     name: 'Movie Review Web App',
@@ -158,4 +136,4 @@ const blogs = [
 //     }
 // ]
 
-export { header, about, experiences, projects, blogs }
+export { header, home, experiences, projects, blogs }

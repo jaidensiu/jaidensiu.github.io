@@ -3,19 +3,19 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
 import ResumeIcon from '@material-ui/icons/Description'
 import { v4 as uuidv4 } from 'uuid'
-import { about } from '../../portfolio'
-import './About.css'
+import { home } from '../../portfolio'
+import './Home.css'
 
-const About = () => {
-    const { photo, name, role, description, contact } = about
+const Home = () => {
+    const { photo, name, role, description, contact } = home
     const descriptionParagraph = description.split('\n')
 
     return (
-        <section id='about' className='section'>
-            <div className='about center'>
+        <section id='home' className='section'>
+            <div className='home center'>
                 {name && (
                     <h1 className="extra__padding">
-                        Hi, my name is <span className='about__name'>{name}</span>.
+                        Hi, my name is <span className='home__name'>{name}</span>.
                     </h1>
                 )}
                 {photo && (
@@ -24,14 +24,14 @@ const About = () => {
                     </div>
                 )}
                 {role && (
-                    <h3 className='about__role'>{role}</h3>
+                    <h3 className='home__role'>{role}</h3>
                 )}
                 <div>
                     {descriptionParagraph.map(paragraph => (
-                        <p key={uuidv4()} className='about__desc'>{paragraph}</p>
+                        <p key={uuidv4()} className='home__desc'>{paragraph}</p>
                     ))}
                 </div>
-                <div className='about__contact'>
+                <div className='home__contact'>
                     {contact && (
                         <>
                             {contact.resume && (
@@ -87,4 +87,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Home

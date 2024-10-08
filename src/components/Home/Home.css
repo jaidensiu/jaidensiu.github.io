@@ -1,38 +1,37 @@
-.about {
+.home {
     flex-direction: column;
     margin-top: 2em;
 }
 
-.about__name {
+.home__name {
     color: var(--clr-primary);
 }
 
-.about__role {
+.home__role {
     margin-top: 1.6em;
     margin-bottom: 1.6em;
     text-align: center;
 }
 
-.about__desc {
+.home__desc {
     max-width: 600px;
-    text-align: center;
     margin-bottom: 1em;
 }
 
-.about__contact {
+.home__contact {
     margin-top: 1.6em;
 }
 
-.about .link--icon {
+.home .link--icon {
     margin: 0 0.6em;
 }
 
-.about .btn--outline {
+.home .btn--outline {
     margin: 0 0.6em;
 }
 
 @media (max-width: 600px) {
-    .app .about {
+    .app .home {
         align-items: center;
     }
 }

@@ -23,10 +23,7 @@
 
 .project__description {
     margin-top: 0.5em;
-    text-align: left;
-    list-style-type: disc;
-    margin-left: 20px;
-    margin-right: 20px
+    line-height: 1.6em;
 }
 
 .project__photo {

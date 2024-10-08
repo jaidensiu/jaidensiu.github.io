@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -11,13 +11,20 @@ const Navbar = () => {
     const [{ themeName, toggleTheme }] = useContext(ThemeContext)
     const [showNavList, setShowNavList] = useState(false)
     const toggleNavList = () => setShowNavList(!showNavList)
+    useEffect(() => {
+        if (showNavList) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    }, [showNavList]);
 
     return (
         <nav className='center nav'>
             <ul style={{ display: showNavList ? 'flex' : null }} className='nav__list'>
                 <li className='nav__list-item'>
                     <a href='/' onClick={toggleNavList} className='link link--nav'>
-                        About
+                        Home
                     </a>
                 </li>
                 {experiences.length ? (
