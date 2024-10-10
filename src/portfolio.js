@@ -25,10 +25,10 @@ const about = {
         'Currently learning Kotlin Multiplatform',
         'Currently learning Mandarin Chinese',
         'UBC BMEUSA Co-President',
-        'I enjoy nerding out about software and technology',
-        'I enjoy training calisthenics',
+        'I like to nerd out about software and technology',
+        'I train calisthenics',
         'I like to eat eggs',
-        'I have my ARCT in piano',
+        'I play the piano',
         'I used to be a competitive swimmer (aka swammer)'
     ]
 }
