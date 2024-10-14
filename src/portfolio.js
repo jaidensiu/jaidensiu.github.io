@@ -22,9 +22,9 @@ const home = {
 const about = {
     photo: aboutpic,
     facts: [
-        'Currently learning Kotlin Multiplatform',
+        'Currently building a Kotlin Multiplatform Android/iOS app',
         'Currently learning Mandarin Chinese',
-        'UBC BMEUSA Co-President',
+        'Currently one of the Co-Presidents for UBC BMEUSA',
         'I like to nerd out about software and technology',
         'I train calisthenics',
         'I like to eat eggs',
