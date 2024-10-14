@@ -9,7 +9,7 @@ const ExperienceContainer = ({ experience }) => (
         {/* <p className="experience__company">{experience.company}</p> */}
         <p className='experience__role'>{experience.role}</p>
         <p className='experience__date'>{experience.date}</p>
-        {experience.description && (
+        {/* {experience.description && (
             experience.description.includes('\n') ? (
                 <ul className='experience__description'>
                     {experience.description.split('\n').map((item) => (
@@ -21,9 +21,8 @@ const ExperienceContainer = ({ experience }) => (
                     <li>{experience.description}</li>
                 </ul>
             )
-        )}
-        
-        {/* <p className='experience__description'>{experience.description}</p> */}
+        )} */}
+        <p className='experience__description'>{experience.description}</p>
         {experience.stack && (
             <ul className='experience__stack'>
                 {experience.stack.map((item) => (

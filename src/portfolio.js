@@ -23,6 +23,7 @@ const about = {
     photo: aboutpic,
     facts: [
         'Currently building a Kotlin Multiplatform Android/iOS app',
+        'Currently learning Go (the programming language)',
         'Currently learning Mandarin Chinese',
         'Currently one of the Co-Presidents for UBC BMEUSA',
         'I like to nerd out about software and technology',
@@ -39,9 +40,7 @@ const experiences = [
         company: 'Intuit',
         role: 'Software Engineer Intern',
         date: 'Sep 2024 - Present',
-        // description: String().concat(
-        //     'Joining a team working on a server driven UI framework and native UI libraries for Android, iOS, and Web'
-        // ),
+        description: 'Consumer Group Design System Team',
         stack: ['Kotlin', 'TypeScript', 'Jetpack Compose', 'React.js', 'JUnit', 'Jest', 'Applitools Eyes']
     },
     {
@@ -49,9 +48,7 @@ const experiences = [
         company: 'FORM',
         role: 'Android Developer Co-op',
         date: 'May 2024 - Aug 2024',
-        // description: String().concat(
-        //     'Building the FORM Swim Android app that pairs with smart swim goggles to transform the way people swim'
-        // ),
+        description: 'Mobile Engineering Team',
         stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
     },
     {
@@ -59,9 +56,7 @@ const experiences = [
         company: 'Avanti',
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
-        // description: String().concat(
-        //     'Worked on the Avanti Go Android app to make things like viewing pay statements and schedules effortless'
-        // ),
+        description: 'Mobile Development Team',
         stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Firebase']
     },
     {
@@ -69,9 +64,7 @@ const experiences = [
         company: 'Global Relay',
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
-        // description: String().concat(
-        //     'Built test automation to ensure compliance, privacy, and security for the Global Relay Android app'
-        // ),
+        description: 'Android Development Team',
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
     }
 ]
@@ -97,7 +90,7 @@ const projects = [
     },
     {
         name: 'Noodle Doodle - 1st Place at nwHacks 2024',
-        description: 'An iOS app and IoT device that could autonomously cook a bowl of noodles',
+        description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles',
         stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
         github: 'https://github.com/jaidensiu/Noodle-Doodle',
         livePreview: 'https://devpost.com/software/noodle-doodle'
