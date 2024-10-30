@@ -14,8 +14,9 @@
 }
 
 .home__desc {
-    max-width: 600px;
+    max-width: 400px;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .home__contact {

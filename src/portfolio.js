@@ -10,7 +10,7 @@ const home = {
     photo: homepic,
     name: 'Jaiden',
     role: 'SWE Intern @ Intuit • BME + CS @ UBC',
-    description: 'Interested in engineering and computer science.',
+    description: 'Interested in mobile applications, distributed systems, and artificial intelligence.',
     contact: {
         // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',
