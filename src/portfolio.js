@@ -1,5 +1,5 @@
 import homepic from "./components/Access/pic_of_me.jpg"
-import aboutpic from "./components/Access/me_standing.jpg"
+import aboutpic from "./components/Access/gopher_banner.gif"
 
 const header = {
     homepage: '/',
@@ -22,7 +22,6 @@ const home = {
 const about = {
     photo: aboutpic,
     facts: [
-        'Currently building a Kotlin Multiplatform Android/iOS app',
         'Currently learning Go (the programming language)',
         'Currently learning Mandarin Chinese',
         'Currently one of the Co-Presidents for UBC BMEUSA',
