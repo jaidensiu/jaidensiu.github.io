@@ -40,7 +40,7 @@ const experiences = [
         role: 'Software Engineer Intern',
         date: 'Sep 2024 - Present',
         description: 'Knowledge Driven Systems and Tools Team',
-        stack: ['Kotlin', 'TypeScript', 'Jetpack Compose', 'React.js', 'JUnit', 'Jest', 'Applitools Eyes']
+        stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes']
     },
     {
         companyLink: "https://ca.formswim.com/",
@@ -48,7 +48,7 @@ const experiences = [
         role: 'Android Developer Co-op',
         date: 'May 2024 - Aug 2024',
         description: 'Mobile Engineering Team',
-        stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
+        stack: ['Kotlin', 'Java', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
     },
     {
         companyLink: "https://www.avanti.ca/",
@@ -56,7 +56,7 @@ const experiences = [
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
         description: 'Mobile Development Team',
-        stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'OkHttp', 'Room', 'JUnit', 'Mockito', 'Firebase']
+        stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'JUnit', 'Mockito', 'Firebase']
     },
     {
         companyLink: "https://www.globalrelay.com/",
