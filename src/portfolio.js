@@ -76,22 +76,22 @@ const projects = [
         website: 'https://www.ubcaerodesign.com/'
     },
     {
-        name: 'Gopher Chat',
-        description: 'A real-time messaging and AI chatbot backend service',
+        name: 'Messaging and Chatbot Service',
+        description: 'A real-time messaging and LLM chatbot backend service',
         stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla', 'Cohere', 'Docker'],
-        github: 'https://github.com/jaidensiu/Gopher-Bank'
+        github: 'https://github.com/jaidensiu/messaging-and-chatbot-service'
     },
     {
         name: 'World Countries App',
         description: 'An Android app that displays country details and shows a selected country on a map',
         stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt', 'GitHub Actions'],
-        github: 'https://github.com/jaidensiu/World-Countries-App'
+        github: 'https://github.com/jaidensiu/world-countries-app'
     },
     {
         name: 'Noodle Doodle - 1st Place at nwHacks 2024',
         description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles',
         stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
-        github: 'https://github.com/jaidensiu/Noodle-Doodle',
+        github: 'https://github.com/jaidensiu/noodle-doodle',
         livePreview: 'https://devpost.com/software/noodle-doodle'
     },
     {
