@@ -10,7 +10,7 @@ const home = {
     photo: homepic,
     name: 'Jaiden',
     role: 'SWE Intern @ Intuit • BME + CS @ UBC',
-    description: 'Interested in mobile applications, distributed systems, and artificial intelligence.',
+    description: 'Interested in mobile computing, distributed systems, and artificial intelligence.',
     contact: {
         // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
         github: 'https://github.com/jaidensiu',
@@ -39,7 +39,7 @@ const experiences = [
         company: 'Intuit',
         role: 'Software Engineer Intern',
         date: 'Sep 2024 - Present',
-        description: 'Consumer Group Design System Team',
+        description: 'Knowledge Driven Systems and Tools Team',
         stack: ['Kotlin', 'TypeScript', 'Jetpack Compose', 'React.js', 'JUnit', 'Jest', 'Applitools Eyes']
     },
     {
