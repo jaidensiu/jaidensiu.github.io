@@ -70,7 +70,12 @@ const experiences = [
 
 const projects = [
     {
-        name: 'UBC AeroDesign',
+        name: 'Simple Bank Service',
+        description: 'A backend web service in Go for secure account management, balance tracking, and money transfers',
+        stack: ['Go', 'Gin', 'gRPC', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes']
+    },
+    {
+        name: 'UBC AeroDesign Engineering Design Team',
         description: 'Building ground station software for a plane that features a data visualization dashboard with plane controls',
         stack: ['Kotlin', 'Java', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
         website: 'https://www.ubcaerodesign.com/'
@@ -78,7 +83,7 @@ const projects = [
     {
         name: 'Messaging and Chatbot Service',
         description: 'A real-time messaging and LLM chatbot backend service',
-        stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla', 'Cohere', 'Docker'],
+        stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla WebSocket', 'Cohere', 'Docker'],
         github: 'https://github.com/jaidensiu/messaging-and-chatbot-service'
     },
     {
