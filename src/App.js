@@ -31,7 +31,6 @@ const App = () => {
                         <Route path="/projects" element={<main><Projects /></main>} />
                         <Route path="/blogs" element={<main><Blogs /></main>} />
                         <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
-                        <Route path="/Jaiden_Siu_resume.pdf" />
                         {/* <Route path="/notes" element={<main><Notes /></main>} /> */}
                         {/* <Route path="/notes/go-programming" element={<main><GoNotes /></main>} /> */}
                     </Routes>
