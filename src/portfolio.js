@@ -12,7 +12,7 @@ const home = {
     role: 'SWE Intern @ Intuit • BME + CS @ UBC',
     description: 'Interested in mobile computing, distributed systems, and artificial intelligence.',
     contact: {
-        // resume: 'https://drive.google.com/file/d/1kRbtdnIrpz4b0WgfL3cbeu8xqBdReFm-/view?usp=sharing',
+        resume: '/Jaiden_Siu_resume.pdf',
         github: 'https://github.com/jaidensiu',
         linkedin: 'https://www.linkedin.com/in/jaidensiu/',
         email: 'siujaiden@gmail.com'
