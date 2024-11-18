@@ -22,6 +22,7 @@ const home = {
 const about = {
     photo: aboutpic,
     facts: [
+        'Currently tinkering with Kotlin Multiplatform',
         'Currently learning Go (the programming language)',
         'Currently learning Mandarin Chinese',
         'Currently one of the Co-Presidents for UBC BMEUSA',
@@ -70,12 +71,17 @@ const experiences = [
 
 const projects = [
     {
-        name: 'Simple Bank Service',
+        name: 'Book Finder App',
+        description: 'A cross-platform app targeting Android, iOS, and Desktop...',
+        stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil']
+    },
+    {
+        name: 'Simple Bank',
         description: 'A backend web service in Go for secure account management, balance tracking, and money transfers',
         stack: ['Go', 'Gin', 'gRPC', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes']
     },
     {
-        name: 'UBC AeroDesign Engineering Design Team',
+        name: 'UBC AeroDesign - Engineering Design Team',
         description: 'Building ground station software for a plane that features a data visualization dashboard with plane controls',
         stack: ['Kotlin', 'Java', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
         website: 'https://www.ubcaerodesign.com/'
