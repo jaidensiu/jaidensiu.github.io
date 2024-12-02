@@ -41,7 +41,6 @@ const Home = () => {
                                     href={contact.resume}
                                     aria-label='resume'
                                     className='link link--icon'
-                                    target='_blank'
                                     rel='noopener noreferrer'
                                 >
                                     <ResumeIcon/>

@@ -1,0 +1,26 @@
+.resume {
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.resume__section__title {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.resume__section {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.resume__embedded__view {
+    width: 90%;
+    align-content: center;
+}
+
+.resume__embedded__view embed {
+    width: 100%;
+    object-fit: contain;
+}

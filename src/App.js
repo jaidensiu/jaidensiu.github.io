@@ -11,6 +11,7 @@ import BmegElectivesGuide from './components/Blogposts/BmegElectivesGuide'
 // import GoNotes from './components/NotePages/GoProgramming'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
+import Resume from './components/Resume/Resume'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Footer from './components/Footer/Footer'
 import './App.css'
@@ -26,6 +27,7 @@ const App = () => {
                     <Header />
                     <Routes>
                         <Route path="/" element={<main><Home /></main>} />
+                        <Route path="/resume" element={<main><Resume /></main>} />
                         <Route path="/about" element={<main><About /></main>} />
                         <Route path="/experience" element={<main><Experience /></main>} />
                         <Route path="/projects" element={<main><Projects /></main>} />

@@ -12,7 +12,7 @@ const home = {
     role: 'SWE Intern @ Intuit • BME + CS @ UBC',
     description: 'Interested in mobile computing, distributed systems, and artificial intelligence.',
     contact: {
-        resume: '/Jaiden_Siu_resume.pdf',
+        resume: '/resume',
         github: 'https://github.com/jaidensiu',
         linkedin: 'https://www.linkedin.com/in/jaidensiu/',
         email: 'siujaiden@gmail.com'
@@ -76,9 +76,10 @@ const projects = [
         stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil']
     },
     {
-        name: 'Simple Bank',
-        description: 'A backend web service in Go for secure account management, balance tracking, and money transfers',
-        stack: ['Go', 'Gin', 'gRPC', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes']
+        name: 'Banking Service',
+        description: 'A banking web service for secure account management, balance tracking, and money transfers',
+        stack: ['Go', 'Gin', 'gRPC', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes'],
+        github: 'https://github.com/jaidensiu/banking-service'
     },
     {
         name: 'UBC AeroDesign - Engineering Design Team',
