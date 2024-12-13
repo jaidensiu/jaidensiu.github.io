@@ -40,7 +40,7 @@ const experiences = [
         company: 'Intuit',
         role: 'Software Engineer Intern',
         date: 'Sep 2024 - Present',
-        description: 'Knowledge Driven Systems and Tools Team',
+        // description: 'Knowledge Driven Systems / Dynamic Experiences Team',
         stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes']
     },
     {
@@ -48,7 +48,7 @@ const experiences = [
         company: 'FORM',
         role: 'Android Developer Co-op',
         date: 'May 2024 - Aug 2024',
-        description: 'Mobile Engineering Team',
+        // description: 'Mobile Engineering Team',
         stack: ['Kotlin', 'Java', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
     },
     {
@@ -56,15 +56,15 @@ const experiences = [
         company: 'Avanti',
         role: 'Software Developer Co-op',
         date: 'Sep 2023 - Apr 2024',
-        description: 'Mobile Development Team',
-        stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'JUnit', 'Mockito', 'Firebase']
+        // description: 'Mobile Development Team',
+        stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'JUnit', 'Mockito', 'Firebase']
     },
     {
         companyLink: "https://www.globalrelay.com/",
         company: 'Global Relay',
         role: 'Software Development Engineer in Test Co-op',
         date: 'May 2023 - Aug 2023',
-        description: 'Android Development Team',
+        // description: 'Android Development Team',
         stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
     }
 ]
