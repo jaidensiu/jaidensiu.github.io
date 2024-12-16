@@ -1,0 +1,182 @@
+[
+    {
+        "emotion": "happy",
+        "synonyms": [
+            "joyful",
+            "content",
+            "cheerful",
+            "elated",
+            "uplifted"
+        ],
+        "image": "https://example.com/happy_image.jpg",
+        "quote": "Happiness is not something ready made. It comes from your own actions. - Dalai Lama",
+        "suggestion": "Keep a gratitude journal and write down three things you are thankful for each day.",
+        "relaxation": "Take a walk in nature and enjoy the beauty around you.",
+        "mindfulness": [
+            "Find a quiet place and sit comfortably.",
+            "Close your eyes and take a few deep breaths.",
+            "Focus on your breath and let go of any thoughts.",
+            "Continue for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "sad",
+        "synonyms": [
+            "downcast",
+            "melancholy",
+            "heartbroken",
+            "blue",
+            "sorrowful"
+        ],
+        "image": "https://example.com/sad_image.jpg",
+        "quote": "Tough times never last, but tough people do. - Robert H. Schuller",
+        "suggestion": "Reach out to a friend or family member and talk about how you feel.",
+        "relaxation": "Listen to your favorite music and let it uplift your mood.",
+        "mindfulness": [
+            "Find a comfortable place to sit or lie down.",
+            "Close your eyes and take deep breaths.",
+            "Visualize a peaceful place where you feel safe and happy.",
+            "Stay in this visualization for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "anxious",
+        "synonyms": [
+            "nervous",
+            "restless",
+            "worried",
+            "apprehensive",
+            "tense"
+        ],
+        "image": "https://example.com/anxious_image.jpg",
+        "quote": "You don't have to control your thoughts. You just have to stop letting them control you. - Dan Millman",
+        "suggestion": "Practice deep breathing exercises to calm your mind.",
+        "relaxation": "Take a warm bath with calming essential oils like lavender.",
+        "mindfulness": [
+            "Sit in a comfortable position and close your eyes.",
+            "Take a deep breath in through your nose and exhale through your mouth.",
+            "Focus on your breath and count each inhale and exhale.",
+            "Continue this practice for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "angry",
+        "synonyms": [
+            "irritated",
+            "frustrated",
+            "enraged",
+            "annoyed",
+            "resentful"
+        ],
+        "image": "https://example.com/angry_image.jpg",
+        "quote": "For every minute you remain angry, you give up sixty seconds of peace of mind. - Ralph Waldo Emerson",
+        "suggestion": "Take a break and do something you enjoy to distract yourself.",
+        "relaxation": "Engage in physical activity like jogging or yoga to release pent-up energy.",
+        "mindfulness": [
+            "Find a quiet place to sit and close your eyes.",
+            "Take deep breaths and focus on the sensation of your breath.",
+            "Visualize a calming scene, such as a beach or a forest.",
+            "Stay in this visualization for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "calm",
+        "synonyms": [
+            "serene",
+            "peaceful",
+            "tranquil",
+            "relaxed",
+            "untroubled"
+        ],
+        "image": "https://example.com/calm_image.jpg",
+        "quote": "Peace is not the absence of conflict, but the ability to cope with it. - Mahatma Gandhi",
+        "suggestion": "Light a candle and spend a few moments enjoying its soft glow.",
+        "relaxation": "Do a progressive muscle relaxation exercise, tensing and relaxing each part of your body.",
+        "mindfulness": [
+            "Sit comfortably and close your eyes.",
+            "Focus on the feeling of calmness within you.",
+            "Visualize a serene lake with still waters.",
+            "Breathe deeply and stay in this state for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "excited",
+        "synonyms": [
+            "thrilled",
+            "overjoyed",
+            "ecstatic",
+            "delighted",
+            "eager"
+        ],
+        "image": "https://example.com/excited_image.jpg",
+        "quote": "The only way to do great work is to love what you do. - Steve Jobs",
+        "suggestion": "Channel your energy into planning or working on a project you're passionate about.",
+        "relaxation": "Take a moment to reflect on why you feel excited and savor the anticipation.",
+        "mindfulness": [
+            "Sit comfortably and close your eyes.",
+            "Breathe deeply, matching your breath to your excitement level.",
+            "Visualize a successful outcome for what excites you.",
+            "Hold onto this positive energy for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "lonely",
+        "synonyms": [
+            "isolated",
+            "alone",
+            "forsaken",
+            "detached",
+            "desolate"
+        ],
+        "image": "https://example.com/lonely_image.jpg",
+        "quote": "The most terrible poverty is loneliness and the feeling of being unloved. - Mother Teresa",
+        "suggestion": "Join a group or community with similar interests to connect with others.",
+        "relaxation": "Write a letter to yourself, reflecting on your feelings and reminding yourself of your worth.",
+        "mindfulness": [
+            "Sit in a cozy spot and close your eyes.",
+            "Focus on your breath and feel the presence of your surroundings.",
+            "Visualize being surrounded by loved ones and their warm energy.",
+            "Stay in this visualization for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "hopeful",
+        "synonyms": [
+            "optimistic",
+            "positive",
+            "confident",
+            "expectant",
+            "encouraged"
+        ],
+        "image": "https://example.com/hopeful_image.jpg",
+        "quote": "Hope is being able to see that there is light despite all of the darkness. - Desmond Tutu",
+        "suggestion": "Write down your goals and the first steps to achieve them.",
+        "relaxation": "Spend time outside and notice the small wonders of nature.",
+        "mindfulness": [
+            "Sit comfortably and close your eyes.",
+            "Focus on your breath and imagine a light within you growing stronger.",
+            "Visualize a positive future and the steps you’ll take to get there.",
+            "Stay in this visualization for 5-10 minutes."
+        ]
+    },
+    {
+        "emotion": "grateful",
+        "synonyms": [
+            "thankful",
+            "appreciative",
+            "contented",
+            "blessed",
+            "satisfied"
+        ],
+        "image": "https://example.com/grateful_image.jpg",
+        "quote": "Gratitude turns what we have into enough. - Anonymous",
+        "suggestion": "Write a thank-you note to someone who has impacted your life.",
+        "relaxation": "List five things you’re grateful for and why.",
+        "mindfulness": [
+            "Sit in a quiet place and close your eyes.",
+            "Breathe deeply and think about something or someone you’re thankful for.",
+            "Feel the warmth of gratitude spreading throughout your body.",
+            "Continue this practice for 5-10 minutes."
+        ]
+    }
+]
