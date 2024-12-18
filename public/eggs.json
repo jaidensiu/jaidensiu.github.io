@@ -1,0 +1,91 @@
+[
+    {
+        "name": "scrambled eggs",
+        "image": "https://example.com/scrambled-eggs.jpg",
+        "video": "https://youtube.com/scrambled-eggs-tutorial",
+        "steps": [
+            "Crack 3 eggs into a bowl and whisk them thoroughly.",
+            "Add a splash of milk or cream, and season with salt and pepper.",
+            "Heat a non-stick skillet over medium heat and add butter.",
+            "Pour the egg mixture into the skillet and let it sit for a few seconds.",
+            "Using a spatula, gently stir the eggs, pushing from the edges toward the center.",
+            "Cook until the eggs are softly set and slightly runny in places.",
+            "Remove from heat and serve immediately."
+        ]
+    },
+    {
+        "name": "fried eggs",
+        "image": "https://example.com/fried-eggs.jpg",
+        "video": "https://youtube.com/fried-eggs-tutorial",
+        "steps": [
+            "Heat a non-stick skillet over medium heat.",
+            "Add a small amount of oil or butter to the pan.",
+            "Crack an egg into the pan.",
+            "Cook until the white is set and edges are crispy.",
+            "For sunny-side-up, serve as is; for over-easy, flip and cook for 30 seconds."
+        ]
+    },
+    {
+        "name": "poached eggs",
+        "image": "https://example.com/poached-eggs.jpg",
+        "video": "https://youtube.com/poached-eggs-tutorial",
+        "steps": [
+            "Bring a pot of water to a gentle simmer.",
+            "Add a tablespoon of vinegar to the water.",
+            "Crack an egg into a small bowl.",
+            "Create a gentle whirlpool in the water and slide the egg into the center.",
+            "Cook for 3-4 minutes until the white is set and the yolk is runny.",
+            "Remove with a slotted spoon and serve immediately."
+        ]
+    },
+    {
+        "name": "omelette",
+        "image": "https://example.com/omelette.jpg",
+        "video": "https://youtube.com/omelette-tutorial",
+        "steps": [
+            "Whisk 2-3 eggs in a bowl with salt and pepper.",
+            "Heat a non-stick skillet over medium heat and add butter.",
+            "Pour the eggs into the pan and let them set slightly.",
+            "Add your choice of fillings (cheese, vegetables, etc.) to one side.",
+            "Fold the omelette in half and cook for another 1-2 minutes.",
+            "Serve hot."
+        ]
+    },
+    {
+        "name": "hard-boiled eggs",
+        "image": "https://example.com/hard-boiled-eggs.jpg",
+        "video": "https://youtube.com/hard-boiled-eggs-tutorial",
+        "steps": [
+            "Place eggs in a pot and cover with cold water.",
+            "Bring water to a boil over high heat.",
+            "Once boiling, reduce heat to medium and simmer for 9-12 minutes.",
+            "Remove eggs and place them in an ice water bath for 5 minutes.",
+            "Peel and serve."
+        ]
+    },
+    {
+        "name": "deviled eggs",
+        "image": "https://example.com/deviled-eggs.jpg",
+        "video": "https://youtube.com/deviled-eggs-tutorial",
+        "steps": [
+            "Prepare hard-boiled eggs and slice them in half lengthwise.",
+            "Remove the yolks and mash them with mayonnaise, mustard, and seasoning.",
+            "Spoon or pipe the yolk mixture back into the egg whites.",
+            "Garnish with paprika or herbs and serve."
+        ]
+    },
+    {
+        "name": "steamed eggs",
+        "image": "https://example.com/steamed-eggs.jpg",
+        "video": "https://youtube.com/steamed-eggs-tutorial",
+        "steps": [
+            "Crack 2-3 eggs into a bowl and whisk until smooth.",
+            "Add twice the amount of warm water or stock to the eggs and mix well.",
+            "Strain the mixture through a sieve to remove bubbles.",
+            "Pour the mixture into a heatproof bowl or ramekin.",
+            "Cover the bowl with plastic wrap or foil.",
+            "Place the bowl in a steamer over medium heat and steam for 10-15 minutes.",
+            "Check for a silky, custard-like texture before serving."
+        ]
+    }
+]
