@@ -1,6 +1,6 @@
 import { inject } from '@vercel/analytics'
 import { useContext } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
@@ -33,7 +33,7 @@ const App = () => {
                         <Route path="/projects" element={<main><Projects /></main>} />
                         <Route path="/blogs" element={<main><Blogs /></main>} />
                         <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
-                        <Route path="/eggs" element={<main><div>Eggs JSON file will be served here.</div></main>} />
+                        <Route path="/eggs" element={<Navigate to="/eggs.json" replace />} />
                         {/* <Route path="/notes" element={<main><Notes /></main>} /> */}
                         {/* <Route path="/notes/go-programming" element={<main><GoNotes /></main>} /> */}
                     </Routes>
