@@ -3,6 +3,14 @@
         {
             "source": "/(.*)",
             "destination": "/index.html"
+        },
+        {
+            "source": "/Jaiden_Siu_resume.pdf",
+            "destination": "/Jaiden_Siu_resume.pdf"
+        },
+        {
+            "source": "/egg.json",
+            "destination": "/eggs.json"
         }
     ]
 }
