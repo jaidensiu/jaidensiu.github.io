@@ -1,9 +1,10 @@
 [
     {
+        "id": 0,
         "name": "scrambled eggs",
-        "image": "https://example.com/scrambled-eggs.jpg",
-        "video": "https://youtube.com/scrambled-eggs-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/scrambled-eggs.jpg",
+        "video_url": "https://youtube.com/scrambled-eggs-tutorial",
+        "cooking_steps": [
             "Crack 3 eggs into a bowl and whisk them thoroughly.",
             "Add a splash of milk or cream, and season with salt and pepper.",
             "Heat a non-stick skillet over medium heat and add butter.",
@@ -14,10 +15,11 @@
         ]
     },
     {
+        "id": 1,
         "name": "fried eggs",
-        "image": "https://example.com/fried-eggs.jpg",
-        "video": "https://youtube.com/fried-eggs-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/fried-eggs.jpg",
+        "video_url": "https://youtube.com/fried-eggs-tutorial",
+        "cooking_steps": [
             "Heat a non-stick skillet over medium heat.",
             "Add a small amount of oil or butter to the pan.",
             "Crack an egg into the pan.",
@@ -26,10 +28,11 @@
         ]
     },
     {
+        "id": 2,
         "name": "poached eggs",
-        "image": "https://example.com/poached-eggs.jpg",
-        "video": "https://youtube.com/poached-eggs-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/poached-eggs.jpg",
+        "video_url": "https://youtube.com/poached-eggs-tutorial",
+        "cooking_steps": [
             "Bring a pot of water to a gentle simmer.",
             "Add a tablespoon of vinegar to the water.",
             "Crack an egg into a small bowl.",
@@ -39,10 +42,11 @@
         ]
     },
     {
+        "id": 3,
         "name": "omelette",
-        "image": "https://example.com/omelette.jpg",
-        "video": "https://youtube.com/omelette-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/omelette.jpg",
+        "video_url": "https://youtube.com/omelette-tutorial",
+        "cooking_steps": [
             "Whisk 2-3 eggs in a bowl with salt and pepper.",
             "Heat a non-stick skillet over medium heat and add butter.",
             "Pour the eggs into the pan and let them set slightly.",
@@ -52,10 +56,11 @@
         ]
     },
     {
+        "id": 4,
         "name": "hard-boiled eggs",
-        "image": "https://example.com/hard-boiled-eggs.jpg",
-        "video": "https://youtube.com/hard-boiled-eggs-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/hard-boiled-eggs.jpg",
+        "video_url": "https://youtube.com/hard-boiled-eggs-tutorial",
+        "cooking_steps": [
             "Place eggs in a pot and cover with cold water.",
             "Bring water to a boil over high heat.",
             "Once boiling, reduce heat to medium and simmer for 9-12 minutes.",
@@ -64,10 +69,11 @@
         ]
     },
     {
+        "id": 5,
         "name": "deviled eggs",
-        "image": "https://example.com/deviled-eggs.jpg",
-        "video": "https://youtube.com/deviled-eggs-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/deviled-eggs.jpg",
+        "video_url": "https://youtube.com/deviled-eggs-tutorial",
+        "cooking_steps": [
             "Prepare hard-boiled eggs and slice them in half lengthwise.",
             "Remove the yolks and mash them with mayonnaise, mustard, and seasoning.",
             "Spoon or pipe the yolk mixture back into the egg whites.",
@@ -75,10 +81,11 @@
         ]
     },
     {
+        "id": 6,
         "name": "steamed eggs",
-        "image": "https://example.com/steamed-eggs.jpg",
-        "video": "https://youtube.com/steamed-eggs-tutorial",
-        "steps": [
+        "image_url": "https://jaidensiu.vercel.app/steamed-eggs.jpg",
+        "video_url": "https://youtube.com/steamed-eggs-tutorial",
+        "cooking_steps": [
             "Crack 2-3 eggs into a bowl and whisk until smooth.",
             "Add twice the amount of warm water or stock to the eggs and mix well.",
             "Strain the mixture through a sieve to remove bubbles.",
