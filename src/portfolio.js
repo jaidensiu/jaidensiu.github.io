@@ -9,8 +9,8 @@ const header = {
 const home = {
     photo: homepic,
     name: 'Jaiden',
-    role: 'SWE Intern @ Intuit • BME + CS @ UBC',
-    description: 'Interested in mobile computing, distributed systems, and artificial intelligence.',
+    role: 'Incoming SWE Co-op @ Dialpad • BME + CS @ UBC',
+    description: 'Interested in engineering and computer science.',
     contact: {
         // resume: '/resume',
         github: 'https://github.com/jaidensiu',
@@ -22,8 +22,8 @@ const home = {
 const about = {
     photo: aboutpic,
     facts: [
-        'Currently tinkering with Kotlin Multiplatform',
-        'Currently learning Go (the programming language)',
+        'Currently building with Kotlin Multiplatform',
+        'Currently building with Go (the programming language)',
         'Currently learning Mandarin Chinese',
         'Currently one of the Co-Presidents for UBC BMEUSA',
         'I like to nerd out about software and technology',
@@ -36,17 +36,24 @@ const about = {
 
 const experiences = [
     {
+        companyLink: "https://www.dialpad.com/",
+        company: 'Dialpad',
+        role: 'Software Engineer Co-op',
+        date: 'Incoming Jan 2025',
+        stack: []
+    },
+    {
         companyLink: "https://www.intuit.com/ca/",
         company: 'Intuit',
-        role: 'Software Engineer Intern',
-        date: 'Sep 2024 - Present',
+        role: 'Software Engineer Co-op',
+        date: 'Sep 2024 - Dec 2024',
         // description: 'Knowledge Driven Systems / Dynamic Experiences Team',
         stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes']
     },
     {
         companyLink: "https://ca.formswim.com/",
         company: 'FORM',
-        role: 'Android Developer Co-op',
+        role: 'Software Developer Co-op',
         date: 'May 2024 - Aug 2024',
         // description: 'Mobile Engineering Team',
         stack: ['Kotlin', 'Java', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
@@ -71,8 +78,8 @@ const experiences = [
 
 const projects = [
     {
-        name: 'Book Finder App',
-        description: 'A cross-platform app targeting Android, iOS, and Desktop...',
+        name: 'Eggpedia',
+        description: 'A Kotlin Multiplatform mobile app targeting Android and iOS',
         stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil']
     },
     {
