@@ -26,9 +26,8 @@ const about = {
         'Currently building with Go (the programming language)',
         'Currently learning Mandarin Chinese',
         'Currently one of the Co-Presidents for UBC BMEUSA',
-        'I like to nerd out about software and technology',
-        'I train calisthenics',
         'I like to eat eggs',
+        'I train calisthenics',
         'I play the piano',
         'I used to be a competitive swimmer (aka swammer)'
     ]
@@ -79,8 +78,9 @@ const experiences = [
 const projects = [
     {
         name: 'Eggpedia',
-        description: 'A Kotlin Multiplatform mobile app targeting Android and iOS',
-        stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil']
+        description: 'An Android and iOS mobile app that teaches you all about different egg recipes',
+        stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil'],
+        github: 'https://github.com/jaidensiu/eggpedia'
     },
     {
         name: 'Banking Service',
