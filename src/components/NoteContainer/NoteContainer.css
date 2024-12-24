@@ -1,59 +1,59 @@
 .note {
-    padding: 2em;
-    margin: 0 auto;
-    text-align: left;
-    box-shadow: var(--shadow);
-    transition: transform 0.2s linear;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
 }
-  
+
 .note:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .note__header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .note__fonts {
-    font-size: 1.5em;
-    font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .note__role {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
 .note__date {
-    margin-top: 0.5em;
-    font-style: italic;
-    font-size: 0.9em;
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 .note__description {
-    margin-top: 0.5em;
-    text-align: left;
-    list-style-type: disc;
-    margin-left: 20px;
-    margin-right: 20px
+  margin-top: 0.5em;
+  text-align: left;
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-right: 20px
 }
 
 .note__stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0.5em 0em 0em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5em 0em 0em 0em;
 }
-  
+
 .note__stack-item {
-    margin: 0.5em;
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: var(--clr-fg-alt);
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
 }
 
 .note .link--icon {
-    margin-left: 0.5em;
+  margin-left: 0.5em;
 }

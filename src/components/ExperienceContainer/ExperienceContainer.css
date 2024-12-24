@@ -1,56 +1,56 @@
 .experience {
-    padding: 2em;
-    margin: 0 auto;
-    text-align: left;
-    box-shadow: var(--shadow);
-    transition: transform 0.2s linear;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
 }
-  
+
 .experience:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .experience__header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .experience__company {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--clr-primary);
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--clr-primary);
 }
 
 .experience__role {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
 .experience__date {
-    margin-top: 0.5em;
-    font-style: italic;
-    font-size: 0.9em;
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 .experience__description {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 .experience__stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0.5em 0em 0em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5em 0em 0em 0em;
 }
-  
+
 .experience__stack-item {
-    margin: 0.5em;
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: var(--clr-fg-alt);
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
 }
 
 .experience .link--icon {
-    margin-left: 0.5em;
-} 
+  margin-left: 0.5em;
+}

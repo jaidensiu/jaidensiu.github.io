@@ -4,7 +4,6 @@ import './Courses.css'
 
 const Courses = () => {
   if (!courses.length) return null
-
   return (
     <section className='section courses' id='courses'>
       <h2 className='section__title'>Relevant Courses</h2>

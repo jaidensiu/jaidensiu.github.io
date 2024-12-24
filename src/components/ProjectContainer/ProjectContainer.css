@@ -1,59 +1,59 @@
 .project {
-    padding: 2em;
-    margin: 0 auto;
-    text-align: left;
-    box-shadow: var(--shadow);
-    transition: transform 0.2s linear;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
 }
 
 .project:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .project__header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project__title {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--clr-primary);
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--clr-primary);
 }
 
 .project__description {
-    margin-top: 0.5em;
-    line-height: 1.6em;
+  margin-top: 0.5em;
+  line-height: 1.6em;
 }
 
 .project__photo {
-    position: flex;
-    height: 200px;
-    margin-top: 1.2em;
-    object-fit: cover;
+  position: flex;
+  height: 200px;
+  margin-top: 1.2em;
+  object-fit: cover;
 }
 
 .project__stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0.5em 0em 0em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5em 0em 0em 0em;
 }
 
 .project__stack-item {
-    margin: 0.5em;
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: var(--clr-fg-alt);
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
 }
 
 .project__links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0.5em 0em 0em 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5em 0em 0em 0em;
 }
 
 .project .link--icon {
-    margin-left: 0.5em;
+  margin-left: 0.5em;
 }

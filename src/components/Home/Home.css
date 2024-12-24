@@ -1,93 +1,93 @@
 .home {
-    flex-direction: column;
-    margin-top: 2em;
+  flex-direction: column;
+  margin-top: 2em;
 }
 
 .home__name {
-    color: var(--clr-primary);
+  color: var(--clr-primary);
 }
 
 .gopher__gif {
-    width: 50px;
-    margin-left: 5px;
+  width: 50px;
+  margin-left: 5px;
 }
 
 .home__role {
-    margin-top: 2.2em;
-    margin-bottom: 1.6em;
-    text-align: center;
+  margin-top: 2.2em;
+  margin-bottom: 1.6em;
+  text-align: center;
 }
 
 .home__desc {
-    max-width: 400px;
-    margin-bottom: 1em;
-    text-align: center;
+  max-width: 400px;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .home__contact {
-    margin-top: 1.6em;
+  margin-top: 1.6em;
 }
 
 .home .link--icon {
-    margin: 0 0.6em;
+  margin: 0 0.6em;
 }
 
 .home .btn--outline {
-    margin: 0 0.6em;
+  margin: 0 0.6em;
 }
 
 @media (max-width: 600px) {
-    .app .home {
-        align-items: center;
-    }
+  .app .home {
+    align-items: center;
+  }
 }
 
 .image__cropper {
-    width: 350px;
-    height: 350px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .profile__pic {
-    display: inline;
-    margin: 0 auto;
-    margin-left: -40%; 
-    height: 100%;
-    width: auto;
+  display: inline;
+  margin: 0 auto;
+  margin-left: -40%;
+  height: 100%;
+  width: auto;
 }
 
 .extra__padding {
-    margin-bottom: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 @media (max-width: 900px) {
-    .image__cropper {
-        width: 300px;
-        height: 300px;
-        position: relative;
-        overflow: hidden;
-        border-radius: 50%;
-    }
+  .image__cropper {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
 
-    .gopher__gif {
-        width: 40px;
-        margin-left: 5px;
-    }
+  .gopher__gif {
+    width: 40px;
+    margin-left: 5px;
+  }
 }
 
 @media (max-width: 600px) {
-    .image__cropper {
-        width: 250px;
-        height: 250px;
-        position: relative;
-        overflow: hidden;
-        border-radius: 50%;
-    }
+  .image__cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
 
-    .gopher__gif {
-        width: 35px;
-        margin-left: 5px;
-    }
+  .gopher__gif {
+    width: 35px;
+    margin-left: 5px;
+  }
 }

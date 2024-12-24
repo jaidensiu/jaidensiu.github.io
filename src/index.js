@@ -4,8 +4,8 @@ import { ThemeProvider } from './contexts/theme'
 import './index.css'
 
 render(
-    <ThemeProvider>
-        <App />
-    </ThemeProvider>,
-    document.getElementById('root')
-)
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
+);
