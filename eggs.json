@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "name": "scrambled eggs",
+        "name": "Scrambled eggs",
         "image_url": "https://jaidensiu.vercel.app/scrambled-eggs.jpg",
         "video_url": "https://youtube.com/scrambled-eggs-tutorial",
         "cooking_steps": [
@@ -16,7 +16,7 @@
     },
     {
         "id": 1,
-        "name": "fried eggs",
+        "name": "Fried eggs",
         "image_url": "https://jaidensiu.vercel.app/fried-eggs.jpg",
         "video_url": "https://youtube.com/fried-eggs-tutorial",
         "cooking_steps": [
@@ -29,7 +29,7 @@
     },
     {
         "id": 2,
-        "name": "poached eggs",
+        "name": "Poached eggs",
         "image_url": "https://jaidensiu.vercel.app/poached-eggs.jpg",
         "video_url": "https://youtube.com/poached-eggs-tutorial",
         "cooking_steps": [
@@ -43,7 +43,7 @@
     },
     {
         "id": 3,
-        "name": "omelette",
+        "name": "Omelette",
         "image_url": "https://jaidensiu.vercel.app/omelette.jpg",
         "video_url": "https://youtube.com/omelette-tutorial",
         "cooking_steps": [
@@ -57,7 +57,7 @@
     },
     {
         "id": 4,
-        "name": "hard-boiled eggs",
+        "name": "Hard-boiled eggs",
         "image_url": "https://jaidensiu.vercel.app/hard-boiled-eggs.jpg",
         "video_url": "https://youtube.com/hard-boiled-eggs-tutorial",
         "cooking_steps": [
@@ -70,7 +70,7 @@
     },
     {
         "id": 5,
-        "name": "deviled eggs",
+        "name": "Deviled eggs",
         "image_url": "https://jaidensiu.vercel.app/deviled-eggs.jpg",
         "video_url": "https://youtube.com/deviled-eggs-tutorial",
         "cooking_steps": [
@@ -82,7 +82,7 @@
     },
     {
         "id": 6,
-        "name": "steamed eggs",
+        "name": "Steamed eggs",
         "image_url": "https://jaidensiu.vercel.app/steamed-eggs.jpg",
         "video_url": "https://youtube.com/steamed-eggs-tutorial",
         "cooking_steps": [
