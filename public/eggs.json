@@ -43,22 +43,8 @@
     },
     {
         "id": 3,
-        "name": "Omelette",
-        "image_url": "https://jaidensiu.vercel.app/omelette.jpg",
-        "video_url": "https://youtube.com/omelette-tutorial",
-        "cooking_steps": [
-            "Whisk 2-3 eggs in a bowl with salt and pepper.",
-            "Heat a non-stick skillet over medium heat and add butter.",
-            "Pour the eggs into the pan and let them set slightly.",
-            "Add your choice of fillings (cheese, vegetables, etc.) to one side.",
-            "Fold the omelette in half and cook for another 1-2 minutes.",
-            "Serve hot."
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Hard-boiled eggs",
-        "image_url": "https://jaidensiu.vercel.app/hard-boiled-eggs.jpg",
+        "name": "Boiled eggs",
+        "image_url": "https://jaidensiu.vercel.app/boiled-eggs.jpg",
         "video_url": "https://youtube.com/hard-boiled-eggs-tutorial",
         "cooking_steps": [
             "Place eggs in a pot and cover with cold water.",
@@ -69,19 +55,7 @@
         ]
     },
     {
-        "id": 5,
-        "name": "Deviled eggs",
-        "image_url": "https://jaidensiu.vercel.app/deviled-eggs.jpg",
-        "video_url": "https://youtube.com/deviled-eggs-tutorial",
-        "cooking_steps": [
-            "Prepare hard-boiled eggs and slice them in half lengthwise.",
-            "Remove the yolks and mash them with mayonnaise, mustard, and seasoning.",
-            "Spoon or pipe the yolk mixture back into the egg whites.",
-            "Garnish with paprika or herbs and serve."
-        ]
-    },
-    {
-        "id": 6,
+        "id": 4,
         "name": "Steamed eggs",
         "image_url": "https://jaidensiu.vercel.app/steamed-eggs.jpg",
         "video_url": "https://youtube.com/steamed-eggs-tutorial",
