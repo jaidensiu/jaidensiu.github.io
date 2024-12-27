@@ -65,10 +65,7 @@
         "cooking_steps": [
             "Place eggs in a pot and cover with cold water.",
             "Bring water to a boil over high heat.",
-            "Once boiling, reduce heat to medium and simmer for the desired time based on preferences:",
-            "  - Soft-Boiled Eggs (Runny Yolk): 4-6 minutes.",
-            "  - Medium-Boiled Eggs (Slightly Runny Yolk): 7-8 minutes.",
-            "  - Hard-Boiled Eggs (Fully Cooked Yolk): 9-12 minutes.",
+            "Once boiling, reduce heat to medium and simmer for the desired time based on preferences: 4-6 minutes for soft-boiled (runny yolk), 7-8 minutes for medium-boiled (slightly runny yolk), and 9-12 minutes for hard-boiled (fully cooked yolk).",
             "Remove eggs and place them in an ice water bath for 5 minutes.",
             "Peel and serve."
         ]
