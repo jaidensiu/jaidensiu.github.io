@@ -16,6 +16,22 @@
     },
     {
         "id": 1,
+        "name": "Steamed eggs",
+        "image_url": "https://jaidensiu.vercel.app/steamed-eggs.jpg",
+        "video_url": "https://youtube.com/steamed-eggs-tutorial",
+        "cooking_steps": [
+            "Crack 2-3 eggs into a bowl and whisk until smooth.",
+            "Add twice the amount of warm water or stock to the eggs and mix well.",
+            "Strain the mixture through a sieve to remove bubbles.",
+            "Pour the mixture into a heatproof bowl or ramekin.",
+            "Cover the bowl with plastic wrap or foil.",
+            "Place the bowl in a steamer over medium heat and steam for 10-15 minutes.",
+            "Check for a silky, custard-like texture before serving.",
+            "Optionally, drizzle with soy sauce and sesame oil before serving."
+        ]
+    },
+    {
+        "id": 2,
         "name": "Fried eggs",
         "image_url": "https://jaidensiu.vercel.app/fried-eggs.jpg",
         "video_url": "https://youtube.com/fried-eggs-tutorial",
@@ -28,7 +44,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Poached eggs",
         "image_url": "https://jaidensiu.vercel.app/poached-eggs.jpg",
         "video_url": "https://youtube.com/poached-eggs-tutorial",
@@ -42,31 +58,19 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Boiled eggs",
         "image_url": "https://jaidensiu.vercel.app/boiled-eggs.jpg",
         "video_url": "https://youtube.com/hard-boiled-eggs-tutorial",
         "cooking_steps": [
             "Place eggs in a pot and cover with cold water.",
             "Bring water to a boil over high heat.",
-            "Once boiling, reduce heat to medium and simmer for 9-12 minutes.",
+            "Once boiling, reduce heat to medium and simmer for the desired time based on preferences:",
+            "  - Soft-Boiled Eggs (Runny Yolk): 4-6 minutes.",
+            "  - Medium-Boiled Eggs (Slightly Runny Yolk): 7-8 minutes.",
+            "  - Hard-Boiled Eggs (Fully Cooked Yolk): 9-12 minutes.",
             "Remove eggs and place them in an ice water bath for 5 minutes.",
             "Peel and serve."
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Steamed eggs",
-        "image_url": "https://jaidensiu.vercel.app/steamed-eggs.jpg",
-        "video_url": "https://youtube.com/steamed-eggs-tutorial",
-        "cooking_steps": [
-            "Crack 2-3 eggs into a bowl and whisk until smooth.",
-            "Add twice the amount of warm water or stock to the eggs and mix well.",
-            "Strain the mixture through a sieve to remove bubbles.",
-            "Pour the mixture into a heatproof bowl or ramekin.",
-            "Cover the bowl with plastic wrap or foil.",
-            "Place the bowl in a steamer over medium heat and steam for 10-15 minutes.",
-            "Check for a silky, custard-like texture before serving."
         ]
     }
 ]
