@@ -9,7 +9,7 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Incoming SWE Intern @ Dialpad • BME + CS @ UBC',
+  role: 'SWE Intern @ Dialpad • BME + CS @ UBC',
   description: 'Interested in engineering and computer science.',
   contact: {
     // resume: '/resume',
@@ -38,7 +38,7 @@ const experiences = [
     companyLink: "https://www.dialpad.com/",
     company: 'Dialpad',
     role: 'Software Engineer Intern',
-    date: 'Incoming Jan 2025',
+    date: 'Jan 2025 - Present',
     stack: []
   },
   {
@@ -63,7 +63,7 @@ const experiences = [
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Apr 2024',
     // description: 'Mobile Development Team',
-    stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'JUnit', 'Mockito', 'Firebase']
+    stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase']
   },
   {
     companyLink: "https://www.globalrelay.com/",
