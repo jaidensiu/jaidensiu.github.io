@@ -77,7 +77,7 @@ const experiences = [
 
 const projects = [
   {
-    name: 'Red Squid Dead Squid',
+    name: 'Red Squid Dead Squid - Winner at nwHacks 2025',
     description: 'Built \'Red Light, Green Light\' from Netflix\'s Squid Game with Kotlin Multiplatform and a computer vision robotic doll',
     stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
     github: 'https://github.com/jaidensiu/red-squid-dead-squid'
@@ -113,7 +113,7 @@ const projects = [
     github: 'https://github.com/jaidensiu/world-countries-app'
   },
   {
-    name: 'Noodle Doodle - 1st Place at nwHacks 2024',
+    name: 'Noodle Doodle - Winner at nwHacks 2024',
     description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles',
     stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
     github: 'https://github.com/jaidensiu/noodle-doodle',
