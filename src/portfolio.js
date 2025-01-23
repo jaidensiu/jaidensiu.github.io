@@ -39,7 +39,7 @@ const experiences = [
     company: 'Dialpad',
     role: 'Software Engineer Intern',
     date: 'Jan 2025 - Present',
-    stack: []
+    stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger']
   },
   {
     companyLink: "https://www.intuit.com/ca/",
@@ -76,6 +76,12 @@ const experiences = [
 ]
 
 const projects = [
+  {
+    name: 'Red Squid Dead Squid',
+    description: 'Built \'Red Light, Green Light\' from Netflix\'s Squid Game with Kotlin Multiplatform and a computer vision robotic doll',
+    stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
+    github: 'https://github.com/jaidensiu/eggpedia'
+  },
   {
     name: 'Eggpedia',
     description: 'An Android and iOS mobile app that teaches you all about different egg recipes',
