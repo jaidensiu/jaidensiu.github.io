@@ -80,7 +80,7 @@ const projects = [
     name: 'Red Squid Dead Squid',
     description: 'Built \'Red Light, Green Light\' from Netflix\'s Squid Game with Kotlin Multiplatform and a computer vision robotic doll',
     stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
-    github: 'https://github.com/jaidensiu/eggpedia'
+    github: 'https://github.com/jaidensiu/red-squid-dead-squid'
   },
   {
     name: 'Eggpedia',
