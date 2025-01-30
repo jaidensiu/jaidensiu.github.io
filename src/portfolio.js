@@ -22,8 +22,7 @@ const home = {
 const about = {
   photo: aboutpic,
   facts: [
-    'Currently building with Kotlin Multiplatform',
-    'Currently building with Go (the programming language)',
+    'Currently building with Kotlin',
     'Currently learning Mandarin Chinese',
     'Currently one of the Co-Presidents for UBC BMEUSA',
     'I like to eat eggs',
@@ -39,7 +38,7 @@ const experiences = [
     company: 'Dialpad',
     role: 'Software Engineer Intern',
     date: 'Jan 2025 - Present',
-    stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger']
+    stack: ['Kotlin', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger']
   },
   {
     companyLink: "https://www.intuit.com/ca/",
