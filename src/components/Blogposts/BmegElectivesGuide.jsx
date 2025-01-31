@@ -31,7 +31,7 @@ const BmegElectivesGuide = () => {
     <section id='bmeg-electives-guide' className='blogpost section'>
       <div className='blogpost__header'>
         <h2>UBC BMEG Technical Electives Guide</h2>
-        <p>April 2, 2024</p>
+        <p>April 2, 2024 - Last edited: January 30, 2025</p>
         <button type="button" className="link" onClick={copyLinkToClipboard}>
           Copy link
         </button>
@@ -150,7 +150,7 @@ const BmegElectivesGuide = () => {
           <section id='informatics'>
             <h4 className='blogpost__section__title'>Biomedical Informatics</h4>
             <p>
-              This area is focused on computer science related subjects such as algorithms, machine learning, and human-computer interaction.
+              This area is focused on computer science related subjects such as algorithms, machine learning, and software construction.
             </p>
             <table className="blogpost__table">
               <thead className="blogpost__table__header">
@@ -161,6 +161,26 @@ const BmegElectivesGuide = () => {
                 </tr>
               </thead>
               <tbody>
+                <tr>
+                  <td>BMEG 423</td>
+                  <td>Clinical Informatics</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>BMEG 424</td>
+                  <td>Genome Informatics</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>CPEN 320</td>
+                  <td>Software Construction II</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>CPEN 321</td>
+                  <td>Software Engineering</td>
+                  <td>4</td>
+                </tr>
                 <tr>
                   <td>CPSC 121 / MATH 220</td>
                   <td>Models of Computation / Mathematical Proof</td>
@@ -192,21 +212,6 @@ const BmegElectivesGuide = () => {
                   <td>3</td>
                 </tr>
                 <tr>
-                  <td>BMEG 423</td>
-                  <td>Clinical Informatics</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>BMEG 424</td>
-                  <td>Genome Informatics</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>CPEN 441</td>
-                  <td>Human Computer Interfaces in Engineering Design</td>
-                  <td>4</td>
-                </tr>
-                <tr>
                   <td>CPSC 425</td>
                   <td>Computer Vision</td>
                   <td>3</td>
@@ -234,11 +239,6 @@ const BmegElectivesGuide = () => {
                   <td>3 + 1</td>
                 </tr>
                 <tr>
-                  <td>MECH 260</td>
-                  <td>Introduction to Mechanics of Materials</td>
-                  <td>3</td>
-                </tr>
-                <tr>
                   <td>BMEG 330</td>
                   <td>Biomechanics II</td>
                   <td>3</td>
@@ -254,11 +254,6 @@ const BmegElectivesGuide = () => {
                   <td>3</td>
                 </tr>
                 <tr>
-                  <td>MECH 360</td>
-                  <td>Mechanics of Materials</td>
-                  <td>3</td>
-                </tr>
-                <tr>
                   <td>BMEG 400L</td>
                   <td>Experimental Microfluidics for Bioanalytical Applications</td>
                   <td>3</td>
@@ -266,6 +261,16 @@ const BmegElectivesGuide = () => {
                 <tr>
                   <td>BMEG 495</td>
                   <td>Biomaterials</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>MECH 260</td>
+                  <td>Introduction to Mechanics of Materials</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>MECH 360</td>
+                  <td>Mechanics of Materials</td>
                   <td>3</td>
                 </tr>
                 <tr>
@@ -301,11 +306,6 @@ const BmegElectivesGuide = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>ELEC 221</td>
-                  <td>Signals and Systems</td>
-                  <td>4</td>
-                </tr>
-                <tr>
                   <td>BMEG 320</td>
                   <td>Bioengineering Feedback Systems and Controls</td>
                   <td>3</td>
@@ -329,6 +329,11 @@ const BmegElectivesGuide = () => {
                   <td>BMEG 425</td>
                   <td>Biomedical Robotics</td>
                   <td>3</td>
+                </tr>
+                <tr>
+                  <td>ELEC 221</td>
+                  <td>Signals and Systems</td>
+                  <td>4</td>
                 </tr>
                 <tr>
                   <td>ELEC 421 / ELEC 422</td>
@@ -363,11 +368,6 @@ const BmegElectivesGuide = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>MICB 202 / MICB 212</td>
-                  <td>Introductory Medical Microbiology and Immunology / Introductory Immunology and Virology</td>
-                  <td>3 / 3</td>
-                </tr>
-                <tr>
                   <td>BIOC 302</td>
                   <td>General Biochemistry</td>
                   <td>3</td>
@@ -375,11 +375,6 @@ const BmegElectivesGuide = () => {
                 <tr>
                   <td>BMEG 374</td>
                   <td>Cellular Bioengineering: Laboratory and Design</td>
-                  <td>3</td>
-                </tr>
-                <tr>
-                  <td>CHBE 381</td>
-                  <td>Biological Engineering and Bio-Manufacturing I</td>
                   <td>3</td>
                 </tr>
                 <tr>
@@ -403,9 +398,19 @@ const BmegElectivesGuide = () => {
                   <td>3</td>
                 </tr>
                 <tr>
+                  <td>CHBE 381</td>
+                  <td>Biological Engineering and Bio-Manufacturing I</td>
+                  <td>3</td>
+                </tr>
+                <tr>
                   <td>CHBE 481</td>
                   <td>Biological Engineering and Bio-Manufacturing II</td>
                   <td>4</td>
+                </tr>
+                <tr>
+                  <td>MICB 202 / MICB 212</td>
+                  <td>Introductory Medical Microbiology and Immunology / Introductory Immunology and Virology</td>
+                  <td>3 / 3</td>
                 </tr>
               </tbody>
             </table>

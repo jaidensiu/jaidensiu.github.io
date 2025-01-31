@@ -23,6 +23,7 @@ const about = {
   photo: aboutpic,
   facts: [
     'Currently building with Kotlin',
+    'Currently learning Go (the programming language)',
     'Currently learning Mandarin Chinese',
     'Currently one of the Co-Presidents for UBC BMEUSA',
     'I like to eat eggs',
