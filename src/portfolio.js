@@ -153,7 +153,7 @@ const projects = [
 const blogs = [
   {
     name: 'UBC BMEG Technical Electives Guide',
-    description: 'An in depth guide for choosing your technical electives in BMEG.',
+    description: 'An in-depth guide for choosing your technical electives in BMEG.',
     date: 'April 2, 2024',
     link: '/blogs/bmeg-electives-guide'
   }
