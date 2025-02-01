@@ -23,7 +23,6 @@ const about = {
   photo: aboutpic,
   facts: [
     'Currently building with Kotlin',
-    'Currently learning Go (the programming language)',
     'Currently learning Mandarin Chinese',
     'Currently one of the Co-Presidents for UBC BMEUSA',
     'I like to eat eggs',
@@ -55,7 +54,7 @@ const experiences = [
     role: 'Software Developer Co-op',
     date: 'May 2024 - Aug 2024',
     // description: 'Mobile Engineering Team',
-    stack: ['Kotlin', 'Java', 'Jetpack Compose', 'RxJava', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
+    stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
   },
   {
     companyLink: "https://www.avanti.ca/",
