@@ -151,8 +151,14 @@ const projects = [
 
 const blogs = [
   {
+    name: 'How to Write a Great Resume',
+    description: 'A guide on how to write a great resume for students and budding industry professionals.',
+    date: 'Under construction...',
+    link: '/blogs/resume-guide'
+  },
+  {
     name: 'UBC BMEG Technical Electives Guide',
-    description: 'An in-depth guide for choosing your technical electives in BMEG.',
+    description: 'A guide for choosing your technical electives in BMEG.',
     date: 'April 2, 2024',
     link: '/blogs/bmeg-electives-guide'
   }

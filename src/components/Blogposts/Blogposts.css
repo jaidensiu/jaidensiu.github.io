@@ -28,7 +28,7 @@
 .blogpost__image {
   width: 75%;
   justify-content: center;
-  border: 1px solid var(--clr-fg);
+  /* border: 1px solid var(--clr-fg); */
 }
 
 .blogpost__table {
