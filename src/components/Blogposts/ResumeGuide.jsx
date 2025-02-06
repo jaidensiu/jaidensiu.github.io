@@ -46,6 +46,76 @@ const ResumeGuide = () => {
         <img className='blogpost__image' src={GiveResume} alt='give_resume' />
       </div>
 
+      <h3 className='blogpost__section__title'>Table of contents</h3>
+      <div className='blogpost__section__body'>
+        <ul className='bulleted_list'>
+          <li>
+            <a href='#prologue' className='link' onClick={(event) => handleClick(event, 'prologue')}>
+              Prologue
+            </a>
+          </li>
+          <li>
+            <a href='#resume-basics' className='link' onClick={(event) => handleClick(event, 'resume-basics')}>
+              The Basics of a Strong Resume
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a href='#standing-out' className='link' onClick={(event) => handleClick(event, 'standing-out')}>
+                The Goal: Standing Out
+              </a>
+            </li>
+            <li>
+              <a href='#formatting-guidelines' className='link' onClick={(event) => handleClick(event, 'formatting-guidelines')}>
+                Key Formatting Guidelines
+              </a>
+            </li>
+            <li>
+              <a href='#resume-sections' className='link' onClick={(event) => handleClick(event, 'resume-sections')}>
+                Essential Resume Sections
+              </a>
+            </li>
+          </ul>
+          <li>
+            <a href='#parting-words' className='link' onClick={(event) => handleClick(event, 'parting-words')}>
+              Tips for Crafting a Great Resume
+            </a>
+          </li>
+          <ul>
+            <li>
+              <a href='#tailoring-resume' className='link' onClick={(event) => handleClick(event, 'tailoring-resume')}>
+                Tailoring Your Resume to the Job Role
+              </a>
+            </li>
+            <li>
+              <a href='#showcasing-impact' className='link' onClick={(event) => handleClick(event, 'howcasing-impact')}>
+                Showcasing Your Impact and Results
+              </a>
+            </li>
+            <li>
+              <a href='#quantifying-achievements' className='link' onClick={(event) => handleClick(event, 'quantifying-achievements')}>
+                Quantifying Achievements
+              </a>
+            </li>
+            <li>
+              <a href='#make-resume-speak' className='link' onClick={(event) => handleClick(event, 'make-resume-speak')}>
+                Making Your Resume Speak to Different Audiences
+              </a>
+            </li>
+          </ul>
+          <li>
+            <a href='#parting-words' className='link' onClick={(event) => handleClick(event, 'parting-words')}>
+              An Aside: Gaining Experience When You Have None
+            </a>
+          </li>
+          <li>
+            <a href='#parting-words' className='link' onClick={(event) => handleClick(event, 'parting-words')}>
+              Parting words
+            </a>
+          </li>
+        </ul>
+      </div>
+
       <h3 className='blogpost__section__title'>Under construction...</h3>
     </section>
   )
