@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bb5a1a3.css",
-    "main.js": "/static/js/main.6a299f71.js",
+    "main.css": "/static/css/main.b71833fa.css",
+    "main.js": "/static/js/main.683c0ef8.js",
     "static/media/pic_of_me.jpg": "/static/media/pic_of_me.14b276fd925835209970.jpg",
     "static/media/gopher_banner.gif": "/static/media/gopher_banner.11dda75c99a0a8e6efd3.gif",
     "static/media/give_resume.png": "/static/media/give_resume.a7ae856753a168d84a1c.png",
     "static/media/bme.jpeg": "/static/media/bme.5b8f53d23c22a111d985.jpeg",
     "static/media/gopher_dance.gif": "/static/media/gopher_dance.56bc3ad245aed9d5fecd.gif",
     "index.html": "/index.html",
-    "main.5bb5a1a3.css.map": "/static/css/main.5bb5a1a3.css.map",
-    "main.6a299f71.js.map": "/static/js/main.6a299f71.js.map"
+    "main.b71833fa.css.map": "/static/css/main.b71833fa.css.map",
+    "main.683c0ef8.js.map": "/static/js/main.683c0ef8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bb5a1a3.css",
-    "static/js/main.6a299f71.js"
+    "static/css/main.b71833fa.css",
+    "static/js/main.683c0ef8.js"
   ]
 }
