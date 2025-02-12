@@ -60,7 +60,7 @@ const ResumeGuide = () => {
             </a>
           </li>
           <li>
-            <a href='#parting-words' className='link' onClick={(event) => handleClick(event, 'parting-words')}>
+            <a href='#resume-tips' className='link' onClick={(event) => handleClick(event, 'resume-tips')}>
               Tips for Crafting a Great Resume
             </a>
           </li>
@@ -72,23 +72,18 @@ const ResumeGuide = () => {
             </li>
             <li>
               <a href='#tailoring-resume' className='link' onClick={(event) => handleClick(event, 'tailoring-resume')}>
-                Tailoring Your Resume to the Job Role
+                Tailoring Your Resume
               </a>
             </li>
             <li>
-              <a href='#showcasing-impact' className='link' onClick={(event) => handleClick(event, 'howcasing-impact')}>
-                Showcasing Your Impact and Results
-              </a>
-            </li>
-            <li>
-              <a href='#make-resume-speak' className='link' onClick={(event) => handleClick(event, 'make-resume-speak')}>
-                Making Your Resume Speak to Different Audiences
+              <a href='#showcasing-impact' className='link' onClick={(event) => handleClick(event, 'showcasing-impact')}>
+                Showcasing Your Impact
               </a>
             </li>
           </ul>
           <li>
-            <a href='#parting-words' className='link' onClick={(event) => handleClick(event, 'parting-words')}>
-              An Aside: Gaining Experience When You Have None
+            <a href='#sample-resume' className='link' onClick={(event) => handleClick(event, 'sample-resume')}>
+              A Sample Resume
             </a>
           </li>
           <li>
@@ -130,7 +125,7 @@ const ResumeGuide = () => {
                 <li><strong>Header</strong> - Name, email, LinkedIn, personal website, and GitHub (use embedded links where possible)</li>
                 <li><strong>Education</strong> - Degree, university, and graduation date</li>
                 <li><strong>Skills</strong> - Tools, knowledge, or technical skills relevant to your field</li>
-                <li><strong>Experience</strong> - Co-ops/internships, student organizations, or freelance work relevant to your field</li>
+                <li><strong>Experience</strong> - Co-ops/internships, student organizations, or any job relevant to your field</li>
                 <li><strong>Projects</strong> - Personal, academic, or extracurricular projects that showcase your abilities</li>
               </ul>
             </div>
@@ -139,8 +134,77 @@ const ResumeGuide = () => {
         </div>
       </section>
 
-      <section>
-        <h3 className='blogpost__section__title'>Under construction...</h3>
+      <section id='resume-tips'>
+        <h3 className='blogpost__section__title'>Tips for Crafting a Great Resume</h3>
+        <div className='blogpost__section__body'>
+          <p>
+            Crafting a great resume involves more than just listing your experiences and what you&apos;ve done. Your main goal is to stand out. This can be achieved by tailoring your resume to a job role or industry, showcasing your value, and ensuring your resume reads easily to recruiters, hiring managers, and team members.
+          </p>
+
+          <section id='standing-out'>
+            <h4 className='blogpost__section__title'>The Goal: Standing Out</h4>
+            <p>
+              A strong resume isn&apos;t just a list of experiences, it should clearly showcase your value and make you stand out. Tailor it to the job or industry, highlight your most relevant skills, and ensure it&apos;s easy for recruiters, hiring managers, and team members to read.
+              <br />
+              <br />
+              Depth and specialization is often more valuable than breadth. For example, being highly skilled in Python and applying it effectively in areas like machine learning or web development is often more valuable than knowing multiple languages without deep expertise. This concept is known as having <a className='link' target='_blank' rel='noopener noreferrer' href='https://en.wikipedia.org/wiki/T-shaped_skills'>T-shaped skills</a>. It emphasizes building a strong foundation in a specific area (the vertical bar of the &quot;T&quot;) while also having the ability to apply that knowledge broadly (the horizontal bar of the &quot;T&quot;).
+              <br />
+              <br />
+              If your resume feels sparse, try grouping related skills and experiences to ensure your bullet points fully highlight your expertise. Also, think about what skills you want to develop at this stage in your academic journey or early career to create a resume that aligns with your goals.
+            </p>
+          </section>
+
+          <section id='tailoring-resume'>
+            <h4 className='blogpost__section__title'>Tailoring Your Resume</h4>
+            <p>
+              Under construction...
+            </p>
+          </section>
+
+          <section id='showcasing-impact'>
+            <h4 className='blogpost__section__title'>Showcasing Impact</h4>
+            <p>
+              Under construction...
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section id='sample-resume'>
+        <h3 className='blogpost__section__title'>A Sample Resume</h3>
+        <div className='blogpost__section__body'>
+          <p>
+            Here is a sample resume that puts everything together.
+          </p>
+          <br />
+          <iframe src="/First_Last_resume.pdf" title="Sample Resume" className='embedded__pdf' />
+        </div>
+      </section>
+
+      <section id='parting-words'>
+        <h3 className='blogpost__section__title'>Parting Words</h3>
+        <div className='blogpost__section__body'>
+          <p>
+            In construction...
+            <br />
+            <br />
+            Here are a few useful resources:
+          </p>
+          <br />
+          <div className='blogpost__section__body'>
+            <ul className='bulleted_list'>
+              <li>
+                <a className='link' target='_blank' rel='noopener noreferrer' href='https://www.freecodecamp.org/news/writing-a-killer-software-engineering-resume-b11c91ef699d/'>How to write a killer Software Engineering résumé</a>
+              </li>
+              <li>
+                <a className='link' target='_blank' rel='noopener noreferrer' href='https://simplify.jobs/blog/how-to-use-the-xyz-resume-format/'>How to Use the XYZ Resume Format: A Complete Guide for Job Seekers</a>
+              </li>
+              <li>
+                <a className='link' target='_blank' rel='noopener noreferrer' href='https://careerservices.fas.harvard.edu/resources/create-a-strong-resume//'>Harvard: Create a Strong Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </section>
   )

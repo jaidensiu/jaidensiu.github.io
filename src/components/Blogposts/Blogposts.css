@@ -72,3 +72,8 @@
   background-color: var(--clr-code-bg);
   border-radius: 4px;
 }
+
+.embedded__pdf {
+  width: 100%;
+  height: 600px;
+}
