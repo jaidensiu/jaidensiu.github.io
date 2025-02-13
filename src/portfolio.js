@@ -9,7 +9,7 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'SWE Intern @ Dialpad • BME + CS @ UBC',
+  role: 'SWE Intern (Android + KMP) @ Dialpad • BME + CS @ UBC',
   description: 'Passionate about engineering and computer science.',
   contact: {
     // resume: '/resume',
@@ -26,7 +26,7 @@ const about = {
     'Currently learning Mandarin Chinese',
     'Currently one of the Co-Presidents for UBC BMEUSA',
     'I like to eat eggs',
-    'I train calisthenics',
+    'I work out',
     'I play the piano',
     'I used to be a competitive swimmer (aka swammer)'
   ]
@@ -77,7 +77,7 @@ const experiences = [
 const projects = [
   {
     name: 'Red Squid Dead Squid - Winner at nwHacks 2025',
-    description: 'Built \'Red Light, Green Light\' from Netflix\'s Squid Game with Kotlin Multiplatform and a computer vision robotic doll',
+    description: 'Built the Red Light, Green Light game from Netflix\'s Squid Game with Kotlin Multiplatform and a robotic doll',
     stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
     github: 'https://github.com/jaidensiu/red-squid-dead-squid'
   },
