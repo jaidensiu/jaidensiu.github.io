@@ -3,7 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
 import ResumeIcon from '@material-ui/icons/Description'
 import { v4 as uuidv4 } from 'uuid'
-import GopherDanceGif from '../Access/gopher_dance.gif'
+import Gif from '../Access/kodee-walking.gif'
 import { home } from '../../portfolio'
 import './Home.css'
 
@@ -17,7 +17,7 @@ const Home = () => {
         {name && (
           <h1 className="extra__padding">
             Hi, my name is <span className='home__name'>{name}</span>
-            <img src={GopherDanceGif} alt="gopher" className="gopher__gif" />
+            <img src={Gif} alt="gif" className="gif" />
           </h1>
         )}
         {photo && (

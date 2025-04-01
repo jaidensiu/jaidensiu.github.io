@@ -38,14 +38,15 @@ const experiences = [
     company: 'Dialpad',
     role: 'Software Engineer Intern',
     date: 'Jan 2025 - Present',
-    stack: ['Kotlin', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger']
+    description: 'Android + Mobile Infrastructure',
+    stack: ['Kotlin', 'Swift', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Dagger', 'Paparazzi', 'GitHub Actions', 'Bitrise']
   },
   {
-    companyLink: "https://www.intuit.com/ca/",
+    companyLink: "https://www.intuit.com/",
     company: 'Intuit',
     role: 'Software Engineer Intern',
     date: 'Sep 2024 - Dec 2024',
-    // description: 'Knowledge Driven Systems / Dynamic Experiences Team',
+    description: 'Server-Driven UI + Design Systems',
     stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes']
   },
   {
@@ -53,7 +54,7 @@ const experiences = [
     company: 'FORM',
     role: 'Software Developer Co-op',
     date: 'May 2024 - Aug 2024',
-    // description: 'Mobile Engineering Team',
+    description: 'Android + Bluetooth Connectivity',
     stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
   },
   {
@@ -61,7 +62,7 @@ const experiences = [
     company: 'Avanti',
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Apr 2024',
-    // description: 'Mobile Development Team',
+    description: 'Android',
     stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase']
   },
   {
@@ -69,7 +70,7 @@ const experiences = [
     company: 'Global Relay',
     role: 'Software Development Engineer in Test Co-op',
     date: 'May 2023 - Aug 2023',
-    // description: 'Android Development Team',
+    description: 'Android',
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
   }
 ]
@@ -87,18 +88,18 @@ const projects = [
     stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil'],
     github: 'https://github.com/jaidensiu/eggpedia'
   },
-  {
-    name: 'Banking Service',
-    description: 'A banking web service for secure account management, balance tracking, and money transfers',
-    stack: ['Go', 'Gin', 'gRPC', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes'],
-    github: 'https://github.com/jaidensiu/banking-service'
-  },
-  {
-    name: 'UBC AeroDesign - Engineering Design Team',
-    description: 'Building ground station software for a plane that features a data visualization dashboard with plane controls',
-    stack: ['Kotlin', 'Java', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
-    website: 'https://www.ubcaerodesign.com/'
-  },
+  // {
+  //   name: 'Banking Service',
+  //   description: 'A banking web service for secure account management, balance tracking, and money transfers',
+  //   stack: ['Go', 'Gin', 'gRPC', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes'],
+  //   github: 'https://github.com/jaidensiu/banking-service'
+  // },
+  // {
+  //   name: 'UBC AeroDesign - Engineering Design Team',
+  //   description: 'Building ground station software for a plane that features a data visualization dashboard with plane controls',
+  //   stack: ['Kotlin', 'Java', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
+  //   website: 'https://www.ubcaerodesign.com/'
+  // },
   {
     name: 'Messaging and Chatbot Service',
     description: 'A real-time messaging and LLM chatbot backend service',

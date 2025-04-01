@@ -7,7 +7,7 @@
   color: var(--clr-primary);
 }
 
-.gopher__gif {
+.gif {
   width: 50px;
   margin-left: 5px;
 }
@@ -71,7 +71,7 @@
     border-radius: 50%;
   }
 
-  .gopher__gif {
+  .gif {
     width: 40px;
     margin-left: 5px;
   }
@@ -86,7 +86,7 @@
     border-radius: 50%;
   }
 
-  .gopher__gif {
+  .gif {
     width: 35px;
     margin-left: 5px;
   }
