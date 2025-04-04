@@ -7,6 +7,17 @@
   margin-bottom: 2em;
 }
 
+.blogpost__date {
+  margin-top: 0.5em;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.blogpost__subtitle {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 .blogpost__section__title {
   margin-top: 1em;
   margin-bottom: 1em;

@@ -31,7 +31,8 @@ const ResumeGuide = () => {
     <section id='bmeg-electives-guide' className='blogpost section'>
       <div className='blogpost__header'>
         <h2>How to Write a Great Resume</h2>
-        <p>Under construction...</p>
+        <p className="blogpost__date">April 4, 2025</p>
+        <p className="blogpost__subtitle">A guide on how to write a great resume for students and budding industry professionals</p>
         <button type="button" className="link" onClick={copyLinkToClipboard}>
           Copy link
         </button>
@@ -157,14 +158,14 @@ const ResumeGuide = () => {
           <section id='tailoring-resume'>
             <h4 className='blogpost__section__title'>Tailoring Your Resume</h4>
             <p>
-              Under construction...
+              Your resume should be tailored to a specific job role or a narrow set of roles. For example, if you&apos;re aiming for a role in software engineering, your resume should highlight or emphasize your proficiency in relevant programming languages, technologies, and projects. To stand out further, you can showcase expertise in a particular area — such as frontend development — by emphasizing skills, tools, and experience specific to that specialization. Aligning your resume with the skills and requirements of your target role increases your chances of standing out in a competitive applicant pool.
             </p>
           </section>
 
           <section id='showcasing-impact'>
             <h4 className='blogpost__section__title'>Showcasing Impact</h4>
             <p>
-              Under construction...
+              Your resume should highlight your impact through metrics. A great way to do this is by following the <a className='link' target='_blank' rel='noopener noreferrer' href='https://simplify.jobs/blog/how-to-use-the-xyz-resume-format/'>XYZ Format</a>. Using numbers is a more compelling way to showcase your impact because they offer concrete evidence of your contributions. When paired with a clear and consistent format, metrics make your resume stand out by making your achievements more measurable and attention-grabbing.
             </p>
           </section>
         </div>
@@ -174,7 +175,7 @@ const ResumeGuide = () => {
         <h3 className='blogpost__section__title'>A Sample Resume</h3>
         <div className='blogpost__section__body'>
           <p>
-            Here is a sample resume that puts everything together.
+            Here is a sample resume that somewhat puts everything together.
           </p>
           <br />
           <iframe src="/First_Last_resume.pdf" title="Sample Resume" className='embedded__pdf' />
@@ -185,19 +186,16 @@ const ResumeGuide = () => {
         <h3 className='blogpost__section__title'>Parting Words</h3>
         <div className='blogpost__section__body'>
           <p>
-            In construction...
+            Your resume is one of the most important tools you have in shaping your career path — especially as a student or fresh grad who has minimal work experience. It&apos;s not just about listing what you&apos;ve done, but getting across who you are as a candidate, what you bring to the table, and why someone should take a chance on you. A clear, well-structured, and thoughtfully tailored resume shows that you understand your strengths, care about your craft, and respect the time of the people reviewing your application. As you learn and gain experience, your resume should evolve alongside you (especially during co-op/internship season). Make sure to reflect and update your resume regularly — the little details are what can turn a good resume into a great one. Please note that these tips on writing a great resume are based on my own experiences and what has worked for me. I recognize that I may have blind spots, so take my advice as one perspective and feel free to adopt whatever resonates with you!
             <br />
             <br />
-            Here are a few useful resources:
+            Useful resources:
           </p>
           <br />
           <div className='blogpost__section__body'>
             <ul className='bulleted_list'>
               <li>
                 <a className='link' target='_blank' rel='noopener noreferrer' href='https://www.freecodecamp.org/news/writing-a-killer-software-engineering-resume-b11c91ef699d/'>How to write a killer Software Engineering résumé</a>
-              </li>
-              <li>
-                <a className='link' target='_blank' rel='noopener noreferrer' href='https://simplify.jobs/blog/how-to-use-the-xyz-resume-format/'>How to Use the XYZ Resume Format: A Complete Guide for Job Seekers</a>
               </li>
               <li>
                 <a className='link' target='_blank' rel='noopener noreferrer' href='https://careerservices.fas.harvard.edu/resources/create-a-strong-resume//'>Harvard: Create a Strong Resume</a>
