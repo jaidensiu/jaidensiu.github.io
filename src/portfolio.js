@@ -9,7 +9,7 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'SWE Intern (Android + KMP) @ Dialpad • BME + CS @ UBC',
+  role: 'SWE Intern @ Dialpad • BME + CS @ UBC',
   description: 'Passionate about engineering and computer science.',
   contact: {
     // resume: '/resume',
@@ -25,9 +25,9 @@ const about = {
     'Currently building with Kotlin',
     'Currently learning Mandarin Chinese',
     'Currently one of the Co-Presidents for UBC BMEUSA',
-    'I like to eat eggs',
-    'I work out',
-    'I play the piano',
+    'Trying to master a few of Chopin\'s and Liszt\'s masterpieces on the piano',
+    'I really like to eat eggs for some reason',
+    'I enjoy working out (whether it\'s moving weights or myself)',
     'I used to be a competitive swimmer (aka swammer)'
   ]
 }
@@ -36,41 +36,36 @@ const experiences = [
   {
     companyLink: "https://www.dialpad.com/",
     company: 'Dialpad',
-    role: 'Software Engineer Intern',
+    role: 'Software Engineer Intern (Android and Mobile Infrastructure)',
     date: 'Jan 2025 - Present',
-    description: 'Android + Mobile Infrastructure',
     stack: ['Kotlin', 'Swift', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Dagger', 'Paparazzi', 'GitHub Actions', 'Bitrise']
   },
   {
     companyLink: "https://www.intuit.com/",
     company: 'Intuit',
-    role: 'Software Engineer Intern',
+    role: 'Software Engineer Intern (Mobile Infrastructure)',
     date: 'Sep 2024 - Dec 2024',
-    description: 'Server-Driven UI + Design Systems',
-    stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes']
+    stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes', 'Jenkins']
   },
   {
     companyLink: "https://ca.formswim.com/",
     company: 'FORM',
-    role: 'Software Developer Co-op',
+    role: 'Software Developer Co-op (Android)',
     date: 'May 2024 - Aug 2024',
-    description: 'Android + Bluetooth Connectivity',
     stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
   },
   {
     companyLink: "https://www.avanti.ca/",
     company: 'Avanti',
-    role: 'Software Developer Co-op',
+    role: 'Software Developer Co-op (Android)',
     date: 'Sep 2023 - Apr 2024',
-    description: 'Android',
     stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase']
   },
   {
     companyLink: "https://www.globalrelay.com/",
     company: 'Global Relay',
-    role: 'Software Development Engineer in Test Co-op',
+    role: 'Software Development Engineer in Test Co-op (Android)',
     date: 'May 2023 - Aug 2023',
-    description: 'Android',
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
   }
 ]
