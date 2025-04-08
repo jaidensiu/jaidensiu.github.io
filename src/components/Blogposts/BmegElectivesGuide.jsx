@@ -31,7 +31,7 @@ const BmegElectivesGuide = () => {
     <section id='bmeg-electives-guide' className='blogpost section'>
       <div className='blogpost__header'>
         <h2>UBC BMEG Technical Electives Guide</h2>
-        <p className="blogpost__date">April 2, 2024 - Last edited: January 30, 2025</p>
+        <p className="blogpost__date">April 2, 2024 (Last edited: January 30, 2025)</p>
         <p className="blogpost__subtitle">A guide for choosing your technical electives in BMEG</p>
         <button type="button" className="link" onClick={copyLinkToClipboard}>
           Copy link

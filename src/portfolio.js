@@ -15,17 +15,17 @@ const home = {
     // resume: '/resume',
     github: 'https://github.com/jaidensiu',
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
-    email: 'siujaiden@gmail.com'
+    // email: 'siujaiden@gmail.com'
   }
 }
 
 const about = {
   photo: aboutpic,
   facts: [
-    'Currently building with Kotlin',
-    'Currently learning Mandarin Chinese',
+    'Currently building with Kotlin (from Android to Backend, and KMP of course)',
+    'Currently learning Mandarin Chinese (conversationally at least)',
     'Currently one of the Co-Presidents for UBC BMEUSA',
-    'Trying to master a few of Chopin\'s and Liszt\'s masterpieces on the piano',
+    'Currently trying to master some of Chopin\'s and Liszt\'s piano masterpieces',
     'I really like to eat eggs for some reason',
     'I enjoy working out (whether it\'s moving weights or myself)',
     'I used to be a competitive swimmer (aka swammer)'
@@ -38,7 +38,7 @@ const experiences = [
     company: 'Dialpad',
     role: 'Software Engineer Intern (Android and Mobile Infrastructure)',
     date: 'Jan 2025 - Present',
-    stack: ['Kotlin', 'Swift', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Dagger', 'Paparazzi', 'GitHub Actions', 'Bitrise']
+    stack: ['Kotlin', 'Swift', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Dagger', 'Paparazzi', 'GitHub Actions', 'Bitrise', 'Amplitude']
   },
   {
     companyLink: "https://www.intuit.com/",
@@ -155,7 +155,7 @@ const blogs = [
   {
     name: 'UBC BMEG Technical Electives Guide',
     description: 'A guide for choosing your technical electives in BMEG',
-    date: 'April 2, 2024',
+    date: 'April 2, 2024 (Last edited: January 30, 2025)',
     link: '/blogs/bmeg-electives-guide'
   }
 ]
