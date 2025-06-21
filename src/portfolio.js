@@ -9,7 +9,7 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'SWE Intern @ Dialpad • BME + CS @ UBC',
+  role: 'Android + Kotlin Multiplatform @ Dialpad • BME + CS @ UBC',
   description: 'Passionate about engineering and computer science.',
   contact: {
     // resume: '/resume',
@@ -24,10 +24,8 @@ const about = {
   facts: [
     'Currently building with Kotlin (from Android to Backend, and KMP of course)',
     'Currently learning Mandarin Chinese (conversationally at least)',
-    'Currently one of the Co-Presidents for UBC BMEUSA',
     'Currently trying to master some of Chopin\'s and Liszt\'s piano masterpieces',
-    'I really like to eat eggs for some reason',
-    'I enjoy working out (whether it\'s moving weights or myself)',
+    'I enjoy playing badminton and working out at the gym',
     'I used to be a competitive swimmer (aka swammer)'
   ]
 }
@@ -36,14 +34,14 @@ const experiences = [
   {
     companyLink: "https://www.dialpad.com/",
     company: 'Dialpad',
-    role: 'Software Engineer Intern (Android and Mobile Infrastructure)',
+    role: 'Software Engineer Intern (Android and Kotlin Multiplatform)',
     date: 'Jan 2025 - Present',
-    stack: ['Kotlin', 'Swift', 'Kotlin Multiplatform', 'Jetpack Compose', 'Retrofit', 'Dagger', 'Paparazzi', 'GitHub Actions', 'Bitrise', 'Amplitude']
+    stack: ['Kotlin', 'Swift', 'JavaScript', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude']
   },
   {
     companyLink: "https://www.intuit.com/",
     company: 'Intuit',
-    role: 'Software Engineer Intern (Mobile Infrastructure)',
+    role: 'Software Engineer Intern (Web and Mobile)',
     date: 'Sep 2024 - Dec 2024',
     stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes', 'Jenkins']
   },
