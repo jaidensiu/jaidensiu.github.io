@@ -1,5 +1,5 @@
 import homepic from "./components/Access/pic_of_me.jpg"
-import aboutpic from "./components/Access/gopher_banner.gif"
+import aboutpic from "./components/Access/go_core_data_case_study.png"
 
 const header = {
   homepage: '/',
@@ -9,20 +9,19 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Android + Kotlin Multiplatform @ Dialpad • BME + CS @ UBC',
+  role: 'SWE @ Dialpad • BME + CS @ UBC',
   description: 'Passionate about engineering and computer science.',
   contact: {
     // resume: '/resume',
     github: 'https://github.com/jaidensiu',
     linkedin: 'https://www.linkedin.com/in/jaidensiu/',
-    // email: 'siujaiden@gmail.com'
   }
 }
 
 const about = {
   photo: aboutpic,
   facts: [
-    'Currently building with Kotlin (from Android to Backend, and KMP of course)',
+    'Currently building with Kotlin and Go (the programming language)',
     'Currently learning Mandarin Chinese (conversationally at least)',
     'Currently trying to master some of Chopin\'s and Liszt\'s piano masterpieces',
     'I enjoy playing badminton and working out at the gym',
@@ -34,35 +33,35 @@ const experiences = [
   {
     companyLink: "https://www.dialpad.com/",
     company: 'Dialpad',
-    role: 'Software Engineer Intern (Android and Kotlin Multiplatform)',
+    role: 'Software Engineer Co-op',
     date: 'Jan 2025 - Present',
-    stack: ['Kotlin', 'Swift', 'JavaScript', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude']
+    stack: ['Kotlin', 'Swift', 'JavaScript', 'Python', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude']
   },
   {
     companyLink: "https://www.intuit.com/",
     company: 'Intuit',
-    role: 'Software Engineer Intern (Web and Mobile)',
+    role: 'Software Engineer Co-op',
     date: 'Sep 2024 - Dec 2024',
     stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes', 'Jenkins']
   },
   {
     companyLink: "https://ca.formswim.com/",
     company: 'FORM',
-    role: 'Software Developer Co-op (Android)',
+    role: 'Software Developer Co-op',
     date: 'May 2024 - Aug 2024',
     stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
   },
   {
     companyLink: "https://www.avanti.ca/",
     company: 'Avanti',
-    role: 'Software Developer Co-op (Android)',
+    role: 'Software Developer Co-op',
     date: 'Sep 2023 - Apr 2024',
     stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase']
   },
   {
     companyLink: "https://www.globalrelay.com/",
     company: 'Global Relay',
-    role: 'Software Development Engineer in Test Co-op (Android)',
+    role: 'Software Development Engineer in Test Co-op',
     date: 'May 2023 - Aug 2023',
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
   }
@@ -70,14 +69,20 @@ const experiences = [
 
 const projects = [
   {
+    name: 'Ledger Service',
+    description: 'A secure, scalable, and cloud-native backend service for managing bank accounts, transactions, and transfers.',
+    stack: ['Go', 'Gin', 'gRPC', 'Protocol Buffers', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes'],
+    github: 'https://github.com/jaidensiu/ledger-service'
+  },
+  {
     name: 'Red Squid Dead Squid - Winner at nwHacks 2025',
-    description: 'Built the Red Light, Green Light game from Netflix\'s Squid Game with Kotlin Multiplatform and a robotic doll',
+    description: 'Built the Red Light, Green Light game from Netflix\'s Squid Game with Kotlin Multiplatform and a robotic doll.',
     stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
     github: 'https://github.com/jaidensiu/red-squid-dead-squid'
   },
   {
     name: 'Eggpedia',
-    description: 'An Android and iOS mobile app that teaches you all about different egg recipes',
+    description: 'An Android and iOS mobile app that teaches you all about different egg recipes.',
     stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil'],
     github: 'https://github.com/jaidensiu/eggpedia'
   },
@@ -95,26 +100,26 @@ const projects = [
   // },
   {
     name: 'Messaging and Chatbot Service',
-    description: 'A real-time messaging and LLM chatbot backend service',
+    description: 'A real-time messaging and LLM chatbot backend service.',
     stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla WebSocket', 'Cohere', 'Docker'],
     github: 'https://github.com/jaidensiu/messaging-and-chatbot-service'
   },
   {
     name: 'World Countries App',
-    description: 'An Android app that displays country details and shows a selected country on a map',
+    description: 'An Android app that displays country details and shows a selected country on a map.',
     stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt', 'GitHub Actions'],
     github: 'https://github.com/jaidensiu/world-countries-app'
   },
   {
     name: 'Noodle Doodle - Winner at nwHacks 2024',
-    description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles',
+    description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles.',
     stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
     github: 'https://github.com/jaidensiu/noodle-doodle',
     livePreview: 'https://devpost.com/software/noodle-doodle'
   },
   {
     name: 'Accura Plastering Website - Freelance Project',
-    description: 'Developed and deployed a website for a local business',
+    description: 'Developed and deployed a website for a local business.',
     stack: ['TypeScript', 'Next.js', 'React.js', 'GitHub Actions', 'Vercel'],
     website: 'https://www.accuraplastering.com/'
   },
