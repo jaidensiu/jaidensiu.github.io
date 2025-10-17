@@ -3,13 +3,13 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
 import ResumeIcon from '@material-ui/icons/Description'
 import { v4 as uuidv4 } from 'uuid'
-import Gif from '../Access/kodee-walking.gif'
+import Gif from '../Access/gopher-shaking.gif'
 import { home } from '../../portfolio'
 import './Home.css'
 
 const Home = () => {
   const { photo, name, role, description, contact } = home
-  const descriptionParagraph = description.split('\n')
+  const descriptionParagraph = description && description.length !== 0 ? description.split('\n') : []
 
   return (
     <section id='home' className='section'>
@@ -28,11 +28,13 @@ const Home = () => {
         {role && (
           <h3 className='home__role'>{role}</h3>
         )}
-        <div>
-          {descriptionParagraph.map(paragraph => (
-            <p key={uuidv4()} className='home__desc'>{paragraph}</p>
-          ))}
-        </div>
+        {descriptionParagraph.length > 0 && (
+          <div>
+            {descriptionParagraph.map(paragraph => (
+              <p key={uuidv4()} className='home__desc'>{paragraph}</p>
+            ))}
+          </div>
+        )}
         <div className='home__contact'>
           {contact && (
             <>

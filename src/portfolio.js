@@ -10,7 +10,7 @@ const home = {
   photo: homepic,
   name: 'Jaiden',
   role: 'SWE @ Dialpad • BME + CS @ UBC',
-  description: 'Passionate about engineering and computer science.',
+  description: 'Hi there, welcome to my website!\n(Yes, you\'ll find a lot of the Go gophers around here)',
   contact: {
     // resume: '/resume',
     github: 'https://github.com/jaidensiu',
@@ -21,7 +21,9 @@ const home = {
 const about = {
   photo: aboutpic,
   facts: [
-    'Currently building with Kotlin and Go (the programming language)',
+    'Passionate about building platform infrastructure (libraries, APIs, tools, build systems) that boost developer ergonomics and code quality',
+    'Currently building with Kotlin Multplatform for Android, iOS, and Web',
+    'Currently learning Go (the programming language)',
     'Currently learning Mandarin Chinese (conversationally at least)',
     'Currently trying to master some of Chopin\'s and Liszt\'s piano masterpieces',
     'I enjoy playing badminton and working out at the gym',
@@ -35,13 +37,15 @@ const experiences = [
     company: 'Dialpad',
     role: 'Software Engineer Co-op',
     date: 'Jan 2025 - Present',
-    stack: ['Kotlin', 'Swift', 'JavaScript', 'Python', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude']
+    description: 'Analytics Tracking Engine for Android, iOS, and Web - Platform Infrastructure Engineering',
+    stack: ['Kotlin', 'Swift', 'JavaScript', 'Python', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude', 'Firebase']
   },
   {
     companyLink: "https://www.intuit.com/",
     company: 'Intuit',
     role: 'Software Engineer Co-op',
     date: 'Sep 2024 - Dec 2024',
+    description: 'Server-Driven UI and Design Systems for Android, iOS, and Web - Platform Engineering',
     stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes', 'Jenkins']
   },
   {
@@ -49,6 +53,7 @@ const experiences = [
     company: 'FORM',
     role: 'Software Developer Co-op',
     date: 'May 2024 - Aug 2024',
+    description: 'Swim Tracking and Analysis - Mobile Engineering',
     stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
   },
   {
@@ -56,6 +61,7 @@ const experiences = [
     company: 'Avanti',
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Apr 2024',
+    description: 'Human Capital Management System - Mobile Development',
     stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase']
   },
   {
@@ -63,6 +69,7 @@ const experiences = [
     company: 'Global Relay',
     role: 'Software Development Engineer in Test Co-op',
     date: 'May 2023 - Aug 2023',
+    description: 'Compliant Communication Service - Android Testing and QA',
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
   }
 ]
@@ -98,18 +105,18 @@ const projects = [
   //   stack: ['Kotlin', 'Java', 'Compose Multiplatform', 'Redis', 'JUnit', 'Mockito', 'Docker', 'Raspberry Pi'],
   //   website: 'https://www.ubcaerodesign.com/'
   // },
-  {
-    name: 'Messaging and Chatbot Service',
-    description: 'A real-time messaging and LLM chatbot backend service.',
-    stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla WebSocket', 'Cohere', 'Docker'],
-    github: 'https://github.com/jaidensiu/messaging-and-chatbot-service'
-  },
-  {
-    name: 'World Countries App',
-    description: 'An Android app that displays country details and shows a selected country on a map.',
-    stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt', 'GitHub Actions'],
-    github: 'https://github.com/jaidensiu/world-countries-app'
-  },
+  // {
+  //   name: 'Messaging and Chatbot Service',
+  //   description: 'A real-time messaging and LLM chatbot backend service.',
+  //   stack: ['Go', 'Gin', 'PostgreSQL', 'Gorilla WebSocket', 'Cohere', 'Docker'],
+  //   github: 'https://github.com/jaidensiu/messaging-and-chatbot-service'
+  // },
+  // {
+  //   name: 'World Countries App',
+  //   description: 'An Android app that displays country details and shows a selected country on a map.',
+  //   stack: ['Kotlin', 'GraphQL', 'Jetpack Compose', 'Apollo Kotlin', 'JUnit', 'Mockito', 'Hilt', 'GitHub Actions'],
+  //   github: 'https://github.com/jaidensiu/world-countries-app'
+  // },
   {
     name: 'Noodle Doodle - Winner at nwHacks 2024',
     description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles.',
