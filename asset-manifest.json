@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.fc121c5c.css",
-    "main.js": "/static/js/main.403336d3.js",
+    "main.js": "/static/js/main.9d1aa04d.js",
     "static/media/pic_of_me.jpg": "/static/media/pic_of_me.14b276fd925835209970.jpg",
     "static/media/give_resume.png": "/static/media/give_resume.a7ae856753a168d84a1c.png",
     "static/media/go_core_data_case_study.png": "/static/media/go_core_data_case_study.151708d3ed3c02c66861.png",
     "static/media/bme.jpeg": "/static/media/bme.5b8f53d23c22a111d985.jpeg",
-    "static/media/kodee-walking.gif": "/static/media/kodee-walking.dd6de7a974818a1f48b3.gif",
     "index.html": "/index.html",
     "main.fc121c5c.css.map": "/static/css/main.fc121c5c.css.map",
-    "main.403336d3.js.map": "/static/js/main.403336d3.js.map"
+    "main.9d1aa04d.js.map": "/static/js/main.9d1aa04d.js.map"
   },
   "entrypoints": [
     "static/css/main.fc121c5c.css",
-    "static/js/main.403336d3.js"
+    "static/js/main.9d1aa04d.js"
   ]
 }
