@@ -10,7 +10,7 @@ const home = {
   photo: homepic,
   name: 'Jaiden',
   role: 'SWE @ Dialpad • BME + CS @ UBC',
-  description: 'Hi there, welcome to my website!\n(Yes, you\'ll find a lot of the Go gophers around here)',
+  description: 'Hi there, welcome to my website!\n(yes, you\'ll find a few Go gophers around here)',
   contact: {
     // resume: '/resume',
     github: 'https://github.com/jaidensiu',
@@ -20,15 +20,16 @@ const home = {
 
 const about = {
   photo: aboutpic,
-  facts: [
-    'Passionate about building platform infrastructure (libraries, APIs, tools, build systems) that boost developer ergonomics and code quality',
-    'Currently building with Kotlin Multplatform for Android, iOS, and Web',
-    'Currently learning Go (the programming language)',
-    'Currently learning Mandarin Chinese (conversationally at least)',
-    'Currently trying to master some of Chopin\'s and Liszt\'s piano masterpieces',
-    'I enjoy playing badminton and working out at the gym',
-    'I used to be a competitive swimmer (aka swammer)'
-  ]
+  work: [
+    'Passionate about building things (libraries, APIs, tools, build systems) that boost developer productivity and code quality',
+    'Experience with building multiplatform libraries, backend web services, mobile apps, and CI/CD pipelines',
+  ],
+  outsideWork: [
+    'Currently learning Mandarin Chinese (mainly conversationally)',
+    'Steadily learning some of Chopin\'s and Liszt\'s piano masterpieces',
+    'Striving to lift heavier weights at the gym and perfecting my smashes in badminton',
+    'I used to be a competitive swimmer (aka swammer)',
+  ],
 }
 
 const experiences = [
@@ -37,7 +38,7 @@ const experiences = [
     company: 'Dialpad',
     role: 'Software Engineer Co-op',
     date: 'Jan 2025 - Present',
-    description: 'Analytics Tracking Engine for Android, iOS, and Web - Platform Infrastructure Engineering',
+    description: 'Analytics Tracking Engine for Android, iOS, and Web - Platform Engineering',
     stack: ['Kotlin', 'Swift', 'JavaScript', 'Python', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude', 'Firebase']
   },
   {
