@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Snackbar from '@mui/material/Snackbar'
 import MuiAlert from '@mui/material/Alert'
-import GiveResume from "../Access/give_resume.png"
 import './Blogposts.css'
 
 const ResumeGuide = () => {
@@ -41,10 +40,6 @@ const ResumeGuide = () => {
             Link copied to clipboard.
           </MuiAlert>
         </Snackbar>
-      </div>
-
-      <div className="blogpost__image__container">
-        <img className='blogpost__image' src={GiveResume} alt='give_resume' />
       </div>
 
       <h3 className='blogpost__section__title'>Table of contents</h3>
@@ -99,7 +94,7 @@ const ResumeGuide = () => {
         <h3 className='blogpost__section__title'>Prologue</h3>
         <div className='blogpost__section__body'>
           <p>
-            Your resume is more than a piece of paper (or PDF document) of your experience — it&apos;s a personal sales pitch. Whether you&apos;re a student looking for a co-op/internship or just entering the workforce, a great resume can be the key to unlocking career opportunities and differentiating yourself from others in the screening process. However, writing a resume that effectively highlights your skills and experiences is hard. This guide will walk you through the essentials of building a resume that stands out, provide practical tips, and help you align your resume with what recruiters, hiring managers, and team members are looking for.
+            Your resume is more than a piece of paper (or PDF document) of your experience, it&apos;s a personal sales pitch. Whether you&apos;re a student looking for a co-op/internship or just entering the workforce, a great resume can be the key to unlocking career opportunities and differentiating yourself from others in the screening process. However, writing a resume that effectively highlights your skills and experiences is hard. This guide will walk you through the essentials of building a resume that stands out, provide practical tips, and help you align your resume with what recruiters, hiring managers, and team members are looking for.
           </p>
         </div>
       </section>
@@ -158,7 +153,7 @@ const ResumeGuide = () => {
           <section id='tailoring-resume'>
             <h4 className='blogpost__section__title'>Tailoring Your Resume</h4>
             <p>
-              Your resume should be tailored to a specific job role or a narrow set of roles. For example, if you&apos;re aiming for a role in software engineering, your resume should highlight or emphasize your proficiency in relevant programming languages, technologies, and projects. To stand out further, you can showcase expertise in a particular area — such as frontend development — by emphasizing skills, tools, and experience specific to that specialization. Aligning your resume with the skills and requirements of your target role increases your chances of standing out in a competitive applicant pool.
+              Your resume should be tailored to a specific job role or a narrow set of roles. For example, if you&apos;re aiming for a role in software engineering, your resume should highlight or emphasize your proficiency in relevant programming languages, technologies, and projects. To stand out further, you can showcase expertise in a particular area, such as frontend development, by emphasizing skills, tools, and experience specific to that specialization. Aligning your resume with the skills and requirements of your target role increases your chances of standing out in a competitive applicant pool.
             </p>
           </section>
 
@@ -186,7 +181,7 @@ const ResumeGuide = () => {
         <h3 className='blogpost__section__title'>Parting Words</h3>
         <div className='blogpost__section__body'>
           <p>
-            Your resume is one of the most important tools you have in shaping your career path — especially as a student or fresh grad who has minimal work experience. It&apos;s not just about listing what you&apos;ve done, but getting across who you are as a candidate, what you bring to the table, and why someone should take a chance on you. A clear, well-structured, and thoughtfully tailored resume shows that you understand your strengths, care about your craft, and respect the time of the people reviewing your application. As you learn and gain experience, your resume should evolve alongside you (especially during co-op/internship season). Make sure to reflect and update your resume regularly — the little details are what can turn a good resume into a great one. Please note that these tips on writing a great resume are based on my own experiences and what has worked for me. I recognize that I may have blind spots, so take my advice as one perspective and feel free to adopt whatever resonates with you!
+            Your resume is one of the most important tools you have in shaping your career path, especially as a student or fresh grad who has minimal work experience. It&apos;s not just about listing what you&apos;ve done, but getting across who you are as a candidate, what you bring to the table, and why someone should take a chance on you. A clear, well-structured, and thoughtfully tailored resume shows that you understand your strengths, care about your craft, and respect the time of the people reviewing your application. As you learn and gain experience, your resume should evolve alongside you (especially during co-op/internship season). Make sure to reflect and update your resume regularly the little details are what can turn a good resume into a great one. Please note that these tips on writing a great resume are based on my own experiences and what has worked for me. I recognize that I may have blind spots, so take my advice as one perspective and feel free to adopt whatever resonates with you!
             <br />
             <br />
             Useful resources:

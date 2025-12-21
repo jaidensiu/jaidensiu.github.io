@@ -9,7 +9,7 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'SWE @ Dialpad • BME + CS @ UBC',
+  role: '👨‍💻',
   description: 'Hi there, welcome to my website!\n(yes, you\'ll find a few Go gophers around here)',
   contact: {
     // resume: '/resume',
@@ -22,7 +22,7 @@ const about = {
   photo: aboutpic,
   work: [
     'Passionate about building things (libraries, APIs, tools, build systems) that boost developer productivity and code quality',
-    'Experience with building multiplatform libraries, backend web services, mobile apps, and CI/CD pipelines',
+    'Experience with building libraries, backend web services, mobile apps, and CI/CD pipelines',
   ],
   outsideWork: [
     'Currently learning Mandarin Chinese (mainly conversationally)',
@@ -37,8 +37,8 @@ const experiences = [
     companyLink: "https://www.dialpad.com/",
     company: 'Dialpad',
     role: 'Software Engineer Co-op',
-    date: 'Jan 2025 - Present',
-    description: 'Analytics Tracking Engine for Android, iOS, and Web - Platform Engineering',
+    date: 'Jan 2025 - Dec 2025',
+    description: 'Cross-Platform Analytics Infrastructure and Android Tooling',
     stack: ['Kotlin', 'Swift', 'JavaScript', 'Python', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude', 'Firebase']
   },
   {
@@ -46,7 +46,7 @@ const experiences = [
     company: 'Intuit',
     role: 'Software Engineer Co-op',
     date: 'Sep 2024 - Dec 2024',
-    description: 'Server-Driven UI and Design Systems for Android, iOS, and Web - Platform Engineering',
+    description: 'Server-Driven UI and Design Systems',
     stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes', 'Jenkins']
   },
   {
@@ -54,7 +54,7 @@ const experiences = [
     company: 'FORM',
     role: 'Software Developer Co-op',
     date: 'May 2024 - Aug 2024',
-    description: 'Swim Tracking and Analysis - Mobile Engineering',
+    description: 'AR Swim Goggles',
     stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase']
   },
   {
@@ -62,7 +62,7 @@ const experiences = [
     company: 'Avanti',
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Apr 2024',
-    description: 'Human Capital Management System - Mobile Development',
+    description: 'Human Capital Management (HCM)',
     stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase']
   },
   {
@@ -70,7 +70,7 @@ const experiences = [
     company: 'Global Relay',
     role: 'Software Development Engineer in Test Co-op',
     date: 'May 2023 - Aug 2023',
-    description: 'Compliant Communication Service - Android Testing and QA',
+    description: 'QA and Automation Infrastructure',
     stack: ['Kotlin', 'Java', 'Espresso', 'JUnit', 'Jenkins', 'Docker']
   }
 ]
@@ -157,6 +157,12 @@ const projects = [
 ]
 
 const blogs = [
+  {
+    name: 'My UBC Co-op Program Experience',
+    description: 'My co-op experience wrapped',
+    date: 'December 21, 2025',
+    link: '/blogs/co-op'
+  },
   {
     name: 'How to Write a Great Resume',
     description: 'A guide on how to write a great resume for students and budding industry professionals',

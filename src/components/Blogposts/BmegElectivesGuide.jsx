@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Snackbar from '@mui/material/Snackbar'
 import MuiAlert from '@mui/material/Alert'
-import BmeImage from "../Access/bme.jpeg"
 import './Blogposts.css'
 
 const BmegElectivesGuide = () => {
@@ -41,10 +40,6 @@ const BmegElectivesGuide = () => {
             Link copied to clipboard.
           </MuiAlert>
         </Snackbar>
-      </div>
-
-      <div className="blogpost__image__container">
-        <img className='blogpost__image' src={BmeImage} alt='BME' />
       </div>
 
       <h3 className='blogpost__section__title'>Table of contents</h3>

@@ -8,6 +8,7 @@ import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
 import BmegElectivesGuide from './components/Blogposts/BmegElectivesGuide'
 import ResumeGuide from './components/Blogposts/ResumeGuide'
+import Coop from './components/Blogposts/Coop'
 // import Notes from './components/Notes/Notes'
 // import GoNotes from './components/NotePages/GoProgramming'
 import Experience from './components/Experience/Experience'
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/blogs" element={<main><Blogs /></main>} />
             <Route path="/blogs/bmeg-electives-guide" element={<main><BmegElectivesGuide /></main>} />
             <Route path="/blogs/resume-guide" element={<main><ResumeGuide /></main>} />
+            <Route path="/blogs/co-op" element={<main><Coop /></main>} />
             {/* <Route path="/notes" element={<main><Notes /></main>} /> */}
             {/* <Route path="/notes/go-programming" element={<main><GoNotes /></main>} /> */}
           </Routes>
