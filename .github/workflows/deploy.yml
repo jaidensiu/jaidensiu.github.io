@@ -24,14 +24,12 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Configure Git
+      - name: Install dependencies and build project
         run: |
-          git config --local user.email "$MY_EMAIL"
-          git config --local user.name "jaidensiu"
-          git config --local url."https://oauth2:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          npm ci
+          npm run build
 
-      - name: Deploy
-        run: npm run deploy
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          folder: build
