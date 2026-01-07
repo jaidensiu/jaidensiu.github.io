@@ -5,15 +5,14 @@ on:
     branches:
       - main
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  MY_EMAIL: ${{ secrets.MY_EMAIL }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[!deploy]')"
-    environment:
-      name: github-pages
-    permissions:
-      pages: write
-      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -26,18 +25,13 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies and build project
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Configure git
         run: |
-          npm ci
-          npm run build
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: build
-          retention-days: 1
-          compression-level: 0
+          git config --global user.name "jaidensiu"
+          git config --global user.email "$MY_EMAIL"
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        run: npm run deploy
