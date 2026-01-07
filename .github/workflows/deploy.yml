@@ -32,6 +32,7 @@ jobs:
         run: |
           git config --global user.name "jaidensiu"
           git config --global user.email "$MY_EMAIL"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
