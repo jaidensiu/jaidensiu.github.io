@@ -27,10 +27,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Configure git identity
+      - name: Configure Git to use GitHub token
         run: |
-          git config --global user.email "$MY_EMAIL"
-          git config --global user.name "jaidensiu"
+          git config --global url."https://oauth2:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 
       - name: Deploy
         run: npm run deploy
