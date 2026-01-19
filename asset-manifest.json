@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.25f62e50.css",
-    "main.js": "/static/js/main.f409733a.js",
+    "main.css": "/static/css/main.d012c0f0.css",
+    "main.js": "/static/js/main.690e096e.js",
     "static/media/pic_of_me.jpg": "/static/media/pic_of_me.14b276fd925835209970.jpg",
     "static/media/go_core_data_case_study.png": "/static/media/go_core_data_case_study.151708d3ed3c02c66861.png",
     "index.html": "/index.html",
-    "main.25f62e50.css.map": "/static/css/main.25f62e50.css.map",
-    "main.f409733a.js.map": "/static/js/main.f409733a.js.map"
+    "main.d012c0f0.css.map": "/static/css/main.d012c0f0.css.map",
+    "main.690e096e.js.map": "/static/js/main.690e096e.js.map"
   },
   "entrypoints": [
-    "static/css/main.25f62e50.css",
-    "static/js/main.f409733a.js"
+    "static/css/main.d012c0f0.css",
+    "static/js/main.690e096e.js"
   ]
 }
