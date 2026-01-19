@@ -2,6 +2,7 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ExperienceContainer.css'
+import MarkdownText from '../Utils/MarkdownText'
 
 const ExperienceContainer = ({ experience }) => (
   <div className='experience'>
@@ -22,7 +23,7 @@ const ExperienceContainer = ({ experience }) => (
                 </ul>
             )
         )} */}
-    <p className='experience__description'>{experience.description}</p>
+    <MarkdownText className='experience__description'>{experience.description}</MarkdownText>
     {experience.stack && (
       <ul className='experience__stack'>
         {experience.stack.map((item) => (

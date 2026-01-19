@@ -9,7 +9,7 @@ const header = {
 const home = {
   photo: homepic,
   name: 'Jaiden',
-  role: '👨‍💻',
+  role: 'Building World App @ Tools for Humanity',
   description: 'Hi there, welcome to my website!\n(yes, you\'ll find a few Go gophers around here)',
   contact: {
     // resume: '/resume',
@@ -21,8 +21,8 @@ const home = {
 const about = {
   photo: aboutpic,
   work: [
-    'Passionate about building things (libraries, APIs, tools, build systems) that boost developer productivity and code quality',
-    'Experience with building libraries, backend web services, mobile apps, and CI/CD pipelines',
+    'Passionate about building mobile apps, libraries, and backend services',
+    'Currently building [World App](https://world.org/world-app) at Tools for Humanity',
   ],
   outsideWork: [
     'Currently learning Mandarin Chinese (mainly conversationally)',
@@ -33,6 +33,14 @@ const about = {
 }
 
 const experiences = [
+  {
+    companyLink: "https://www.toolsforhumanity.com/",
+    company: 'Tools for Humanity',
+    role: 'Senior Software Engineer',
+    date: 'Jan 2026 - Present',
+    description: 'Building [World App](https://world.org/world-app)',
+    stack: ['Kotlin', 'Compose', 'Retrofit', 'OkHttp', 'Koin']
+  },
   {
     companyLink: "https://www.dialpad.com/",
     company: 'Dialpad',
@@ -76,21 +84,21 @@ const experiences = [
 ]
 
 const projects = [
-  {
-    name: 'Ledger Service',
-    description: 'A secure, scalable, and cloud-native backend service for managing bank accounts, transactions, and transfers.',
-    stack: ['Go', 'Gin', 'gRPC', 'Protocol Buffers', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes'],
-    github: 'https://github.com/jaidensiu/ledger-service'
-  },
+  // {
+  //   name: 'Ledger Service',
+  //   description: 'A secure, scalable, and cloud-native backend service for managing bank accounts, transactions, and transfers.',
+  //   stack: ['Go', 'Gin', 'gRPC', 'Protocol Buffers', 'PostgreSQL', 'Redis', 'Docker', 'AWS', 'GitHub Actions', 'Kubernetes'],
+  //   github: 'https://github.com/jaidensiu/ledger-service'
+  // },
   {
     name: 'Red Squid Dead Squid - Winner at nwHacks 2025',
-    description: 'Built the Red Light, Green Light game from Netflix\'s Squid Game with Kotlin Multiplatform and a robotic doll.',
+    description: 'Built the Red Light, Green Light game from Netflix\'s Squid Game with Kotlin Multiplatform and a robotic doll',
     stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
     github: 'https://github.com/jaidensiu/red-squid-dead-squid'
   },
   {
-    name: 'Eggpedia',
-    description: 'An Android and iOS mobile app that teaches you all about different egg recipes.',
+    name: 'Eggpedia - Kotlin Multiplatform Contest 2025',
+    description: 'An Android and iOS mobile app to explore recipes and play minigames about eggs',
     stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil'],
     github: 'https://github.com/jaidensiu/eggpedia'
   },
@@ -120,14 +128,14 @@ const projects = [
   // },
   {
     name: 'Noodle Doodle - Winner at nwHacks 2024',
-    description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles.',
+    description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles',
     stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
     github: 'https://github.com/jaidensiu/noodle-doodle',
     livePreview: 'https://devpost.com/software/noodle-doodle'
   },
   {
     name: 'Accura Plastering Website - Freelance Project',
-    description: 'Developed and deployed a website for a local business.',
+    description: 'Developed and deployed a website for a local business',
     stack: ['TypeScript', 'Next.js', 'React.js', 'GitHub Actions', 'Vercel'],
     website: 'https://www.accuraplastering.com/'
   },
