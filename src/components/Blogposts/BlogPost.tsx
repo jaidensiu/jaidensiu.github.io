@@ -9,7 +9,13 @@ export interface BlogPostMeta {
   subtitle?: string
 }
 
-const BlogPost = ({ meta, children }: { meta: BlogPostMeta; children: ReactNode }) => {
+const BlogPost = ({
+  meta,
+  children,
+}: {
+  meta: BlogPostMeta
+  children: ReactNode
+}) => {
   const [openSnackbar, setOpenSnackbar] = useState(false)
 
   // Smooth-scroll in-page TOC links without writing the #hash to the URL.
@@ -25,14 +31,17 @@ const BlogPost = ({ meta, children }: { meta: BlogPostMeta; children: ReactNode 
   }
 
   const copyLinkToClipboard = () => {
-    navigator.clipboard.writeText(window.location.href).then(() => {
-      setOpenSnackbar(true)
-      setTimeout(() => {
-        setOpenSnackbar(false)
-      }, 3000)
-    }).catch((error) => {
-      console.error('Unable to copy:', error)
-    })
+    navigator.clipboard
+      .writeText(window.location.href)
+      .then(() => {
+        setOpenSnackbar(true)
+        setTimeout(() => {
+          setOpenSnackbar(false)
+        }, 3000)
+      })
+      .catch((error) => {
+        console.error('Unable to copy:', error)
+      })
   }
 
   return (
@@ -44,7 +53,11 @@ const BlogPost = ({ meta, children }: { meta: BlogPostMeta; children: ReactNode 
         <button type='button' className='link' onClick={copyLinkToClipboard}>
           Copy link
         </button>
-        <Snackbar className='copyLinkSnackBar' open={openSnackbar} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
+        <Snackbar
+          className='copyLinkSnackBar'
+          open={openSnackbar}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+        >
           <MuiAlert severity='success' variant='filled'>
             Link copied to clipboard.
           </MuiAlert>

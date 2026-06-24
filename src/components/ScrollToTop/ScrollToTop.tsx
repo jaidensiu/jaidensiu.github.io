@@ -20,7 +20,13 @@ const ScrollToTop = () => {
   }
 
   return isVisible ? (
-    <div className='scroll-top' onClick={scrollToTop} onKeyDown={scrollToTop} role='button' tabIndex={0}>
+    <div
+      className='scroll-top'
+      onClick={scrollToTop}
+      onKeyDown={scrollToTop}
+      role='button'
+      tabIndex={0}
+    >
       <ArrowUpwardIcon fontSize='large' />
     </div>
   ) : null

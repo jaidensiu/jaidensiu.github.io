@@ -1,12 +1,8 @@
 {
-    "rewrites": [
-        {
-            "source": "/egg.json",
-            "destination": "/eggs.json"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
-    ]
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }

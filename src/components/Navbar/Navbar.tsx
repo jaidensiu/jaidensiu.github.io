@@ -21,7 +21,10 @@ const Navbar = () => {
 
   return (
     <nav className='center nav'>
-      <ul style={{ display: showNavList ? 'flex' : undefined }} className='nav__list'>
+      <ul
+        style={{ display: showNavList ? 'flex' : undefined }}
+        className='nav__list'
+      >
         <li className='nav__list-item'>
           <a href='/' onClick={toggleNavList} className='link link--nav'>
             Home
@@ -36,14 +39,22 @@ const Navbar = () => {
         ) : null}
         {experiences.length ? (
           <li className='nav__list-item'>
-            <a href='/experience' onClick={toggleNavList} className='link link--nav'>
+            <a
+              href='/experience'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
               Experience
             </a>
           </li>
         ) : null}
         {projects.length ? (
           <li className='nav__list-item'>
-            <a href='/projects' onClick={toggleNavList} className='link link--nav'>
+            <a
+              href='/projects'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
               Projects
             </a>
           </li>
@@ -59,10 +70,20 @@ const Navbar = () => {
                     </a>
                 </li> */}
       </ul>
-      <button type='button' onClick={toggleTheme} className='btn btn--icon nav__theme' aria-label='toggle theme'>
+      <button
+        type='button'
+        onClick={toggleTheme}
+        className='btn btn--icon nav__theme'
+        aria-label='toggle theme'
+      >
         {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
-      <button type='button' onClick={toggleNavList} className='btn btn--icon nav__hamburger' aria-label='toggle navigation'>
+      <button
+        type='button'
+        onClick={toggleNavList}
+        className='btn btn--icon nav__hamburger'
+        aria-label='toggle navigation'
+      >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
     </nav>

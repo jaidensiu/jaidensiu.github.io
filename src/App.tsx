@@ -7,8 +7,12 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Blogs from './components/Blogs/Blogs'
 import BlogPost from './components/Blogposts/BlogPost'
-import BmegElectivesGuide, { frontmatter as bmegMeta } from './components/Blogposts/BmegElectivesGuide.mdx'
-import ResumeGuide, { frontmatter as resumeGuideMeta } from './components/Blogposts/ResumeGuide.mdx'
+import BmegElectivesGuide, {
+  frontmatter as bmegMeta,
+} from './components/Blogposts/BmegElectivesGuide.mdx'
+import ResumeGuide, {
+  frontmatter as resumeGuideMeta,
+} from './components/Blogposts/ResumeGuide.mdx'
 import Coop, { frontmatter as coopMeta } from './components/Blogposts/Coop.mdx'
 // import Notes from './components/Notes/Notes'
 // import GoNotes from './components/NotePages/GoProgramming'
@@ -28,15 +32,84 @@ const App = () => {
         <div className='page'>
           <Header />
           <Routes>
-            <Route path='/' element={<main><Home /></main>} />
-            <Route path='/resume' element={<main><Resume /></main>} />
-            <Route path='/about' element={<main><About /></main>} />
-            <Route path='/experience' element={<main><Experience /></main>} />
-            <Route path='/projects' element={<main><Projects /></main>} />
-            <Route path='/blogs' element={<main><Blogs /></main>} />
-            <Route path='/blogs/bmeg-electives-guide' element={<main><BlogPost meta={bmegMeta}><BmegElectivesGuide /></BlogPost></main>} />
-            <Route path='/blogs/resume-guide' element={<main><BlogPost meta={resumeGuideMeta}><ResumeGuide /></BlogPost></main>} />
-            <Route path='/blogs/co-op' element={<main><BlogPost meta={coopMeta}><Coop /></BlogPost></main>} />
+            <Route
+              path='/'
+              element={
+                <main>
+                  <Home />
+                </main>
+              }
+            />
+            <Route
+              path='/resume'
+              element={
+                <main>
+                  <Resume />
+                </main>
+              }
+            />
+            <Route
+              path='/about'
+              element={
+                <main>
+                  <About />
+                </main>
+              }
+            />
+            <Route
+              path='/experience'
+              element={
+                <main>
+                  <Experience />
+                </main>
+              }
+            />
+            <Route
+              path='/projects'
+              element={
+                <main>
+                  <Projects />
+                </main>
+              }
+            />
+            <Route
+              path='/blogs'
+              element={
+                <main>
+                  <Blogs />
+                </main>
+              }
+            />
+            <Route
+              path='/blogs/bmeg-electives-guide'
+              element={
+                <main>
+                  <BlogPost meta={bmegMeta}>
+                    <BmegElectivesGuide />
+                  </BlogPost>
+                </main>
+              }
+            />
+            <Route
+              path='/blogs/resume-guide'
+              element={
+                <main>
+                  <BlogPost meta={resumeGuideMeta}>
+                    <ResumeGuide />
+                  </BlogPost>
+                </main>
+              }
+            />
+            <Route
+              path='/blogs/co-op'
+              element={
+                <main>
+                  <BlogPost meta={coopMeta}>
+                    <Coop />
+                  </BlogPost>
+                </main>
+              }
+            />
             {/* <Route path="/notes" element={<main><Notes /></main>} /> */}
             {/* <Route path="/notes/go-programming" element={<main><GoNotes /></main>} /> */}
           </Routes>

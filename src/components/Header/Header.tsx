@@ -12,7 +12,9 @@ const Header = () => {
           <a href={homepage} className='link'>
             {title}
           </a>
-        ) : (title)}
+        ) : (
+          title
+        )}
       </h3>
       <Navbar />
     </header>

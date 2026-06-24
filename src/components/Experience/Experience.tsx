@@ -9,7 +9,10 @@ const Experience = () => {
       <h2 className='experience__section__title'>Experience</h2>
       <div className='experience__grid'>
         {experiences.map((experience) => (
-          <ExperienceContainer key={experience.company} experience={experience} />
+          <ExperienceContainer
+            key={experience.company}
+            experience={experience}
+          />
         ))}
       </div>
     </section>

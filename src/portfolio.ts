@@ -72,7 +72,8 @@ const home: HomeInfo = {
   photo: homepic,
   name: 'Jaiden',
   role: 'Building World App @ Tools for Humanity',
-  description: "Hi there, welcome to my website!\n(yes, you'll find a few Go gophers around here)",
+  description:
+    "Hi there, welcome to my website!\n(yes, you'll find a few Go gophers around here)",
   contact: {
     // resume: '/resume',
     github: 'https://github.com/jaidensiu',
@@ -109,7 +110,25 @@ const experiences: Experience[] = [
     role: 'Software Engineer Co-op',
     date: 'Jan 2025 - Dec 2025',
     description: 'Cross-Platform Analytics Infrastructure and Android Tooling',
-    stack: ['Kotlin', 'Swift', 'JavaScript', 'Python', 'Kotlin Multiplatform', 'JUnit', 'Jetpack Compose', 'Retrofit', 'Ktor', 'Dagger', 'Paparazzi', 'Gradle', 'Docker', 'GitHub Actions', 'Bitrise', 'Amplitude', 'Firebase'],
+    stack: [
+      'Kotlin',
+      'Swift',
+      'JavaScript',
+      'Python',
+      'Kotlin Multiplatform',
+      'JUnit',
+      'Jetpack Compose',
+      'Retrofit',
+      'Ktor',
+      'Dagger',
+      'Paparazzi',
+      'Gradle',
+      'Docker',
+      'GitHub Actions',
+      'Bitrise',
+      'Amplitude',
+      'Firebase',
+    ],
   },
   {
     companyLink: 'https://www.intuit.com/',
@@ -117,7 +136,19 @@ const experiences: Experience[] = [
     role: 'Software Engineer Co-op',
     date: 'Sep 2024 - Dec 2024',
     description: 'Server-Driven UI and Design Systems',
-    stack: ['Kotlin', 'Swift', 'TypeScript', 'Jetpack Compose', 'SwiftUI', 'React.js', 'JUnit', 'XCTest', 'Jest', 'Applitools Eyes', 'Jenkins'],
+    stack: [
+      'Kotlin',
+      'Swift',
+      'TypeScript',
+      'Jetpack Compose',
+      'SwiftUI',
+      'React.js',
+      'JUnit',
+      'XCTest',
+      'Jest',
+      'Applitools Eyes',
+      'Jenkins',
+    ],
   },
   {
     companyLink: 'https://ca.formswim.com/',
@@ -125,7 +156,17 @@ const experiences: Experience[] = [
     role: 'Software Developer Co-op',
     date: 'May 2024 - Aug 2024',
     description: 'AR Swim Goggles',
-    stack: ['Kotlin', 'Jetpack Compose', 'RxJava', 'OkHttp', 'Protocol Buffers', 'Bluetooth Low Energy (BLE)', 'Jenkins', 'AWS', 'Firebase'],
+    stack: [
+      'Kotlin',
+      'Jetpack Compose',
+      'RxJava',
+      'OkHttp',
+      'Protocol Buffers',
+      'Bluetooth Low Energy (BLE)',
+      'Jenkins',
+      'AWS',
+      'Firebase',
+    ],
   },
   {
     companyLink: 'https://www.avanti.ca/',
@@ -133,7 +174,18 @@ const experiences: Experience[] = [
     role: 'Software Developer Co-op',
     date: 'Sep 2023 - Apr 2024',
     description: 'Human Capital Management (HCM)',
-    stack: ['Kotlin', 'Jetpack Compose', 'Retrofit', 'Room', 'SQLite', 'Dagger', 'Hilt', 'JUnit', 'Mockito', 'Firebase'],
+    stack: [
+      'Kotlin',
+      'Jetpack Compose',
+      'Retrofit',
+      'Room',
+      'SQLite',
+      'Dagger',
+      'Hilt',
+      'JUnit',
+      'Mockito',
+      'Firebase',
+    ],
   },
   {
     companyLink: 'https://www.globalrelay.com/',
@@ -148,20 +200,50 @@ const experiences: Experience[] = [
 const projects: Project[] = [
   {
     name: 'Red Squid Dead Squid - Winner at nwHacks 2025',
-    description: "Built the Red Light, Green Light game from Netflix's Squid Game with Kotlin Multiplatform and a robotic doll",
-    stack: ['Kotlin', 'Python', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Ktor', 'Koin', 'Coil', 'Raspberry Pi', 'Figma'],
+    description:
+      "Built the Red Light, Green Light game from Netflix's Squid Game with Kotlin Multiplatform and a robotic doll",
+    stack: [
+      'Kotlin',
+      'Python',
+      'Kotlin Multiplatform',
+      'Compose Multiplatform',
+      'Ktor',
+      'Koin',
+      'Coil',
+      'Raspberry Pi',
+      'Figma',
+    ],
     github: 'https://github.com/jaidensiu/red-squid-dead-squid',
   },
   {
     name: 'Eggpedia - Kotlin Multiplatform Contest 2025',
-    description: 'An Android and iOS mobile app to explore recipes and play minigames about eggs',
-    stack: ['Kotlin', 'Kotlin Multiplatform', 'Compose Multiplatform', 'Room', 'SQLite', 'Ktor', 'Koin', 'Coil'],
+    description:
+      'An Android and iOS mobile app to explore recipes and play minigames about eggs',
+    stack: [
+      'Kotlin',
+      'Kotlin Multiplatform',
+      'Compose Multiplatform',
+      'Room',
+      'SQLite',
+      'Ktor',
+      'Koin',
+      'Coil',
+    ],
     github: 'https://github.com/jaidensiu/eggpedia',
   },
   {
     name: 'Noodle Doodle - Winner at nwHacks 2024',
-    description: 'An iOS app and IoT device that autonomously cooks a bowl of noodles',
-    stack: ['Swift', 'SwiftUI', 'Alamofire', 'Python', 'Flask', 'Raspberry Pi', 'pigpio'],
+    description:
+      'An iOS app and IoT device that autonomously cooks a bowl of noodles',
+    stack: [
+      'Swift',
+      'SwiftUI',
+      'Alamofire',
+      'Python',
+      'Flask',
+      'Raspberry Pi',
+      'pigpio',
+    ],
     github: 'https://github.com/jaidensiu/noodle-doodle',
     livePreview: 'https://devpost.com/software/noodle-doodle',
   },
@@ -182,7 +264,8 @@ const blogs: Blog[] = [
   },
   {
     name: 'How to Write a Great Resume',
-    description: 'A guide on how to write a great resume for students and budding industry professionals',
+    description:
+      'A guide on how to write a great resume for students and budding industry professionals',
     date: 'April 4, 2025',
     link: '/blogs/resume-guide',
   },
@@ -200,4 +283,15 @@ const courses: string[] = []
 const skills: string[] = []
 const notes: Note[] = []
 
-export { header, home, about, experiences, projects, blogs, contact, courses, skills, notes }
+export {
+  header,
+  home,
+  about,
+  experiences,
+  projects,
+  blogs,
+  contact,
+  courses,
+  skills,
+  notes,
+}

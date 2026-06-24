@@ -8,7 +8,8 @@ import './Home.css'
 
 const Home = () => {
   const { photo, name, role, description, contact } = home
-  const descriptionParagraph = description && description.length !== 0 ? description.split('\n') : []
+  const descriptionParagraph =
+    description && description.length !== 0 ? description.split('\n') : []
 
   return (
     <section id='home' className='section'>
@@ -21,16 +22,20 @@ const Home = () => {
         )}
         {photo && (
           <div className='image__cropper'>
-            <img alt='Avatar placeholder' className='profile__pic' src={photo} />
+            <img
+              alt='Avatar placeholder'
+              className='profile__pic'
+              src={photo}
+            />
           </div>
         )}
-        {role && (
-          <h3 className='home__role'>{role}</h3>
-        )}
+        {role && <h3 className='home__role'>{role}</h3>}
         {descriptionParagraph.length > 0 && (
           <div>
             {descriptionParagraph.map((paragraph, index) => (
-              <p key={index} className='home__desc'>{paragraph}</p>
+              <p key={index} className='home__desc'>
+                {paragraph}
+              </p>
             ))}
           </div>
         )}
