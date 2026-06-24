@@ -18,36 +18,83 @@
   margin-bottom: 0.5em;
 }
 
-.blogpost__section__title {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.blogpost__section__body {
+/* Rendered MDX content. Markdown produces unclassed elements, so styles are
+   scoped as descendants of the content wrapper. */
+.blogpost__content {
   margin-right: 2em;
-  margin-bottom: 2em;
   margin-left: 2em;
   line-height: 1.6em;
 }
 
-.blogpost__image__container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
+.blogpost__content h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
 }
 
-.blogpost__image {
-  width: 75%;
-  justify-content: center;
-  /* border: 1px solid var(--clr-fg); */
+.blogpost__content h3 {
+  font-size: 1.3rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
 }
 
-.blogpost__table {
-  width: 100%;
+.blogpost__content p {
+  margin-bottom: 1em;
+}
+
+.blogpost__content a {
+  color: var(--clr-primary);
+  text-decoration: underline;
+}
+
+.blogpost__content ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.blogpost__content ul ul {
+  list-style-type: circle;
+  padding-left: 1.5em;
+}
+
+.blogpost__content li {
+  margin-bottom: 0.5em;
+}
+
+.blogpost__content table {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
+.blogpost__content code {
+  padding: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--clr-code-bg);
+  border-radius: 4px;
+}
+
+.blogpost__content pre {
+  display: block;
+  padding: 8px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--clr-code-bg);
+  border-radius: 8px;
+  margin: 2em 0;
+}
+
+.blogpost__content pre code {
+  padding: 0;
+  background-color: transparent;
+}
+
+.copyLinkSnackBar {
+  padding: 0.5em;
+  background-color: transparent;
+}
+
+/* Shared with the parked GoProgramming note page */
 .bulleted_list {
   list-style-type: disc;
 }
@@ -59,11 +106,6 @@
 .bulleted_list ul {
   list-style-type: circle;
   padding-left: 2em;
-}
-
-.copyLinkSnackBar {
-  padding: 0.5em;
-  background-color: transparent;
 }
 
 .codeblock {
