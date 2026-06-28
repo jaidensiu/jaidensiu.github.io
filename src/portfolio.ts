@@ -71,9 +71,8 @@ const header: HeaderInfo = {
 const home: HomeInfo = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Building World App @ Tools for Humanity',
-  description:
-    "Hi there, welcome to my website!\n(yes, you'll find a few Go gophers around here)",
+  role: 'Engineering @ Tools for Humanity',
+  description: 'Hi there, welcome to my website!',
   contact: {
     // resume: '/resume',
     github: 'https://github.com/jaidensiu',
