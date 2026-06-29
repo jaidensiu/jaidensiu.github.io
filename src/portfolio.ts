@@ -265,20 +265,20 @@ const projects: Project[] = [
 
 const blogs: Blog[] = [
   {
-    name: 'My UBC Co-op Program Experience',
-    description: 'My co-op experience wrapped',
-    date: 'December 21, 2025',
-    link: '/blogs/co-op',
+    name: 'Brain dump on early career niche',
+    description: 'To specialize or not to specialize',
+    date: 'June 28, 2026',
+    link: '/blogs/early-career-niche',
   },
   {
-    name: 'How to Write a Great Resume',
+    name: 'How to write a great resume',
     description:
       'A guide on how to write a great resume for students and budding industry professionals',
     date: 'April 4, 2025',
     link: '/blogs/resume-guide',
   },
   {
-    name: 'UBC BMEG Technical Electives Guide',
+    name: 'UBC BMEG technical electives guide',
     description: 'A guide for choosing your technical electives in BMEG',
     date: 'April 2, 2024 (Last edited: January 30, 2025)',
     link: '/blogs/bmeg-electives-guide',

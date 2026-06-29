@@ -13,7 +13,9 @@ import BmegElectivesGuide, {
 import ResumeGuide, {
   frontmatter as resumeGuideMeta,
 } from './components/Blogposts/ResumeGuide.mdx'
-import Coop, { frontmatter as coopMeta } from './components/Blogposts/Coop.mdx'
+import EarlyCareerNiche, {
+  frontmatter as earlyCareerNicheMeta,
+} from './components/Blogposts/EarlyCareerNiche.mdx'
 // import Notes from './components/Notes/Notes'
 // import GoNotes from './components/NotePages/GoProgramming'
 import Experience from './components/Experience/Experience'
@@ -101,11 +103,11 @@ const App = () => {
               }
             />
             <Route
-              path='/blogs/co-op'
+              path='/blogs/early-career-niche'
               element={
                 <main>
-                  <BlogPost meta={coopMeta}>
-                    <Coop />
+                  <BlogPost meta={earlyCareerNicheMeta}>
+                    <EarlyCareerNiche />
                   </BlogPost>
                 </main>
               }
