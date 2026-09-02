@@ -1,6 +1,6 @@
 # [jaidensiu.vercel.app](https://jaidensiu.vercel.app)
 
-Personal portfolio built with **Vite + React + TypeScript**.
+Personal portfolio built with **Vite + React.js + TypeScript**.
 
 ## Scripts
 

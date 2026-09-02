@@ -71,7 +71,7 @@ const header: HeaderInfo = {
 const home: HomeInfo = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Engineering @ Tools for Humanity',
+  role: 'Android @ Tools for Humanity',
   description: 'Hi there, welcome to my website!',
   contact: {
     // resume: '/resume',
@@ -83,8 +83,7 @@ const home: HomeInfo = {
 const about: AboutInfo = {
   photo: aboutpic,
   work: [
-    'Passionate about building mobile apps, libraries, and backend services',
-    'Currently building [World App](https://world.org/world-app) at Tools for Humanity',
+    'Passionate about Android development, Kotlin programming, and ambient computing',
   ],
   outsideWork: [
     'Currently learning Mandarin Chinese (mainly conversationally)',
@@ -98,9 +97,9 @@ const experiences: Experience[] = [
   {
     companyLink: 'https://www.toolsforhumanity.com/',
     company: 'Tools for Humanity',
-    role: 'Senior Software Engineer',
+    role: 'Software Engineer',
     date: 'Jan 2026 - Present',
-    description: 'UI Platform and Android Engineering',
+    description: 'Mobile Platform and Android Engineering',
     stack: [
       'Kotlin',
       'Jetpack Compose',
@@ -117,7 +116,7 @@ const experiences: Experience[] = [
     company: 'Dialpad',
     role: 'Software Engineer Co-op',
     date: 'Jan 2025 - Dec 2025',
-    description: 'Cross-Platform Analytics and Android Infrastructure',
+    description: 'Analytics and Android Engineering',
     stack: [
       'Kotlin',
       'Swift',
