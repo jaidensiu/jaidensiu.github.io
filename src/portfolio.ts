@@ -71,7 +71,7 @@ const header: HeaderInfo = {
 const home: HomeInfo = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Android @ Tools for Humanity',
+  role: 'Android @ Tools for Humanity / World',
   description: 'Hi there, welcome to my website!',
   contact: {
     // resume: '/resume',
@@ -83,12 +83,13 @@ const home: HomeInfo = {
 const about: AboutInfo = {
   photo: aboutpic,
   work: [
-    'Passionate about Android development, Kotlin programming, and ambient computing',
+    'Passionate about Android development, Kotlin programming, and solving deep technical problems',
+    'I enjoy building projects on the side from home automation to mobile apps',
   ],
   outsideWork: [
     'Currently learning Mandarin Chinese (mainly conversationally)',
-    "Steadily learning some of Chopin's and Liszt's piano masterpieces",
-    'Striving to lift heavier weights at the gym and perfecting my smashes in badminton',
+    "I play the piano; you'll catch me mostly playing pieces by Beethoven, Chopin, Liszt, Rachmaninoff, etc.",
+    "I'm an athletic polymath; I play badminton, snowboard, spikeball, swim, lift weights, etc.",
     'I used to be a competitive swimmer (aka swammer)',
   ],
 }
@@ -97,7 +98,7 @@ const experiences: Experience[] = [
   {
     companyLink: 'https://www.toolsforhumanity.com/',
     company: 'Tools for Humanity',
-    role: 'Software Engineer',
+    role: 'Senior Software Engineer',
     date: 'Jan 2026 - Present',
     description: 'Mobile Platform and Android Engineering',
     stack: [
@@ -206,6 +207,23 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
   {
+    name: 'Quick Maths',
+    description:
+      'A handwritten math minigame for Android and Android Automotive OS',
+    stack: [
+      'Kotlin',
+      'C++',
+      'Compose',
+      'Hilt',
+      'Android NDK',
+      'JNI',
+      'ML Kit',
+      'Google Oboe',
+      'Google Play Console',
+    ],
+    livePreview: 'https://groups.google.com/g/quick-maths-closed-testers',
+  },
+  {
     name: 'Red Squid Dead Squid - Winner at nwHacks 2025',
     description:
       "Built the Red Light, Green Light game from Netflix's Squid Game with Kotlin Multiplatform and a robotic doll",
@@ -262,11 +280,12 @@ const projects: Project[] = [
   },
 ]
 
+// ideas: learning programming in the age of AI, writing C++ for Android, UBC CS-related courses review
 const blogs: Blog[] = [
   {
     name: 'Brain dump on early career niche',
     description: 'To specialize or not to specialize',
-    date: 'June 28, 2026',
+    date: 'In progress...',
     link: '/blogs/early-career-niche',
   },
   {
