@@ -1,10 +1,19 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
 on:
   push:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      target:
+        description: 'Where to deploy'
+        type: choice
+        options:
+          - all
+          - github-pages
+          - vercel
+        default: all
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -13,6 +22,7 @@ env:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +41,11 @@ jobs:
   deploy:
     needs: check
     runs-on: ubuntu-latest
-    if: "github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, '[deploy]'))"
+    timeout-minutes: 15
+    concurrency:
+      group: deploy-github-pages
+      cancel-in-progress: false
+    if: "github.ref == 'refs/heads/main' && ((github.event_name == 'workflow_dispatch' && inputs.target != 'vercel') || startsWith(github.event.head_commit.message, '[deploy]'))"
 
     steps:
       - uses: actions/checkout@v4
@@ -55,3 +69,50 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
+
+  deploy-vercel:
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: deploy-vercel
+      cancel-in-progress: false
+    if: "github.ref == 'refs/heads/main' && ((github.event_name == 'workflow_dispatch' && inputs.target != 'github-pages') || startsWith(github.event.head_commit.message, '[deploy]'))"
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_CLI: vercel@63.1.0
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Verify Vercel secrets
+        run: |
+          missing=""
+          for name in VERCEL_TOKEN VERCEL_ORG_ID VERCEL_PROJECT_ID; do
+            [ -z "${!name}" ] && missing="$missing $name"
+          done
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository secrets:$missing"
+            exit 1
+          fi
+
+      - name: Pull Vercel project settings
+        run: npx --yes "$VERCEL_CLI" pull --yes --environment=production --token="$VERCEL_TOKEN"
+
+      - name: Build
+        run: npx --yes "$VERCEL_CLI" build --prod --token="$VERCEL_TOKEN"
+
+      - name: Deploy to Vercel
+        run: |
+          url=$(npx --yes "$VERCEL_CLI" deploy --prebuilt --prod --token="$VERCEL_TOKEN")
+          echo "Deployed: $url" >> "$GITHUB_STEP_SUMMARY"
