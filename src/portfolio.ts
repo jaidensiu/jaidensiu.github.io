@@ -71,7 +71,7 @@ const header: HeaderInfo = {
 const home: HomeInfo = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Android @ Tools for Humanity / World',
+  role: 'Android @ Tools for Humanity',
   description: 'Hi there, welcome to my website!',
   contact: {
     // resume: '/resume',
@@ -98,7 +98,7 @@ const experiences: Experience[] = [
   {
     companyLink: 'https://www.toolsforhumanity.com/',
     company: 'Tools for Humanity',
-    role: 'Senior Software Engineer',
+    role: 'Software Engineer',
     date: 'Jan 2026 - Present',
     description: 'Mobile Platform and Android Engineering',
     stack: [
