@@ -71,7 +71,7 @@ const header: HeaderInfo = {
 const home: HomeInfo = {
   photo: homepic,
   name: 'Jaiden',
-  role: 'Android @ Tools for Humanity',
+  role: 'Engineering @ Tools for Humanity',
   description: 'Hi there, welcome to my website!',
   contact: {
     // resume: '/resume',
@@ -83,7 +83,7 @@ const home: HomeInfo = {
 const about: AboutInfo = {
   photo: aboutpic,
   work: [
-    'Passionate about Android development, Kotlin programming, and solving deep technical problems',
+    'Passionate about software engineering, computer science, and solving deep technical problems',
     'I enjoy building projects on the side from home automation to mobile apps',
   ],
   outsideWork: [
@@ -100,7 +100,7 @@ const experiences: Experience[] = [
     company: 'Tools for Humanity',
     role: 'Software Engineer',
     date: 'Jan 2026 - Present',
-    description: 'Mobile Platform and Android Engineering',
+    description: 'Platform and Android Engineering',
     stack: [
       'Kotlin',
       'Jetpack Compose',
@@ -282,12 +282,12 @@ const projects: Project[] = [
 
 // ideas: learning programming in the age of AI, writing C++ for Android, UBC CS-related courses review
 const blogs: Blog[] = [
-  {
-    name: 'Brain dump on early career niche',
-    description: 'To specialize or not to specialize',
-    date: 'In progress...',
-    link: '/blogs/early-career-niche',
-  },
+  // {
+  //   name: 'Brain dump on early career niche',
+  //   description: 'To specialize or not to specialize',
+  //   date: 'In progress...',
+  //   link: '/blogs/early-career-niche',
+  // },
   {
     name: 'How to write a great resume',
     description:
